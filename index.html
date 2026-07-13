@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#17213b">
+  <title>Niecy's Hidden Jobs</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div>
+    <p class="eyebrow">DIRECT-TO-EMPLOYER CAREER INTELLIGENCE</p>
+    <h1>Hidden Jobs Pipeline</h1>
+    <p id="updated">Loading the latest scan…</p>
+  </div>
+  <button id="refreshBtn" aria-label="Refresh jobs">Refresh</button>
+</header>
+
+<section class="summary" id="summary"></section>
+
+<section class="controls">
+  <input id="search" placeholder="Search company, role, or keyword">
+  <select id="location">
+    <option value="">All eligible locations</option>
+    <option value="remote">Remote</option>
+    <option value="midwest">Midwest</option>
+  </select>
+  <select id="track">
+    <option value="">All career tracks</option>
+  </select>
+  <select id="sort">
+    <option value="score">Best match</option>
+    <option value="newest">Newest</option>
+    <option value="salary">Highest salary</option>
+  </select>
+  <label class="check"><input id="salaryOnly" type="checkbox" checked> $150K+ only</label>
+</section>
+
+<main id="jobs"></main>
+<div id="empty" class="empty" hidden>No matching jobs in the current scan.</div>
+
+<template id="jobTemplate">
+  <article class="job-card">
+    <div class="score"></div>
+    <div class="job-main">
+      <div class="topline">
+        <span class="company"></span>
+        <span class="fresh"></span>
+      </div>
+      <h2 class="title"></h2>
+      <p class="meta"></p>
+      <p class="salary"></p>
+      <p class="reason"></p>
+      <div class="tags"></div>
+      <div class="actions">
+        <a class="apply" target="_blank" rel="noopener">Apply directly</a>
+        <button class="save">Save</button>
+      </div>
+    </div>
+  </article>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+company,ats,slug,enabled
+Webflow,greenhouse,webflow,yes
+Higharc,ashby,higharc,yes
+Rasa,ashby,rasa,yes
+Vanta,greenhouse,vanta,yes
+Samsara,greenhouse,samsara,yes
+Motive,lever,gomotive,yes
+Flock Safety,greenhouse,flocksafety,yes
+LaunchDarkly,greenhouse,launchdarkly,yes
+Pendo,greenhouse,pendo,yes
+Dataminr,greenhouse,dataminr,yes
+Asana,greenhouse,asana,yes
+Airtable,greenhouse,airtable,yes
+Notion,ashby,notion,yes
+Figma,greenhouse,figma,yes
+Miro,greenhouse,miro,yes
+Braze,greenhouse,braze,yes
+Amplitude,greenhouse,amplitude,yes
+Gong,greenhouse,gong,yes
+Intercom,greenhouse,intercom,yes
+Zapier,greenhouse,zapier,yes
+Calendly,greenhouse,calendly,yes
+GitLab,greenhouse,gitlab,yes
+Docker,greenhouse,docker,yes
+Cloudflare,greenhouse,cloudflare,yes
+Datadog,greenhouse,datadog,yes
+Confluent,greenhouse,confluent,yes
+MongoDB,greenhouse,mongodb,yes
+Snowflake,greenhouse,snowflake,yes
+HashiCorp,greenhouse,hashicorp,yes
+Twilio,greenhouse,twilio,yes
+Okta,greenhouse,okta,yes
+OneTrust,greenhouse,onetrust,yes
+Rubrik,greenhouse,rubrik,yes
+Snyk,greenhouse,snyk,yes
+Contentful,greenhouse,contentful,yes
+Contentsquare,greenhouse,contentsquare,yes
+Algolia,greenhouse,algolia,yes
+Klaviyo,greenhouse,klaviyo,yes
+Attentive,greenhouse,attentive,yes
+Iterable,greenhouse,iterable,yes
+Sprout Social,greenhouse,sproutsocial,yes
+Toast,greenhouse,toast,yes
+Brex,greenhouse,brex,yes
+Ramp,ashby,ramp,yes
+Rippling,ashby,rippling,yes
+Deel,ashby,deel,yes
+Remote,greenhouse,remotecom,yes
+Gusto,greenhouse,gusto,yes
+Carta,greenhouse,carta,yes
+Plaid,greenhouse,plaid,yes
+Marqeta,greenhouse,marqeta,yes
+Chime,greenhouse,chime,yes
+Affirm,greenhouse,affirm,yes
+Block,greenhouse,block,yes
+Circle,greenhouse,circle,yes
+Coinbase,greenhouse,coinbase,yes
+Modern Health,greenhouse,modernhealth,yes
+Headspace,greenhouse,headspace,yes
+Spring Health,greenhouse,springhealth,yes
+Included Health,greenhouse,includedhealth,yes
+Virta Health,greenhouse,virtahealth,yes
+Omada Health,greenhouse,omadahealth,yes
+Color Health,greenhouse,color,yes
+Komodo Health,greenhouse,komodohealth,yes
+Benchling,greenhouse,benchling,yes
+Veeva,greenhouse,veeva,yes
+Tempus,greenhouse,tempus,yes
+Flatiron Health,greenhouse,flatironhealth,yes
+Highspot,greenhouse,highspot,yes
+Seismic,greenhouse,seismic,yes
+Clari,greenhouse,clari,yes
+Outreach,greenhouse,outreach,yes
+6sense,greenhouse,6sense,yes
+Demandbase,greenhouse,demandbase,yes
+Workato,greenhouse,workato,yes
+Celonis,greenhouse,celonis,yes
+ServiceTitan,greenhouse,servicetitan,yes
+Procore,greenhouse,procore,yes
+Samsara,greenhouse,samsara,yes
+FourKites,greenhouse,fourkites,yes
+project44,greenhouse,project44,yes
+Flexport,greenhouse,flexport,yes
+ShipBob,greenhouse,shipbob,yes
+Flexe,greenhouse,flexe,yes
+Stord,greenhouse,stord,yes
+Bringg,greenhouse,bringg,yes
+Olo,greenhouse,olo,yes
+Restaurant365,greenhouse,restaurant365,yes
+Fooda,greenhouse,fooda,yes
+Upside,greenhouse,upside,yes
+Fetch,greenhouse,fetchrewards,yes
+Ibotta,greenhouse,ibotta,yes
+Numerator,greenhouse,numerator,yes
+NielsenIQ,greenhouse,nielseniq,yes
+Circana,greenhouse,circana,yes
+Blue Yonder,greenhouse,blueyonder,yes
+Kinaxis,greenhouse,kinaxis,yes
+Coupa,greenhouse,coupa,yes
+HighRadius,greenhouse,highradius,yes
+Workiva,greenhouse,workiva,yes
+Smartsheet,greenhouse,smartsheet,yes
+Monday.com,greenhouse,monday,yes
+ClickUp,greenhouse,clickup,yes
+Lucid,greenhouse,lucidsoftware,yes
+Qualtrics,greenhouse,qualtrics,yes
+Medallia,greenhouse,medallia,yes
+WalkMe,greenhouse,walkme,yes
+UserTesting,greenhouse,usertesting,yes
+FullStory,greenhouse,fullstory,yes
+Mixpanel,greenhouse,mixpanel,yes
+Domo,greenhouse,domo,yes
+ThoughtSpot,greenhouse,thoughtspot,yes
+Alation,greenhouse,alation,yes
+Collibra,greenhouse,collibra,yes
+dbt Labs,greenhouse,dbtlabs,yes
+Fivetran,greenhouse,fivetran,yes
+Sigma Computing,greenhouse,sigmacomputing,yes
+Looker,greenhouse,looker,yes
+Dataiku,greenhouse,dataiku,yes
+Scale AI,greenhouse,scaleai,yes
+Cohere,greenhouse,cohere,yes
+Anthropic,greenhouse,anthropic,yes
+Mistral AI,greenhouse,mistral,yes
+Perplexity,ashby,perplexity,yes
+Hugging Face,greenhouse,huggingface,yes
+Writer,ashby,writer,yes
+Glean,greenhouse,gleanwork,yes
+Moveworks,greenhouse,moveworks,yes
+Grammarly,greenhouse,grammarly,yes
+Canva,greenhouse,canva,yes
+Typeform,greenhouse,typeform,yes
+Docusign,greenhouse,docusign,yes
+Dropbox,greenhouse,dropbox,yes
+Box,greenhouse,boxinc,yes
+Zendesk,greenhouse,zendesk,yes
+Freshworks,greenhouse,freshworks,yes
+HubSpot,greenhouse,hubspotjobs,yes
+Kustomer,greenhouse,kustomer,yes
+Gladly,greenhouse,gladly,yes
+Gainsight,greenhouse,gainsight,yes
+Totango,greenhouse,totango,yes
+ChurnZero,greenhouse,churnzero,yes
+Catalyst,greenhouse,catalyst,yes
+Vitally,ashby,vitally,yes
+Planhat,greenhouse,planhat,yes
+ClientSuccess,greenhouse,clientsuccess,yes

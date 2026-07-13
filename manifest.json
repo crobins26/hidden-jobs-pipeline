@@ -1,0 +1,16 @@
+{
+  "name": "Niecy's Hidden Jobs Pipeline",
+  "short_name": "Hidden Jobs",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f6fb",
+  "theme_color": "#17213b",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

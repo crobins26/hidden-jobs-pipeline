@@ -1,0 +1,39 @@
+name: Daily Hidden Jobs Scan
+on:
+  schedule:
+    - cron: "30 11 * * *"
+    - cron: "30 12 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Central time
+        id: central_time
+        run: |
+          LOCAL_TIME=$(TZ=America/Chicago date +%H:%M)
+          echo "local_time=$LOCAL_TIME" >> "$GITHUB_OUTPUT"
+          if [ "$LOCAL_TIME" = "06:30" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run_scan=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run_scan=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.central_time.outputs.run_scan == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.central_time.outputs.run_scan == 'true'
+        with:
+          python-version: "3.12"
+      - name: Scan public company career boards
+        if: steps.central_time.outputs.run_scan == 'true'
+        run: python scripts/scan_jobs.py
+      - name: Commit refreshed feed
+        if: steps.central_time.outputs.run_scan == 'true'
+        run: |
+          git config user.name "hidden-jobs-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/jobs.json
+          git diff --cached --quiet || git commit -m "Refresh hidden jobs feed"
+          git push

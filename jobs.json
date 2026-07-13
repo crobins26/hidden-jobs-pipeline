@@ -1,0 +1,47 @@
+{
+  "updated_at": "2026-07-12T23:00:00-05:00",
+  "source_count": 146,
+  "jobs": [
+    {
+      "id": "sample-1",
+      "company": "Example SaaS Company",
+      "title": "Director, Customer Success Operations",
+      "location": "Remote - United States",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "salary_min": 175000,
+      "salary_max": 215000,
+      "salary_period": "year",
+      "posted_at": "2026-07-12",
+      "apply_url": "https://example.com",
+      "fit_score": 94,
+      "reason": "Strong match for enterprise customer leadership, analytics, team management, and operational transformation.",
+      "tags": [
+        "Sample record",
+        "Direct employer",
+        "Remote"
+      ]
+    },
+    {
+      "id": "sample-2",
+      "company": "Example Health Technology Company",
+      "title": "Senior Director, Commercial Operations",
+      "location": "Chicago, Illinois",
+      "location_type": "midwest",
+      "track": "Commercial Operations",
+      "salary_min": 190000,
+      "salary_max": 240000,
+      "salary_period": "year",
+      "posted_at": "2026-07-11",
+      "apply_url": "https://example.com",
+      "fit_score": 91,
+      "reason": "Strong match for commercial leadership, process design, stakeholder management, and data-driven execution.",
+      "tags": [
+        "Sample record",
+        "Chicago",
+        "Direct employer"
+      ]
+    }
+  ],
+  "errors": []
+}
