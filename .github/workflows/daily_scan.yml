@@ -20,9 +20,9 @@ jobs:
           else
             echo "run_scan=false" >> "$GITHUB_OUTPUT"
           fi
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         if: steps.central_time.outputs.run_scan == 'true'
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         if: steps.central_time.outputs.run_scan == 'true'
         with:
           python-version: "3.12"
