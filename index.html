@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#17213b">
-  <title>Niecy's Hidden Jobs</title>
+  <title>Career Intelligence Center</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icons/icon.svg">
   <link rel="stylesheet" href="styles.css">
@@ -13,50 +13,173 @@
 <header>
   <div>
     <p class="eyebrow">DIRECT-TO-EMPLOYER CAREER INTELLIGENCE</p>
-    <h1>Hidden Jobs Pipeline</h1>
+    <h1>Career Intelligence Center</h1>
     <p id="updated">Loading the latest scan…</p>
   </div>
-  <button id="refreshBtn" aria-label="Refresh jobs">Refresh</button>
+  <button id="refreshBtn">Refresh</button>
 </header>
 
-<section class="summary" id="summary"></section>
+<nav class="tabs">
+  <button class="tab active" data-tab="dashboard">Dashboard</button>
+  <button class="tab" data-tab="jobs">Jobs</button>
+  <button class="tab" data-tab="pipeline">Pipeline</button>
+  <button class="tab" data-tab="interviews">Interviews</button>
+</nav>
 
-<section class="controls">
-  <input id="search" placeholder="Search company, role, or keyword">
-  <select id="location">
-    <option value="">All eligible locations</option>
-    <option value="remote">Remote</option>
-    <option value="midwest">Midwest</option>
-  </select>
-  <select id="track">
-    <option value="">All career tracks</option>
-  </select>
-  <select id="sort">
-    <option value="score">Best match</option>
-    <option value="newest">Newest</option>
-    <option value="salary">Highest salary</option>
-  </select>
-  <label class="check"><input id="salaryOnly" type="checkbox" checked> $150K+ only</label>
+<section id="dashboardView" class="view active">
+  <section class="summary" id="summary"></section>
+
+  <section class="goal-grid">
+    <article class="panel">
+      <div class="panel-head">
+        <h2>Weekly Application Goal</h2>
+        <button id="editGoalBtn" class="small-btn">Edit</button>
+      </div>
+      <div class="goal-number"><span id="weeklyApplied">0</span> / <span id="weeklyGoal">25</span></div>
+      <div class="progress"><div id="weeklyProgress"></div></div>
+      <p id="goalMessage" class="muted"></p>
+    </article>
+
+    <article class="panel">
+      <div class="panel-head">
+        <h2>Today's Progress</h2>
+        <button id="editDailyGoalBtn" class="small-btn">Edit</button>
+      </div>
+      <div class="goal-number"><span id="todayApplied">0</span> / <span id="dailyGoal">5</span></div>
+      <div class="progress"><div id="dailyProgress"></div></div>
+      <p class="muted">Applications marked today.</p>
+    </article>
+  </section>
+
+  <section class="analytics-grid">
+    <article class="panel"><h2>Application Funnel</h2><div id="funnel"></div></article>
+    <article class="panel"><h2>Resume Performance</h2><div id="resumePerformance"></div></article>
+    <article class="panel"><h2>Follow-ups Due</h2><div id="followupsDue"></div></article>
+  </section>
 </section>
 
-<main id="jobs"></main>
-<div id="empty" class="empty" hidden>No matching jobs in the current scan.</div>
+<section id="jobsView" class="view">
+  <section class="controls">
+    <input id="search" placeholder="Search company, role, or keyword">
+    <select id="location">
+      <option value="">All eligible locations</option>
+      <option value="remote">Remote</option>
+      <option value="midwest">Midwest</option>
+    </select>
+    <select id="track"><option value="">All career tracks</option></select>
+    <select id="sort">
+      <option value="score">Best match</option>
+      <option value="newest">Newest</option>
+      <option value="salary">Highest salary</option>
+    </select>
+    <label class="check"><input id="salaryOnly" type="checkbox" checked> $150K+ only</label>
+  </section>
+  <main id="jobs"></main>
+  <div id="empty" class="empty" hidden>No matching jobs in the current scan.</div>
+</section>
+
+<section id="pipelineView" class="view">
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Application Pipeline</h2>
+      <button id="exportBtn" class="small-btn">Export CSV</button>
+    </div>
+    <div class="pipeline-controls">
+      <select id="pipelineStatusFilter"><option value="">All statuses</option></select>
+      <input id="pipelineSearch" placeholder="Search tracked applications">
+    </div>
+    <div id="pipelineTableWrap"></div>
+  </section>
+</section>
+
+<section id="interviewsView" class="view">
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Interview Tracker</h2>
+      <button id="addInterviewBtn" class="small-btn">Add Interview</button>
+    </div>
+    <div id="interviewList"></div>
+  </section>
+</section>
+
+<dialog id="jobDialog">
+  <form method="dialog" id="jobForm">
+    <div class="dialog-head">
+      <h2 id="dialogTitle">Track Application</h2>
+      <button value="cancel" class="icon-btn">×</button>
+    </div>
+    <input type="hidden" id="jobKey">
+    <label>Status
+      <select id="jobStatus"></select>
+    </label>
+    <label>Applied date
+      <input id="appliedDate" type="date">
+    </label>
+    <label>Follow-up date
+      <input id="followUpDate" type="date">
+    </label>
+    <label>Resume used
+      <select id="resumeUsed">
+        <option value="">Select resume</option>
+        <option>Customer Success Leadership</option>
+        <option>Commercial Operations</option>
+        <option>Business Transformation</option>
+        <option>Revenue Operations</option>
+        <option>Executive General</option>
+      </select>
+    </label>
+    <label>Cover letter
+      <select id="coverLetterUsed"><option value="">Not recorded</option><option>Yes</option><option>No</option></select>
+    </label>
+    <label>Recruiter / contact
+      <input id="recruiterName" placeholder="Name or email">
+    </label>
+    <label>Notes
+      <textarea id="jobNotes" rows="5" placeholder="Interview notes, contacts, follow-up details, salary, or anything important"></textarea>
+    </label>
+    <div class="dialog-actions">
+      <button value="cancel" class="secondary">Cancel</button>
+      <button id="saveJobBtn" value="default">Save Tracking</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="interviewDialog">
+  <form method="dialog" id="interviewForm">
+    <div class="dialog-head">
+      <h2>Add Interview</h2>
+      <button value="cancel" class="icon-btn">×</button>
+    </div>
+    <label>Company<input id="intCompany" required></label>
+    <label>Role<input id="intRole" required></label>
+    <label>Date and time<input id="intDate" type="datetime-local" required></label>
+    <label>Round<input id="intRound" placeholder="Recruiter screen, Round 1, Final, etc."></label>
+    <label>Interviewer<input id="intInterviewer"></label>
+    <label>Notes<textarea id="intNotes" rows="4"></textarea></label>
+    <label class="checkline"><input id="intResearch" type="checkbox"> Company research completed</label>
+    <label class="checkline"><input id="intStories" type="checkbox"> STAR stories ready</label>
+    <label class="checkline"><input id="intThankYou" type="checkbox"> Thank-you email sent</label>
+    <div class="dialog-actions">
+      <button value="cancel" class="secondary">Cancel</button>
+      <button id="saveInterviewBtn" value="default">Save Interview</button>
+    </div>
+  </form>
+</dialog>
 
 <template id="jobTemplate">
   <article class="job-card">
     <div class="score"></div>
     <div class="job-main">
-      <div class="topline">
-        <span class="company"></span>
-        <span class="fresh"></span>
-      </div>
+      <div class="topline"><span class="company"></span><span class="fresh"></span></div>
       <h2 class="title"></h2>
       <p class="meta"></p>
       <p class="salary"></p>
       <p class="reason"></p>
       <div class="tags"></div>
+      <div class="status-line"></div>
       <div class="actions">
-        <a class="apply" target="_blank" rel="noopener">Apply directly</a>
+        <a class="apply" target="_blank" rel="noopener">Open job & apply</a>
+        <button class="track-btn">Track</button>
         <button class="save">Save</button>
       </div>
     </div>

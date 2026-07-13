@@ -56,3 +56,32 @@ For true 1,000+ coverage including Workday and custom career sites, connect a li
 ## Direct application links
 
 Each job title and the **Open job & apply** button link directly to the employer or its official ATS posting in a new browser tab.
+
+
+## Application tracking
+
+- Each job card includes a **Mark Applied** button.
+- Applied status is saved on the device using browser local storage.
+- The dashboard shows **Applied this week**, calculated Monday through Sunday.
+- Tapping **Applied ✓** again removes the applied status.
+- Tracking remains on the same device and browser unless site data is cleared.
+
+
+# Version 4 — Career Intelligence Center
+
+Added:
+- Weekly and daily application goals
+- Persistent application statuses
+- Application pipeline table
+- Follow-up dates
+- Resume-version tracking
+- Cover-letter tracking
+- Recruiter/contact notes
+- Interview tracker
+- Resume conversion analytics
+- Application-funnel analytics
+- CSV export
+
+## Storage model
+
+Tracking data is stored in browser local storage. It remains on the same browser/device unless browser site data is cleared. Use the CSV export regularly as a backup. Cross-device sync requires a database/backend and is not included in this static GitHub Pages version.
