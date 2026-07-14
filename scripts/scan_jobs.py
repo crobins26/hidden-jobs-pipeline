@@ -166,58 +166,122 @@ def scan_theirstack():
     if not key:
         return [],["THEIRSTACK_API_KEY not configured; broad multi-ATS search skipped."]
 
-    titles=CONFIG["priority_titles"]+CONFIG["stretch_titles"]
-    payload={
-      "job_title_or":titles,
-      "job_country_code_or":["US"],
-      "posted_at_max_age_days":CONFIG["max_age_days"],
-      "limit":CONFIG["daily_result_limit"]
-    }
+    # TheirStack free/current plan allows a maximum of 25 results per request.
+    # Split the target titles into smaller groups and combine the results.
+    title_groups=[
+      [
+        "Senior Customer Success Manager",
+        "Senior Manager Customer Success",
+        "Director Customer Success",
+        "Director Client Success",
+        "Director Customer Experience",
+        "Director Customer Operations",
+      ],
+      [
+        "Customer Success Operations Manager",
+        "Senior Manager Customer Success Operations",
+        "Enterprise Customer Success Manager",
+        "Strategic Customer Success Manager",
+        "Customer Success Enablement Manager",
+        "Customer Success Programs Manager",
+      ],
+      [
+        "Director Revenue Operations",
+        "Director Commercial Operations",
+        "Director Sales Operations",
+        "Director Business Operations",
+        "Director Operational Excellence",
+        "Director Business Transformation",
+      ],
+      [
+        "Strategy Operations Director",
+        "Strategic Accounts Director",
+        "Implementation Director",
+        "Professional Services Director",
+        "Senior Director Customer Success",
+        "Head Customer Success",
+      ],
+    ]
 
-    try:
-        data=request_json(
-          "https://api.theirstack.com/v1/jobs/search",
-          "POST",
-          payload,
-          {"Authorization":f"Bearer {key}"}
-        )
-    except HTTPError as exc:
-        detail=""
-        try:
-            detail=exc.read().decode("utf-8","ignore")[:300]
-        except Exception:
-            pass
-        return [],[f"TheirStack HTTP {exc.code}; broad search skipped. {detail}"]
-    except (URLError,TimeoutError,ValueError,json.JSONDecodeError) as exc:
-        return [],[f"TheirStack unavailable; broad search skipped. {str(exc)[:300]}"]
-    except Exception as exc:
-        return [],[f"TheirStack unexpected error; broad search skipped. {str(exc)[:300]}"]
-
-    rows=data.get("data") or data.get("jobs") or []
     jobs=[]
-    for j in rows:
+    warnings=[]
+
+    for group_number,titles in enumerate(title_groups,1):
+        payload={
+          "job_title_or":titles,
+          "job_country_code_or":["US"],
+          "posted_at_max_age_days":CONFIG["max_age_days"],
+          "limit":25
+        }
+
         try:
-            url=j.get("final_url") or j.get("url") or j.get("job_url") or ""
-            if not url:
-                continue
-            job=normalize(
-              j.get("company_name") or j.get("company") or "Unknown",
-              j.get("job_title") or j.get("title") or "",
-              j.get("location") or j.get("short_location") or "",
-              clean(j.get("description") or j.get("description_markdown") or ""),
-              url,
-              j.get("date_posted") or j.get("posted_at"),
-              j.get("salary_min") or j.get("min_salary"),
-              j.get("salary_max") or j.get("max_salary"),
-              bool(j.get("remote") or j.get("is_remote")),
-              "TheirStack broad search"
+            data=request_json(
+              "https://api.theirstack.com/v1/jobs/search",
+              "POST",
+              payload,
+              {"Authorization":f"Bearer {key}"}
             )
-            if job:
-                jobs.append(job)
-        except Exception:
+        except HTTPError as exc:
+            detail=""
+            try:
+                detail=exc.read().decode("utf-8","ignore")[:300]
+            except Exception:
+                pass
+            warnings.append(
+              f"TheirStack group {group_number} HTTP {exc.code}; "
+              f"group skipped. {detail}"
+            )
+            continue
+        except (URLError,TimeoutError,ValueError,json.JSONDecodeError) as exc:
+            warnings.append(
+              f"TheirStack group {group_number} unavailable; "
+              f"group skipped. {str(exc)[:300]}"
+            )
+            continue
+        except Exception as exc:
+            warnings.append(
+              f"TheirStack group {group_number} unexpected error; "
+              f"group skipped. {str(exc)[:300]}"
+            )
             continue
 
-    return jobs,[]
+        rows=data.get("data") or data.get("jobs") or []
+
+        for j in rows:
+            try:
+                url=j.get("final_url") or j.get("url") or j.get("job_url") or ""
+                if not url:
+                    continue
+
+                job=normalize(
+                  j.get("company_name") or j.get("company") or "Unknown",
+                  j.get("job_title") or j.get("title") or "",
+                  j.get("location") or j.get("short_location") or "",
+                  clean(j.get("description") or j.get("description_markdown") or ""),
+                  url,
+                  j.get("date_posted") or j.get("posted_at"),
+                  j.get("salary_min") or j.get("min_salary"),
+                  j.get("salary_max") or j.get("max_salary"),
+                  bool(j.get("remote") or j.get("is_remote")),
+                  "TheirStack broad search"
+                )
+
+                if job:
+                    jobs.append(job)
+            except Exception:
+                continue
+
+        # Be polite to the API and reduce rate-limit risk.
+        time.sleep(0.4)
+
+    # Deduplicate broad-search results before returning.
+    unique={}
+    for job in jobs:
+        key_url=re.sub(r"[?#].*$","",job["apply_url"]).rstrip("/")
+        if key_url not in unique or job["fit_score"]>unique[key_url]["fit_score"]:
+            unique[key_url]=job
+
+    return list(unique.values()),warnings
 
 def greenhouse(company,slug):
     d=request_json(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true")
