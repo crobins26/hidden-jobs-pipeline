@@ -24,6 +24,7 @@
   <button class="tab" data-tab="jobs">Jobs</button>
   <button class="tab" data-tab="pipeline">Pipeline</button>
   <button class="tab" data-tab="interviews">Interviews</button>
+  <button class="tab" data-tab="resume">Resume Studio</button>
 </nav>
 
 <section id="dashboardView" class="view active">
@@ -72,7 +73,7 @@
       <option value="newest">Newest</option>
       <option value="salary">Highest salary</option>
     </select>
-    <label class="check"><input id="salaryOnly" type="checkbox" checked> $150K+ only</label>
+    <label class="check"><input id="salaryOnly" type="checkbox" checked> $130K+ only</label>
   </section>
   <main id="jobs"></main>
   <div id="empty" class="empty" hidden>No matching jobs in the current scan.</div>
@@ -99,6 +100,60 @@
       <button id="addInterviewBtn" class="small-btn">Add Interview</button>
     </div>
     <div id="interviewList"></div>
+  </section>
+</section>
+
+
+<section id="resumeView" class="view">
+  <section class="panel resume-studio">
+    <div class="panel-head">
+      <div>
+        <h2>Resume Studio</h2>
+        <p class="muted">Your résumé and job description stay in this browser. They are not stored in GitHub.</p>
+      </div>
+    </div>
+
+    <div class="resume-grid">
+      <div>
+        <label class="field-label">1. Upload your master résumé (.docx)</label>
+        <input id="resumeFile" type="file" accept=".docx">
+        <p id="resumeFileStatus" class="muted">No résumé loaded.</p>
+
+        <label class="field-label">2. Paste the full job description</label>
+        <textarea id="jobDescription" rows="16" placeholder="Paste the entire job description here..."></textarea>
+
+        <div class="actions resume-actions">
+          <button id="analyzeResumeBtn">Analyze Match</button>
+          <button id="generateResumeBtn" class="secondary">Generate Tailored Resume</button>
+        </div>
+      </div>
+
+      <div>
+        <article class="resume-result-card">
+          <h3>Match Analysis</h3>
+          <div id="resumeMatchScore" class="big-score">—</div>
+          <p id="resumeTrack" class="muted">Upload a résumé and paste a job description.</p>
+          <div id="resumeKeywords"></div>
+        </article>
+
+        <article class="resume-result-card">
+          <h3>Recommended Strategy</h3>
+          <div id="resumeStrategy" class="muted">Your recommendations will appear here.</div>
+        </article>
+      </div>
+    </div>
+
+    <article class="panel generated-resume-panel">
+      <div class="panel-head">
+        <h2>Generated Resume Draft</h2>
+        <div class="actions">
+          <button id="copyResumeBtn" class="small-btn">Copy</button>
+          <button id="downloadResumeBtn" class="small-btn">Download Word File</button>
+          <button id="copyPromptBtn" class="small-btn">Copy AI Rewrite Prompt</button>
+        </div>
+      </div>
+      <textarea id="generatedResume" rows="30" placeholder="Your tailored résumé draft will appear here. You can edit it before downloading."></textarea>
+    </article>
   </section>
 </section>
 
@@ -186,6 +241,7 @@
   </article>
 </template>
 
+<script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

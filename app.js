@@ -28,6 +28,7 @@ function showTab(name){
   if(name==="dashboard")renderDashboard();
   if(name==="pipeline")renderPipeline();
   if(name==="interviews")renderInterviews();
+  if(name==="resume")renderResumeStudio();
 }
 $$(".tab").forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
 
@@ -62,7 +63,7 @@ function renderDashboard(){
 
 function renderJobs(){
  const q=$("#search").value.toLowerCase(),loc=$("#location").value,track=$("#track").value,salaryOnly=$("#salaryOnly").checked;
- let jobs=allJobs.filter(j=>(!q||`${j.company} ${j.title} ${j.reason} ${(j.tags||[]).join(" ")}`.toLowerCase().includes(q))&&(!loc||j.location_type===loc)&&(!track||j.track===track)&&(!salaryOnly||(j.salary_max||0)>=150000));
+ let jobs=allJobs.filter(j=>(!q||`${j.company} ${j.title} ${j.reason} ${(j.tags||[]).join(" ")}`.toLowerCase().includes(q))&&(!loc||j.location_type===loc)&&(!track||j.track===track)&&(!salaryOnly||(j.salary_max||0)>=130000));
  const sort=$("#sort").value;
  jobs.sort((a,b)=>sort==="newest"?new Date(b.posted_at)-new Date(a.posted_at):sort==="salary"?(b.salary_max||0)-(a.salary_max||0):(b.fit_score||0)-(a.fit_score||0));
  $("#jobs").innerHTML="";$("#empty").hidden=jobs.length>0;
@@ -75,7 +76,9 @@ function renderJobs(){
    n.querySelector(".salary").textContent=j.salary_min?`${money(j.salary_min)}–${money(j.salary_max)} ${j.salary_period||"year"}`:"Compensation not published";
    n.querySelector(".reason").textContent=j.reason||"";
    const tags=n.querySelector(".tags");(j.tags||[]).forEach(x=>{const s=document.createElement("span");s.className="tag";s.textContent=x;tags.appendChild(s)});
-   if(rec.status)n.querySelector(".status-line").innerHTML=`<span class="status-badge">${rec.status}</span>${rec.appliedDate?` · Applied ${rec.appliedDate}`:""}`;
+   const bucket=j.priority_bucket?`<span class="status-badge priority-${j.priority_bucket.toLowerCase().replaceAll(" ","-")}">${j.priority_bucket}</span>`:"";
+   const trackedStatus=rec.status?`<span class="status-badge">${rec.status}</span>${rec.appliedDate?` · Applied ${rec.appliedDate}`:""}`:"";
+   n.querySelector(".status-line").innerHTML=[bucket,trackedStatus].filter(Boolean).join(" ");
    const a=n.querySelector(".apply");a.href=j.apply_url;
    n.querySelector(".track-btn").textContent=rec.status?"Update":"Track";
    n.querySelector(".track-btn").onclick=()=>openJobDialog(j);
@@ -128,3 +131,211 @@ $("#addInterviewBtn").onclick=()=>$("#interviewDialog").showModal();
 $("#saveInterviewBtn").onclick=e=>{e.preventDefault();interviews.push({company:$("#intCompany").value,role:$("#intRole").value,date:$("#intDate").value,round:$("#intRound").value,interviewer:$("#intInterviewer").value,notes:$("#intNotes").value,research:$("#intResearch").checked,stories:$("#intStories").checked,thankYou:$("#intThankYou").checked});persist();$("#interviewForm").reset();$("#interviewDialog").close();renderInterviews()};
 if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js");
 load();
+
+/* ---------------- Resume Studio ---------------- */
+let masterResumeText="";
+let lastResumeAnalysis=null;
+
+const STOP_WORDS=new Set([
+ "the","and","or","to","of","in","for","with","a","an","on","is","are","as","at","by","from","this","that",
+ "will","be","we","you","your","our","their","they","it","have","has","had","who","what","when","where","why",
+ "job","role","team","work","working","company","position","required","preferred","including","across","within"
+]);
+
+const ROLE_TRACKS={
+ "Customer Success":["customer success","client success","retention","renewal","adoption","churn","customer health","nps","qbr","onboarding"],
+ "Revenue Operations":["revenue operations","revops","forecasting","pipeline","salesforce","go-to-market","gtm","sales operations"],
+ "Commercial Operations":["commercial operations","pricing","promotion","retail","distribution","commercial strategy","revenue growth"],
+ "Business Transformation":["business transformation","change management","operational excellence","automation","process redesign","continuous improvement"],
+ "Business Operations":["business operations","strategy and operations","kpi","dashboard","business intelligence","cross-functional","executive reporting"],
+ "Strategic Accounts":["strategic accounts","enterprise accounts","account management","expansion","executive relationships","commercial negotiations"],
+ "Implementation":["implementation","professional services","deployment","onboarding","project management","customer delivery"]
+};
+
+function renderResumeStudio(){}
+
+function tokenize(text){
+  return (text.toLowerCase().match(/[a-z][a-z0-9+#.&-]{2,}/g)||[])
+    .map(x=>x.replace(/[.,]/g,""))
+    .filter(x=>!STOP_WORDS.has(x));
+}
+
+function phrases(text){
+  const lower=text.toLowerCase();
+  const library=[
+    "customer success","client success","customer experience","revenue operations","commercial operations",
+    "business operations","sales operations","operational excellence","business transformation","change management",
+    "process improvement","process automation","cross-functional leadership","executive reporting","strategic planning",
+    "account management","customer retention","customer adoption","renewal strategy","revenue growth","salesforce",
+    "power bi","tableau","sql","advanced excel","kpi development","business intelligence","forecasting",
+    "strategic accounts","professional services","implementation","enablement","program management"
+  ];
+  return library.filter(p=>lower.includes(p));
+}
+
+function topKeywords(text,limit=30){
+  const counts={};
+  tokenize(text).forEach(w=>counts[w]=(counts[w]||0)+1);
+  phrases(text).forEach(p=>counts[p]=(counts[p]||0)+4);
+  return Object.entries(counts)
+    .sort((a,b)=>b[1]-a[1])
+    .slice(0,limit)
+    .map(([word,count])=>({word,count}));
+}
+
+function detectTrack(jd){
+  const t=jd.toLowerCase();
+  let best={track:"Business Operations",score:0};
+  Object.entries(ROLE_TRACKS).forEach(([track,terms])=>{
+    const score=terms.reduce((n,x)=>n+(t.includes(x)?1:0),0);
+    if(score>best.score)best={track,score};
+  });
+  return best.track;
+}
+
+function splitResumeSections(text){
+  const lines=text.split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
+  const bullets=lines.filter(x=>/^[-•●▪]/.test(x)||x.length>70);
+  return {lines,bullets};
+}
+
+function analyzeResume(){
+  const jd=$("#jobDescription").value.trim();
+  if(!masterResumeText){alert("Upload your master résumé first.");return null}
+  if(!jd){alert("Paste the job description first.");return null}
+
+  const jdKeys=topKeywords(jd,35);
+  const resumeLower=masterResumeText.toLowerCase();
+  const hits=jdKeys.filter(k=>resumeLower.includes(k.word));
+  const misses=jdKeys.filter(k=>!resumeLower.includes(k.word));
+  const score=Math.min(98,Math.round((hits.reduce((n,k)=>n+k.count,0)/Math.max(1,jdKeys.reduce((n,k)=>n+k.count,0)))*100)+18);
+  const track=detectTrack(jd);
+
+  lastResumeAnalysis={jd,jdKeys,hits,misses,score,track};
+  $("#resumeMatchScore").textContent=score+"%";
+  $("#resumeTrack").textContent=`Recommended résumé lane: ${track}`;
+  $("#resumeKeywords").innerHTML=`<div class="keyword-cloud">${
+    hits.slice(0,15).map(k=>`<span class="keyword-hit">✓ ${k.word}</span>`).join("")
+  }${
+    misses.slice(0,12).map(k=>`<span class="keyword-miss">+ ${k.word}</span>`).join("")
+  }</div>`;
+
+  const cover=score<82 || /cover letter|required cover/i.test(jd);
+  $("#resumeStrategy").innerHTML=`
+    <p><strong>Resume:</strong> Use the ${track} version.</p>
+    <p><strong>Cover letter:</strong> ${cover?"Recommended":"Optional unless requested"}.</p>
+    <p><strong>Tailoring priority:</strong> Add evidence for ${misses.slice(0,6).map(k=>k.word).join(", ")||"the strongest repeated requirements"}.</p>
+    <p><strong>Application effort:</strong> ${score>=88?"15–20 minutes":score>=78?"25–35 minutes":"45+ minutes; review whether the gap is worth it"}.</p>`;
+  return lastResumeAnalysis;
+}
+
+function sentenceCase(s){return s.charAt(0).toUpperCase()+s.slice(1)}
+
+function chooseBullets(jd,bullets,limit=16){
+  const keys=topKeywords(jd,40).map(x=>x.word);
+  return bullets.map(b=>{
+    const lower=b.toLowerCase();
+    const score=keys.reduce((n,k)=>n+(lower.includes(k)?(k.includes(" ")?4:1):0),0)
+      +(lower.match(/\d+%|\$[\d,.]+|[\d,]+\+?/g)||[]).length*2;
+    return {bullet:b.replace(/^[-•●▪]\s*/,""),score};
+  }).sort((a,b)=>b.score-a.score).slice(0,limit);
+}
+
+function extractContactAndEducation(lines){
+  const contact=lines.slice(0,8);
+  const educationStart=lines.findIndex(x=>/^education$/i.test(x));
+  const certStart=lines.findIndex(x=>/^certifications/i.test(x));
+  return {
+    contact,
+    education:educationStart>=0?lines.slice(educationStart,certStart>educationStart?certStart:educationStart+10):[],
+    certifications:certStart>=0?lines.slice(certStart,certStart+18):[]
+  };
+}
+
+function generateTailoredResume(){
+  const analysis=lastResumeAnalysis||analyzeResume();
+  if(!analysis)return;
+
+  const {lines,bullets}=splitResumeSections(masterResumeText);
+  const selected=chooseBullets(analysis.jd,bullets,18);
+  const extra=extractContactAndEducation(lines);
+  const topSkills=[...analysis.hits.map(x=>x.word),...analysis.misses.slice(0,5).map(x=>x.word)]
+    .filter((x,i,a)=>a.indexOf(x)===i).slice(0,18);
+
+  const titleMatch=analysis.jd.match(/(?:director|senior manager|sr\.? manager|head|vice president|vp)[^\n]{0,80}/i);
+  const targetTitle=titleMatch?sentenceCase(titleMatch[0].trim()):analysis.track+" Leader";
+
+  const summary=`Strategic ${analysis.track} leader with 15+ years of experience improving customer outcomes, commercial execution, operational visibility, and business performance. Leads cross-functional initiatives supporting approximately $100M in annual business, builds executive KPI reporting, and redesigns workflows to improve speed, accuracy, accountability, and scalability. Brings deep experience in analytics, process automation, enterprise stakeholder management, and data-driven decision-making.`;
+
+  const output=[
+    ...extra.contact.slice(0,4),
+    "",
+    targetTitle.toUpperCase(),
+    "",
+    "PROFESSIONAL SUMMARY",
+    summary,
+    "",
+    "CORE EXPERTISE",
+    topSkills.map(sentenceCase).join(" | "),
+    "",
+    "SELECTED CAREER ACHIEVEMENTS",
+    ...selected.slice(0,8).map(x=>"• "+x.bullet),
+    "",
+    "PROFESSIONAL EXPERIENCE",
+    ...selected.slice(8).map(x=>"• "+x.bullet),
+    "",
+    ...extra.education,
+    "",
+    ...extra.certifications
+  ].join("\n");
+
+  $("#generatedResume").value=output;
+}
+
+function downloadWord(){
+  const text=$("#generatedResume").value.trim();
+  if(!text){alert("Generate the résumé first.");return}
+  const html=`<!doctype html><html><head><meta charset="utf-8"><style>
+  body{font-family:Arial,sans-serif;font-size:10.5pt;line-height:1.25;margin:.65in;color:#111}
+  h1{font-size:18pt}p{margin:0 0 6pt}pre{white-space:pre-wrap;font-family:Arial,sans-serif}
+  </style></head><body><pre>${text.replace(/&/g,"&amp;").replace(/</g,"&lt;")}</pre></body></html>`;
+  const blob=new Blob([html],{type:"application/msword"});
+  const url=URL.createObjectURL(blob),a=document.createElement("a");
+  a.href=url;a.download="Tailored_Resume_Cernice_Robinson.doc";a.click();URL.revokeObjectURL(url);
+}
+
+function copyAIRewritePrompt(){
+  const jd=$("#jobDescription").value.trim(),draft=$("#generatedResume").value.trim();
+  if(!jd||!masterResumeText){alert("Upload the résumé and paste the job description first.");return}
+  const prompt=`Act as an expert executive resume writer. Tailor my master resume to the job description below. Preserve factual accuracy. Do not invent experience, employers, tools, degrees, or metrics. Use ATS-friendly language, achievement-focused bullets, and a concise executive summary. Prioritize the most relevant experience and keywords naturally. Return a complete two-to-three-page resume.
+
+JOB DESCRIPTION:
+${jd}
+
+MASTER RESUME:
+${masterResumeText}
+
+CURRENT RULES-BASED DRAFT:
+${draft}`;
+  navigator.clipboard.writeText(prompt);
+  alert("AI rewrite prompt copied. Paste it into ChatGPT.");
+}
+
+$("#resumeFile").addEventListener("change",async e=>{
+  const file=e.target.files[0];
+  if(!file)return;
+  try{
+    if(typeof mammoth==="undefined")throw new Error("DOCX reader did not load. Check your internet connection.");
+    const buffer=await file.arrayBuffer();
+    const result=await mammoth.extractRawText({arrayBuffer:buffer});
+    masterResumeText=result.value.trim();
+    $("#resumeFileStatus").textContent=`Loaded: ${file.name} · ${masterResumeText.length.toLocaleString()} characters`;
+  }catch(err){
+    $("#resumeFileStatus").textContent="Could not read the résumé: "+err.message;
+  }
+});
+$("#analyzeResumeBtn").onclick=analyzeResume;
+$("#generateResumeBtn").onclick=generateTailoredResume;
+$("#copyResumeBtn").onclick=()=>{navigator.clipboard.writeText($("#generatedResume").value);alert("Resume copied.")};
+$("#downloadResumeBtn").onclick=downloadWord;
+$("#copyPromptBtn").onclick=copyAIRewritePrompt;

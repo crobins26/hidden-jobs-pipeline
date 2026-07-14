@@ -85,3 +85,34 @@ Added:
 ## Storage model
 
 Tracking data is stored in browser local storage. It remains on the same browser/device unless browser site data is cleared. Use the CSV export regularly as a backup. Cross-device sync requires a database/backend and is not included in this static GitHub Pages version.
+
+
+# Version 5 — Obtainable Role Search Strategy
+
+- $130,000 threshold
+- Senior Customer Success Manager through Director prioritized
+- Selective Senior Director, Head, and VP stretch roles
+- Priority Apply / Strong Opportunity / Stretch ranking
+- Strong-fit roles with unpublished salary remain visible
+
+
+# Version 6 — Resume Studio
+
+Added a private, browser-based Resume Studio:
+- Uploads a DOCX résumé locally in the browser
+- Compares it with a pasted job description
+- Calculates a keyword match score
+- Recommends the strongest resume lane
+- Identifies matched and missing keywords
+- Reorders evidence and achievement bullets
+- Generates an editable tailored resume draft
+- Downloads a Word-compatible `.doc` file
+- Creates a detailed AI rewrite prompt for ChatGPT
+
+## Privacy
+
+Do not upload your master résumé into the public GitHub repository. Use the Resume Studio upload control inside the live app. The résumé text is read in the browser and is not written into the repository.
+
+## Important limitation
+
+The built-in generator is rules-based. A true AI rewrite requires a private server-side API integration. Never place an OpenAI or other AI API key inside a public GitHub Pages application.
