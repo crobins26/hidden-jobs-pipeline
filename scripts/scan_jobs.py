@@ -163,7 +163,9 @@ def normalize(company,title,location,desc,url,posted=None,smin=None,smax=None,re
 
 def scan_theirstack():
     key=os.getenv("THEIRSTACK_API_KEY","").strip()
-    if not key:return [],["THEIRSTACK_API_KEY not configured; broad multi-ATS search skipped."]
+    if not key:
+        return [],["THEIRSTACK_API_KEY not configured; broad multi-ATS search skipped."]
+
     titles=CONFIG["priority_titles"]+CONFIG["stretch_titles"]
     payload={
       "job_title_or":titles,
@@ -171,27 +173,51 @@ def scan_theirstack():
       "posted_at_max_age_days":CONFIG["max_age_days"],
       "limit":CONFIG["daily_result_limit"]
     }
-    data=request_json("https://api.theirstack.com/v1/jobs/search","POST",payload,{
-      "Authorization":f"Bearer {key}"
-    })
+
+    try:
+        data=request_json(
+          "https://api.theirstack.com/v1/jobs/search",
+          "POST",
+          payload,
+          {"Authorization":f"Bearer {key}"}
+        )
+    except HTTPError as exc:
+        detail=""
+        try:
+            detail=exc.read().decode("utf-8","ignore")[:300]
+        except Exception:
+            pass
+        return [],[f"TheirStack HTTP {exc.code}; broad search skipped. {detail}"]
+    except (URLError,TimeoutError,ValueError,json.JSONDecodeError) as exc:
+        return [],[f"TheirStack unavailable; broad search skipped. {str(exc)[:300]}"]
+    except Exception as exc:
+        return [],[f"TheirStack unexpected error; broad search skipped. {str(exc)[:300]}"]
+
     rows=data.get("data") or data.get("jobs") or []
     jobs=[]
     for j in rows:
-        url=j.get("final_url") or j.get("url") or j.get("job_url") or ""
-        if not url:continue
-        jobs.append(normalize(
-          j.get("company_name") or j.get("company") or "Unknown",
-          j.get("job_title") or j.get("title") or "",
-          j.get("location") or j.get("short_location") or "",
-          clean(j.get("description") or j.get("description_markdown") or ""),
-          url,
-          j.get("date_posted") or j.get("posted_at"),
-          j.get("salary_min") or j.get("min_salary"),
-          j.get("salary_max") or j.get("max_salary"),
-          bool(j.get("remote") or j.get("is_remote")),
-          "TheirStack broad search"
-        ))
-    return [x for x in jobs if x],[]
+        try:
+            url=j.get("final_url") or j.get("url") or j.get("job_url") or ""
+            if not url:
+                continue
+            job=normalize(
+              j.get("company_name") or j.get("company") or "Unknown",
+              j.get("job_title") or j.get("title") or "",
+              j.get("location") or j.get("short_location") or "",
+              clean(j.get("description") or j.get("description_markdown") or ""),
+              url,
+              j.get("date_posted") or j.get("posted_at"),
+              j.get("salary_min") or j.get("min_salary"),
+              j.get("salary_max") or j.get("max_salary"),
+              bool(j.get("remote") or j.get("is_remote")),
+              "TheirStack broad search"
+            )
+            if job:
+                jobs.append(job)
+        except Exception:
+            continue
+
+    return jobs,[]
 
 def greenhouse(company,slug):
     d=request_json(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true")
@@ -254,7 +280,7 @@ def main():
     payload={
       "updated_at":datetime.now(timezone.utc).isoformat(),
       "minimum_salary":MIN_SALARY,
-      "broad_search_enabled":bool(os.getenv("THEIRSTACK_API_KEY","").strip()),
+      "broad_search_enabled":bool(broad),
       "jobs":jobs,
       "match_count":len(jobs),
       "errors":(broad_errors+fallback_errors)[:100]
