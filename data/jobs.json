@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T00:39:11.143023+00:00",
+  "updated_at": "2026-07-14T01:33:52.970135+00:00",
   "jobs": [
     {
       "id": "affirm-senior-director-key-enterprise-sales-remote-us",
@@ -142,126 +142,6 @@
       ]
     },
     {
-      "id": "fivetran-regional-director-enterprise-remote-wisconsin-united-states-amer",
-      "company": "Fivetran",
-      "title": "Regional Director, Enterprise",
-      "location": "Remote, Wisconsin, United States, AMER",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "salary_min": 180025,
-      "salary_max": 450062,
-      "salary_period": "year",
-      "posted_at": "2026-07-11",
-      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7618992003",
-      "fit_score": 99,
-      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
-      "tags": [
-        "Direct employer",
-        "Company career site",
-        "Customer Success"
-      ]
-    },
-    {
-      "id": "fivetran-regional-director-enterprise-remote-illinois-united-states-amer",
-      "company": "Fivetran",
-      "title": "Regional Director, Enterprise",
-      "location": "Remote, Illinois, United States, AMER",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "salary_min": 180025,
-      "salary_max": 450062,
-      "salary_period": "year",
-      "posted_at": "2026-07-11",
-      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7583477003",
-      "fit_score": 99,
-      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
-      "tags": [
-        "Direct employer",
-        "Company career site",
-        "Customer Success"
-      ]
-    },
-    {
-      "id": "fivetran-regional-director-enterprise-remote-michigan-united-states-amer",
-      "company": "Fivetran",
-      "title": "Regional Director, Enterprise",
-      "location": "Remote, Michigan, United States, AMER",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "salary_min": 180025,
-      "salary_max": 450062,
-      "salary_period": "year",
-      "posted_at": "2026-07-11",
-      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7618982003",
-      "fit_score": 99,
-      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
-      "tags": [
-        "Direct employer",
-        "Company career site",
-        "Customer Success"
-      ]
-    },
-    {
-      "id": "fivetran-regional-director-enterprise-remote-new-york-united-states-amer",
-      "company": "Fivetran",
-      "title": "Regional Director, Enterprise",
-      "location": "Remote, New York, United States, AMER",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "salary_min": 180025,
-      "salary_max": 450062,
-      "salary_period": "year",
-      "posted_at": "2026-07-11",
-      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7708774003",
-      "fit_score": 99,
-      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
-      "tags": [
-        "Direct employer",
-        "Company career site",
-        "Customer Success"
-      ]
-    },
-    {
-      "id": "fivetran-regional-director-enterprise-remote-connecticut-united-states-amer",
-      "company": "Fivetran",
-      "title": "Regional Director, Enterprise",
-      "location": "Remote, Connecticut, United States, AMER",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "salary_min": 180025,
-      "salary_max": 450062,
-      "salary_period": "year",
-      "posted_at": "2026-07-11",
-      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7708776003",
-      "fit_score": 99,
-      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
-      "tags": [
-        "Direct employer",
-        "Company career site",
-        "Customer Success"
-      ]
-    },
-    {
-      "id": "fivetran-regional-director-enterprise-remote-pennsylvania-united-states-amer",
-      "company": "Fivetran",
-      "title": "Regional Director, Enterprise",
-      "location": "Remote, Pennsylvania, United States, AMER",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "salary_min": 180025,
-      "salary_max": 450062,
-      "salary_period": "year",
-      "posted_at": "2026-07-11",
-      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7708787003",
-      "fit_score": 99,
-      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
-      "tags": [
-        "Direct employer",
-        "Company career site",
-        "Customer Success"
-      ]
-    },
-    {
       "id": "fivetran-regional-director-enterprise-remote-massachusetts-united-states-amer",
       "company": "Fivetran",
       "title": "Regional Director, Enterprise",
@@ -273,26 +153,6 @@
       "salary_period": "year",
       "posted_at": "2026-07-11",
       "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7708796003",
-      "fit_score": 99,
-      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
-      "tags": [
-        "Direct employer",
-        "Company career site",
-        "Customer Success"
-      ]
-    },
-    {
-      "id": "fivetran-regional-director-enterprise-remote-minnesota-united-states-amer",
-      "company": "Fivetran",
-      "title": "Regional Director, Enterprise",
-      "location": "Remote,  Minnesota, United States, AMER",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "salary_min": 180025,
-      "salary_max": 450062,
-      "salary_period": "year",
-      "posted_at": "2026-07-11",
-      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7618979003",
       "fit_score": 99,
       "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
       "tags": [
@@ -322,6 +182,126 @@
       ]
     },
     {
+      "id": "fivetran-regional-director-enterprise-remote-michigan-united-states-amer",
+      "company": "Fivetran",
+      "title": "Regional Director, Enterprise",
+      "location": "Remote, Michigan, United States, AMER",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "salary_min": 180025,
+      "salary_max": 450062,
+      "salary_period": "year",
+      "posted_at": "2026-07-11",
+      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7618982003",
+      "fit_score": 99,
+      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
+      "tags": [
+        "Direct employer",
+        "Company career site",
+        "Customer Success"
+      ]
+    },
+    {
+      "id": "fivetran-regional-director-enterprise-remote-illinois-united-states-amer",
+      "company": "Fivetran",
+      "title": "Regional Director, Enterprise",
+      "location": "Remote, Illinois, United States, AMER",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "salary_min": 180025,
+      "salary_max": 450062,
+      "salary_period": "year",
+      "posted_at": "2026-07-11",
+      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7583477003",
+      "fit_score": 99,
+      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
+      "tags": [
+        "Direct employer",
+        "Company career site",
+        "Customer Success"
+      ]
+    },
+    {
+      "id": "fivetran-regional-director-enterprise-remote-pennsylvania-united-states-amer",
+      "company": "Fivetran",
+      "title": "Regional Director, Enterprise",
+      "location": "Remote, Pennsylvania, United States, AMER",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "salary_min": 180025,
+      "salary_max": 450062,
+      "salary_period": "year",
+      "posted_at": "2026-07-11",
+      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7708787003",
+      "fit_score": 99,
+      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
+      "tags": [
+        "Direct employer",
+        "Company career site",
+        "Customer Success"
+      ]
+    },
+    {
+      "id": "fivetran-regional-director-enterprise-remote-connecticut-united-states-amer",
+      "company": "Fivetran",
+      "title": "Regional Director, Enterprise",
+      "location": "Remote, Connecticut, United States, AMER",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "salary_min": 180025,
+      "salary_max": 450062,
+      "salary_period": "year",
+      "posted_at": "2026-07-11",
+      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7708776003",
+      "fit_score": 99,
+      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
+      "tags": [
+        "Direct employer",
+        "Company career site",
+        "Customer Success"
+      ]
+    },
+    {
+      "id": "fivetran-regional-director-enterprise-remote-minnesota-united-states-amer",
+      "company": "Fivetran",
+      "title": "Regional Director, Enterprise",
+      "location": "Remote,  Minnesota, United States, AMER",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "salary_min": 180025,
+      "salary_max": 450062,
+      "salary_period": "year",
+      "posted_at": "2026-07-11",
+      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7618979003",
+      "fit_score": 99,
+      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
+      "tags": [
+        "Direct employer",
+        "Company career site",
+        "Customer Success"
+      ]
+    },
+    {
+      "id": "fivetran-regional-director-enterprise-remote-new-york-united-states-amer",
+      "company": "Fivetran",
+      "title": "Regional Director, Enterprise",
+      "location": "Remote, New York, United States, AMER",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "salary_min": 180025,
+      "salary_max": 450062,
+      "salary_period": "year",
+      "posted_at": "2026-07-11",
+      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7708774003",
+      "fit_score": 99,
+      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
+      "tags": [
+        "Direct employer",
+        "Company career site",
+        "Customer Success"
+      ]
+    },
+    {
       "id": "fivetran-regional-director-enterprise-remote-ohio-united-states-amer",
       "company": "Fivetran",
       "title": "Regional Director, Enterprise",
@@ -333,6 +313,26 @@
       "salary_period": "year",
       "posted_at": "2026-07-11",
       "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7618988003",
+      "fit_score": 99,
+      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
+      "tags": [
+        "Direct employer",
+        "Company career site",
+        "Customer Success"
+      ]
+    },
+    {
+      "id": "fivetran-regional-director-enterprise-remote-wisconsin-united-states-amer",
+      "company": "Fivetran",
+      "title": "Regional Director, Enterprise",
+      "location": "Remote, Wisconsin, United States, AMER",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "salary_min": 180025,
+      "salary_max": 450062,
+      "salary_period": "year",
+      "posted_at": "2026-07-11",
+      "apply_url": "https://www.fivetran.com/careers/job?gh_jid=7618992003",
       "fit_score": 99,
       "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
       "tags": [
@@ -382,17 +382,37 @@
       ]
     },
     {
-      "id": "samsara-sales-director-product-specialists-smart-trailers-remote-dallas",
+      "id": "samsara-sales-director-product-specialists-smart-trailers-remote-houston",
       "company": "Samsara",
       "title": "Sales Director, Product Specialists (Smart Trailers)",
-      "location": "Remote - Dallas",
+      "location": "Remote - Houston",
       "location_type": "remote",
       "track": "Customer Success",
       "salary_min": 420000,
       "salary_max": 420000,
       "salary_period": "year",
       "posted_at": "2026-06-26",
-      "apply_url": "https://www.samsara.com/company/careers/roles/8025991?gh_jid=8025991",
+      "apply_url": "https://www.samsara.com/company/careers/roles/8025992?gh_jid=8025992",
+      "fit_score": 99,
+      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
+      "tags": [
+        "Direct employer",
+        "Company career site",
+        "Customer Success"
+      ]
+    },
+    {
+      "id": "samsara-sales-director-product-specialists-smart-trailers-remote-nyc",
+      "company": "Samsara",
+      "title": "Sales Director, Product Specialists (Smart Trailers)",
+      "location": "Remote - NYC",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "salary_min": 420000,
+      "salary_max": 420000,
+      "salary_period": "year",
+      "posted_at": "2026-06-26",
+      "apply_url": "https://www.samsara.com/company/careers/roles/8026009?gh_jid=8026009",
       "fit_score": 99,
       "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
       "tags": [
@@ -422,26 +442,6 @@
       ]
     },
     {
-      "id": "samsara-sales-director-product-specialists-smart-trailers-remote-houston",
-      "company": "Samsara",
-      "title": "Sales Director, Product Specialists (Smart Trailers)",
-      "location": "Remote - Houston",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "salary_min": 420000,
-      "salary_max": 420000,
-      "salary_period": "year",
-      "posted_at": "2026-06-26",
-      "apply_url": "https://www.samsara.com/company/careers/roles/8025992?gh_jid=8025992",
-      "fit_score": 99,
-      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
-      "tags": [
-        "Direct employer",
-        "Company career site",
-        "Customer Success"
-      ]
-    },
-    {
       "id": "samsara-sales-director-product-specialists-smart-trailers-remote-denver",
       "company": "Samsara",
       "title": "Sales Director, Product Specialists (Smart Trailers)",
@@ -453,26 +453,6 @@
       "salary_period": "year",
       "posted_at": "2026-06-26",
       "apply_url": "https://www.samsara.com/company/careers/roles/8025989?gh_jid=8025989",
-      "fit_score": 99,
-      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
-      "tags": [
-        "Direct employer",
-        "Company career site",
-        "Customer Success"
-      ]
-    },
-    {
-      "id": "samsara-sales-director-product-specialists-smart-trailers-remote-la",
-      "company": "Samsara",
-      "title": "Sales Director, Product Specialists (Smart Trailers)",
-      "location": "Remote - LA",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "salary_min": 420000,
-      "salary_max": 420000,
-      "salary_period": "year",
-      "posted_at": "2026-06-26",
-      "apply_url": "https://www.samsara.com/company/careers/roles/8025987?gh_jid=8025987",
       "fit_score": 99,
       "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
       "tags": [
@@ -502,6 +482,26 @@
       ]
     },
     {
+      "id": "samsara-sales-director-product-specialists-smart-trailers-remote-la",
+      "company": "Samsara",
+      "title": "Sales Director, Product Specialists (Smart Trailers)",
+      "location": "Remote - LA",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "salary_min": 420000,
+      "salary_max": 420000,
+      "salary_period": "year",
+      "posted_at": "2026-06-26",
+      "apply_url": "https://www.samsara.com/company/careers/roles/8025987?gh_jid=8025987",
+      "fit_score": 99,
+      "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
+      "tags": [
+        "Direct employer",
+        "Company career site",
+        "Customer Success"
+      ]
+    },
+    {
       "id": "samsara-sales-director-product-specialists-smart-trailers-remote-us",
       "company": "Samsara",
       "title": "Sales Director, Product Specialists (Smart Trailers)",
@@ -522,17 +522,17 @@
       ]
     },
     {
-      "id": "samsara-sales-director-product-specialists-smart-trailers-remote-nyc",
+      "id": "samsara-sales-director-product-specialists-smart-trailers-remote-dallas",
       "company": "Samsara",
       "title": "Sales Director, Product Specialists (Smart Trailers)",
-      "location": "Remote - NYC",
+      "location": "Remote - Dallas",
       "location_type": "remote",
       "track": "Customer Success",
       "salary_min": 420000,
       "salary_max": 420000,
       "salary_period": "year",
       "posted_at": "2026-06-26",
-      "apply_url": "https://www.samsara.com/company/careers/roles/8026009?gh_jid=8026009",
+      "apply_url": "https://www.samsara.com/company/careers/roles/8025991?gh_jid=8025991",
       "fit_score": 99,
       "reason": "Strong alignment with customer success, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
       "tags": [
@@ -2922,26 +2922,6 @@
       ]
     },
     {
-      "id": "remote-senior-manager-global-payroll-strategy-and-compliance-remote-western-europe",
-      "company": "Remote",
-      "title": "Senior Manager, Global Payroll Strategy and Compliance",
-      "location": "Remote-Western Europe",
-      "location_type": "remote",
-      "track": "Customer Experience",
-      "salary_min": null,
-      "salary_max": null,
-      "salary_period": "year",
-      "posted_at": "2026-06-25",
-      "apply_url": "https://job-boards.greenhouse.io/remotecom/jobs/7783026003",
-      "fit_score": 96,
-      "reason": "Strong alignment with customer experience, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
-      "tags": [
-        "Direct employer",
-        "Company career site",
-        "Customer Experience"
-      ]
-    },
-    {
       "id": "remote-senior-manager-global-payroll-strategy-and-compliance-remote-uk-i",
       "company": "Remote",
       "title": "Senior Manager, Global Payroll Strategy and Compliance",
@@ -2973,6 +2953,26 @@
       "salary_period": "year",
       "posted_at": "2026-06-25",
       "apply_url": "https://job-boards.greenhouse.io/remotecom/jobs/7783027003",
+      "fit_score": 96,
+      "reason": "Strong alignment with customer experience, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
+      "tags": [
+        "Direct employer",
+        "Company career site",
+        "Customer Experience"
+      ]
+    },
+    {
+      "id": "remote-senior-manager-global-payroll-strategy-and-compliance-remote-western-europe",
+      "company": "Remote",
+      "title": "Senior Manager, Global Payroll Strategy and Compliance",
+      "location": "Remote-Western Europe",
+      "location_type": "remote",
+      "track": "Customer Experience",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": "year",
+      "posted_at": "2026-06-25",
+      "apply_url": "https://job-boards.greenhouse.io/remotecom/jobs/7783026003",
       "fit_score": 96,
       "reason": "Strong alignment with customer experience, senior leadership, analytics, process improvement, and enterprise stakeholder management.",
       "tags": [
