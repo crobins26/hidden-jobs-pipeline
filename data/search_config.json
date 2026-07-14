@@ -1,0 +1,69 @@
+{
+  "minimum_salary": 130000,
+  "max_age_days": 30,
+  "daily_result_limit": 250,
+  "countries": [
+    "US"
+  ],
+  "remote_required_or_midwest": true,
+  "midwest_states": [
+    "IL",
+    "IN",
+    "WI",
+    "MI",
+    "MN",
+    "OH",
+    "IA",
+    "MO",
+    "KS",
+    "NE",
+    "ND",
+    "SD"
+  ],
+  "priority_titles": [
+    "Senior Customer Success Manager",
+    "Senior Manager Customer Success",
+    "Director Customer Success",
+    "Director Client Success",
+    "Director Customer Experience",
+    "Director Customer Operations",
+    "Customer Success Operations Manager",
+    "Senior Manager Customer Success Operations",
+    "Director Revenue Operations",
+    "Director Commercial Operations",
+    "Director Sales Operations",
+    "Director Business Operations",
+    "Director Operational Excellence",
+    "Director Business Transformation",
+    "Strategy Operations Director",
+    "Enterprise Customer Success Manager",
+    "Strategic Customer Success Manager",
+    "Customer Success Enablement Manager",
+    "Customer Success Programs Manager",
+    "Customer Success Strategy Manager",
+    "Strategic Accounts Director",
+    "Implementation Director",
+    "Professional Services Director"
+  ],
+  "stretch_titles": [
+    "Senior Director Customer Success",
+    "Head Customer Success",
+    "Vice President Customer Success",
+    "Senior Director Operations"
+  ],
+  "exclude_title_terms": [
+    "software engineer",
+    "developer",
+    "data scientist",
+    "account executive",
+    "sales development",
+    "business development representative",
+    "product manager",
+    "product director",
+    "engineering",
+    "architect",
+    "counsel",
+    "attorney",
+    "intern"
+  ]
+}

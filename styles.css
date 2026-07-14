@@ -17,3 +17,10 @@
 .generated-resume-panel{margin-top:14px}
 #generatedResume{min-height:620px;line-height:1.45}
 @media(max-width:850px){.resume-grid{grid-template-columns:1fr}.generated-resume-panel .panel-head{align-items:flex-start;flex-direction:column}}
+
+.intel-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:10px 0}
+.intel-grid>div{background:#f5f7fb;border-radius:9px;padding:8px}
+.intel-grid span{display:block;font-size:10px;color:#667085;text-transform:uppercase;letter-spacing:.4px}
+.intel-grid strong{display:block;font-size:12px;margin-top:3px}
+.risk{font-size:12px;color:#8a4b08;margin:7px 0}
+@media(max-width:700px){.intel-grid{grid-template-columns:repeat(2,1fr)}}

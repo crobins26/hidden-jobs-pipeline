@@ -75,6 +75,11 @@ function renderJobs(){
    n.querySelector(".meta").textContent=`${j.location||"Location not stated"} • ${j.track||"Leadership"}`;
    n.querySelector(".salary").textContent=j.salary_min?`${money(j.salary_min)}–${money(j.salary_max)} ${j.salary_period||"year"}`:"Compensation not published";
    n.querySelector(".reason").textContent=j.reason||"";
+   n.querySelector(".probability").textContent=j.interview_probability||"Not scored";
+   n.querySelector(".apply-time").textContent=(j.application_time_minutes||25)+" min";
+   n.querySelector(".resume-use").textContent=j.recommended_resume||"Business Transformation";
+   n.querySelector(".cover-use").textContent=j.cover_letter||"Optional";
+   n.querySelector(".risk").textContent=j.main_risk?`Main risk: ${j.main_risk}`:"";
    const tags=n.querySelector(".tags");(j.tags||[]).forEach(x=>{const s=document.createElement("span");s.className="tag";s.textContent=x;tags.appendChild(s)});
    const bucket=j.priority_bucket?`<span class="status-badge priority-${j.priority_bucket.toLowerCase().replaceAll(" ","-")}">${j.priority_bucket}</span>`:"";
    const trackedStatus=rec.status?`<span class="status-badge">${rec.status}</span>${rec.appliedDate?` · Applied ${rec.appliedDate}`:""}`:"";
