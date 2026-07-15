@@ -70,16 +70,29 @@ function renderJobs(){
  jobs.forEach(j=>{
    const n=$("#jobTemplate").content.cloneNode(true),key=keyFor(j),rec=currentRecord(j);
    n.querySelector(".score").textContent=`${j.fit_score||0}%`;
-   n.querySelector(".company").textContent=j.company;n.querySelector(".fresh").textContent=ageLabel(j.posted_at);
+   n.querySelector(".company").textContent=j.company;
+   n.querySelector(".fresh").textContent=j.freshness||ageLabel(j.posted_at);
+   const topTen=n.querySelector(".top-ten-badge");
+   if(topTen){topTen.hidden=!j.top_10_today;}
    const link=document.createElement("a");link.href=j.apply_url;link.target="_blank";link.rel="noopener";link.textContent=j.title;link.className="title-link";n.querySelector(".title").replaceChildren(link);
    n.querySelector(".meta").textContent=`${j.location||"Location not stated"} • ${j.track||"Leadership"}`;
    n.querySelector(".salary").textContent=j.salary_min?`${money(j.salary_min)}–${money(j.salary_max)} ${j.salary_period||"year"}`:"Compensation not published";
    n.querySelector(".reason").textContent=j.reason||"";
-   n.querySelector(".probability").textContent=j.interview_probability||"Not scored";
-   n.querySelector(".apply-time").textContent=(j.application_time_minutes||25)+" min";
-   n.querySelector(".resume-use").textContent=j.recommended_resume||"Business Transformation";
-   n.querySelector(".cover-use").textContent=j.cover_letter||"Optional";
-   n.querySelector(".risk").textContent=j.main_risk?`Main risk: ${j.main_risk}`:"";
+   const probability=j.interview_probability||(
+      (j.fit_score||0)>=86?"High":(j.fit_score||0)>=72?"Medium":"Low"
+   );
+   n.querySelector(".probability").textContent=probability;
+   n.querySelector(".probability").dataset.level=probability.toLowerCase();
+   n.querySelector(".apply-time").textContent=`${j.application_time_minutes||((j.fit_score||0)>=86?15:(j.fit_score||0)>=72?25:40)} min`;
+   n.querySelector(".resume-use").textContent=j.recommended_resume||(
+      ["Customer Success","Customer Experience","Strategic Accounts","Enablement"].includes(j.track)
+      ?"Customer Success Leadership":
+      ["Commercial Operations","Sales Operations"].includes(j.track)
+      ?"Commercial Operations":
+      "Business Transformation"
+   );
+   n.querySelector(".cover-use").textContent=j.cover_letter||((j.priority_bucket==="Stretch"||(j.fit_score||0)<82)?"Recommended":"Optional");
+   n.querySelector(".risk").textContent=`Main risk: ${j.main_risk||"No major gap detected"}`;
    const tags=n.querySelector(".tags");(j.tags||[]).forEach(x=>{const s=document.createElement("span");s.className="tag";s.textContent=x;tags.appendChild(s)});
    const bucket=j.priority_bucket?`<span class="status-badge priority-${j.priority_bucket.toLowerCase().replaceAll(" ","-")}">${j.priority_bucket}</span>`:"";
    const trackedStatus=rec.status?`<span class="status-badge">${rec.status}</span>${rec.appliedDate?` · Applied ${rec.appliedDate}`:""}`:"";
@@ -122,7 +135,14 @@ function exportCSV(){
 }
 
 async function load(){
- const r=await fetch(`data/jobs.json?v=${Date.now()}`),d=await r.json();allJobs=d.jobs||[];$("#updated").textContent=`Last scan: ${new Date(d.updated_at).toLocaleString()}`;
+ const r=await fetch(`data/jobs.json?v=${Date.now()}`,{cache:"no-store"}),d=await r.json();
+ allJobs=d.jobs||[];
+ $("#updated").textContent=`Last scan: ${new Date(d.updated_at).toLocaleString()}`;
+ const engine=$("#engineStatus");
+ if(engine){
+   engine.textContent=`Engine v7.3 · Broad search: ${d.broad_search_enabled?"ACTIVE":"FALLBACK ONLY"} · ${d.match_count??allJobs.length} matches`;
+   engine.classList.toggle("engine-active",Boolean(d.broad_search_enabled));
+ }
  const tracks=[...new Set(allJobs.map(j=>j.track).filter(Boolean))].sort();$("#track").innerHTML='<option value="">All career tracks</option>'+tracks.map(x=>`<option>${x}</option>`).join("");
  renderJobs();renderDashboard();
 }
