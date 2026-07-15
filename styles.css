@@ -38,3 +38,18 @@
 .probability[data-level="low"]{color:#a33a32}
 .risk{display:block!important;font-size:12px;color:#8a4b08;margin:8px 0 10px}
 @media(max-width:700px){.intel-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.saved-jobs-panel{margin:14px 16px}
+.saved-controls{display:grid;grid-template-columns:2fr 1fr;gap:8px;margin:12px 0}
+.saved-controls input,.saved-controls select{border:1px solid #d6dbea;border-radius:10px;padding:11px;background:white}
+.saved-job-card{border:1px solid #e1e6ef;border-radius:14px;padding:15px;margin-bottom:12px;background:#fff}
+.saved-card-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.saved-company{font-size:12px;font-weight:850;color:#51607c}
+.saved-title{margin:4px 0 8px;font-size:18px}
+.saved-meta,.saved-salary,.saved-dates,.saved-risk{margin:5px 0;font-size:13px}
+.saved-salary{font-weight:800}
+.saved-dates{color:#667085}
+.saved-risk{color:#8a4b08}
+.saved-card-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.danger-btn{background:#fbe8e6;color:#9f2d25}
+@media(max-width:700px){.saved-controls{grid-template-columns:1fr}.saved-card-head{flex-direction:column}}

@@ -7,14 +7,14 @@
   <title>Career Intelligence Center</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icons/icon.svg">
-  <link rel="stylesheet" href="styles.css?v=7.3">
+  <link rel="stylesheet" href="styles.css?v=8.0">
 </head>
 <body>
 <header>
   <div>
     <p class="eyebrow">DIRECT-TO-EMPLOYER CAREER INTELLIGENCE</p>
     <h1>Career Intelligence Center</h1>
-    <p id="updated">Loading the latest scan…</p><p id="engineStatus" class="engine-status">Engine v7.3 · Checking broad search…</p>
+    <p id="updated">Loading the latest scan…</p><p id="engineStatus" class="engine-status">Engine v8.0 · Checking broad search…</p>
   </div>
   <button id="refreshBtn">Refresh</button>
 </header>
@@ -22,6 +22,7 @@
 <nav class="tabs">
   <button class="tab active" data-tab="dashboard">Dashboard</button>
   <button class="tab" data-tab="jobs">Jobs</button>
+  <button class="tab" data-tab="saved">Saved Jobs</button>
   <button class="tab" data-tab="pipeline">Pipeline</button>
   <button class="tab" data-tab="interviews">Interviews</button>
   <button class="tab" data-tab="resume">Resume Studio</button>
@@ -77,6 +78,28 @@
   </section>
   <main id="jobs"></main>
   <div id="empty" class="empty" hidden>No matching jobs in the current scan.</div>
+</section>
+
+
+<section id="savedView" class="view">
+  <section class="panel saved-jobs-panel">
+    <div class="panel-head">
+      <div>
+        <h2>Permanent Saved Jobs</h2>
+        <p class="muted">These jobs stay here even when they disappear from the daily feed.</p>
+      </div>
+      <div class="actions">
+        <button id="exportSavedBtn" class="small-btn">Export Saved Jobs</button>
+      </div>
+    </div>
+
+    <div class="saved-controls">
+      <input id="savedSearch" placeholder="Search saved company, title, notes, or status">
+      <select id="savedStatusFilter"><option value="">All statuses</option></select>
+    </div>
+
+    <div id="savedJobsList"></div>
+  </section>
 </section>
 
 <section id="pipelineView" class="view">
@@ -221,6 +244,28 @@
   </form>
 </dialog>
 
+
+<template id="savedJobTemplate">
+  <article class="saved-job-card">
+    <div class="saved-card-head">
+      <div>
+        <span class="saved-company"></span>
+        <h3 class="saved-title"></h3>
+      </div>
+      <span class="saved-status status-badge"></span>
+    </div>
+    <p class="saved-meta"></p>
+    <p class="saved-salary"></p>
+    <p class="saved-dates"></p>
+    <p class="saved-risk"></p>
+    <div class="saved-card-actions">
+      <a class="saved-apply apply" target="_blank" rel="noopener">Open original posting</a>
+      <button class="saved-edit small-btn">Update tracking</button>
+      <button class="saved-delete danger-btn">Delete permanently</button>
+    </div>
+  </article>
+</template>
+
 <template id="jobTemplate">
   <article class="job-card">
     <div class="score"></div>
@@ -249,6 +294,6 @@
 </template>
 
 <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
-<script src="app.js?v=7.3"></script>
+<script src="app.js?v=8.0"></script>
 </body>
 </html>

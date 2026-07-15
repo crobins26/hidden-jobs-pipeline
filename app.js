@@ -1,5 +1,6 @@
 let allJobs=[];
 const saved=new Set(JSON.parse(localStorage.getItem("savedJobs")||"[]"));
+const savedArchive=JSON.parse(localStorage.getItem("savedJobArchive")||"{}");
 const tracking=JSON.parse(localStorage.getItem("jobTracking")||"{}");
 const interviews=JSON.parse(localStorage.getItem("interviews")||"[]");
 const settings=JSON.parse(localStorage.getItem("careerSettings")||'{"weeklyGoal":25,"dailyGoal":5}');
@@ -8,7 +9,13 @@ const STATUSES=["New","Saved","Resume Tailored","Applied","Recruiter Contacted",
 const $=s=>document.querySelector(s);
 const $$=s=>[...document.querySelectorAll(s)];
 
-function persist(){localStorage.setItem("jobTracking",JSON.stringify(tracking));localStorage.setItem("interviews",JSON.stringify(interviews));localStorage.setItem("careerSettings",JSON.stringify(settings))}
+function persist(){
+  localStorage.setItem("jobTracking",JSON.stringify(tracking));
+  localStorage.setItem("interviews",JSON.stringify(interviews));
+  localStorage.setItem("careerSettings",JSON.stringify(settings));
+  localStorage.setItem("savedJobs",JSON.stringify([...saved]));
+  localStorage.setItem("savedJobArchive",JSON.stringify(savedArchive));
+}
 function money(n){return n?new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:0}).format(n):""}
 function ageLabel(date){if(!date)return "";const d=Math.floor((Date.now()-new Date(date))/86400000);return d<=0?"Today":d===1?"1 day old":`${d} days old`}
 function startOfWeek(date=new Date()){const d=new Date(date);const day=(d.getDay()+6)%7;d.setHours(0,0,0,0);d.setDate(d.getDate()-day);return d}
@@ -27,6 +34,7 @@ function showTab(name){
   $("#"+name+"View").classList.add("active");
   if(name==="dashboard")renderDashboard();
   if(name==="pipeline")renderPipeline();
+  if(name==="saved")renderSavedJobs();
   if(name==="interviews")renderInterviews();
   if(name==="resume")renderResumeStudio();
 }
@@ -38,7 +46,7 @@ function renderDashboard(){
   const offers=Object.values(tracking).filter(r=>r.status==="Offer").length;
   const rejections=Object.values(tracking).filter(r=>r.status==="Rejected").length;
   $("#summary").innerHTML=`
-    <div class="metric"><strong>${allJobs.length}</strong><span>current matches</span></div>
+    <div class="metric"><strong>${allJobs.length}</strong><span>current matches</span></div><div class="metric"><strong>${saved.size}</strong><span>permanent saved jobs</span></div>
     <div class="metric"><strong>${appliedThisWeek()}</strong><span>applied this week</span></div>
     <div class="metric"><strong>${interviewsCount}</strong><span>active interviews</span></div>
     <div class="metric"><strong>${offers}</strong><span>offers</span></div>
@@ -100,8 +108,27 @@ function renderJobs(){
    const a=n.querySelector(".apply");a.href=j.apply_url;
    n.querySelector(".track-btn").textContent=rec.status?"Update":"Track";
    n.querySelector(".track-btn").onclick=()=>openJobDialog(j);
-   const b=n.querySelector(".save");if(saved.has(key)){b.textContent="Saved";b.classList.add("saved")}
-   b.onclick=()=>{saved.has(key)?saved.delete(key):saved.add(key);localStorage.setItem("savedJobs",JSON.stringify([...saved]));renderJobs()};
+   const b=n.querySelector(".save");
+   if(saved.has(key)){b.textContent="Saved";b.classList.add("saved")}
+   b.onclick=()=>{
+      if(saved.has(key)){
+         const remove=confirm("Remove this job from Permanent Saved Jobs?");
+         if(!remove)return;
+         saved.delete(key);
+         delete savedArchive[key];
+      }else{
+         saved.add(key);
+         savedArchive[key]={
+           ...j,
+           jobKey:key,
+           savedAt:new Date().toISOString(),
+           archivedAt:new Date().toISOString()
+         };
+      }
+      persist();
+      renderJobs();
+      renderDashboard();
+   };
    $("#jobs").appendChild(n);
  });
 }
@@ -112,7 +139,16 @@ function openJobDialog(j){
  $("#jobStatus").innerHTML=STATUSES.map(s=>`<option ${s===(r.status||"New")?"selected":""}>${s}</option>`).join("");
  $("#appliedDate").value=r.appliedDate||"";$("#followUpDate").value=r.followUpDate||"";$("#resumeUsed").value=r.resumeUsed||"";$("#coverLetterUsed").value=r.coverLetterUsed||"";$("#recruiterName").value=r.recruiterName||"";$("#jobNotes").value=r.notes||"";
  $("#jobDialog").showModal();
- $("#saveJobBtn").onclick=e=>{e.preventDefault();const status=$("#jobStatus").value;let appliedDate=$("#appliedDate").value;if(isAppliedStatus(status)&&!appliedDate)appliedDate=new Date().toISOString().slice(0,10);tracking[key]={...r,jobKey:key,company:j.company,title:j.title,applyUrl:j.apply_url,salaryMin:j.salary_min||null,salaryMax:j.salary_max||null,status,appliedDate,followUpDate:$("#followUpDate").value,resumeUsed:$("#resumeUsed").value,coverLetterUsed:$("#coverLetterUsed").value,recruiterName:$("#recruiterName").value,notes:$("#jobNotes").value,updatedAt:new Date().toISOString()};persist();$("#jobDialog").close();renderJobs();renderDashboard()};
+ $("#saveJobBtn").onclick=e=>{e.preventDefault();const status=$("#jobStatus").value;let appliedDate=$("#appliedDate").value;if(isAppliedStatus(status)&&!appliedDate)appliedDate=new Date().toISOString().slice(0,10);tracking[key]={...r,jobKey:key,company:j.company,title:j.title,applyUrl:j.apply_url,salaryMin:j.salary_min||null,salaryMax:j.salary_max||null,status,appliedDate,followUpDate:$("#followUpDate").value,resumeUsed:$("#resumeUsed").value,coverLetterUsed:$("#coverLetterUsed").value,recruiterName:$("#recruiterName").value,notes:$("#jobNotes").value,updatedAt:new Date().toISOString()};
+saved.add(key);
+savedArchive[key]={
+  ...(savedArchive[key]||{}),
+  ...j,
+  jobKey:key,
+  savedAt:(savedArchive[key]||{}).savedAt||new Date().toISOString(),
+  archivedAt:new Date().toISOString()
+};
+persist();$("#jobDialog").close();renderJobs();renderDashboard()};
 }
 
 function renderPipeline(){
@@ -140,7 +176,7 @@ async function load(){
  $("#updated").textContent=`Last scan: ${new Date(d.updated_at).toLocaleString()}`;
  const engine=$("#engineStatus");
  if(engine){
-   engine.textContent=`Engine v7.3 · Broad search: ${d.broad_search_enabled?"ACTIVE":"FALLBACK ONLY"} · ${d.match_count??allJobs.length} matches`;
+   engine.textContent=`Engine v8.0 · Broad search: ${d.broad_search_enabled?"ACTIVE":"FALLBACK ONLY"} · ${d.match_count??allJobs.length} matches`;
    engine.classList.toggle("engine-active",Boolean(d.broad_search_enabled));
  }
  const tracks=[...new Set(allJobs.map(j=>j.track).filter(Boolean))].sort();$("#track").innerHTML='<option value="">All career tracks</option>'+tracks.map(x=>`<option>${x}</option>`).join("");
@@ -364,3 +400,103 @@ $("#generateResumeBtn").onclick=generateTailoredResume;
 $("#copyResumeBtn").onclick=()=>{navigator.clipboard.writeText($("#generatedResume").value);alert("Resume copied.")};
 $("#downloadResumeBtn").onclick=downloadWord;
 $("#copyPromptBtn").onclick=copyAIRewritePrompt;
+
+
+/* ---------------- Permanent Saved Jobs ---------------- */
+function mergedSavedRecord(key){
+  const job=savedArchive[key]||{};
+  const track=tracking[key]||{};
+  return {
+    ...job,
+    status:track.status||job.status||"Saved",
+    appliedDate:track.appliedDate||"",
+    followUpDate:track.followUpDate||"",
+    resumeUsed:track.resumeUsed||job.recommended_resume||"",
+    recruiterName:track.recruiterName||"",
+    notes:track.notes||"",
+    updatedAt:track.updatedAt||job.archivedAt||job.savedAt||""
+  };
+}
+
+function renderSavedJobs(){
+  const q=($("#savedSearch")?.value||"").toLowerCase();
+  const status=$("#savedStatusFilter")?.value||"";
+  const rows=[...saved].map(key=>({key,...mergedSavedRecord(key)}))
+    .filter(r=>(!status||r.status===status)&&(
+      !q||`${r.company||""} ${r.title||""} ${r.status||""} ${r.notes||""} ${r.track||""}`.toLowerCase().includes(q)
+    ))
+    .sort((a,b)=>(b.savedAt||b.updatedAt||"").localeCompare(a.savedAt||a.updatedAt||""));
+
+  const wrap=$("#savedJobsList");
+  if(!wrap)return;
+  wrap.innerHTML="";
+
+  if(!rows.length){
+    wrap.innerHTML='<p class="muted">No permanent saved jobs match this filter.</p>';
+    return;
+  }
+
+  rows.forEach(r=>{
+    const n=$("#savedJobTemplate").content.cloneNode(true);
+    n.querySelector(".saved-company").textContent=r.company||"Unknown company";
+    n.querySelector(".saved-title").textContent=r.title||"Untitled role";
+    n.querySelector(".saved-status").textContent=r.status||"Saved";
+    n.querySelector(".saved-meta").textContent=`${r.location||"Location not stated"} · ${r.track||"Leadership"}`;
+    n.querySelector(".saved-salary").textContent=r.salary_min
+      ?`${money(r.salary_min)}–${money(r.salary_max)} ${r.salary_period||"year"}`
+      :"Compensation not published";
+    n.querySelector(".saved-dates").textContent=`Saved ${r.savedAt?new Date(r.savedAt).toLocaleDateString():""}${r.appliedDate?` · Applied ${r.appliedDate}`:""}${r.followUpDate?` · Follow up ${r.followUpDate}`:""}`;
+    n.querySelector(".saved-risk").textContent=r.main_risk?`Main risk: ${r.main_risk}`:"";
+    const link=n.querySelector(".saved-apply");
+    link.href=r.apply_url||r.applyUrl||"#";
+    n.querySelector(".saved-edit").onclick=()=>{
+      const job=allJobs.find(j=>keyFor(j)===r.key)||{
+        id:r.key,
+        company:r.company,
+        title:r.title,
+        location:r.location,
+        track:r.track,
+        salary_min:r.salary_min||r.salaryMin,
+        salary_max:r.salary_max||r.salaryMax,
+        salary_period:r.salary_period||"year",
+        apply_url:r.apply_url||r.applyUrl,
+        fit_score:r.fit_score,
+        recommended_resume:r.recommended_resume,
+        main_risk:r.main_risk
+      };
+      openJobDialog(job);
+    };
+    n.querySelector(".saved-delete").onclick=()=>{
+      if(!confirm(`Permanently delete ${r.company} — ${r.title} from your archive?`))return;
+      saved.delete(r.key);
+      delete savedArchive[r.key];
+      persist();
+      renderSavedJobs();
+      renderDashboard();
+    };
+    wrap.appendChild(n);
+  });
+}
+
+function exportSavedJobs(){
+  const rows=[...saved].map(key=>mergedSavedRecord(key));
+  const heads=["Company","Role","Status","Location","Salary Min","Salary Max","Saved Date","Applied Date","Follow-up Date","Resume Used","Recruiter","Notes","Apply URL"];
+  const esc=v=>`"${String(v??"").replaceAll('"','""')}"`;
+  const csv=[heads.map(esc).join(","),...rows.map(r=>[
+    r.company,r.title,r.status,r.location,r.salary_min||r.salaryMin,r.salary_max||r.salaryMax,
+    r.savedAt,r.appliedDate,r.followUpDate,r.resumeUsed,r.recruiterName,r.notes,r.apply_url||r.applyUrl
+  ].map(esc).join(","))].join("\n");
+  const blob=new Blob([csv],{type:"text/csv"});
+  const url=URL.createObjectURL(blob),a=document.createElement("a");
+  a.href=url;
+  a.download=`permanent-saved-jobs-${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+if($("#savedStatusFilter")){
+  $("#savedStatusFilter").innerHTML='<option value="">All statuses</option>'+STATUSES.map(s=>`<option>${s}</option>`).join("");
+  $("#savedStatusFilter").oninput=renderSavedJobs;
+}
+if($("#savedSearch"))$("#savedSearch").oninput=renderSavedJobs;
+if($("#exportSavedBtn"))$("#exportSavedBtn").onclick=exportSavedJobs;

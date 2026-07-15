@@ -1,5 +1,5 @@
-const CACHE="career-center-v7-3";
-const ASSETS=["./","index.html","styles.css?v=7.3","app.js?v=7.3","manifest.json","icons/icon.svg"];
+const CACHE="career-center-v8";
+const ASSETS=["./","index.html","styles.css?v=8.0","app.js?v=8.0","manifest.json","icons/icon.svg"];
 
 self.addEventListener("install",event=>{
   self.skipWaiting();
