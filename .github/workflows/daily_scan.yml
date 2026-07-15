@@ -9,40 +9,55 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: hidden-jobs-daily-scan
+  cancel-in-progress: false
+
 jobs:
   scan:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check Central time
-        id: central_time
+      - name: Select correct Central-time schedule
+        id: schedule_gate
         shell: bash
         run: |
-          LOCAL_HOUR=$(TZ=America/Chicago date +%H)
-          LOCAL_TIME=$(TZ=America/Chicago date +%H:%M)
+          EVENT_NAME="${{ github.event_name }}"
+          TRIGGER_SCHEDULE="${{ github.event.schedule }}"
 
-          echo "Central time at workflow start: $LOCAL_TIME"
-
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$LOCAL_HOUR" = "06" ]; then
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
             echo "run_scan=true" >> "$GITHUB_OUTPUT"
-            echo "Scan approved."
+            echo "Manual run approved."
+            exit 0
+          fi
+
+          CHICAGO_OFFSET=$(TZ=America/Chicago date +%z)
+          echo "Chicago UTC offset: $CHICAGO_OFFSET"
+          echo "Trigger schedule: $TRIGGER_SCHEDULE"
+
+          if [ "$CHICAGO_OFFSET" = "-0500" ] && [ "$TRIGGER_SCHEDULE" = "30 11 * * *" ]; then
+            echo "run_scan=true" >> "$GITHUB_OUTPUT"
+            echo "Approved daylight-time schedule."
+          elif [ "$CHICAGO_OFFSET" = "-0600" ] && [ "$TRIGGER_SCHEDULE" = "30 12 * * *" ]; then
+            echo "run_scan=true" >> "$GITHUB_OUTPUT"
+            echo "Approved standard-time schedule."
           else
             echo "run_scan=false" >> "$GITHUB_OUTPUT"
-            echo "Duplicate daylight-saving run skipped."
+            echo "Duplicate seasonal schedule skipped."
           fi
 
       - name: Check out repository
-        if: steps.central_time.outputs.run_scan == 'true'
+        if: steps.schedule_gate.outputs.run_scan == 'true'
         uses: actions/checkout@v5
 
       - name: Set up Python
-        if: steps.central_time.outputs.run_scan == 'true'
+        if: steps.schedule_gate.outputs.run_scan == 'true'
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Validate required files
-        if: steps.central_time.outputs.run_scan == 'true'
+        if: steps.schedule_gate.outputs.run_scan == 'true'
         shell: bash
         run: |
           test -f scripts/scan_jobs.py
@@ -52,37 +67,36 @@ jobs:
           echo "Required scanner files are present."
 
       - name: Scan public company career boards
-        if: steps.central_time.outputs.run_scan == 'true'
+        if: steps.schedule_gate.outputs.run_scan == 'true'
         env:
           THEIRSTACK_API_KEY: ${{ secrets.THEIRSTACK_API_KEY }}
         run: python scripts/scan_jobs.py
 
       - name: Show scan summary
-        if: steps.central_time.outputs.run_scan == 'true'
+        if: steps.schedule_gate.outputs.run_scan == 'true'
         shell: bash
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
           data=json.loads(Path("data/jobs.json").read_text())
-          print("Updated:",data.get("updated_at"))
-          print("Matches:",data.get("match_count"))
-          print("Broad search enabled:",data.get("broad_search_enabled"))
+          print("Updated:", data.get("updated_at"))
+          print("Matches:", data.get("match_count"))
+          print("Broad search enabled:", data.get("broad_search_enabled"))
           errors=data.get("errors") or []
           if errors:
               print("Warnings:")
               for item in errors[:10]:
-                  print("-",item)
+                  print("-", item)
           PY
 
       - name: Commit refreshed feed
-        if: steps.central_time.outputs.run_scan == 'true'
+        if: steps.schedule_gate.outputs.run_scan == 'true'
         shell: bash
         run: |
           git config user.name "hidden-jobs-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/jobs.json
-
           if git diff --cached --quiet; then
             echo "No feed changes to commit."
           else
