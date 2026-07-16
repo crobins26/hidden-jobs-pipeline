@@ -69,6 +69,8 @@ jobs:
       - name: Scan public company career boards
         if: steps.schedule_gate.outputs.run_scan == 'true'
         env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
           THEIRSTACK_API_KEY: ${{ secrets.THEIRSTACK_API_KEY }}
         run: python scripts/scan_jobs.py
 
@@ -83,6 +85,7 @@ jobs:
           print("Updated:", data.get("updated_at"))
           print("Matches:", data.get("match_count"))
           print("Broad search enabled:", data.get("broad_search_enabled"))
+          print("Provider status:", json.dumps(data.get("provider_status", {}), indent=2))
           errors=data.get("errors") or []
           if errors:
               print("Warnings:")
