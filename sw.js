@@ -1,9 +1,16 @@
-const CACHE="career-center-v10";
-const ASSETS=["./","index.html","styles.css?v=10.0","app.js?v=10.0","manifest.json","supabase-config.js?v=10.0","icons/icon.svg"];
+const CACHE="career-center-v11";
+const STATIC_ASSETS=[
+  "./",
+  "index.html",
+  "styles.css?v=11.0",
+  "app.js?v=11.0",
+  "manifest.json",
+  "icons/icon.svg"
+];
 
 self.addEventListener("install",event=>{
   self.skipWaiting();
-  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)));
+  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(STATIC_ASSETS)));
 });
 
 self.addEventListener("activate",event=>{
@@ -17,11 +24,14 @@ self.addEventListener("activate",event=>{
 self.addEventListener("fetch",event=>{
   const url=new URL(event.request.url);
 
-  if(url.pathname.endsWith("/data/jobs.json")){
+  // Configuration and live job data must never be served from an old cache.
+  if(
+    url.pathname.endsWith("/supabase-config.js") ||
+    url.pathname.endsWith("/data/jobs.json")
+  ){
     event.respondWith(
       fetch(event.request,{cache:"no-store"})
-        .then(response=>response)
-        .catch(()=>caches.match(event.request))
+        .catch(()=>new Response("",{status:503,statusText:"Network required"}))
     );
     return;
   }

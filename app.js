@@ -177,7 +177,7 @@ async function load(){
  $("#updated").textContent=`Last scan: ${new Date(d.updated_at).toLocaleString()}`;
  const engine=$("#engineStatus");
  if(engine){
-   engine.textContent=`Engine v10.0 · Broad search: ${d.broad_search_enabled?"ACTIVE":"FALLBACK ONLY"} · ${d.match_count??allJobs.length} matches`;
+   engine.textContent=`Engine v11.0 · Broad search: ${d.broad_search_enabled?"ACTIVE":"FALLBACK ONLY"} · ${d.match_count??allJobs.length} matches`;
    engine.classList.toggle("engine-active",Boolean(d.broad_search_enabled));
  }
  const tracks=[...new Set(allJobs.map(j=>j.track).filter(Boolean))].sort();$("#track").innerHTML='<option value="">All career tracks</option>'+tracks.map(x=>`<option>${x}</option>`).join("");
@@ -503,16 +503,31 @@ if($("#savedSearch"))$("#savedSearch").oninput=renderSavedJobs;
 if($("#exportSavedBtn"))$("#exportSavedBtn").onclick=exportSavedJobs;
 
 
-/* ---------------- Supabase Cross-Device Sync ---------------- */
+
+/* ---------------- Supabase Cross-Device Sync v11 ---------------- */
 let cloudClient=null;
 let cloudUser=null;
 let cloudSyncTimer=null;
+let cloudReady=false;
+
+function setCloudDiagnostic(message=""){
+  const el=$("#cloudDiagnostic");
+  if(el)el.textContent=message;
+}
 
 function cloudConfigured(){
-  return window.CAREER_SUPABASE_URL &&
-    window.CAREER_SUPABASE_KEY &&
-    !window.CAREER_SUPABASE_URL.startsWith("PASTE_") &&
-    !window.CAREER_SUPABASE_KEY.startsWith("PASTE_");
+  const url=String(window.CAREER_SUPABASE_URL||"").trim();
+  const key=String(window.CAREER_SUPABASE_KEY||"").trim();
+
+  return Boolean(
+    url &&
+    key &&
+    /^https:\/\/[a-z0-9-]+\.supabase\.co$/i.test(url) &&
+    !url.includes("/rest/v1") &&
+    !url.includes("PASTE_") &&
+    !key.includes("PASTE_") &&
+    (key.startsWith("sb_publishable_") || key.startsWith("eyJ"))
+  );
 }
 
 function setCloudStatus(message,state=""){
@@ -538,11 +553,12 @@ function cloudSnapshot(){
 
 function applyCloudSnapshot(snapshot){
   if(!snapshot)return;
+
   const cloudSaved=snapshot.saved_jobs||{};
   const cloudTracking=snapshot.tracking||{};
+
   Object.assign(savedArchive,cloudSaved);
   Object.assign(tracking,cloudTracking);
-
   (snapshot.saved_ids||Object.keys(cloudSaved)).forEach(id=>saved.add(id));
 
   if(Array.isArray(snapshot.interviews)){
@@ -570,7 +586,8 @@ function persistLocalOnly(){
 }
 
 async function pushCloudSnapshot(){
-  if(!cloudClient||!cloudUser)return;
+  if(!cloudReady||!cloudClient||!cloudUser)return;
+
   setCloudStatus("Syncing…");
   const {error}=await cloudClient
     .from("career_state")
@@ -581,15 +598,19 @@ async function pushCloudSnapshot(){
     },{onConflict:"user_id"});
 
   if(error){
-    console.error(error);
+    console.error("Supabase push error:",error);
     setCloudStatus("Sync failed","error");
+    setCloudDiagnostic(error.message||"Unable to save cloud data.");
     return;
   }
+
   setCloudStatus(`Synced ${new Date().toLocaleTimeString()}`,"online");
+  setCloudDiagnostic("Desktop and mobile share this account.");
 }
 
 async function pullCloudSnapshot(){
-  if(!cloudClient||!cloudUser)return;
+  if(!cloudReady||!cloudClient||!cloudUser)return;
+
   setCloudStatus("Loading cloud data…");
   const {data,error}=await cloudClient
     .from("career_state")
@@ -598,48 +619,26 @@ async function pullCloudSnapshot(){
     .maybeSingle();
 
   if(error){
-    console.error(error);
+    console.error("Supabase read error:",error);
     setCloudStatus("Cloud read failed","error");
+    setCloudDiagnostic(error.message||"Unable to read cloud data.");
     return;
   }
 
   if(data?.state){
     applyCloudSnapshot(data.state);
     setCloudStatus(`Synced ${new Date(data.updated_at).toLocaleString()}`,"online");
+    setCloudDiagnostic("Cloud data loaded.");
   }else{
+    setCloudDiagnostic("New cloud account — uploading this device.");
     await pushCloudSnapshot();
   }
 }
 
 function scheduleCloudPush(){
-  if(!cloudUser)return;
+  if(!cloudReady||!cloudUser)return;
   clearTimeout(cloudSyncTimer);
-  cloudSyncTimer=setTimeout(pushCloudSnapshot,700);
-}
-
-async function initializeCloud(){
-  if(!cloudConfigured()){
-    setCloudStatus("Setup required");
-    return;
-  }
-
-  cloudClient=window.supabase.createClient(
-    window.CAREER_SUPABASE_URL,
-    window.CAREER_SUPABASE_KEY
-  );
-
-  const {data}=await cloudClient.auth.getSession();
-  cloudUser=data.session?.user||null;
-  updateCloudButtons();
-
-  if(cloudUser)await pullCloudSnapshot();
-
-  cloudClient.auth.onAuthStateChange(async(event,session)=>{
-    cloudUser=session?.user||null;
-    updateCloudButtons();
-    if(cloudUser)await pullCloudSnapshot();
-    else setCloudStatus("Signed out");
-  });
+  cloudSyncTimer=setTimeout(pushCloudSnapshot,900);
 }
 
 function updateCloudButtons(){
@@ -647,36 +646,145 @@ function updateCloudButtons(){
   $("#cloudLoginBtn").hidden=logged;
   $("#cloudSyncBtn").hidden=!logged;
   $("#cloudLogoutBtn").hidden=!logged;
-  if(logged)setCloudStatus(`Signed in: ${cloudUser.email}`,"online");
+
+  if(logged){
+    setCloudStatus(`Signed in: ${cloudUser.email}`,"online");
+  }
+}
+
+async function initializeCloud(){
+  setCloudStatus("Checking configuration…");
+  setCloudDiagnostic("Engine v11 startup test");
+
+  if(typeof window.supabase==="undefined"){
+    cloudReady=false;
+    setCloudStatus("Supabase library unavailable","error");
+    setCloudDiagnostic("The Supabase browser library did not load. Refresh while online.");
+    return;
+  }
+
+  if(!cloudConfigured()){
+    cloudReady=false;
+    setCloudStatus("Setup required","error");
+
+    const url=String(window.CAREER_SUPABASE_URL||"");
+    const key=String(window.CAREER_SUPABASE_KEY||"");
+
+    if(url.includes("/rest/v1")){
+      setCloudDiagnostic("Remove /rest/v1/ from the Supabase Project URL.");
+    }else if(!url||url.includes("PASTE_")){
+      setCloudDiagnostic("Project URL is missing or still contains placeholder text.");
+    }else if(!key||key.includes("PASTE_")){
+      setCloudDiagnostic("Publishable key is missing or still contains placeholder text.");
+    }else{
+      setCloudDiagnostic("Configuration format is invalid. Hard-refresh the website.");
+    }
+    return;
+  }
+
+  try{
+    cloudClient=window.supabase.createClient(
+      String(window.CAREER_SUPABASE_URL).trim(),
+      String(window.CAREER_SUPABASE_KEY).trim(),
+      {
+        auth:{
+          persistSession:true,
+          autoRefreshToken:true,
+          detectSessionInUrl:true
+        }
+      }
+    );
+
+    const {data,error}=await cloudClient.auth.getSession();
+    if(error)throw error;
+
+    cloudReady=true;
+    cloudUser=data.session?.user||null;
+    updateCloudButtons();
+
+    if(cloudUser){
+      await pullCloudSnapshot();
+    }else{
+      setCloudStatus("Ready — sign in");
+      setCloudDiagnostic("Configuration confirmed.");
+    }
+
+    cloudClient.auth.onAuthStateChange(async(event,session)=>{
+      cloudUser=session?.user||null;
+      updateCloudButtons();
+
+      if(cloudUser){
+        await pullCloudSnapshot();
+      }else{
+        setCloudStatus("Ready — sign in");
+        setCloudDiagnostic("Signed out.");
+      }
+    });
+  }catch(error){
+    console.error("Supabase initialization error:",error);
+    cloudReady=false;
+    setCloudStatus("Cloud initialization failed","error");
+    setCloudDiagnostic(error.message||"Unable to initialize Supabase.");
+  }
 }
 
 async function cloudSignUp(){
+  if(!cloudReady)return;
+
   const email=$("#cloudEmail").value.trim();
   const password=$("#cloudPassword").value;
-  const {data,error}=await cloudClient.auth.signUp({email,password});
-  $("#cloudAuthMessage").textContent=error?error.message:
-    (data.session?"Account created and signed in.":"Check your email to confirm your account.");
+
+  const {data,error}=await cloudClient.auth.signUp({
+    email,
+    password,
+    options:{
+      emailRedirectTo:"https://crobins26.github.io/hidden-jobs-pipeline/"
+    }
+  });
+
+  $("#cloudAuthMessage").textContent=error
+    ?error.message
+    :(data.session
+      ?"Account created and signed in."
+      :"Check your email to confirm the account, then return here.");
+
   if(!error&&data.session)$("#cloudAuthDialog").close();
 }
 
 async function cloudSignIn(){
+  if(!cloudReady)return;
+
   const email=$("#cloudEmail").value.trim();
   const password=$("#cloudPassword").value;
+
   const {error}=await cloudClient.auth.signInWithPassword({email,password});
   $("#cloudAuthMessage").textContent=error?error.message:"Signed in.";
+
   if(!error)$("#cloudAuthDialog").close();
 }
 
 $("#cloudLoginBtn").onclick=()=>{
-  if(!cloudConfigured()){
-    alert("Supabase is not configured yet. Complete the Version 10 setup steps first.");
+  if(!cloudReady){
+    alert($("#cloudDiagnostic")?.textContent||"Cloud sync is not ready.");
     return;
   }
+
+  $("#cloudAuthMessage").textContent="";
   $("#cloudAuthDialog").showModal();
 };
-$("#cloudSyncBtn").onclick=async()=>{await pullCloudSnapshot();await pushCloudSnapshot()};
-$("#cloudLogoutBtn").onclick=async()=>{if(cloudClient)await cloudClient.auth.signOut()};
+
+$("#cloudSyncBtn").onclick=async()=>{
+  await pullCloudSnapshot();
+  await pushCloudSnapshot();
+};
+
+$("#cloudLogoutBtn").onclick=async()=>{
+  if(cloudClient)await cloudClient.auth.signOut();
+};
+
 $("#cloudSignUpBtn").onclick=cloudSignUp;
 $("#cloudSignInBtn").onclick=cloudSignIn;
 
-initializeCloud();
+window.addEventListener("load",()=>{
+  setTimeout(initializeCloud,150);
+});

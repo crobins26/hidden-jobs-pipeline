@@ -7,14 +7,14 @@
   <title>Career Intelligence Center</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icons/icon.svg">
-  <link rel="stylesheet" href="styles.css?v=10.0">
+  <link rel="stylesheet" href="styles.css?v=11.0">
 </head>
 <body>
 <header>
   <div>
     <p class="eyebrow">DIRECT-TO-EMPLOYER CAREER INTELLIGENCE</p>
     <h1>Career Intelligence Center</h1>
-    <p id="updated">Loading the latest scan…</p><p id="engineStatus" class="engine-status">Engine v10.0 · Checking broad search…</p>
+    <p id="updated">Loading the latest scan…</p><p id="engineStatus" class="engine-status">Engine v11.0 · Checking broad search…</p>
   </div>
   <button id="refreshBtn">Refresh</button>
 </header>
@@ -23,7 +23,7 @@
 <section class="cloud-bar">
   <div>
     <strong>Cloud Sync</strong>
-    <span id="cloudStatus">Not configured</span>
+    <span id="cloudStatus">Initializing…</span><small id="cloudDiagnostic" class="cloud-diagnostic"></small>
   </div>
   <div class="cloud-actions">
     <button id="cloudLoginBtn" class="small-btn">Sign In</button>
@@ -325,6 +325,6 @@
 </template>
 
 <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
-<script src="app.js?v=10.0"></script>
+<script src="app.js?v=11.0"></script>
 </body>
 </html>

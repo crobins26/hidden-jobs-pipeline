@@ -58,3 +58,7 @@
 .cloud-bar strong{display:block;font-size:13px}.cloud-bar span{font-size:12px;color:#667085}
 .cloud-actions{display:flex;gap:6px;flex-wrap:wrap}.cloud-online{background:#e4f6e9}.cloud-error{background:#fbe8e6}
 @media(max-width:650px){.cloud-bar{align-items:flex-start;flex-direction:column}}
+
+.cloud-diagnostic{display:block;margin-top:3px;color:#667085;font-size:11px}
+.cloud-error .cloud-diagnostic{color:#9f2d25}
+.cloud-online .cloud-diagnostic{color:#2f6f44}
