@@ -53,3 +53,8 @@
 .saved-card-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
 .danger-btn{background:#fbe8e6;color:#9f2d25}
 @media(max-width:700px){.saved-controls{grid-template-columns:1fr}.saved-card-head{flex-direction:column}}
+
+.cloud-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 16px;background:#fff7df;border-bottom:1px solid #ead9a5}
+.cloud-bar strong{display:block;font-size:13px}.cloud-bar span{font-size:12px;color:#667085}
+.cloud-actions{display:flex;gap:6px;flex-wrap:wrap}.cloud-online{background:#e4f6e9}.cloud-error{background:#fbe8e6}
+@media(max-width:650px){.cloud-bar{align-items:flex-start;flex-direction:column}}

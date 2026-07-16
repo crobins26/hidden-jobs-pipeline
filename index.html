@@ -7,17 +7,30 @@
   <title>Career Intelligence Center</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icons/icon.svg">
-  <link rel="stylesheet" href="styles.css?v=8.0">
+  <link rel="stylesheet" href="styles.css?v=10.0">
 </head>
 <body>
 <header>
   <div>
     <p class="eyebrow">DIRECT-TO-EMPLOYER CAREER INTELLIGENCE</p>
     <h1>Career Intelligence Center</h1>
-    <p id="updated">Loading the latest scan…</p><p id="engineStatus" class="engine-status">Engine v8.0 · Checking broad search…</p>
+    <p id="updated">Loading the latest scan…</p><p id="engineStatus" class="engine-status">Engine v10.0 · Checking broad search…</p>
   </div>
   <button id="refreshBtn">Refresh</button>
 </header>
+
+
+<section class="cloud-bar">
+  <div>
+    <strong>Cloud Sync</strong>
+    <span id="cloudStatus">Not configured</span>
+  </div>
+  <div class="cloud-actions">
+    <button id="cloudLoginBtn" class="small-btn">Sign In</button>
+    <button id="cloudSyncBtn" class="small-btn" hidden>Sync Now</button>
+    <button id="cloudLogoutBtn" class="small-btn" hidden>Sign Out</button>
+  </div>
+</section>
 
 <nav class="tabs">
   <button class="tab active" data-tab="dashboard">Dashboard</button>
@@ -180,6 +193,24 @@
   </section>
 </section>
 
+
+<dialog id="cloudAuthDialog">
+  <form method="dialog" id="cloudAuthForm">
+    <div class="dialog-head">
+      <h2>Career Center Cloud</h2>
+      <button value="cancel" class="icon-btn">×</button>
+    </div>
+    <p class="muted">Use the same email and password on your phone and desktop.</p>
+    <label>Email<input id="cloudEmail" type="email" required></label>
+    <label>Password<input id="cloudPassword" type="password" minlength="8" required></label>
+    <div class="dialog-actions">
+      <button id="cloudSignUpBtn" type="button" class="secondary">Create Account</button>
+      <button id="cloudSignInBtn" type="button">Sign In</button>
+    </div>
+    <p id="cloudAuthMessage" class="muted"></p>
+  </form>
+</dialog>
+
 <dialog id="jobDialog">
   <form method="dialog" id="jobForm">
     <div class="dialog-head">
@@ -294,6 +325,6 @@
 </template>
 
 <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
-<script src="app.js?v=8.0"></script>
+<script src="app.js?v=10.0"></script>
 </body>
 </html>

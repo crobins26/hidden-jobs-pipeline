@@ -1,5 +1,5 @@
-const CACHE="career-center-v8";
-const ASSETS=["./","index.html","styles.css?v=8.0","app.js?v=8.0","manifest.json","icons/icon.svg"];
+const CACHE="career-center-v10";
+const ASSETS=["./","index.html","styles.css?v=10.0","app.js?v=10.0","manifest.json","supabase-config.js?v=10.0","icons/icon.svg"];
 
 self.addEventListener("install",event=>{
   self.skipWaiting();
