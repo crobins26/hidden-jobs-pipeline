@@ -7,14 +7,14 @@
   <title>Career Intelligence Center</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icons/icon.svg">
-  <link rel="stylesheet" href="styles.css?v=11.1">
+  <link rel="stylesheet" href="styles.css?v=13.0">
 </head>
 <body>
 <header>
   <div>
     <p class="eyebrow">DIRECT-TO-EMPLOYER CAREER INTELLIGENCE</p>
     <h1>Career Intelligence Center</h1>
-    <p id="updated">Loading the latest scan…</p><p id="engineStatus" class="engine-status">Engine v11.1 · Checking broad search…</p>
+    <p id="updated">Loading the latest scan…</p><p id="engineStatus" class="engine-status">Engine v13.0 · Checking broad search…</p>
   </div>
   <button id="refreshBtn">Refresh</button>
 </header>
@@ -194,6 +194,43 @@
 </section>
 
 
+
+<dialog id="applicationPackDialog">
+  <form method="dialog" id="applicationPackForm">
+    <div class="dialog-head">
+      <div>
+        <h2>One-Click Application Pack</h2>
+        <p id="packJobName" class="muted"></p>
+      </div>
+      <button value="cancel" class="icon-btn">×</button>
+    </div>
+
+    <div class="pack-checklist">
+      <label><input id="packSaveJob" type="checkbox" checked disabled> Save the complete job permanently</label>
+      <label><input id="packResume" type="checkbox" checked> Generate the matching résumé</label>
+      <label><input id="packCover" type="checkbox" checked> Generate the cover letter</label>
+      <label><input id="packStoreFiles" type="checkbox" checked> Store DOCX and PDF files in private cloud storage</label>
+      <label><input id="packCreateNotes" type="checkbox" checked> Create an interview-notes workspace</label>
+      <label><input id="packMarkApplied" type="checkbox"> I have submitted the application—mark it Applied</label>
+    </div>
+
+    <label>Job description
+      <textarea id="packJobDescription" rows="10" placeholder="The scanner will supply this when available. Paste the full description here if it is blank."></textarea>
+    </label>
+
+    <label>Application notes
+      <textarea id="packNotes" rows="4" placeholder="Recruiter name, deadline, referral, compensation notes, or anything you want attached to this application"></textarea>
+    </label>
+
+    <div id="packProgress" class="pack-progress">Ready.</div>
+
+    <div class="dialog-actions">
+      <button value="cancel" class="secondary">Cancel</button>
+      <button id="runApplicationPackBtn" type="button">Build Application Pack</button>
+    </div>
+  </form>
+</dialog>
+
 <dialog id="cloudAuthDialog">
   <form method="dialog" id="cloudAuthForm">
     <div class="dialog-head">
@@ -289,6 +326,7 @@
     <p class="saved-salary"></p>
     <p class="saved-dates"></p>
     <p class="saved-risk"></p>
+    <div class="saved-documents"></div>
     <div class="saved-card-actions">
       <a class="saved-apply apply" target="_blank" rel="noopener">Open original posting</a>
       <button class="saved-edit small-btn">Update tracking</button>
@@ -312,11 +350,12 @@
         <div><span>Resume</span><strong class="resume-use"></strong></div>
         <div><span>Cover letter</span><strong class="cover-use"></strong></div>
       </div>
-      <p class="risk"></p>
+      <p class="risk"></p><p class="source-line"></p>
       <div class="tags"></div>
       <div class="status-line"></div>
       <div class="actions">
         <a class="apply" target="_blank" rel="noopener">Open job & apply</a>
+        <button class="pack-btn">Application Pack</button>
         <button class="track-btn">Track</button>
         <button class="save">Save</button>
       </div>
@@ -327,52 +366,72 @@
 <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
 
 <!-- Supabase project settings must load before the Supabase client and app. -->
-<script src="supabase-config.js?v=11.1"></script>
+<script src="supabase-config.js?v=13.0"></script>
 
 <script>
 (function loadCareerApp() {
-  const supabaseSources = [
-    "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js",
-    "https://unpkg.com/@supabase/supabase-js@2/dist/umd/supabase.js"
+  const libraries = [
+    {
+      global: "supabase",
+      sources: [
+        "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js",
+        "https://unpkg.com/@supabase/supabase-js@2/dist/umd/supabase.js"
+      ]
+    },
+    {
+      global: "docx",
+      sources: [
+        "https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.js",
+        "https://unpkg.com/docx@8.5.0/build/index.umd.js"
+      ]
+    },
+    {
+      global: "jspdf",
+      sources: [
+        "https://cdn.jsdelivr.net/npm/jspdf@2.5.2/dist/jspdf.umd.min.js",
+        "https://unpkg.com/jspdf@2.5.2/dist/jspdf.umd.min.js"
+      ]
+    }
   ];
 
-  function loadApp() {
+  function loadScript(url) {
+    return new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = url;
+      script.onload = resolve;
+      script.onerror = reject;
+      document.body.appendChild(script);
+    });
+  }
+
+  async function loadLibrary(definition) {
+    if (window[definition.global]) return true;
+
+    for (const source of definition.sources) {
+      try {
+        await loadScript(source);
+        if (window[definition.global]) return true;
+      } catch (error) {
+        console.warn("Library source failed:", source);
+      }
+    }
+    return false;
+  }
+
+  async function start() {
+    for (const library of libraries) {
+      await loadLibrary(library);
+    }
+
     const app = document.createElement("script");
-    app.src = "app.js?v=11.1";
+    app.src = "app.js?v=13.0";
     app.onerror = function () {
       console.error("Career Intelligence Center app.js failed to load.");
     };
     document.body.appendChild(app);
   }
 
-  function trySupabase(index) {
-    if (window.supabase) {
-      loadApp();
-      return;
-    }
-
-    if (index >= supabaseSources.length) {
-      console.error("All Supabase library sources failed.");
-      loadApp();
-      return;
-    }
-
-    const script = document.createElement("script");
-    script.src = supabaseSources[index];
-    script.onload = function () {
-      if (window.supabase) {
-        loadApp();
-      } else {
-        trySupabase(index + 1);
-      }
-    };
-    script.onerror = function () {
-      trySupabase(index + 1);
-    };
-    document.body.appendChild(script);
-  }
-
-  trySupabase(0);
+  start();
 })();
 </script>
 </body>

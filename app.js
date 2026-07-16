@@ -102,12 +102,18 @@ function renderJobs(){
    );
    n.querySelector(".cover-use").textContent=j.cover_letter||((j.priority_bucket==="Stretch"||(j.fit_score||0)<82)?"Recommended":"Optional");
    n.querySelector(".risk").textContent=`Main risk: ${j.main_risk||"No major gap detected"}`;
+   const sourceLine=n.querySelector(".source-line");
+   if(sourceLine){
+     const sources=j.sources?.filter(Boolean)||[j.source].filter(Boolean);
+     sourceLine.textContent=`Source: ${sources.join(" + ")||"Direct employer"}${j.source_quality>=3?" · official/direct link preferred":""}`;
+   }
    const tags=n.querySelector(".tags");(j.tags||[]).forEach(x=>{const s=document.createElement("span");s.className="tag";s.textContent=x;tags.appendChild(s)});
    const bucket=j.priority_bucket?`<span class="status-badge priority-${j.priority_bucket.toLowerCase().replaceAll(" ","-")}">${j.priority_bucket}</span>`:"";
    const trackedStatus=rec.status?`<span class="status-badge">${rec.status}</span>${rec.appliedDate?` · Applied ${rec.appliedDate}`:""}`:"";
    n.querySelector(".status-line").innerHTML=[bucket,trackedStatus].filter(Boolean).join(" ");
    const a=n.querySelector(".apply");a.href=j.apply_url;
    n.querySelector(".track-btn").textContent=rec.status?"Update":"Track";
+   n.querySelector(".pack-btn").onclick=()=>openApplicationPack(j);
    n.querySelector(".track-btn").onclick=()=>openJobDialog(j);
    const b=n.querySelector(".save");
    if(saved.has(key)){b.textContent="Saved";b.classList.add("saved")}
@@ -177,7 +183,11 @@ async function load(){
  $("#updated").textContent=`Last scan: ${new Date(d.updated_at).toLocaleString()}`;
  const engine=$("#engineStatus");
  if(engine){
-   engine.textContent=`Engine v11.0 · Broad search: ${d.broad_search_enabled?"ACTIVE":"FALLBACK ONLY"} · ${d.match_count??allJobs.length} matches`;
+   const providers=d.provider_status||{};
+   const activeProviders=Object.entries(providers)
+     .filter(([,value])=>value?.active)
+     .map(([name])=>name==="direct_ats"?"Direct ATS":name.charAt(0).toUpperCase()+name.slice(1));
+   engine.textContent=`Engine v13.0 · ${activeProviders.join(" + ")||"Fallback only"} · ${d.match_count??allJobs.length} matches`;
    engine.classList.toggle("engine-active",Boolean(d.broad_search_enabled));
  }
  const tracks=[...new Set(allJobs.map(j=>j.track).filter(Boolean))].sort();$("#track").innerHTML='<option value="">All career tracks</option>'+tracks.map(x=>`<option>${x}</option>`).join("");
@@ -195,7 +205,8 @@ if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js");
 load();
 
 /* ---------------- Resume Studio ---------------- */
-let masterResumeText="";
+let masterResumeText=localStorage.getItem("masterResumeText")||"";
+let masterResumeFileName=localStorage.getItem("masterResumeFileName")||"";
 let lastResumeAnalysis=null;
 
 const STOP_WORDS=new Set([
@@ -214,7 +225,12 @@ const ROLE_TRACKS={
  "Implementation":["implementation","professional services","deployment","onboarding","project management","customer delivery"]
 };
 
-function renderResumeStudio(){}
+function renderResumeStudio(){
+  const status=$("#resumeFileStatus");
+  if(status&&masterResumeText){
+    status.textContent=`Master résumé ready: ${masterResumeFileName||"Saved résumé"} · ${masterResumeText.length.toLocaleString()} characters`;
+  }
+}
 
 function tokenize(text){
   return (text.toLowerCase().match(/[a-z][a-z0-9+#.&-]{2,}/g)||[])
@@ -391,7 +407,11 @@ $("#resumeFile").addEventListener("change",async e=>{
     const buffer=await file.arrayBuffer();
     const result=await mammoth.extractRawText({arrayBuffer:buffer});
     masterResumeText=result.value.trim();
-    $("#resumeFileStatus").textContent=`Loaded: ${file.name} · ${masterResumeText.length.toLocaleString()} characters`;
+    masterResumeFileName=file.name;
+    localStorage.setItem("masterResumeText",masterResumeText);
+    localStorage.setItem("masterResumeFileName",masterResumeFileName);
+    $("#resumeFileStatus").textContent=`Loaded and saved: ${file.name} · ${masterResumeText.length.toLocaleString()} characters`;
+    scheduleCloudPush();
   }catch(err){
     $("#resumeFileStatus").textContent="Could not read the résumé: "+err.message;
   }
@@ -448,6 +468,14 @@ function renderSavedJobs(){
       :"Compensation not published";
     n.querySelector(".saved-dates").textContent=`Saved ${r.savedAt?new Date(r.savedAt).toLocaleDateString():""}${r.appliedDate?` · Applied ${r.appliedDate}`:""}${r.followUpDate?` · Follow up ${r.followUpDate}`:""}`;
     n.querySelector(".saved-risk").textContent=r.main_risk?`Main risk: ${r.main_risk}`:"";
+    const documents=n.querySelector(".saved-documents");
+    const documentList=r.documents||[];
+    documents.innerHTML=documentList.length
+      ?`<strong>Documents</strong><div class="document-links">${documentList.map((doc,index)=>`<button class="small-btn saved-doc-link" data-index="${index}">${doc.label||doc.type}</button>`).join("")}</div>`
+      :"";
+    documents.querySelectorAll(".saved-doc-link").forEach(button=>{
+      button.onclick=()=>downloadStoredDocument(r.key,documentList[Number(button.dataset.index)]);
+    });
     const link=n.querySelector(".saved-apply");
     link.href=r.apply_url||r.applyUrl||"#";
     n.querySelector(".saved-edit").onclick=()=>{
@@ -547,6 +575,7 @@ function cloudSnapshot(){
     tracking,
     interviews,
     settings,
+    resume_profile:{masterResumeText,masterResumeFileName},
     updated_at:new Date().toISOString()
   };
 }
@@ -567,6 +596,17 @@ function applyCloudSnapshot(snapshot){
 
   if(snapshot.settings){
     Object.assign(settings,snapshot.settings);
+  }
+
+  if(snapshot.resume_profile){
+    masterResumeText=snapshot.resume_profile.masterResumeText||masterResumeText;
+    masterResumeFileName=snapshot.resume_profile.masterResumeFileName||masterResumeFileName;
+    localStorage.setItem("masterResumeText",masterResumeText);
+    localStorage.setItem("masterResumeFileName",masterResumeFileName);
+    const status=$("#resumeFileStatus");
+    if(status&&masterResumeText){
+      status.textContent=`Cloud master résumé loaded: ${masterResumeFileName||"Master résumé"}`;
+    }
   }
 
   persistLocalOnly();
@@ -788,3 +828,329 @@ $("#cloudSignInBtn").onclick=cloudSignIn;
 window.addEventListener("load",()=>{
   setTimeout(initializeCloud,150);
 });
+
+
+/* ---------------- One-Click Application Pack v12 ---------------- */
+let activePackJob=null;
+
+function sanitizeFileName(value){
+  return String(value||"document")
+    .replace(/[^\w\s.-]/g,"")
+    .replace(/\s+/g,"_")
+    .slice(0,90);
+}
+
+function jobDescriptionFor(job){
+  return job.job_description||
+    (savedArchive[keyFor(job)]||{}).job_description||
+    "";
+}
+
+function openApplicationPack(job){
+  activePackJob=job;
+  $("#packJobName").textContent=`${job.company} — ${job.title}`;
+  $("#packJobDescription").value=jobDescriptionFor(job);
+  $("#packNotes").value=(tracking[keyFor(job)]||{}).notes||"";
+  $("#packMarkApplied").checked=false;
+  $("#packProgress").textContent=masterResumeText
+    ?"Master résumé ready."
+    :"Upload your master résumé in Resume Studio before generating documents.";
+  $("#applicationPackDialog").showModal();
+}
+
+function createResumeTextForJob(job,jobDescription){
+  const previousDescription=$("#jobDescription").value;
+  const previousOutput=$("#generatedResume").value;
+  $("#jobDescription").value=jobDescription;
+  lastResumeAnalysis=null;
+  const analysis=analyzeResume();
+  if(!analysis){
+    $("#jobDescription").value=previousDescription;
+    return "";
+  }
+  generateTailoredResume();
+  const text=$("#generatedResume").value;
+  $("#jobDescription").value=previousDescription;
+  $("#generatedResume").value=previousOutput;
+  return text;
+}
+
+function createCoverLetterText(job,jobDescription){
+  const track=job.track||detectTrack(jobDescription);
+  const company=job.company||"the company";
+  const title=job.title||"this role";
+
+  return `Cernice Robinson, MS
+Hammond, Indiana
+
+Dear Hiring Team,
+
+I am applying for the ${title} position at ${company}. I bring more than 15 years of leadership experience spanning customer success, commercial operations, business transformation, analytics, and enterprise account management. My background is especially relevant to this opportunity because I have led cross-functional initiatives supporting approximately $100 million in annual commercial operations while improving customer outcomes, operational visibility, and execution discipline.
+
+In my current leadership work, I partner across Sales, Finance, Operations, Supply Chain, Marketing, IT, and Customer Service to turn complex business requirements into practical operating systems. My results include improving promotional compliance by 36%, eliminating an estimated 780 to 1,040 labor hours annually through workflow automation, building executive dashboards and KPI frameworks, and previously generating $1.2 million in expansion revenue through consultative customer success leadership.
+
+For a ${track} organization, I offer a combination that is difficult to find in one candidate: executive-level customer communication, hands-on process design, data-driven decision-making, change leadership, and the ability to coach teams through adoption. I am comfortable moving between strategy and execution—whether the need is improving retention, building operating cadence, strengthening customer health visibility, automating workflows, or aligning stakeholders around measurable outcomes.
+
+I would welcome the opportunity to discuss how my experience could help ${company} strengthen customer value, scale operations, and deliver durable business results.
+
+Sincerely,
+
+Cernice Robinson, MS`;
+}
+
+async function createDocxBlob(title,bodyText){
+  if(!window.docx)throw new Error("DOCX library is unavailable.");
+
+  const {Document,Packer,Paragraph,TextRun,HeadingLevel}=window.docx;
+  const paragraphs=bodyText.split(/\n/).map(line=>{
+    const trimmed=line.trim();
+    if(!trimmed)return new Paragraph({text:""});
+    if(/^[A-Z][A-Z\s&/-]{4,}$/.test(trimmed)){
+      return new Paragraph({
+        text:trimmed,
+        heading:HeadingLevel.HEADING_2,
+        spacing:{before:180,after:80}
+      });
+    }
+    if(trimmed.startsWith("•")){
+      return new Paragraph({
+        children:[new TextRun(trimmed.replace(/^•\s*/,""))],
+        bullet:{level:0},
+        spacing:{after:60}
+      });
+    }
+    return new Paragraph({
+      children:[new TextRun(trimmed)],
+      spacing:{after:80}
+    });
+  });
+
+  const document=new Document({
+    sections:[{
+      properties:{},
+      children:[
+        new Paragraph({
+          children:[new TextRun({text:title,bold:true,size:30})],
+          spacing:{after:160}
+        }),
+        ...paragraphs
+      ]
+    }]
+  });
+
+  return await Packer.toBlob(document);
+}
+
+function createPdfBlob(title,bodyText){
+  if(!window.jspdf?.jsPDF)throw new Error("PDF library is unavailable.");
+
+  const pdf=new window.jspdf.jsPDF({unit:"pt",format:"letter"});
+  const margin=50;
+  const width=pdf.internal.pageSize.getWidth()-margin*2;
+  const height=pdf.internal.pageSize.getHeight();
+  let y=55;
+
+  pdf.setFont("helvetica","bold");
+  pdf.setFontSize(16);
+  pdf.text(title,margin,y);
+  y+=24;
+
+  pdf.setFont("helvetica","normal");
+  pdf.setFontSize(10.5);
+
+  const lines=pdf.splitTextToSize(bodyText,width);
+  for(const line of lines){
+    if(y>height-50){
+      pdf.addPage();
+      y=50;
+    }
+    pdf.text(line,margin,y);
+    y+=14;
+  }
+
+  return pdf.output("blob");
+}
+
+async function uploadPrivateDocument(jobKey,fileName,blob,contentType){
+  if(!cloudReady||!cloudClient||!cloudUser){
+    return {stored:false,reason:"Sign in to store documents in the cloud."};
+  }
+
+  const path=`${cloudUser.id}/${sanitizeFileName(jobKey)}/${fileName}`;
+  const {error}=await cloudClient.storage
+    .from("career-documents")
+    .upload(path,blob,{
+      contentType,
+      upsert:true
+    });
+
+  if(error)throw error;
+  return {stored:true,path};
+}
+
+async function downloadStoredDocument(jobKey,document){
+  if(!document?.path){
+    alert("This document does not have a cloud-storage path.");
+    return;
+  }
+  if(!cloudReady||!cloudClient||!cloudUser){
+    alert("Sign in to download the stored document.");
+    return;
+  }
+
+  const {data,error}=await cloudClient.storage
+    .from("career-documents")
+    .download(document.path);
+
+  if(error){
+    alert(error.message);
+    return;
+  }
+
+  const url=URL.createObjectURL(data);
+  const anchor=document.createElement("a");
+  anchor.href=url;
+  anchor.download=document.fileName||"career-document";
+  anchor.click();
+  URL.revokeObjectURL(url);
+}
+
+async function runApplicationPack(){
+  const job=activePackJob;
+  if(!job)return;
+
+  const key=keyFor(job);
+  const description=$("#packJobDescription").value.trim();
+  const notes=$("#packNotes").value.trim();
+  const buildResume=$("#packResume").checked;
+  const buildCover=$("#packCover").checked;
+  const storeFiles=$("#packStoreFiles").checked;
+  const markApplied=$("#packMarkApplied").checked;
+
+  if((buildResume||buildCover)&&!masterResumeText){
+    alert("Upload your master résumé in Resume Studio first.");
+    return;
+  }
+
+  if((buildResume||buildCover)&&!description){
+    alert("Paste the full job description before building the application pack.");
+    return;
+  }
+
+  $("#runApplicationPackBtn").disabled=true;
+  $("#packProgress").textContent="Saving job…";
+
+  try{
+    saved.add(key);
+    savedArchive[key]={
+      ...(savedArchive[key]||{}),
+      ...job,
+      jobKey:key,
+      job_description:description,
+      savedAt:(savedArchive[key]||{}).savedAt||new Date().toISOString(),
+      archivedAt:new Date().toISOString(),
+      documents:[...((savedArchive[key]||{}).documents||[])]
+    };
+
+    const record=tracking[key]||{};
+    tracking[key]={
+      ...record,
+      jobKey:key,
+      company:job.company,
+      title:job.title,
+      applyUrl:job.apply_url,
+      salaryMin:job.salary_min||null,
+      salaryMax:job.salary_max||null,
+      status:markApplied?"Applied":"Resume Tailored",
+      appliedDate:markApplied?(record.appliedDate||new Date().toISOString().slice(0,10)):(record.appliedDate||""),
+      followUpDate:record.followUpDate||"",
+      resumeUsed:job.recommended_resume||record.resumeUsed||"",
+      coverLetterUsed:buildCover?"Yes":record.coverLetterUsed||"",
+      recruiterName:record.recruiterName||"",
+      notes:notes||record.notes||"",
+      interviewNotes:record.interviewNotes||{
+        researchCompleted:false,
+        starStoriesReady:false,
+        questions:[],
+        notes:""
+      },
+      updatedAt:new Date().toISOString()
+    };
+
+    const documents=[];
+
+    if(buildResume){
+      $("#packProgress").textContent="Generating tailored résumé…";
+      const resumeText=createResumeTextForJob(job,description);
+      if(!resumeText)throw new Error("The tailored résumé could not be generated.");
+
+      const resumeName=`Cernice_Robinson_${sanitizeFileName(job.title)}_Resume`;
+      const resumeDocx=await createDocxBlob("Cernice Robinson, MS",resumeText);
+      const resumePdf=createPdfBlob("Cernice Robinson, MS — Tailored Resume",resumeText);
+
+      if(storeFiles){
+        $("#packProgress").textContent="Storing résumé files…";
+        const docxUpload=await uploadPrivateDocument(key,`${resumeName}.docx`,resumeDocx,"application/vnd.openxmlformats-officedocument.wordprocessingml.document");
+        const pdfUpload=await uploadPrivateDocument(key,`${resumeName}.pdf`,resumePdf,"application/pdf");
+
+        if(docxUpload.stored)documents.push({type:"resume_docx",label:"Resume DOCX",fileName:`${resumeName}.docx`,path:docxUpload.path});
+        if(pdfUpload.stored)documents.push({type:"resume_pdf",label:"Resume PDF",fileName:`${resumeName}.pdf`,path:pdfUpload.path});
+      }else{
+        const url=URL.createObjectURL(resumeDocx);
+        const anchor=document.createElement("a");
+        anchor.href=url;
+        anchor.download=`${resumeName}.docx`;
+        anchor.click();
+        URL.revokeObjectURL(url);
+      }
+    }
+
+    if(buildCover){
+      $("#packProgress").textContent="Generating cover letter…";
+      const coverText=createCoverLetterText(job,description);
+      const coverName=`Cernice_Robinson_${sanitizeFileName(job.title)}_Cover_Letter`;
+      const coverDocx=await createDocxBlob("Cover Letter",coverText);
+      const coverPdf=createPdfBlob("Cover Letter",coverText);
+
+      if(storeFiles){
+        $("#packProgress").textContent="Storing cover-letter files…";
+        const docxUpload=await uploadPrivateDocument(key,`${coverName}.docx`,coverDocx,"application/vnd.openxmlformats-officedocument.wordprocessingml.document");
+        const pdfUpload=await uploadPrivateDocument(key,`${coverName}.pdf`,coverPdf,"application/pdf");
+
+        if(docxUpload.stored)documents.push({type:"cover_docx",label:"Cover Letter DOCX",fileName:`${coverName}.docx`,path:docxUpload.path});
+        if(pdfUpload.stored)documents.push({type:"cover_pdf",label:"Cover Letter PDF",fileName:`${coverName}.pdf`,path:pdfUpload.path});
+      }else{
+        const url=URL.createObjectURL(coverDocx);
+        const anchor=document.createElement("a");
+        anchor.href=url;
+        anchor.download=`${coverName}.docx`;
+        anchor.click();
+        URL.revokeObjectURL(url);
+      }
+    }
+
+    savedArchive[key].documents=[
+      ...savedArchive[key].documents.filter(existing=>!documents.some(next=>next.type===existing.type)),
+      ...documents
+    ];
+
+    persist();
+    if(cloudReady&&cloudUser)await pushCloudSnapshot();
+
+    renderJobs();
+    renderDashboard();
+    renderSavedJobs();
+    renderPipeline();
+
+    $("#packProgress").textContent=markApplied
+      ?"Application pack complete. Job marked Applied and synced."
+      :"Application pack complete. Review and submit, then mark Applied.";
+  }catch(error){
+    console.error(error);
+    $("#packProgress").textContent=`Error: ${error.message}`;
+  }finally{
+    $("#runApplicationPackBtn").disabled=false;
+  }
+}
+
+$("#runApplicationPackBtn").onclick=runApplicationPack;

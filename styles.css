@@ -62,3 +62,14 @@
 .cloud-diagnostic{display:block;margin-top:3px;color:#667085;font-size:11px}
 .cloud-error .cloud-diagnostic{color:#9f2d25}
 .cloud-online .cloud-diagnostic{color:#2f6f44}
+
+.pack-btn{background:#d9b75f;color:#17213b}
+.pack-checklist{display:grid;gap:8px;background:#f5f7fb;border-radius:12px;padding:12px;margin:10px 0}
+.pack-checklist label{display:flex;align-items:center;gap:8px;margin:0}
+.pack-checklist input{width:auto;margin:0}
+.pack-progress{margin-top:12px;padding:10px;border-radius:9px;background:#eef1f7;font-size:13px;font-weight:700}
+.saved-documents{margin:10px 0}
+.saved-documents strong{display:block;font-size:12px;margin-bottom:6px}
+.document-links{display:flex;gap:6px;flex-wrap:wrap}
+
+.source-line{font-size:11px;color:#667085;margin:6px 0 9px}
