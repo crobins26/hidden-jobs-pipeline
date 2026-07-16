@@ -7,14 +7,14 @@
   <title>Career Intelligence Center</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icons/icon.svg">
-  <link rel="stylesheet" href="styles.css?v=11.0">
+  <link rel="stylesheet" href="styles.css?v=11.1">
 </head>
 <body>
 <header>
   <div>
     <p class="eyebrow">DIRECT-TO-EMPLOYER CAREER INTELLIGENCE</p>
     <h1>Career Intelligence Center</h1>
-    <p id="updated">Loading the latest scan…</p><p id="engineStatus" class="engine-status">Engine v11.0 · Checking broad search…</p>
+    <p id="updated">Loading the latest scan…</p><p id="engineStatus" class="engine-status">Engine v11.1 · Checking broad search…</p>
   </div>
   <button id="refreshBtn">Refresh</button>
 </header>
@@ -325,6 +325,55 @@
 </template>
 
 <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
-<script src="app.js?v=11.0"></script>
+
+<!-- Supabase project settings must load before the Supabase client and app. -->
+<script src="supabase-config.js?v=11.1"></script>
+
+<script>
+(function loadCareerApp() {
+  const supabaseSources = [
+    "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js",
+    "https://unpkg.com/@supabase/supabase-js@2/dist/umd/supabase.js"
+  ];
+
+  function loadApp() {
+    const app = document.createElement("script");
+    app.src = "app.js?v=11.1";
+    app.onerror = function () {
+      console.error("Career Intelligence Center app.js failed to load.");
+    };
+    document.body.appendChild(app);
+  }
+
+  function trySupabase(index) {
+    if (window.supabase) {
+      loadApp();
+      return;
+    }
+
+    if (index >= supabaseSources.length) {
+      console.error("All Supabase library sources failed.");
+      loadApp();
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = supabaseSources[index];
+    script.onload = function () {
+      if (window.supabase) {
+        loadApp();
+      } else {
+        trySupabase(index + 1);
+      }
+    };
+    script.onerror = function () {
+      trySupabase(index + 1);
+    };
+    document.body.appendChild(script);
+  }
+
+  trySupabase(0);
+})();
+</script>
 </body>
 </html>
