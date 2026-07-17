@@ -1,0 +1,6 @@
+company,connector,endpoint,enabled,notes
+Example Workday Company,workday,https://example.wd5.myworkdayjobs.com/wday/cxs/example/External/jobs,no,Replace with the employer public CXS endpoint
+Example Recruitee Company,recruitee,example-company,no,Use only the Recruitee subdomain
+Example Personio Company,personio,https://example.jobs.personio.de/xml,no,Public Personio XML feed
+Example Employer JSON-LD,jsonld,https://company.example/careers,no,Public employer career page containing JobPosting JSON-LD
+Example Employer Sitemap,sitemap,https://company.example/sitemap.xml,no,Public XML sitemap containing job pages
