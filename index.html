@@ -7,14 +7,14 @@
   <title>Career Intelligence Center</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="icons/icon.svg">
-  <link rel="stylesheet" href="styles.css?v=13.0">
+  <link rel="stylesheet" href="styles.css?v=14.0">
 </head>
 <body>
 <header>
   <div>
     <p class="eyebrow">DIRECT-TO-EMPLOYER CAREER INTELLIGENCE</p>
     <h1>Career Intelligence Center</h1>
-    <p id="updated">Loading the latest scan…</p><p id="engineStatus" class="engine-status">Engine v13.0 · Checking broad search…</p>
+    <p id="updated">Loading the latest scan…</p><p id="engineStatus" class="engine-status">Engine v14.0 · Checking broad search…</p>
   </div>
   <button id="refreshBtn">Refresh</button>
 </header>
@@ -339,7 +339,7 @@
   <article class="job-card">
     <div class="score"></div>
     <div class="job-main">
-      <div class="topline"><span class="company"></span><div class="topline-right"><span class="top-ten-badge" hidden>TOP 10 TODAY</span><span class="fresh"></span></div></div>
+      <div class="topline"><span class="company"></span><div class="topline-right"><span class="discovery-badge" hidden></span><span class="top-ten-badge" hidden>TOP 10 TODAY</span><span class="fresh"></span></div></div>
       <h2 class="title"></h2>
       <p class="meta"></p>
       <p class="salary"></p>
@@ -366,7 +366,7 @@
 <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
 
 <!-- Supabase project settings must load before the Supabase client and app. -->
-<script src="supabase-config.js?v=13.0"></script>
+<script src="supabase-config.js?v=14.0"></script>
 
 <script>
 (function loadCareerApp() {
@@ -424,7 +424,7 @@
     }
 
     const app = document.createElement("script");
-    app.src = "app.js?v=13.0";
+    app.src = "app.js?v=14.0";
     app.onerror = function () {
       console.error("Career Intelligence Center app.js failed to load.");
     };

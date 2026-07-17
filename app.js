@@ -33,7 +33,7 @@ function showTab(name){
   $$(".tab").forEach(b=>b.classList.toggle("active",b.dataset.tab===name));
   $$(".view").forEach(v=>v.classList.remove("active"));
   $("#"+name+"View").classList.add("active");
-  if(name==="dashboard")renderDashboard();
+  if(name==="dashboard"){renderDashboard();renderSourceCoverage();}
   if(name==="pipeline")renderPipeline();
   if(name==="saved")renderSavedJobs();
   if(name==="interviews")renderInterviews();
@@ -81,6 +81,12 @@ function renderJobs(){
    n.querySelector(".score").textContent=`${j.fit_score||0}%`;
    n.querySelector(".company").textContent=j.company;
    n.querySelector(".fresh").textContent=j.freshness||ageLabel(j.posted_at);
+   const discoveryBadge=n.querySelector(".discovery-badge");
+   if(discoveryBadge){
+     discoveryBadge.hidden=!j.discovery_status;
+     discoveryBadge.textContent=j.discovery_status||"";
+     discoveryBadge.dataset.status=(j.discovery_status||"").toLowerCase().replaceAll(" ","-");
+   }
    const topTen=n.querySelector(".top-ten-badge");
    if(topTen){topTen.hidden=!j.top_10_today;}
    const link=document.createElement("a");link.href=j.apply_url;link.target="_blank";link.rel="noopener";link.textContent=j.title;link.className="title-link";n.querySelector(".title").replaceChildren(link);
@@ -187,7 +193,7 @@ async function load(){
    const activeProviders=Object.entries(providers)
      .filter(([,value])=>value?.active)
      .map(([name])=>name==="direct_ats"?"Direct ATS":name.charAt(0).toUpperCase()+name.slice(1));
-   engine.textContent=`Engine v13.0 · ${activeProviders.join(" + ")||"Fallback only"} · ${d.match_count??allJobs.length} matches`;
+   engine.textContent=`Engine v14.0 · ${activeProviders.join(" + ")||"Fallback only"} · ${d.match_count??allJobs.length} matches`;
    engine.classList.toggle("engine-active",Boolean(d.broad_search_enabled));
  }
  const tracks=[...new Set(allJobs.map(j=>j.track).filter(Boolean))].sort();$("#track").innerHTML='<option value="">All career tracks</option>'+tracks.map(x=>`<option>${x}</option>`).join("");
@@ -1154,3 +1160,36 @@ async function runApplicationPack(){
 }
 
 $("#runApplicationPackBtn").onclick=runApplicationPack;
+
+if($("#discoveryFilter"))$("#discoveryFilter").oninput=renderJobs;
+
+
+async function renderSourceCoverage(){
+  const wrap=$("#sourceCoverage");
+  if(!wrap)return;
+
+  try{
+    const response=await fetch(`data/source_coverage.json?v=${Date.now()}`,{cache:"no-store"});
+    const coverage=await response.json();
+
+    const group=(title,items)=>`
+      <div class="coverage-group">
+        <h3>${title}</h3>
+        <div class="coverage-items">
+          ${(items||[]).map(item=>`
+            <div class="coverage-item ${item.active?"coverage-active":"coverage-inactive"}">
+              <strong>${item.name}</strong>
+              <span>${item.active?"Active":"Not active"}${Number.isFinite(item.matches)?` · ${item.matches} matches`:""}</span>
+              ${item.note?`<small>${item.note}</small>`:""}
+            </div>`).join("")}
+        </div>
+      </div>`;
+
+    wrap.innerHTML=
+      group("Automated",coverage.automated_sources)+
+      group("Configurable employer sources",coverage.configurable_sources)+
+      group("Discovery-only—not scraped",coverage.discovery_only_sources);
+  }catch(error){
+    wrap.innerHTML='<p class="muted">Source coverage will appear after the next successful scan.</p>';
+  }
+}

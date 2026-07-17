@@ -1,9 +1,9 @@
-const CACHE="career-center-v13";
+const CACHE="career-center-v14";
 const STATIC_ASSETS=[
   "./",
   "index.html",
-  "styles.css?v=13.0",
-  "app.js?v=13.0",
+  "styles.css?v=14.0",
+  "app.js?v=14.0",
   "manifest.json",
   "icons/icon.svg"
 ];

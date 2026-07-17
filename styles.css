@@ -73,3 +73,18 @@
 .document-links{display:flex;gap:6px;flex-wrap:wrap}
 
 .source-line{font-size:11px;color:#667085;margin:6px 0 9px}
+
+.discovery-badge{font-size:10px;padding:5px 8px;border-radius:99px;font-weight:900;letter-spacing:.3px}
+.discovery-badge[data-status="new-today"]{background:#dff3e6;color:#1f6f3d}
+.discovery-badge[data-status="previously-seen"]{background:#eef1f7;color:#51607c}
+.coverage-panel{margin:14px 16px}
+.coverage-group{margin-bottom:14px}
+.coverage-group h3{font-size:14px;margin:0 0 8px}
+.coverage-items{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.coverage-item{border:1px solid #e1e6ef;border-radius:10px;padding:10px;background:#fff}
+.coverage-item strong,.coverage-item span,.coverage-item small{display:block}
+.coverage-item span{font-size:12px;margin-top:4px}
+.coverage-item small{font-size:10px;color:#667085;margin-top:4px;line-height:1.3}
+.coverage-active{border-left:4px solid #4c9c68}
+.coverage-inactive{opacity:.72;border-left:4px solid #c6ccd8}
+@media(max-width:850px){.coverage-items{grid-template-columns:1fr}}
