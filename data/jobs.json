@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T12:57:54.528553+00:00",
+  "updated_at": "2026-07-23T12:59:04.279188+00:00",
   "minimum_salary": 130000,
   "daily_job_cap": 100,
   "maximum_jobs_per_company": 3,
@@ -15,7 +15,7 @@
     },
     "Greenhouse": {
       "active": true,
-      "matches": 47
+      "matches": 50
     },
     "Lever": {
       "active": false,
@@ -90,8 +90,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -135,8 +135,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -180,8 +180,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -225,8 +225,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -270,8 +270,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -315,8 +315,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -360,8 +360,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -405,8 +405,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -450,44 +450,44 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
     },
     {
-      "id": "brex-enterprise-customer-success-manager-new-york-new-york-united-states",
-      "canonical_key": "brex|enterprise customer success manager|new york new york united states",
-      "company": "Brex",
-      "title": "Enterprise Customer Success Manager",
-      "location": "New York, New York, United States",
+      "id": "samsara-director-gtm-business-operations-remote-us",
+      "canonical_key": "samsara|director gtm business operations|remote us",
+      "company": "Samsara",
+      "title": "Director, GTM Business Operations",
+      "location": "Remote - US",
       "location_type": "remote",
-      "track": "Customer Success",
-      "priority_bucket": "Priority Apply",
-      "salary_min": 132888,
-      "salary_max": 166110,
+      "track": "Business Operations",
+      "priority_bucket": "Strong Opportunity",
+      "salary_min": 148680,
+      "salary_max": 265500,
       "salary_period": "year",
       "salary_confidence": "medium",
-      "posted_at": "2026-07-15",
-      "apply_url": "https://www.brex.com/careers/8335456002?gh_jid=8335456002",
-      "source_url": "https://www.brex.com/careers/8335456002?gh_jid=8335456002",
+      "posted_at": "2026-07-22",
+      "apply_url": "https://www.samsara.com/company/careers/roles/7974118?gh_jid=7974118",
+      "source_url": "https://www.samsara.com/company/careers/roles/7974118?gh_jid=7974118",
       "source": "Greenhouse",
       "source_quality": 5,
-      "fit_score": 74,
+      "fit_score": 73,
       "interview_probability": "Medium",
       "application_time_minutes": 25,
-      "recommended_resume": "Customer Success Leadership",
+      "recommended_resume": "Business Transformation",
       "cover_letter": "Recommended",
-      "freshness": "Recent",
+      "freshness": "New <72h",
       "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex\u2019s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We\u2019re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream. We make this a reality by empowering you with the tools, resources, and support you need to grow your career. Sales at Brex Sales is the growth engine at Brex. We bring in new customers, expand existing relationships, and drive the company\u2019s bottom line. With unlimited territories and uncapped opportunity, your ambition sets the ceiling. We win together, celebrate often, and reward performance. If you want to sell a category-defining product with real ownership, this is your team. What you\u2019ll do As an Enterprise Customer Success Manager, you will serve as a financial technology advisor to Brex\u2019s largest customers by partnering with CFOs, Controllers, and finance ops teams to ensure they unlock the full value of Brex\u2019s solutions. You\u2019ll create and execute on account strategies tailored to each customer\u2019s business goals, delivering high-impact outcomes across their financial stack. You will own the full lifecycle of success, from onboarding to renewal by leveraging product usage insights, stakeholder engagement, and cross-functional collaboration to drive product adoption, minimize churn, and grow account value. Where you\u2019ll work This role will be based in our New York City office. We are a hybrid environment that combines the energy and connections of being in the office with the benefits and flexibility of working from home. We currently require a minimum of three coordinated days in the office per week, Monday, Wednesday and Thursday. As a perk, we also have up to four weeks per year of fully remote work! Responsibilities Develop and own strategic account plans to drive retention, expansion, and adoption across your portfolio of enterprise customers. Act as a trusted advisor to finance stakeholders by providing guidance on best practices across spend management, credit policy, reconciliation workflows, and financial reporting automation. Build multi-threaded relationships across functional areas (Finance, Procurement, AP, IT, and Security) to increase platform stickiness and customer engagement. Lead business reviews and financial health checks that drive executive alignment and showcase ROI. Proactively identify and mitigate churn risks through data analysis, usage insights, and issue resolution. Partner cross-functionally with Sales, Product, Credit, Risk, and Operations teams to deliver a seamless customer experience and advocate for product improvements. Own key metrics for your accounts: GMV growth, &nbsp;product adoption, credit utilization, and customer health scores. Requirements 4+ years in a customer-facing role owning account health, executive relationships, or expansion strategy. Direct experience with core accounting workflows, such as invoice processing, T&amp;E tracking, budgeting, accounts payable, ERP systems (e.g., NetSuite, QuickBooks), or spend management tools. Experience managing complex, global enterprise accounts (10,000+ employees), with the ability to navigate nuanced org structures and build durable partnerships. Strong business acumen with a finance-first mindset and comfortable speaking the language of CFOs, Controllers, and FP&amp;A teams. Ability to synthesize product usage data into strategic recommendations that drive tangible customer outcomes. Demonstrated success in cross-functional collaboration and influencing internal roadmaps based on customer needs. Bachelor's degree required; finance, business, or related fields preferred. Bonus Points You love solving complex business problems with innovative financial solutions. You think in systems, not silos and understand the bigger picture of customer value. You are energized by being proactive, not reactive, in helping customers succeed. You want to be a thought leader and internal resource for enterprise strategy across the CS org. Compensation The expected OTE range for this role is $132,888 - $166,110 USD. The starting wage will depend on a number of factors including the candidate\u2019s location, skills, experience, market demands, and internal pay parity. The OTE figure listed here includes base salary and commissions, which may or may not be earned depending on performance.&nbsp; Depending on the position offered, equity and other forms of compensation may be provided as part of a total compensation package. Please be aware, job-seekers may be at risk of targeting by malicious actors looking for personal data. Brex recruiters will only reach out via LinkedIn or email with a&nbsp; brex.com &nbsp;domain. Any outreach claiming to be from Brex via other sources should be ignored.",
-      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "job_description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations\u2122 Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing \u2014 and we are excited to help digitally transform their operations at scale. Working at Samsara means you\u2019ll help define the future of physical operations and be on a team that\u2019s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you\u2019ll have the autonomy and support to make an impact as we build for the long term. About the role: The Business Operations team\u2019s mandate is to own the end-to-end understanding of our business in each of our vertical markets and set the strategy for how to grow it over the next three years. We identify the strategic levers for growth, align cross-functional teams, and drive towards high impact outcomes. We report to executive and C-level leadership on the health and priorities of each market and act as trusted advisors and thought partners to our sales leaders. Each team member is an expert on their respective market across Samsara\u2019s end-to-end business and is empowered to identify and drive the levers for the next wave of growth. We\u2019re defined by our insatiable curiosity and our ownership mindset.&nbsp; Samsara is looking for a Director, GTM Business Operations to act as the thought partner to the sales leaders for the Commercial and Mid-market business segments and to drive towards outcomes that unlock exponential growth. This role acts as the expert on the end-to-end business health and strategy of the Commercial and Mid-market business segments, with a deep understanding of everything from segment-level sales performance to developing the growth agenda with the sales leaders. This role is the trusted thought partner of our sales leadership as well as being seen as the business and strategy expert by our executive leadership team and cross-functional stakeholders.&nbsp; This is a remote position open to candidates based in the United States. Relocation assistance will not be provided for this role. In this role, you will: Act as the strategic owner of the Commercial and Mid-market business segments, developing a deep understanding of customer segments, sales performance, product-market fit, competitive landscape, and operational drivers to identify key levers for growth.&nbsp; Represent the voice of the Commercial and Mid-market business segments, synthesizing field feedback and market intelligence to inform broader company strategy, product roadmap decisions, and customer-facing programs. Drive and track the execution of cross-functional investments within the business. Lead complex strategic projects with urgency and clarity, such as new segment launches or field productivity improvements.&nbsp; Work iteratively and with urgency to drive value quickly. Serve as the trusted advisor to Commercial and Mid-market business sales leadership, supporting annual and quarterly planning, territory design, goal setting &amp; forecasting, performance reviews, sales metrics, and in-quarter execution to help teams consistently beat targets.&nbsp; Develop executive-ready presentations and recommendations, regularly briefing senior leadership and influencing high-impact decisions at the company-wide level. Identify and recommend improvements to optimize sales performance and help Sales leaders hit their number. Own the rhythm of the business, including quarterly business reviews, monthly market updates, annual planning, and forecasting processes with a focus on insights, decision-making, and accountability.&nbsp; Own your own analytics and insights, independently pulling and transforming data across multiple sources (e.g., Salesforce, Databricks, Gong, Tableau) to uncover trends, diagnose root causes, and support data-driven decision making\u2014bringing both technical rigor and business acumen to your analyses. Leverage AI and automation tools to accelerate impact, using capabilities such as AI-driven forecasting, workflow automation, and generative insights to improve operational efficiency, reduce manual effort, and uncover new growth opportunities faster than ever before. Champion, role model, and embed Samsara\u2019s cultural principles (Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, Win as a Team) as we scale globally and across new offices Hire, develop and lead an inclusive, engaged, and high performing team Minimum requirements for the role: 10+ years of experience in Consulting, Strategy, Finance, Business Operations, or Sales Strategy &amp; Operations&nbsp; Ownership mindset with willingness to shape end-to-end outcomes of the market Experience in building trusting relationships and influencing others (incl. executive audiences) Experience working with executive leadership and partnering with sales leadership Highly organized with exceptional attention to detail and the ability to manage multiple projects on a tight deadline Strong analytical and logical reasoning skills; deep sense of curiosity&nbsp; Strong bias for action Able to convey complex ideas in a clear, concise manner both verbally and in writing Ability to coach and grow a team of highly motivated, highly skilled business operations associates and managers Bachelor\u2019s degree An ideal candidate also has: MBA preferred Experience at a high-growth B2B AI or SaaS company Has worked across large and dynamic markets Experience working with large data sets and leveraging Databricks, BigQuery, SQL, or similar is very helpful&nbsp; Low ego, good sense of humor, and comfort with ambiguity all will go a long way in this dynamic space Very dialed into driving impact and showing good judgement in picking the right initiatives to focus on The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. Learn more about our total rewards and benefits below. Annual Base Salary $148,680 &mdash; $265,500 USD Total Rewards At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time. Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you\u2019re ready to build for the long term and own the outcome, your journey starts here. Flexible Working&nbsp; At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual\u2019s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable. Belonging at Samsara At Samsara, we welcome everyone regardless of their background. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, gender, gender identity, sexual orientation, protected veteran status, disability, age, and other characteristics protected by law. We depend on the unique approaches of our team members to help us solve complex problems and want to ensure that Samsara is a place where people from all backgrounds can make an impact. Accommodations&nbsp; Samsara is an inclusive work environment, and we are committed to ensuring equal opportunity in employment for qualified persons with disabilities. Please email accessibleinterviewing@samsara.com or click here if you require any reasonable accommodations throughout the recruiting process. Our Commitment to Authenticity We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara\u2019s Candidate Privacy Notice for more information. Fraudulent Employment Offers Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our&nbsp; blog post here .",
+      "reason": "Matches business operations, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
       "tags": [
         "Official/direct source",
-        "Customer Success",
-        "Priority Apply",
-        "Recent",
+        "Business Operations",
+        "Strong Opportunity",
+        "New <72h",
         "New Today",
         "Top 10 Today"
       ],
@@ -495,55 +495,11 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
-    },
-    {
-      "id": "samsara-sr-manager-customer-success-remote-us",
-      "canonical_key": "samsara|sr manager customer success|remote us",
-      "company": "Samsara",
-      "title": "Sr. Manager, Customer Success",
-      "location": "Remote - US",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "priority_bucket": "Strong Opportunity",
-      "salary_min": 142800,
-      "salary_max": 229500,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-07-20",
-      "apply_url": "https://www.samsara.com/company/careers/roles/8066951?gh_jid=8066951",
-      "source_url": "https://www.samsara.com/company/careers/roles/8066951?gh_jid=8066951",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 72,
-      "interview_probability": "Medium",
-      "application_time_minutes": 25,
-      "recommended_resume": "Customer Success Leadership",
-      "cover_letter": "Recommended",
-      "freshness": "New <72h",
-      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations\u2122 Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing \u2014 and we are excited to help digitally transform their operations at scale. Working at Samsara means you\u2019ll help define the future of physical operations and be on a team that\u2019s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you\u2019ll have the autonomy and support to make an impact as we build for the long term. About the role: The Enterprise Customer Success team partners closely with Samsara\u2019s enterprise customers to understand their business and unique challenges, advise them on how to best leverage the platform to meet their goals, and, ultimately, guide them to continuously realize business value from our solutions and services. We are the trusted advisor to our enterprise customers, managing the customer lifecycle once onboarding is complete through adoption, advocacy, and renewal. As a manager in the Enterprise Customer Success team, you will manage a team of CSMs while also enhancing and scaling our success motion. This role requires a blend of strategic thinking, strong leadership, and a passion for customer satisfaction to drive successful outcomes for our customers. The expectation is not just to run the team well \u2014 it is to make it fundamentally better. An ideal candidate will be located in the Western or Mountain time-zones, and will have the ability to travel to the United States for necessary customer travel. This is a remote position open to candidates residing in the US except the San Francisco Bay Metro Area, NYC Metro Area, and Washington, D.C. Metro Area.&nbsp; &nbsp; You should apply if: You want to impact the industries that run our world: Every phone call you answer and every email you send can affect whether truck drivers deliver goods on time and without accidents, whether students get dropped off safely from school, or whether power gets restored quickly after a natural disaster. You thrive the most when solving problems: Our constantly expanding technology and the complexities faced by our customers provide an exciting range of challenges for our Customer Success teams. With a growth mindset and a desire to learn, you will strategically partner with our customers to find unique solutions to help keep their operations safe, efficient, and sustainable. You are a natural relationship builder: Whether the relationship is with our customers or with cross-functional teams in Samsara, you are in constant communication and collaboration with key stakeholders to win as a team. You are the architect of your own career: If you put in the work, this role won\u2019t be your last at Samsara. This Customer Success team is still shaping its future and you will have plenty of autonomy and opportunities to master your craft in a hyper growth environment. You want to be with the best: At Samsara, we win together, celebrate together and support each other. You will be surrounded by the best and brightest professionals out there. In this role, you will: &nbsp; Strategy: Define and execute long-term strategies for the Enterprise Core Customer Success team that support Samsara's commitment to providing excellent service Technical acumen : Build technical depth across the team so CSMs can engage credibly on complex, technical customer challenges \u2014 knowing when to go deep personally and when to bring in Product or Support Customer outcomes: Ensure ongoing success and value realization for Samsara's enterprise customers, leading to long-term retention and growth Risk management: Identify and mitigate risk across your portfolio using data-driven insights, and hold your team accountable for identifying and acting on risk early Cross-functional leadership: Partner with Sales, Marketing, Product, and Support \u2014 building strong working relationships up through Sr Director \u2014 to increase team productivity and improve customer experience People leadership : Hire, develop, and manage a team 6-8 CSMs, each managing a portfolio of Enterprise accounts \u2014 coaching for growth and building bench strength through consistent, high-quality performance feedback Escalation leadership: Own critical customer situations personally and provide leadership coverage when it matters, facilitating leadership problem-solving through the VP level while balancing strategic oversight with hands-on resolution Executive communication: Keep executives informed of progress and advocate for change when needed AI-forward: Champion experimentation and adoption of AI-powered workflows and tools to enhance customer engagement and team productivity Culture: Champion, role model, and embed Samsara's operating principles (Sample the Customer Experience, Work with Urgency Deliver Iteratively, Work Backwards from Winning, Keep a High Bar, Be Intellectually Honest, Have Discipline, Eliminate Bureaucracy, Solve Problems Together) as we scale globally and across new offices Minimum requirements for the role: 10+ years in Customer Success, account management, or consulting. 5+ years in management positions, including recruiting and retaining top talent. Experience managing Enterprise customers in a SaaS environment. Ability to travel within the United States for customer meetings and events (up to 25%). Experience in structured value delivery to achieve measurable business outcomes, utilizing a defined engagement methodology. Exceptional executive stakeholder management and communications, emotional intelligence, and prioritization given customer VP+ engagement and internal visibility of this role, including Samsara\u2019s C-suite. Proven track record of building trust and communicating effectively with a wide variety of stakeholders from customer executives to day-to-day users of our solutions and internal teams such as Sales, Product and Engineering, and Finance. Solutions-focused with strong problem-solving skills and a bias for action. Ability to think big while also executing with excellence. Self-starter who takes initiative and thrives in a fast-paced, change-heavy environment. Diplomacy, tact, and poise under pressure when working through customer issues. Demonstrated ability to foster an inclusive team environment that values diverse perspectives\u200b. Bachelor's degree from a 4-year institution. An ideal candidate also has: Led a team where each team member managed a portfolio of 30-40 accounts. Experience using Gainsight. Passion for going above and beyond the call of duty for their customers and team members. Proven track record of partnering with account executives to develop and execute commercial expansion strategies. Strong program management experience. Annual on-target earnings (OTE) range for full-time employees for this position is below and depends on your city of residence. Learn more about our total rewards and benefits below. Annual OTE Salary $142,800 &mdash; $229,500 USD Total Rewards At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time. Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you\u2019re ready to build for the long term and own the outcome, your journey starts here. Flexible Working&nbsp; At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual\u2019s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable. Belonging at Samsara At Samsara, we welcome everyone regardless of their background. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, gender, gender identity, sexual orientation, protected veteran status, disability, age, and other characteristics protected by law. We depend on the unique approaches of our team members to help us solve complex problems and want to ensure that Samsara is a place where people from all backgrounds can make an impact. Accommodations&nbsp; Samsara is an inclusive work environment, and we are committed to ensuring equal opportunity in employment for qualified persons with disabilities. Please email accessibleinterviewing@samsara.com or click here if you require any reasonable accommodations throughout the recruiting process. Our Commitment to Authenticity We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara\u2019s Candidate Privacy Notice for more information. Fraudulent Employment Offers Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our&nbsp; blog post here .",
-      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Customer Success",
-        "Strong Opportunity",
-        "New <72h",
-        "New Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": false
     },
     {
       "id": "block-head-of-square-commercial-operations-deal-excellence-bay-area-ca-united-states-of-america",
@@ -583,8 +539,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -627,8 +583,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -671,18 +627,18 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
     },
     {
-      "id": "brex-enterprise-customer-success-manager-seattle-washington-united-states",
-      "canonical_key": "brex|enterprise customer success manager|seattle washington united states",
+      "id": "brex-enterprise-customer-success-manager-new-york-new-york-united-states",
+      "canonical_key": "brex|enterprise customer success manager|new york new york united states",
       "company": "Brex",
       "title": "Enterprise Customer Success Manager",
-      "location": "Seattle, Washington, United States",
+      "location": "New York, New York, United States",
       "location_type": "remote",
       "track": "Customer Success",
       "priority_bucket": "Priority Apply",
@@ -690,9 +646,9 @@
       "salary_max": 166110,
       "salary_period": "year",
       "salary_confidence": "medium",
-      "posted_at": "2026-06-22",
-      "apply_url": "https://www.brex.com/careers/8335440002?gh_jid=8335440002",
-      "source_url": "https://www.brex.com/careers/8335440002?gh_jid=8335440002",
+      "posted_at": "2026-07-15",
+      "apply_url": "https://www.brex.com/careers/8335456002?gh_jid=8335456002",
+      "source_url": "https://www.brex.com/careers/8335456002?gh_jid=8335456002",
       "source": "Greenhouse",
       "source_quality": 5,
       "fit_score": 71,
@@ -700,23 +656,23 @@
       "application_time_minutes": 40,
       "recommended_resume": "Customer Success Leadership",
       "cover_letter": "Recommended",
-      "freshness": "Aging",
+      "freshness": "Active",
       "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex\u2019s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We\u2019re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream. We make this a reality by empowering you with the tools, resources, and support you need to grow your career. Sales at Brex Sales is the growth engine at Brex. We bring in new customers, expand existing relationships, and drive the company\u2019s bottom line. With unlimited territories and uncapped opportunity, your ambition sets the ceiling. We win together, celebrate often, and reward performance. If you want to sell a category-defining product with real ownership, this is your team. What you\u2019ll do As an Enterprise Customer Success Manager, you will serve as a financial technology advisor to Brex\u2019s largest customers by partnering with CFOs, Controllers, and finance ops teams to ensure they unlock the full value of Brex\u2019s solutions. You\u2019ll create and execute on account strategies tailored to each customer\u2019s business goals, delivering high-impact outcomes across their financial stack. You will own the full lifecycle of success, from onboarding to renewal by leveraging product usage insights, stakeholder engagement, and cross-functional collaboration to drive product adoption, minimize churn, and grow account value. Where you\u2019ll work This role will be based in our Seattle office. We are a hybrid environment that combines the energy and connections of being in the office with the benefits and flexibility of working from home. We currently require a minimum of three coordinated days in the office per week, Monday, Wednesday and Thursday. As a perk, we also have up to four weeks per year of fully remote work! Responsibilities Develop and own strategic account plans to drive retention, expansion, and adoption across your portfolio of enterprise customers. Act as a trusted advisor to finance stakeholders by providing guidance on best practices across spend management, credit policy, reconciliation workflows, and financial reporting automation. Build multi-threaded relationships across functional areas (Finance, Procurement, AP, IT, and Security) to increase platform stickiness and customer engagement. Lead business reviews and financial health checks that drive executive alignment and showcase ROI. Proactively identify and mitigate churn risks through data analysis, usage insights, and issue resolution. Partner cross-functionally with Sales, Product, Credit, Risk, and Operations teams to deliver a seamless customer experience and advocate for product improvements. Own key metrics for your accounts: GMV growth, &nbsp;product adoption, credit utilization, and customer health scores. Requirements 4+ years in a customer-facing role owning account health, executive relationships, or expansion strategy. Direct experience with core accounting workflows, such as invoice processing, T&amp;E tracking, budgeting, accounts payable, ERP systems (e.g., NetSuite, QuickBooks), or spend management tools. Experience managing complex, global enterprise accounts (10,000+ employees), with the ability to navigate nuanced org structures and build durable partnerships. Strong business acumen with a finance-first mindset and comfortable speaking the language of CFOs, Controllers, and FP&amp;A teams. Ability to synthesize product usage data into strategic recommendations that drive tangible customer outcomes. Demonstrated success in cross-functional collaboration and influencing internal roadmaps based on customer needs. Bachelor's degree required; finance, business, or related fields preferred. Bonus Points You love solving complex business problems with innovative financial solutions. You think in systems, not silos and understand the bigger picture of customer value. You are energized by being proactive, not reactive, in helping customers succeed. You want to be a thought leader and internal resource for enterprise strategy across the CS org. Compensation The expected OTE range for this role is $132,888 - $166,110 USD. The starting wage will depend on a number of factors including the candidate\u2019s location, skills, experience, market demands, and internal pay parity. The OTE figure listed here includes base salary and commissions, which may or may not be earned depending on performance.&nbsp; Depending on the position offered, equity and other forms of compensation may be provided as part of a total compensation package. Please be aware, job-seekers may be at risk of targeting by malicious actors looking for personal data. Brex recruiters will only reach out via LinkedIn or email with a&nbsp; brex.com &nbsp;domain. Any outreach claiming to be from Brex via other sources should be ignored.",
+      "job_description": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex\u2019s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We\u2019re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream. We make this a reality by empowering you with the tools, resources, and support you need to grow your career. Sales at Brex Sales is the growth engine at Brex. We bring in new customers, expand existing relationships, and drive the company\u2019s bottom line. With unlimited territories and uncapped opportunity, your ambition sets the ceiling. We win together, celebrate often, and reward performance. If you want to sell a category-defining product with real ownership, this is your team. What you\u2019ll do As an Enterprise Customer Success Manager, you will serve as a financial technology advisor to Brex\u2019s largest customers by partnering with CFOs, Controllers, and finance ops teams to ensure they unlock the full value of Brex\u2019s solutions. You\u2019ll create and execute on account strategies tailored to each customer\u2019s business goals, delivering high-impact outcomes across their financial stack. You will own the full lifecycle of success, from onboarding to renewal by leveraging product usage insights, stakeholder engagement, and cross-functional collaboration to drive product adoption, minimize churn, and grow account value. Where you\u2019ll work This role will be based in our New York City office. We are a hybrid environment that combines the energy and connections of being in the office with the benefits and flexibility of working from home. We currently require a minimum of three coordinated days in the office per week, Monday, Wednesday and Thursday. As a perk, we also have up to four weeks per year of fully remote work! Responsibilities Develop and own strategic account plans to drive retention, expansion, and adoption across your portfolio of enterprise customers. Act as a trusted advisor to finance stakeholders by providing guidance on best practices across spend management, credit policy, reconciliation workflows, and financial reporting automation. Build multi-threaded relationships across functional areas (Finance, Procurement, AP, IT, and Security) to increase platform stickiness and customer engagement. Lead business reviews and financial health checks that drive executive alignment and showcase ROI. Proactively identify and mitigate churn risks through data analysis, usage insights, and issue resolution. Partner cross-functionally with Sales, Product, Credit, Risk, and Operations teams to deliver a seamless customer experience and advocate for product improvements. Own key metrics for your accounts: GMV growth, &nbsp;product adoption, credit utilization, and customer health scores. Requirements 4+ years in a customer-facing role owning account health, executive relationships, or expansion strategy. Direct experience with core accounting workflows, such as invoice processing, T&amp;E tracking, budgeting, accounts payable, ERP systems (e.g., NetSuite, QuickBooks), or spend management tools. Experience managing complex, global enterprise accounts (10,000+ employees), with the ability to navigate nuanced org structures and build durable partnerships. Strong business acumen with a finance-first mindset and comfortable speaking the language of CFOs, Controllers, and FP&amp;A teams. Ability to synthesize product usage data into strategic recommendations that drive tangible customer outcomes. Demonstrated success in cross-functional collaboration and influencing internal roadmaps based on customer needs. Bachelor's degree required; finance, business, or related fields preferred. Bonus Points You love solving complex business problems with innovative financial solutions. You think in systems, not silos and understand the bigger picture of customer value. You are energized by being proactive, not reactive, in helping customers succeed. You want to be a thought leader and internal resource for enterprise strategy across the CS org. Compensation The expected OTE range for this role is $132,888 - $166,110 USD. The starting wage will depend on a number of factors including the candidate\u2019s location, skills, experience, market demands, and internal pay parity. The OTE figure listed here includes base salary and commissions, which may or may not be earned depending on performance.&nbsp; Depending on the position offered, equity and other forms of compensation may be provided as part of a total compensation package. Please be aware, job-seekers may be at risk of targeting by malicious actors looking for personal data. Brex recruiters will only reach out via LinkedIn or email with a&nbsp; brex.com &nbsp;domain. Any outreach claiming to be from Brex via other sources should be ignored.",
       "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
       "tags": [
         "Official/direct source",
         "Customer Success",
         "Priority Apply",
-        "Aging",
+        "Active",
         "New Today"
       ],
       "sources": [
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -759,8 +715,52 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": false
+    },
+    {
+      "id": "brex-enterprise-customer-success-manager-seattle-washington-united-states",
+      "canonical_key": "brex|enterprise customer success manager|seattle washington united states",
+      "company": "Brex",
+      "title": "Enterprise Customer Success Manager",
+      "location": "Seattle, Washington, United States",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "priority_bucket": "Priority Apply",
+      "salary_min": 132888,
+      "salary_max": 166110,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-06-22",
+      "apply_url": "https://www.brex.com/careers/8335440002?gh_jid=8335440002",
+      "source_url": "https://www.brex.com/careers/8335440002?gh_jid=8335440002",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 71,
+      "interview_probability": "Low",
+      "application_time_minutes": 40,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Recommended",
+      "freshness": "Aging",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex\u2019s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We\u2019re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream. We make this a reality by empowering you with the tools, resources, and support you need to grow your career. Sales at Brex Sales is the growth engine at Brex. We bring in new customers, expand existing relationships, and drive the company\u2019s bottom line. With unlimited territories and uncapped opportunity, your ambition sets the ceiling. We win together, celebrate often, and reward performance. If you want to sell a category-defining product with real ownership, this is your team. What you\u2019ll do As an Enterprise Customer Success Manager, you will serve as a financial technology advisor to Brex\u2019s largest customers by partnering with CFOs, Controllers, and finance ops teams to ensure they unlock the full value of Brex\u2019s solutions. You\u2019ll create and execute on account strategies tailored to each customer\u2019s business goals, delivering high-impact outcomes across their financial stack. You will own the full lifecycle of success, from onboarding to renewal by leveraging product usage insights, stakeholder engagement, and cross-functional collaboration to drive product adoption, minimize churn, and grow account value. Where you\u2019ll work This role will be based in our Seattle office. We are a hybrid environment that combines the energy and connections of being in the office with the benefits and flexibility of working from home. We currently require a minimum of three coordinated days in the office per week, Monday, Wednesday and Thursday. As a perk, we also have up to four weeks per year of fully remote work! Responsibilities Develop and own strategic account plans to drive retention, expansion, and adoption across your portfolio of enterprise customers. Act as a trusted advisor to finance stakeholders by providing guidance on best practices across spend management, credit policy, reconciliation workflows, and financial reporting automation. Build multi-threaded relationships across functional areas (Finance, Procurement, AP, IT, and Security) to increase platform stickiness and customer engagement. Lead business reviews and financial health checks that drive executive alignment and showcase ROI. Proactively identify and mitigate churn risks through data analysis, usage insights, and issue resolution. Partner cross-functionally with Sales, Product, Credit, Risk, and Operations teams to deliver a seamless customer experience and advocate for product improvements. Own key metrics for your accounts: GMV growth, &nbsp;product adoption, credit utilization, and customer health scores. Requirements 4+ years in a customer-facing role owning account health, executive relationships, or expansion strategy. Direct experience with core accounting workflows, such as invoice processing, T&amp;E tracking, budgeting, accounts payable, ERP systems (e.g., NetSuite, QuickBooks), or spend management tools. Experience managing complex, global enterprise accounts (10,000+ employees), with the ability to navigate nuanced org structures and build durable partnerships. Strong business acumen with a finance-first mindset and comfortable speaking the language of CFOs, Controllers, and FP&amp;A teams. Ability to synthesize product usage data into strategic recommendations that drive tangible customer outcomes. Demonstrated success in cross-functional collaboration and influencing internal roadmaps based on customer needs. Bachelor's degree required; finance, business, or related fields preferred. Bonus Points You love solving complex business problems with innovative financial solutions. You think in systems, not silos and understand the bigger picture of customer value. You are energized by being proactive, not reactive, in helping customers succeed. You want to be a thought leader and internal resource for enterprise strategy across the CS org. Compensation The expected OTE range for this role is $132,888 - $166,110 USD. The starting wage will depend on a number of factors including the candidate\u2019s location, skills, experience, market demands, and internal pay parity. The OTE figure listed here includes base salary and commissions, which may or may not be earned depending on performance.&nbsp; Depending on the position offered, equity and other forms of compensation may be provided as part of a total compensation package. Please be aware, job-seekers may be at risk of targeting by malicious actors looking for personal data. Brex recruiters will only reach out via LinkedIn or email with a&nbsp; brex.com &nbsp;domain. Any outreach claiming to be from Brex via other sources should be ignored.",
+      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Customer Success",
+        "Priority Apply",
+        "Aging",
+        "New Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -803,8 +803,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -847,8 +847,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -891,8 +891,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -935,8 +935,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -979,8 +979,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1023,8 +1023,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1067,8 +1067,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1111,8 +1111,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1130,7 +1130,7 @@
       "salary_max": 258000,
       "salary_period": "year",
       "salary_confidence": "medium",
-      "posted_at": "2026-07-20",
+      "posted_at": "2026-07-22",
       "apply_url": "https://job-boards.greenhouse.io/twilio/jobs/7957637",
       "source_url": "https://job-boards.greenhouse.io/twilio/jobs/7957637",
       "source": "Greenhouse",
@@ -1142,7 +1142,7 @@
       "cover_letter": "Recommended",
       "freshness": "New <72h",
       "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Who we are&nbsp; At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! . &nbsp; See yourself at Twilio Join the team as Twilio\u2019s next Director, Strategic Accounts. About the job This position is needed to lead our growing Strategic Accounts team aligned to the Regulated Verticals Healthcare sector. This person will lead, mentor, and scale a high performing team of Strategic Account Executives (6-8 individual contributors) focused on revenue growth and cross selling Twilio\u2019s new products to existing named accounts across North America. Responsibilities In this role, you\u2019ll: Be customer focused, metrics driven, embrace a consultative sales philosophy, and are passionate about helping your team succeed. Our customers are often application owners, software engineering leaders, product managers, entrepreneurs, and line of business owners. You must love talking to all types of customers about building their businesses and helping them drive innovation across many different types of use cases centered around how our customers communicate with their customers. Support your team by helping them build and progress pipeline, work across functions to execute complex deals and lead strategic prospect and customer meetings. You will conduct weekly 1:1's with each team member, provide tactical and strategic deal guidance, motivation, and career development.&nbsp; Maintain accurate and up-to-date CRM data for your team and provide reliable weekly forecast information to upper management. Qualifications&nbsp; Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking for people who will bring something new to the table! *Required: 8+ years of technical solutions selling experience, with 4+ years experience managing a team of account managers or strategic account executives within the Enterprise segment&nbsp; A leader who lives the Twilio Magic and has a demonstrated track record of success. You should feel comfortable with selling a platform or SaaS, but if you have experience with Contact Centers, Messaging, Call Tracking and other communication solutions even better. Customer focused, metrics driven, embraces a consultative sales philosophy, and is passionate about helping their team succeed. Experience building high performing sales teams, managing forecasting, and supporting fiscal planning and revenue tracking for all major accounts in the region&nbsp; Demonstrated ability to develop strong consultative relationships with external partners and internal cross-functional teams at all levels Bring data driven methodology and quantitative analytical skills, including pipeline management and forecasting Excellent time management/prioritization skills Strong verbal and written communication skills Share best practices and knowledge with the extended team to produce optimal results for the region. A Bachelor\u2019s degree or equivalent experience Desired: Experience with Contact Centers, Messaging, Call Tracking and other communication solutions is preferred Location This role will be remote, but is not eligible to be hired in CA, CT, IL, MA, MD, NJ, NY, OR, PA, RI, TX, VA, WA, or Washington DC. Travel&nbsp; We prioritize connection and opportunities to build relationships with our customers and each other. For this role, approximately 15% travel is anticipated to help you connect in-person in a meaningful way.&nbsp; What We Offer Working at Twilio offers many benefits, including competitive pay, generous time off, ample parental and wellness leave, healthcare, a retirement savings program, and much more. Offerings vary by location. Compensation *Please note this role is open to candidates outside of California, Colorado, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, New Jersey, New York, Vermont, Washington D.C., and Washington State. The information below is provided for candidates hired in those locations only. The estimated pay ranges for this role are as follows: Based in Colorado, Hawaii, Minnesota or Vermont : $185,760.00 - $232,200.00. Based in Washington D.C., Illinois, Maryland, Massachusetts or California (outside of the San Francisco Bay Area): $196,080.00 - $245,100.00. Based in New York, New Jersey, Washington State, or the San Francisco Bay area, California: $206,400.00 - $258,000.00. This role may be eligible to participate in Twilio\u2019s equity plan. All roles are generally eligible for the following benefits: health care insurance, 401(k) retirement account, paid sick time, paid personal time off, paid parental leave. This role is eligible to earn commissions.&nbsp; The successful candidate\u2019s starting salary will be determined based on permissible, non-discriminatory factors such as skills, experience, and geographic location.&nbsp; Applications for this role are intended to be accepted until August 15, 2026, but may change based on business needs.&nbsp; Twilio thinks big. Do you? We like to solve problems, take initiative, pitch in when needed, and are always up for trying new things. That's why we seek out colleagues who embody our values \u2014 something we call Twilio Magic . Additionally, we empower employees to build positive change in their communities by supporting their volunteering and donation efforts. So, if you're ready to unleash your full potential, do your best work, and be the best version of yourself, apply now! If this role isn't what you're looking for, please consider other open positions. Twilio is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, genetic information, political views or activity, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Qualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. Additionally, Twilio participates in the E-Verify program in certain locations, as required by law.",
+      "job_description": "Who we are&nbsp; At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! . &nbsp; See yourself at Twilio Join the team as Twilio\u2019s next Director, Strategic Accounts. About the job This position is needed to lead our growing Strategic Accounts team aligned to the Regulated Verticals Healthcare sector. This person will lead, mentor, and scale a high performing team of Strategic Account Executives (6-8 individual contributors) focused on revenue growth and cross selling Twilio\u2019s new products to existing named accounts across North America. Responsibilities In this role, you\u2019ll: Be customer focused, metrics driven, embrace a consultative sales philosophy, and are passionate about helping your team succeed. Our customers are often application owners, software engineering leaders, product managers, entrepreneurs, and line of business owners. You must love talking to all types of customers about building their businesses and helping them drive innovation across many different types of use cases centered around how our customers communicate with their customers. Support your team by helping them build and progress pipeline, work across functions to execute complex deals and lead strategic prospect and customer meetings. You will conduct weekly 1:1's with each team member, provide tactical and strategic deal guidance, motivation, and career development.&nbsp; Maintain accurate and up-to-date CRM data for your team and provide reliable weekly forecast information to upper management. Qualifications&nbsp; Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking for people who will bring something new to the table! Required: 8+ years of technical solutions selling experience, with 4+ years experience managing a team of account managers or strategic account executives within the Enterprise segment&nbsp; A leader who lives the Twilio Magic and has a demonstrated track record of success. You should feel comfortable with selling a platform or SaaS, but if you have experience with Contact Centers, Messaging, Call Tracking and other communication solutions even better. Customer focused, metrics driven, embraces a consultative sales philosophy, and is passionate about helping their team succeed. Experience building high performing sales teams, managing forecasting, and supporting fiscal planning and revenue tracking for all major accounts in the region&nbsp; Demonstrated ability to develop strong consultative relationships with external partners and internal cross-functional teams at all levels Bring data driven methodology and quantitative analytical skills, including pipeline management and forecasting Excellent time management/prioritization skills Strong verbal and written communication skills Share best practices and knowledge with the extended team to produce optimal results for the region. A Bachelor\u2019s degree or equivalent experience Desired: Experience with Contact Centers, Messaging, Call Tracking and other communication solutions is preferred Location This role will be remote and based in the United States. Travel&nbsp; We prioritize connection and opportunities to build relationships with our customers and each other. For this role, approximately 15% travel is anticipated to help you connect in-person in a meaningful way.&nbsp; What We Offer Working at Twilio offers many benefits, including competitive pay, generous time off, ample parental and wellness leave, healthcare, a retirement savings program, and much more. Offerings vary by location. Compensation *Please note this role is open to candidates outside of California, Colorado, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, New Jersey, New York, Vermont, Washington D.C., and Washington State. The information below is provided for candidates hired in those locations only. The estimated pay ranges for this role are as follows: Based in Colorado, Hawaii, Minnesota or Vermont : $185,760.00 - $232,200.00. Based in Washington D.C., Illinois, Maryland, Massachusetts or California (outside of the San Francisco Bay Area): $196,080.00 - $245,100.00. Based in New York, New Jersey, Washington State, or the San Francisco Bay area, California: $206,400.00 - $258,000.00. This role may be eligible to participate in Twilio\u2019s equity plan. All roles are generally eligible for the following benefits: health care insurance, 401(k) retirement account, paid sick time, paid personal time off, paid parental leave. This role is eligible to earn commissions.&nbsp; The successful candidate\u2019s starting salary will be determined based on permissible, non-discriminatory factors such as skills, experience, and geographic location.&nbsp; Applications for this role are intended to be accepted until August 15, 2026, but may change based on business needs.&nbsp; Twilio thinks big. Do you? We like to solve problems, take initiative, pitch in when needed, and are always up for trying new things. That's why we seek out colleagues who embody our values \u2014 something we call Twilio Magic . Additionally, we empower employees to build positive change in their communities by supporting their volunteering and donation efforts. So, if you're ready to unleash your full potential, do your best work, and be the best version of yourself, apply now! If this role isn't what you're looking for, please consider other open positions. Twilio is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, genetic information, political views or activity, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Qualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. Additionally, Twilio participates in the E-Verify program in certain locations, as required by law.",
       "reason": "Matches strategic accounts, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
       "tags": [
         "Official/direct source",
@@ -1155,8 +1155,52 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": false
+    },
+    {
+      "id": "launchdarkly-technical-and-agentic-enablement-lead-remote-us",
+      "canonical_key": "launchdarkly|technical and agentic enablement lead|remote us",
+      "company": "LaunchDarkly",
+      "title": "Technical and Agentic Enablement Lead",
+      "location": "Remote - US",
+      "location_type": "remote",
+      "track": "Enablement",
+      "priority_bucket": "Strong Opportunity",
+      "salary_min": 178000,
+      "salary_max": 210000,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-07-22",
+      "apply_url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7724911003",
+      "source_url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7724911003",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 63,
+      "interview_probability": "Low",
+      "application_time_minutes": 40,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Recommended",
+      "freshness": "New <72h",
+      "main_risk": "May require deeper direct SaaS experience",
+      "job_description": "About the Job: LaunchDarkly is seeking a unique combination of someone who can deliver exceptional technical enablement and build the AI systems that scale it. This role sits at the intersection of technical enablement and agentic workflows. You will own the technical enablement program for our Solutions Engineering organization, as well as partner closely with Solutions Architects to ensure technical fluency across the org. In parallel, you will design and deploy AI-powered systems that improve field effectiveness, reduce manual effort, and transform how enablement is delivered. Success in this role requires operating as an AI-native practitioner, embedding AI into how you work, how enablement is delivered, and how the field engages. You will deliver high-impact programs while continuously evolving them into scalable, intelligent systems. Responsibilities: Own Technical Enablement Own the design and execution of technical enablement for Solutions Engineering, including onboarding, product launches, competitive positioning, and skills development Deliver high-impact live, virtual and on demand training, certifications, and workshops Define competency frameworks and partner with leadership on team development Expand technical fluency across the broader GTM organization where relevant Measure and improve readiness through clear performance metrics Build Agentic Enablement Systems Design and deploy AI workflows and agents that support technical sellers in their daily workflows (e.g., discovery prep, demo support, objection handling, knowledge retrieval) Systematically automate repeatable enablement activities to improve scale and consistency Partner cross-functionally to prioritize, launch, and drive adoption of AI-powered field solutions Scale Enablement Through AI Identify and implement high-impact AI use cases across content, operations, and program delivery across the enablement team&nbsp; Build agents and shared workflows that increase leverage across the team and teach team how to use and replicate so capability grows Own the AI structure and foundation that ensures effective, consistent, scalable solutions across the team Model AI-native ways of working and help others adopt them Drive Cross-Functional Impact Collaborate with GTM, Product, PMM, RevOps, and Field Operations to align enablement with business priorities Represent technical field needs in roadmap and prioritization discussions Manage programs end-to-end, from scoping through execution and iteration Play an active role in GTM operating rhythms, including COE reviews, QBRs, and leadership updates About You: Equally strong as a technical educator and a systems builder Motivated to replace manual work with scalable, AI-driven solutions Structured thinker who brings clarity to complex, ambiguous problems Collaborative and effective at working across teams without formal authority Proven innovator who experiments early and scales what works Qualifications: 8+ years in a SaaS technical GTM role (e.g., Solutions Engineering, Solutions Architecture, Technical Sales, or Enablement) Experience delivering technical training and enablement programs for field teams Hands-on experience building AI-driven tools, agents, or automations with real-world usage Strong technical fluency, including the ability to read and debug code Experience with modern AI tooling (e.g., Relevance AI, Claude, LangChain) Deep understanding of the technical sales lifecycle and field engagement models Familiarity with value-based selling methodologies (e.g., MEDDPICC, Force Management) Experience with common GTM tools (e.g., Salesforce, Gong, Highspot, Outreach) Strong program management and execution skills Nice to Haves:&nbsp; Programming experience (Python or JavaScript) SQL for data analysis and workflow troubleshooting Familiarity with LaunchDarkly or similar developer-focused platforms Background in high-growth developer tools, API-first, or AI/ML companies Why This Role Matters: This role will shape how technical enablement is delivered and scaled at LaunchDarkly\u2014combining hands-on program execution with the systems that make it more effective over time. Pay: Target pay ranges based on Geographic Zones* for Level 5: Zone 1: San Francisco/Bay Area or NYC Metropolitan Area, Boston, Seattle - $ 152,000 - $210,000 ** Zone 2: Irvine, LA, Monterey, Santa Barbara, Santa Rosa, Austin, Portland, Philadelphia, Chicago - $ 137,000 - $189,000 ** Zone 3: All other US locations - $ 129,000 - $178,000 ** LaunchDarkly operates from a place of high trust and transparency; we are happy to state the pay range for our open roles to best align with your needs. Exact compensation may vary based on skills, experience, and location. *Within the United States, our geographic pay zones are defined by counties surrounding major metropolitan areas. **Restricted Stock Units (RSUs), health, vision, and dental insurance, and mental health benefits in addition to salary. About LaunchDarkly: Modern software delivery was supposed to be the foundation for a thriving digital business but reality has proven otherwise. Slow, inefficient development cycles, costly outages, and fragmented customer experiences are preventing developers from building their best software. The LaunchDarkly platform helps developers innovate on new features faster while protecting them with a safety valve to instantly rewind when things go wrong. Developers can target product experiences to any customer segment and maximize the business impact of every feature. And by gradually rolling out new application components, they escape nightmare \"big-bang\" technology migrations.&nbsp; The LaunchDarkly platform was built to guide engineers to the next frontier of DevOps by: Improving the velocity and stability of software releases, without the fear of end customer outages Delivering targeted experiences by easily personalizing features to customer cohorts Maximizing the business impact of every feature through the ability to experiment and optimize Coordinating the release and optimization of software to provide consistent experiences across mobile platforms and device types Improving the effectiveness and productivity of engineering teams, by providing insights into engineering cadence and stability At LaunchDarkly, we believe in the power of teams. We're building a team that is humble, open, collaborative, respectful and kind. We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, gender identity, sexual orientation, age, marital status, veteran status, or disability status. LD invites any applicant to review our written Affirmative Action Plan. To do so, contact People Ops at hr@launchdarkly.com .&nbsp; Do you need a disability accommodation? Fill out this&nbsp; accommodations request form &nbsp;and someone from our People Operations team will contact you for assistance.&nbsp; Your safety matters to us. To protect yourself from potential scams, LaunchDarkly recruiters will only contact you from @LaunchDarkly .com email addresses or via LinkedIn from \"Verified Recruiter\" accounts. Be cautious of emails from other domains.&nbsp; Legitimate LaunchDarkly recruiters will never ask for money, fees, or banking information before making a job offer. LaunchDarkly will never make a job offer without conducting a formal interview process. Our interview process does not involve asking detailed questions by email. If you are ever unsure about a communication that you receive, don't click any links\u2014visit Careers | LaunchDarkly &nbsp; directly for confirmed job openings and links to apply. Please notify us of any fraudulent representation by sending an email to&nbsp; careers@launchdarkly.com .",
+      "reason": "Matches enablement, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Enablement",
+        "Strong Opportunity",
+        "New <72h",
+        "New Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1199,18 +1243,18 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-07-22T12:57:28.931530+00:00",
-      "last_seen_at": "2026-07-22T12:57:28.931530+00:00",
+      "first_seen_at": "2026-07-23T12:58:45.649108+00:00",
+      "last_seen_at": "2026-07-23T12:58:45.649108+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
     }
   ],
-  "match_count": 26,
-  "new_today_count": 26,
-  "qualified_before_validation": 35,
-  "qualified_after_validation": 35,
-  "discovered_before_cap": 35,
+  "match_count": 27,
+  "new_today_count": 27,
+  "qualified_before_validation": 37,
+  "qualified_after_validation": 37,
+  "discovered_before_cap": 37,
   "errors": [
     "Adzuna group 1: HTTP Error 401: Unauthorized",
     "Adzuna group 2: HTTP Error 401: Unauthorized",
