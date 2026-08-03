@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T12:35:44.013303+00:00",
+  "updated_at": "2026-08-03T13:58:31.137841+00:00",
   "minimum_salary": 130000,
   "daily_job_cap": 100,
   "maximum_jobs_per_company": 3,
@@ -15,7 +15,7 @@
     },
     "Greenhouse": {
       "active": true,
-      "matches": 56
+      "matches": 52
     },
     "Lever": {
       "active": false,
@@ -90,8 +90,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -135,8 +135,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -180,53 +180,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": true
-    },
-    {
-      "id": "twilio-senior-customer-success-manager-remote-us",
-      "canonical_key": "twilio|senior customer success manager|remote us",
-      "company": "Twilio",
-      "title": "Senior Customer Success Manager",
-      "location": "Remote - US",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "priority_bucket": "Priority Apply",
-      "salary_min": 162880,
-      "salary_max": 162880,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-07-30",
-      "apply_url": "https://job-boards.greenhouse.io/twilio/jobs/8092234",
-      "source_url": "https://job-boards.greenhouse.io/twilio/jobs/8092234",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 82,
-      "interview_probability": "Medium",
-      "application_time_minutes": 25,
-      "recommended_resume": "Customer Success Leadership",
-      "cover_letter": "Optional",
-      "freshness": "New <72h",
-      "main_risk": "Global scope may be a stretch",
-      "job_description": "Who we are&nbsp; At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. A quick heads-up about hiring and how we work : We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!&nbsp; Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings.&nbsp; See yourself at Twilio Join the team as our next Senior Customer Success Manager on Twilio\u2019s Segment team. About the job The Customer Success Management team at Twilio is the central touchpoint for our customers, orchestrating the post-sales customer lifecycle in partnership with professional services, sales and support. The team manages the customer relationship, coordinates internally within Twilio, drives product adoption and guides the customer to take full advantage of our ecosystem. Fundamentally, the CSM team ensures customers derive value from our platform, and ultimately renew and grow their relationships with us. As a Senior Customer Success Manager, Key accounts you will be at the forefront of driving customer satisfaction for our largest customers by developing tailored strategies that align with both customer goals and company objectives. Your work will directly impact customer retention and growth, as you will solve complex challenges, influence strategic decisions and advocate for customer needs across executive stakeholders. We are looking for CSMs who are passionate about first party data and how it can transform organizations. As a CSM, you will have the opportunity to help some of the world\u2019s most influential companies solve their toughest data and communication problems. So if you get excited about things like defining culture and process, you may be the Customer Success Manager we\u2019re looking for! Responsibilities In this role, you\u2019ll: Ensure customer success by driving full value realization of the platform. Identify customer business outcomes and their aligned value metrics. Develop and execute strategic roadmaps for product adoption, customer satisfaction, and advocacy. Manage the customer relationship, acting as a trusted advisor to executive and senior leadership in Engineering, Product, Business Analytics, and Marketing. Cultivate strong relationships with IT, engineering, and development teams to drive engagement. Identify and expand opportunities to deepen customer engagement and account growth. Collaborate with internal teams to optimize implementations and resolve complex technical challenges. Build and nurture new stakeholder relationships to unlock expansion opportunities. Partner with Sales on account renewals and expansion strategies. Analyze your portfolio to prioritize high-impact risks and opportunities. Proactively identify risks, prioritize opportunities, and develop mitigation plans for high-impact accounts. Become a platform expert while staying current with industry trends in data and analytics. Ensure execution of customer maturity and technical discussions via coordinating solutions internally across engineering, marketing, product, and support teams. Qualifications&nbsp; Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking for people who will bring something new to the table! *Required: 4+ years managing enterprise customers with portfolios of $1M+ ACV per client. 6+ years in customer-facing roles (CSM, account management, or consulting) Proven experience working within or supporting Fortune 500 companies or similarly large organizations. Expert in customer strategy development, bringing data-driven insights and best practices to optimize client success. Proven ability to build and sustain relationships with stakeholders across all levels and business units within an organizations&nbsp; Intellectually curious, asks critical questions, and challenges ideas for better solutions Develops and implements strategies to maximize revenue growth and product adoption for the assigned portfolio, leveraging insights into client needs, market trends, and financial metrics. Excellent communication skills for engaging executive stakeholders through presentations and discussions. Skilled in problem-solving, able to simplify complex issues and develop actionable strategies for clients. Strong collaboration and influence skills to align internal teams and external stakeholders. Thrives in dynamic environments, adept at creating structure and processes for high-impact customers. Focus on customer satisfaction and retention, with a track record of anticipating needs and delivering tailored solutions. Passionate about leveraging data and technology to drive business outcomes. &nbsp; Location This role will be remote, but is not eligible to be hired in CA, CT, NJ, NY, PA, WA. Travel&nbsp; We prioritize connection and opportunities to build relationships with our customers and each other. For this role, approximately 25% travel is anticipated to help you connect in-person in a meaningful way.&nbsp; What We Offer Working at Twilio offers many benefits, including competitive pay, generous time off, ample parental and wellness leave, healthcare, a retirement savings program, and much more. Offerings vary by location. Compensation *Please note this role is open to candidates outside of California, Colorado, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, New Jersey, New York, Vermont, Washington D.C., and Washington State. The information below is provided for candidates hired in those locations only. The estimated pay ranges for this role are as follows: Based in Colorado, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, Vermont or Washington D.C. : $117.272,00&nbsp; - $146.590,00. Based in New York, New Jersey, Washington State, or California (outside of the San Francisco Bay area): $123.792,00 - $154.740,00 Based in the San Francisco Bay area, California: $130.304,00 - $162,880.00 This role may be eligible to participate in Twilio\u2019s equity plan and corporate bonus plan. All roles are generally eligible for the following benefits: health care insurance, 401(k) retirement account, paid sick time, paid personal time off, paid parental leave. The successful candidate\u2019s starting salary will be determined based on permissible, non-discriminatory factors such as skills, experience, and geographic location. Applications for this role are intended to be accepted until Aug 20th, but may change based on business needs.&nbsp; &nbsp; Twilio thinks big. Do you? We like to solve problems, take initiative, pitch in when needed, and are always up for trying new things. That's why we seek out colleagues who embody our values \u2014 something we call Twilio Magic . Additionally, we empower employees to build positive change in their communities by supporting their volunteering and donation efforts. So, if you're ready to unleash your full potential, do your best work, and be the best version of yourself, apply now! If this role isn't what you're looking for, please consider other open positions. Stay alert to recruitment fraud We care about your safety. Scammers sometimes impersonate Twilio recruiters through fake job postings, emails, websites, or messages. Please ensure you are engaging with an official @ twilio.com email address. We will never ask for payment, gift cards, cryptocurrency, or banking information during the recruiting process. We do not make job offers without a formal interview process or conduct interviews exclusively through text-based messaging apps. Twilio is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, genetic information, political views or activity, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Qualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. Additionally, Twilio participates in the E-Verify program in certain locations, as required by law.",
-      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Customer Success",
-        "Priority Apply",
-        "New <72h",
-        "New Today",
-        "Top 10 Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -270,8 +225,53 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": true
+    },
+    {
+      "id": "twilio-senior-customer-success-manager-remote-us",
+      "canonical_key": "twilio|senior customer success manager|remote us",
+      "company": "Twilio",
+      "title": "Senior Customer Success Manager",
+      "location": "Remote - US",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "priority_bucket": "Priority Apply",
+      "salary_min": 162880,
+      "salary_max": 162880,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-07-30",
+      "apply_url": "https://job-boards.greenhouse.io/twilio/jobs/8092234",
+      "source_url": "https://job-boards.greenhouse.io/twilio/jobs/8092234",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 80,
+      "interview_probability": "Medium",
+      "application_time_minutes": 25,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Recommended",
+      "freshness": "Recent",
+      "main_risk": "Global scope may be a stretch",
+      "job_description": "Who we are&nbsp; At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. A quick heads-up about hiring and how we work : We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!&nbsp; Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings.&nbsp; See yourself at Twilio Join the team as our next Senior Customer Success Manager on Twilio\u2019s Segment team. About the job The Customer Success Management team at Twilio is the central touchpoint for our customers, orchestrating the post-sales customer lifecycle in partnership with professional services, sales and support. The team manages the customer relationship, coordinates internally within Twilio, drives product adoption and guides the customer to take full advantage of our ecosystem. Fundamentally, the CSM team ensures customers derive value from our platform, and ultimately renew and grow their relationships with us. As a Senior Customer Success Manager, Key accounts you will be at the forefront of driving customer satisfaction for our largest customers by developing tailored strategies that align with both customer goals and company objectives. Your work will directly impact customer retention and growth, as you will solve complex challenges, influence strategic decisions and advocate for customer needs across executive stakeholders. We are looking for CSMs who are passionate about first party data and how it can transform organizations. As a CSM, you will have the opportunity to help some of the world\u2019s most influential companies solve their toughest data and communication problems. So if you get excited about things like defining culture and process, you may be the Customer Success Manager we\u2019re looking for! Responsibilities In this role, you\u2019ll: Ensure customer success by driving full value realization of the platform. Identify customer business outcomes and their aligned value metrics. Develop and execute strategic roadmaps for product adoption, customer satisfaction, and advocacy. Manage the customer relationship, acting as a trusted advisor to executive and senior leadership in Engineering, Product, Business Analytics, and Marketing. Cultivate strong relationships with IT, engineering, and development teams to drive engagement. Identify and expand opportunities to deepen customer engagement and account growth. Collaborate with internal teams to optimize implementations and resolve complex technical challenges. Build and nurture new stakeholder relationships to unlock expansion opportunities. Partner with Sales on account renewals and expansion strategies. Analyze your portfolio to prioritize high-impact risks and opportunities. Proactively identify risks, prioritize opportunities, and develop mitigation plans for high-impact accounts. Become a platform expert while staying current with industry trends in data and analytics. Ensure execution of customer maturity and technical discussions via coordinating solutions internally across engineering, marketing, product, and support teams. Qualifications&nbsp; Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking for people who will bring something new to the table! *Required: 4+ years managing enterprise customers with portfolios of $1M+ ACV per client. 6+ years in customer-facing roles (CSM, account management, or consulting) Proven experience working within or supporting Fortune 500 companies or similarly large organizations. Expert in customer strategy development, bringing data-driven insights and best practices to optimize client success. Proven ability to build and sustain relationships with stakeholders across all levels and business units within an organizations&nbsp; Intellectually curious, asks critical questions, and challenges ideas for better solutions Develops and implements strategies to maximize revenue growth and product adoption for the assigned portfolio, leveraging insights into client needs, market trends, and financial metrics. Excellent communication skills for engaging executive stakeholders through presentations and discussions. Skilled in problem-solving, able to simplify complex issues and develop actionable strategies for clients. Strong collaboration and influence skills to align internal teams and external stakeholders. Thrives in dynamic environments, adept at creating structure and processes for high-impact customers. Focus on customer satisfaction and retention, with a track record of anticipating needs and delivering tailored solutions. Passionate about leveraging data and technology to drive business outcomes. &nbsp; Location This role will be remote, but is not eligible to be hired in CA, CT, NJ, NY, PA, WA. Travel&nbsp; We prioritize connection and opportunities to build relationships with our customers and each other. For this role, approximately 25% travel is anticipated to help you connect in-person in a meaningful way.&nbsp; What We Offer Working at Twilio offers many benefits, including competitive pay, generous time off, ample parental and wellness leave, healthcare, a retirement savings program, and much more. Offerings vary by location. Compensation *Please note this role is open to candidates outside of California, Colorado, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, New Jersey, New York, Vermont, Washington D.C., and Washington State. The information below is provided for candidates hired in those locations only. The estimated pay ranges for this role are as follows: Based in Colorado, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, Vermont or Washington D.C. : $117.272,00&nbsp; - $146.590,00. Based in New York, New Jersey, Washington State, or California (outside of the San Francisco Bay area): $123.792,00 - $154.740,00 Based in the San Francisco Bay area, California: $130.304,00 - $162,880.00 This role may be eligible to participate in Twilio\u2019s equity plan and corporate bonus plan. All roles are generally eligible for the following benefits: health care insurance, 401(k) retirement account, paid sick time, paid personal time off, paid parental leave. The successful candidate\u2019s starting salary will be determined based on permissible, non-discriminatory factors such as skills, experience, and geographic location. Applications for this role are intended to be accepted until Aug 20th, but may change based on business needs.&nbsp; &nbsp; Twilio thinks big. Do you? We like to solve problems, take initiative, pitch in when needed, and are always up for trying new things. That's why we seek out colleagues who embody our values \u2014 something we call Twilio Magic . Additionally, we empower employees to build positive change in their communities by supporting their volunteering and donation efforts. So, if you're ready to unleash your full potential, do your best work, and be the best version of yourself, apply now! If this role isn't what you're looking for, please consider other open positions. Stay alert to recruitment fraud We care about your safety. Scammers sometimes impersonate Twilio recruiters through fake job postings, emails, websites, or messages. Please ensure you are engaging with an official @ twilio.com email address. We will never ask for payment, gift cards, cryptocurrency, or banking information during the recruiting process. We do not make job offers without a formal interview process or conduct interviews exclusively through text-based messaging apps. Twilio is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, genetic information, political views or activity, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Qualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. Additionally, Twilio participates in the E-Verify program in certain locations, as required by law.",
+      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Customer Success",
+        "Priority Apply",
+        "Recent",
+        "New Today",
+        "Top 10 Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -315,8 +315,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -335,7 +335,7 @@
       "salary_period": "year",
       "salary_confidence": "medium",
       "posted_at": "2026-07-29",
-      "apply_url": "https://www.mongodb.com/careers/jobs/8053367",
+      "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=8053367",
       "source_url": "https://www.mongodb.com/careers/job/?gh_jid=8053367",
       "source": "Greenhouse",
       "source_quality": 5,
@@ -360,10 +360,10 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
-      "link_validation": "",
+      "link_validation": "HTTP 503 not treated as expired",
       "top_10_today": true
     },
     {
@@ -405,8 +405,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -450,8 +450,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -495,8 +495,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -539,52 +539,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": false
-    },
-    {
-      "id": "algolia-senior-customer-success-manager-german-speaker-remote-germany",
-      "canonical_key": "algolia|senior customer success manager german speaker|remote germany",
-      "company": "Algolia",
-      "title": "Senior Customer Success Manager - German speaker ",
-      "location": "Remote - Germany",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "priority_bucket": "Priority Apply",
-      "salary_min": null,
-      "salary_max": null,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-07-30",
-      "apply_url": "https://job-boards.greenhouse.io/algolia/jobs/6122251004",
-      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6122251004",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 74,
-      "interview_probability": "Medium",
-      "application_time_minutes": 25,
-      "recommended_resume": "Customer Success Leadership",
-      "cover_letter": "Recommended",
-      "freshness": "New <72h",
-      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "At Algolia, we\u2019re proud to be a pioneer and market leader in AI Search, empowering 18,000+ businesses to deliver blazing-fast, predictive search and browse experiences at internet scale. Every week, we power over 30 billion search requests \u2014 four times more than Microsoft Bing, Yahoo, Baidu, Yandex, and DuckDuckGo combined. In 2021, we raised $150 million in Series D funding, quadrupling our valuation to $2.25 billion. This strong foundation enables us to keep investing in our market-leading platform and serving incredible customers like Under Armour, PetSmart, Stripe, Gymshark, and Walgreens. At Algolia, we are passionate about our customers so we\u2019re looking for an all star Customer Success Manager who is ready to join our growing team. We need a dedicated advocate who possesses impeccable relationship management skills, can take the lead on solving issues, drive maximum value/ success to existing customers, inspire and sell the future of Algolia, encourage adoption and expansion, all while building delightful and long-lasting relationships. You will work closely with our Account Executives and Solutions Architects to ensure customers achieve their business objectives, advise them on best practices and act as the voice of the customers internally. We want resilient problem solvers who aren\u2019t afraid to think outside the box and get their hands dirty. We expect you to take ownership and be able to execute without defined processes and implicit direction. We're looking for candidates who raise the level of our teams. You should value and practice transparency, have the humility to accept your weaknesses and continuously strive to improve both personally and professionally. Are you ready for the challenge? YOUR ROLE WILL CONSIST OF: Drive and nurture post go-live customers by increasing adoption and value realisation leading to their success, retention and ultimately growth Lead the enablement of our users by conducting product trainings Work in partnership with Solutions Architects to guide customers through the project management and technical requirements of their Algolia implementation Provide regular, proactive recommendations to optimise the use of our platform Maximise the adoption of our product features in order to maximise the value driven by our product Document and clearly articulate the Return on Investment driven by our solution Identify accounts that are likely at risk of churn and work proactively with AEs and Renewal Account Executives to eliminate that risk Identify opportunities to expand our partnership with customers Analyse accounts that have been lost, identify reasons for churning&nbsp; Ensure all account issues are quickly resolved, utilising resources from cross-functional teams internally Function as the voice of the customer and provide internal feedback on how Algolia can better serve them Track key account metrics&nbsp; YOU MIGHT BE A FIT IF YOU HAVE: Fluency in English, French and German&nbsp; 2 - 3 years relevant work experience in customer success, account management, digital consultancy or project management, preferably in a SaaS business Experience working with a portfolio of accounts, supporting a&nbsp;highly technical&nbsp;product Demonstrated ability to establish relationships, credibility, present, and to communicate effectively at all levels of an organisation Ability to set priorities, drive decisions and get closure on recommendations and issues Ability to influence others towards continuous improvement, both internally and externally Experience successfully managing customer engagements to completion and customer satisfaction Excellent presentation, written and verbal communication skills Proven time management skills with the ability to prioritise tasks #LI-remote Algolia does not discriminate on the basis of race, color, religion, sex, age, national origin, military status, veteran status, disability status, sexual orientation, gender identity, genetic information, or any other characteristic protected by law. The annual total cash compensation range (base salary and commission) for this role reflects market pay data within this location. The exact compensation offered for this role may vary depending on specific location and job-related knowledge, technical skills, and experience; and is only one part of our Total Rewards philosophy to compensate and recognize employees for their work. On-Target Earnings Pay Range \u20ac80.000 &mdash; \u20ac111.000 EUR FLEXIBLE WORKPLACE STRATEGY: Algolia\u2019s flexible workplace model is designed to empower all Algolians to fulfill our mission to power search and discovery with ease. We place an emphasis on an individual\u2019s impact, contribution, and output, over their physical location. Algolia is a high-trust environment and many of our team members have the autonomy to choose where they want to work and when.&nbsp; We have a global presence with offices in Paris, NYC, London, Sydney and Bucharest, however we also offer many of our team members the option to work remotely either as fully remote or hybrid-remote employees. Positions listed as \"Remote\" are only available for remote work within the specified country. Positions listed within a specific city are only available in that location - depending on the role it may be available with either a hybrid-remote or in-office schedule. WE\u2019RE LOOKING FOR SOMEONE WHO CAN LIVE OUR VALUES: GRIT - Problem-solving and perseverance capability in an ever-changing and growing environment. TRUST - Willingness to trust our co-workers and to take ownership. CANDOR - Ability to receive and give constructive feedback. CARE - Genuine care about other team members, our clients and the decisions we make in the company. HUMILITY - Aptitude for learning from others, putting ego aside. We\u2019re looking for talented, passionate people to help build the world\u2019s best search and discovery technology. We value autonomy, diversity, and collaboration. We\u2019re committed to creating an inclusive workplace where everyone is respected and supported\u2014regardless of race, age, ancestry, religion, sex, gender identity, sexual orientation, marital status, color, veteran status, disability, or socioeconomic background. IMPORTANT NOTICE FOR CANDIDATES - Recruitment Fraud Notice We\u2019ve recently seen an increase in recruitment scams targeting job seekers. To help protect yourself, please keep the following in mind: Our open positions may appear on third-party job boards, but the best way to apply safely is directly through our careers page . All genuine communication from Algolia will come from an @algolia.com email address. If you receive an email from someone claiming to work at Algolia who does not have an @algolia.com email address, please do not respond or share any personal information. We\u2019ll never ask for payments, purchases, or financial details during the hiring process. READY TO APPLY? If you share our values and our enthusiasm for building the world\u2019s best search &amp; discovery technology, we\u2019d love to review your application!",
-      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Customer Success",
-        "Priority Apply",
-        "New <72h",
-        "New Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -627,8 +583,52 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": false
+    },
+    {
+      "id": "algolia-senior-customer-success-manager-german-speaker-remote-germany",
+      "canonical_key": "algolia|senior customer success manager german speaker|remote germany",
+      "company": "Algolia",
+      "title": "Senior Customer Success Manager - German speaker ",
+      "location": "Remote - Germany",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "priority_bucket": "Priority Apply",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-07-30",
+      "apply_url": "https://job-boards.greenhouse.io/algolia/jobs/6122251004",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6122251004",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 72,
+      "interview_probability": "Medium",
+      "application_time_minutes": 25,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Recommended",
+      "freshness": "Recent",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "At Algolia, we\u2019re proud to be a pioneer and market leader in AI Search, empowering 18,000+ businesses to deliver blazing-fast, predictive search and browse experiences at internet scale. Every week, we power over 30 billion search requests \u2014 four times more than Microsoft Bing, Yahoo, Baidu, Yandex, and DuckDuckGo combined. In 2021, we raised $150 million in Series D funding, quadrupling our valuation to $2.25 billion. This strong foundation enables us to keep investing in our market-leading platform and serving incredible customers like Under Armour, PetSmart, Stripe, Gymshark, and Walgreens. At Algolia, we are passionate about our customers so we\u2019re looking for an all star Customer Success Manager who is ready to join our growing team. We need a dedicated advocate who possesses impeccable relationship management skills, can take the lead on solving issues, drive maximum value/ success to existing customers, inspire and sell the future of Algolia, encourage adoption and expansion, all while building delightful and long-lasting relationships. You will work closely with our Account Executives and Solutions Architects to ensure customers achieve their business objectives, advise them on best practices and act as the voice of the customers internally. We want resilient problem solvers who aren\u2019t afraid to think outside the box and get their hands dirty. We expect you to take ownership and be able to execute without defined processes and implicit direction. We're looking for candidates who raise the level of our teams. You should value and practice transparency, have the humility to accept your weaknesses and continuously strive to improve both personally and professionally. Are you ready for the challenge? YOUR ROLE WILL CONSIST OF: Drive and nurture post go-live customers by increasing adoption and value realisation leading to their success, retention and ultimately growth Lead the enablement of our users by conducting product trainings Work in partnership with Solutions Architects to guide customers through the project management and technical requirements of their Algolia implementation Provide regular, proactive recommendations to optimise the use of our platform Maximise the adoption of our product features in order to maximise the value driven by our product Document and clearly articulate the Return on Investment driven by our solution Identify accounts that are likely at risk of churn and work proactively with AEs and Renewal Account Executives to eliminate that risk Identify opportunities to expand our partnership with customers Analyse accounts that have been lost, identify reasons for churning&nbsp; Ensure all account issues are quickly resolved, utilising resources from cross-functional teams internally Function as the voice of the customer and provide internal feedback on how Algolia can better serve them Track key account metrics&nbsp; YOU MIGHT BE A FIT IF YOU HAVE: Fluency in English, French and German&nbsp; 2 - 3 years relevant work experience in customer success, account management, digital consultancy or project management, preferably in a SaaS business Experience working with a portfolio of accounts, supporting a&nbsp;highly technical&nbsp;product Demonstrated ability to establish relationships, credibility, present, and to communicate effectively at all levels of an organisation Ability to set priorities, drive decisions and get closure on recommendations and issues Ability to influence others towards continuous improvement, both internally and externally Experience successfully managing customer engagements to completion and customer satisfaction Excellent presentation, written and verbal communication skills Proven time management skills with the ability to prioritise tasks #LI-remote Algolia does not discriminate on the basis of race, color, religion, sex, age, national origin, military status, veteran status, disability status, sexual orientation, gender identity, genetic information, or any other characteristic protected by law. The annual total cash compensation range (base salary and commission) for this role reflects market pay data within this location. The exact compensation offered for this role may vary depending on specific location and job-related knowledge, technical skills, and experience; and is only one part of our Total Rewards philosophy to compensate and recognize employees for their work. On-Target Earnings Pay Range \u20ac80.000 &mdash; \u20ac111.000 EUR FLEXIBLE WORKPLACE STRATEGY: Algolia\u2019s flexible workplace model is designed to empower all Algolians to fulfill our mission to power search and discovery with ease. We place an emphasis on an individual\u2019s impact, contribution, and output, over their physical location. Algolia is a high-trust environment and many of our team members have the autonomy to choose where they want to work and when.&nbsp; We have a global presence with offices in Paris, NYC, London, Sydney and Bucharest, however we also offer many of our team members the option to work remotely either as fully remote or hybrid-remote employees. Positions listed as \"Remote\" are only available for remote work within the specified country. Positions listed within a specific city are only available in that location - depending on the role it may be available with either a hybrid-remote or in-office schedule. WE\u2019RE LOOKING FOR SOMEONE WHO CAN LIVE OUR VALUES: GRIT - Problem-solving and perseverance capability in an ever-changing and growing environment. TRUST - Willingness to trust our co-workers and to take ownership. CANDOR - Ability to receive and give constructive feedback. CARE - Genuine care about other team members, our clients and the decisions we make in the company. HUMILITY - Aptitude for learning from others, putting ego aside. We\u2019re looking for talented, passionate people to help build the world\u2019s best search and discovery technology. We value autonomy, diversity, and collaboration. We\u2019re committed to creating an inclusive workplace where everyone is respected and supported\u2014regardless of race, age, ancestry, religion, sex, gender identity, sexual orientation, marital status, color, veteran status, disability, or socioeconomic background. IMPORTANT NOTICE FOR CANDIDATES - Recruitment Fraud Notice We\u2019ve recently seen an increase in recruitment scams targeting job seekers. To help protect yourself, please keep the following in mind: Our open positions may appear on third-party job boards, but the best way to apply safely is directly through our careers page . All genuine communication from Algolia will come from an @algolia.com email address. If you receive an email from someone claiming to work at Algolia who does not have an @algolia.com email address, please do not respond or share any personal information. We\u2019ll never ask for payments, purchases, or financial details during the hiring process. READY TO APPLY? If you share our values and our enthusiasm for building the world\u2019s best search &amp; discovery technology, we\u2019d love to review your application!",
+      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Customer Success",
+        "Priority Apply",
+        "Recent",
+        "New Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -671,8 +671,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -715,8 +715,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -759,8 +759,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -803,8 +803,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -847,8 +847,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -891,8 +891,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -935,8 +935,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -979,96 +979,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": false
-    },
-    {
-      "id": "attentive-strategic-account-director-west-united-states",
-      "canonical_key": "attentive|strategic account director west|united states",
-      "company": "Attentive",
-      "title": "Strategic Account Director (West)",
-      "location": "United States",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "priority_bucket": "Strong Opportunity",
-      "salary_min": 150000,
-      "salary_max": 180000,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-07-30",
-      "apply_url": "https://job-boards.greenhouse.io/attentive/jobs/4338293009",
-      "source_url": "https://job-boards.greenhouse.io/attentive/jobs/4338293009",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 70,
-      "interview_probability": "Low",
-      "application_time_minutes": 40,
-      "recommended_resume": "Customer Success Leadership",
-      "cover_letter": "Recommended",
-      "freshness": "New <72h",
-      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Attentive\u00ae is the AI marketing platform for 1:1 personalization redefining the way brands and people connect. We\u2019re the only marketing platform that combines powerful technology with human expertise to build authentic customer relationships. By unifying SMS, RCS, email, and push notifications, our AI-powered personalization engine delivers bespoke experiences that drive performance, revenue, and loyalty through real-time behavioral insights. &nbsp; Recognized as the&nbsp;#1&nbsp;provider in SMS Marketing by G2, Attentive partners with more than 8,000 customers across 70+ industries. Leading global brands like Crate and Barrel, Urban Outfitters, and Carter\u2019s work with us to enable billions of interactions that power tens of billions in revenue for our customers. &nbsp; With a distributed global workforce and employee hubs in New York City, San Francisco, London, and Sydney, Attentive\u2019s team has been consistently recognized for its performance and culture. We\u2019re proud to be included in&nbsp; Deloitte\u2019s Fast 500 &nbsp;(four years running!),&nbsp; LinkedIn\u2019s Top Startups ,&nbsp; Forbes\u2019 Cloud 100 (five years running!),&nbsp; Inc.\u2019s Best Workplaces , and the&nbsp; Human Rights Campaign Foundation's Corporate Equality Index ! About the Role As a Strategic Account Director at Attentive, you will be instrumental in driving expansion and retention opportunities across Attentive\u2019s Strategic customer base.&nbsp; You are the point person leading engagement with customers with the goal of uncovering expansion, upsell, and retention opportunities across the customer's entire portfolio of brands and regions. You have the ability to build strong relationships with key decision makers and to create a pipeline of new opportunities within current accounts but having a deep understanding of their challenges, priorities and initiatives.. Your skills in navigating complex decision-making processes and influencing key stakeholders will result in successful closures of those deals. What You'll Accomplish Engage with senior-level decision makers to identify and pursue opportunities for growth within New Vertical accounts Drive renewal conversations within these accounts and ensure successful commercial retention of these key customers Provide timely and accurate weekly forecasts Steer complex pricing negotiations with key stakeholders to uncover procurement timelines, budgets and signatory process for contracts Prepare and present data and trends to customers on usage and engagement of Attentive platform in order to compel customer to increase investment Manage customer inquiries related to commercial aspects of their Attentive agreement Partner cross-functionally with Customer Success, Deal Enablement, Legal, Finance and other internal teams Your Expertise 7+ years of experience in a closing sales role; Account Management, Account Executive or as an outside sales person Experience selling Email is strongly preferred Experience working in a SaaS, MarTech, AdTech or startup preferred Experience building and owning executive-level relationships within Fortune 100 level accounts, particularly in Retail and E-Commerce Demonstrated strong competency around objection handling and creating alignment around product price / value Analytical account development strategy, using data to find opportunities and prove value Ability to think strategically about a customer\u2019s goals and drive renewal &amp; expansion opportunities through to close independently Entrepreneurial mindset and desire to define processes and build strategy Demonstrated experience consistently meeting and exceeding quota, with references Willingness to travel (up to 25%) By applying for this position, your data will be processed as per Attentive's Privacy Policy . &nbsp; For US based applicants: - The US base salary range for this full-time position is $150,000 - $180,000 annually + commission + equity + benefits - Our salary ranges are determined by role, level and location Attentive Company Values Default to Action - Move swiftly and with purpose Be One Unstoppable Team - Rally as each other\u2019s champions Champion the Customer - Our success is defined by our customers' success Act Like an Owner &nbsp;- Take responsibility for Attentive\u2019s success &nbsp; Learn more about AWAKE , Attentive\u2019s collective of employee resource groups. &nbsp; If you do not meet all the requirements listed here, we still encourage you to apply! No job description is perfect, and we may also have another opportunity that closely matches your skills and experience. &nbsp; At Attentive, we know that our Company's strength lies in the diversity of our employees. Attentive is an Equal Opportunity Employer and we welcome applicants from all backgrounds. Our policy is to provide equal employment opportunities for all employees, applicants and covered individuals regardless of protected characteristics. We prioritize and maintain a fair, inclusive and equitable workplace free from discrimination, harassment, and retaliation. Attentive is also committed to providing reasonable accommodations for candidates with disabilities. If you need any assistance or reasonable accommodations, please let your recruiter know.&nbsp;",
-      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Customer Success",
-        "Strong Opportunity",
-        "New <72h",
-        "New Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": false
-    },
-    {
-      "id": "braze-sales-operations-lead-chicago",
-      "canonical_key": "braze|sales operations lead|chicago",
-      "company": "Braze",
-      "title": "Sales Operations Lead",
-      "location": "Chicago",
-      "location_type": "midwest",
-      "track": "Sales Operations",
-      "priority_bucket": "Strong Opportunity",
-      "salary_min": 86000,
-      "salary_max": 146000,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-07-30",
-      "apply_url": "https://job-boards.greenhouse.io/braze/jobs/8073087?gh_jid=8073087",
-      "source_url": "https://boards.greenhouse.io/braze/jobs/8073087?gh_jid=8073087",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 70,
-      "interview_probability": "Low",
-      "application_time_minutes": 40,
-      "recommended_resume": "Commercial Operations",
-      "cover_letter": "Recommended",
-      "freshness": "New <72h",
-      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "At Braze, we have found our people. We\u2019re a genuinely approachable, exceptionally kind, and intensely passionate crew. We seek to ignite that passion by setting high standards, championing teamwork, and creating work-life harmony as we collectively navigate rapid growth on a global scale while striving for greater equity and opportunity \u2013 inside and outside our organization. To flourish here, you must be prepared to set a high bar for yourself and those around you. There is always a way to contribute: Acting with autonomy, having accountability and being open to new perspectives are essential to our continued success. Our deep curiosity to learn and our eagerness to share diverse passions with others gives us balance and injects a one-of-a-kind vibrancy into our culture. If you are driven to solve exhilarating challenges and have a bias toward action in the face of change, you will be empowered to make a real impact here, with a sharp and passionate team at your back. If Braze sounds like a place where you can thrive, we can\u2019t wait to meet you. The Sales Operations Data &amp; Systems Lead architects the technical foundation and data strategy powering our global sales organization. Reporting to the Senior Manager of Sales Operations, you will eliminate seller friction by owning GTM tech stack management, building high-integrity workflows, leading continuous Salesforce data cleanup initiatives, and deploying AI-driven solutions. You will directly fuel top-of-funnel growth by designing data pipelines for sourcing and enriching new accounts. As the primary steward of our GTM technology, you will architect robust reporting frameworks to ensure the Salesforce ecosystem remains a scalable, well-governed system of record that drives revenue productivity. WHAT YOU'LL DO 1. Systems Engineering &amp; Tech Stack Management Architecture: Lead the technical configuration and governance of Salesforce and the broader GTM stack (Openprise, Clay, etc.) Automation &amp; AI: Architect and maintain advanced automations using AI to reduce manual work and streamline account sourcing, enrichment, and routing GTM Tools Management: Manage the end-to-end lifecycle of GTM tools, from vendor selection and integration to user provisioning and ticket-based troubleshooting 2. Data Strategy &amp; Governance Automated Data Integrity: Build scalable cleansing, deduplication, and enrichment workflows across all GTM data sources Governance Frameworks: Establish policies to improve data quality, governance, and cross-platform alignment ICP Signal Capture: Partner with Marketing and Sales to translate the Ideal Customer Profile (ICP) into technical signals to capture high-quality, actionable data for outbound teams 3. Process Optimization&nbsp; Friction Reduction: Redesign Opportunity management, approval flows, and renewal/expansion handoffs to increase seller productivity Change Management: Lead User Acceptance Testing (UAT), document SOPs, and conduct training to ensure high adoption of GTM tools and Salesforce system enhancements 4. Insights &amp; Cross-Functional Collaboration Technical Advisory: Serve as the Sales Operations team\u2019s Subject Matter Expert (SME) for data transformation, translating data into business solutions for stakeholders Performance Metrics: Develop dashboards and KPIs to track system health, data quality trends, and the ROI of automation initiatives Sales Planning Data Projects: cross-functional GTM leadership to execute data projects focused on TAM enrichment, white-space analysis, and strategic account segmentation. WHO YOU ARE 5+ years of hands-on Salesforce administration experience in a complex, fast-paced environment (certifications a plus) Highly preferred experience with Openprise, Clay, and/or Tray.io Experience managing sales data tech stack Experience administering and implementing AI-powered tools or workflows in a Go to Marketing Operations / Sales Operations context Strong proficiency in data analytics and reporting (Looker, Tableau, advanced Excel, Python, and/or other advanced tools preferred) Proven experience gathering business requirements and translating them into well-architected system solutions Strong production support mindset, with the ability to balance urgent issues against longer-term platform improvements Excellent project management and communication skills For candidates based in the United States, the pay range for this position at the start of employment is expected to be between $86,000 and $129,000/year, with an expected On Target Earnings (OTE) between $97,000 and $146,000/year (including bonus or commission). Your exact offer may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. In addition to cash compensation, this role qualifies for a comprehensive Total Rewards package that includes equity grants of restricted stock (RSUs) so that you will own a piece of our company. #LI-Hybrid WHAT WE OFFER Braze benefits vary by location, and we encourage you to review our specific benefits offerings for each country here . More details on benefits plans will be provided if you receive an offer of employment. From offering comprehensive benefits to fostering hybrid ways of working, we\u2019ve got you covered so you can prioritize work-life harmony. Braze offers benefits such as: Competitive compensation that may include equity Retirement and Employee Stock Purchase Plans Flexible paid time off Comprehensive benefit plans covering medical, dental, vision, life, and disability Family services that include fertility benefits and equal paid parental leave Professional development supported by formal career pathing, learning platforms, and a yearly learning stipend A curated in-office employee experience, designed to foster community, team connections, and innovation Opportunities to give back to your community, including an annual company-wide Volunteer Week and donation matching&nbsp; Employee Resource Groups that provide supportive communities within Braze Collaborative, transparent, and fun culture recognized as a Great Place to Work\u00ae ABOUT BRAZE Braze is the leading customer engagement platform that empowers brands to Be Absolutely Engaging\u2122. Braze helps brands deliver great customer experiences that drive value both for consumers and for their businesses. Built on a foundation of composable intelligence, BrazeAI\u2122 allows marketers to combine and activate AI agents, models, and features at every touchpoint throughout the Braze Customer Engagement Platform for smarter, faster, and more meaningful customer engagement. From cross-channel messaging and journey orchestration to Al-powered decisioning and optimization, Braze enables companies to turn action into interaction through autonomous, 1:1 personalized experiences. The company has been consistently recognized as a Leader in marketing technology by industry analysts, and was named a G2 \u201cBest of Marketing and Digital Advertising Software Product\u201d in 2026. Braze was also named a 2026 Best Places to Work by Built In, a 2025 America\u2019s Greenest Companies by Newsweek, and a 2025 Fortune Best Workplace in Technology\u2122 by Great Place To Work\u00ae. Braze is also proudly certified as a Great Place to Work\u00ae in the U.S., the UK, Australia, and Singapore.&nbsp; The company is headquartered in New York with offices in Austin, Berlin, Bucharest, Chicago, Dubai, Jakarta, London, Paris, San Francisco, S\u00e3o Paulo, Singapore, Seoul, Sydney and Tokyo. BRAZE IS AN EQUAL OPPORTUNITY EMPLOYER At Braze, we strive to create equitable growth and opportunities inside and outside the organization. Building meaningful connections is at the heart of everything we do, and that includes our recruiting practices. We're committed to offering all candidates a fair, accessible, and inclusive experience \u2013 regardless of age, color, disability, gender identity, marital status, maternity, national origin, pregnancy, race, religion, sex, sexual orientation, or status as a protected veteran. When applying and interviewing with Braze, we want you to feel comfortable showcasing what makes you you . We know that sometimes different circumstances can lead talented people to hesitate to apply for a role unless they meet 100% of the criteria. If this sounds familiar, we encourage you to apply, as we\u2019d love to meet you. OUR AI-POWERED BRAZE RECRUITMENT PROCESS At Braze, we\u2019re committed to a fair and transparent candidate experience. To help our recruitment teams focus on what matters most \u2014 the person behind each application \u2014 we use AI-assisted tools at certain stages of our recruitment process.&nbsp; This includes using AI to analyze the experience, skills and qualifications in your application materials to help with screening and prioritizing candidates. Such screening may amount to a form of solely automated decision-making. We also use AI for administrative support, like scheduling and recording interviews and summarizing interview notes. Our recruiting teams remain responsible for all hiring decisions and are involved throughout the process. Depending on where you are located, you may have the right to request further information about how AI is used in our recruitment process, to opt out of AI-assisted review, to request a manual review of any decision made or to contest a decision.&nbsp; Please contact us at talentdata.privacy@braze.com for any requests or questions. To find out more about our hiring process, check out this page . Notice Regarding Automated Employment Decision Tool (NYC Local Law 144) Our use of AI during the application review process may include the use of automated employment decision tools. Pursuant to New York City Local Law 144, for roles based in New York City, or if you reside in New York City, you have the right to request an alternative selection process or a reasonable accommodation instead of AI-assisted review. Please submit any such request to our Talent Acquisition team at talentdata.privacy@braze.com promptly after applying. A summary of the most recent bias audit results for such tool is available here . Please see our Candidate Privacy Policy for more information on how Braze processes your personal information during the recruitment process and, if applicable based on your location, how you can exercise any privacy rights.",
-      "reason": "Matches sales operations, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Sales Operations",
-        "Strong Opportunity",
-        "New <72h",
-        "New Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1111,8 +1023,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1155,8 +1067,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1199,8 +1111,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1243,8 +1155,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1287,8 +1199,96 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": false
+    },
+    {
+      "id": "attentive-strategic-account-director-west-united-states",
+      "canonical_key": "attentive|strategic account director west|united states",
+      "company": "Attentive",
+      "title": "Strategic Account Director (West)",
+      "location": "United States",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "priority_bucket": "Strong Opportunity",
+      "salary_min": 150000,
+      "salary_max": 180000,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-07-30",
+      "apply_url": "https://job-boards.greenhouse.io/attentive/jobs/4338293009",
+      "source_url": "https://job-boards.greenhouse.io/attentive/jobs/4338293009",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 68,
+      "interview_probability": "Low",
+      "application_time_minutes": 40,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Recommended",
+      "freshness": "Recent",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "Attentive\u00ae is the AI marketing platform for 1:1 personalization redefining the way brands and people connect. We\u2019re the only marketing platform that combines powerful technology with human expertise to build authentic customer relationships. By unifying SMS, RCS, email, and push notifications, our AI-powered personalization engine delivers bespoke experiences that drive performance, revenue, and loyalty through real-time behavioral insights. &nbsp; Recognized as the&nbsp;#1&nbsp;provider in SMS Marketing by G2, Attentive partners with more than 8,000 customers across 70+ industries. Leading global brands like Crate and Barrel, Urban Outfitters, and Carter\u2019s work with us to enable billions of interactions that power tens of billions in revenue for our customers. &nbsp; With a distributed global workforce and employee hubs in New York City, San Francisco, London, and Sydney, Attentive\u2019s team has been consistently recognized for its performance and culture. We\u2019re proud to be included in&nbsp; Deloitte\u2019s Fast 500 &nbsp;(four years running!),&nbsp; LinkedIn\u2019s Top Startups ,&nbsp; Forbes\u2019 Cloud 100 (five years running!),&nbsp; Inc.\u2019s Best Workplaces , and the&nbsp; Human Rights Campaign Foundation's Corporate Equality Index ! About the Role As a Strategic Account Director at Attentive, you will be instrumental in driving expansion and retention opportunities across Attentive\u2019s Strategic customer base.&nbsp; You are the point person leading engagement with customers with the goal of uncovering expansion, upsell, and retention opportunities across the customer's entire portfolio of brands and regions. You have the ability to build strong relationships with key decision makers and to create a pipeline of new opportunities within current accounts but having a deep understanding of their challenges, priorities and initiatives.. Your skills in navigating complex decision-making processes and influencing key stakeholders will result in successful closures of those deals. What You'll Accomplish Engage with senior-level decision makers to identify and pursue opportunities for growth within New Vertical accounts Drive renewal conversations within these accounts and ensure successful commercial retention of these key customers Provide timely and accurate weekly forecasts Steer complex pricing negotiations with key stakeholders to uncover procurement timelines, budgets and signatory process for contracts Prepare and present data and trends to customers on usage and engagement of Attentive platform in order to compel customer to increase investment Manage customer inquiries related to commercial aspects of their Attentive agreement Partner cross-functionally with Customer Success, Deal Enablement, Legal, Finance and other internal teams Your Expertise 7+ years of experience in a closing sales role; Account Management, Account Executive or as an outside sales person Experience selling Email is strongly preferred Experience working in a SaaS, MarTech, AdTech or startup preferred Experience building and owning executive-level relationships within Fortune 100 level accounts, particularly in Retail and E-Commerce Demonstrated strong competency around objection handling and creating alignment around product price / value Analytical account development strategy, using data to find opportunities and prove value Ability to think strategically about a customer\u2019s goals and drive renewal &amp; expansion opportunities through to close independently Entrepreneurial mindset and desire to define processes and build strategy Demonstrated experience consistently meeting and exceeding quota, with references Willingness to travel (up to 25%) By applying for this position, your data will be processed as per Attentive's Privacy Policy . &nbsp; For US based applicants: - The US base salary range for this full-time position is $150,000 - $180,000 annually + commission + equity + benefits - Our salary ranges are determined by role, level and location Attentive Company Values Default to Action - Move swiftly and with purpose Be One Unstoppable Team - Rally as each other\u2019s champions Champion the Customer - Our success is defined by our customers' success Act Like an Owner &nbsp;- Take responsibility for Attentive\u2019s success &nbsp; Learn more about AWAKE , Attentive\u2019s collective of employee resource groups. &nbsp; If you do not meet all the requirements listed here, we still encourage you to apply! No job description is perfect, and we may also have another opportunity that closely matches your skills and experience. &nbsp; At Attentive, we know that our Company's strength lies in the diversity of our employees. Attentive is an Equal Opportunity Employer and we welcome applicants from all backgrounds. Our policy is to provide equal employment opportunities for all employees, applicants and covered individuals regardless of protected characteristics. We prioritize and maintain a fair, inclusive and equitable workplace free from discrimination, harassment, and retaliation. Attentive is also committed to providing reasonable accommodations for candidates with disabilities. If you need any assistance or reasonable accommodations, please let your recruiter know.&nbsp;",
+      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Customer Success",
+        "Strong Opportunity",
+        "Recent",
+        "New Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": false
+    },
+    {
+      "id": "braze-sales-operations-lead-chicago",
+      "canonical_key": "braze|sales operations lead|chicago",
+      "company": "Braze",
+      "title": "Sales Operations Lead",
+      "location": "Chicago",
+      "location_type": "midwest",
+      "track": "Sales Operations",
+      "priority_bucket": "Strong Opportunity",
+      "salary_min": 86000,
+      "salary_max": 146000,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-07-30",
+      "apply_url": "https://job-boards.greenhouse.io/braze/jobs/8073087?gh_jid=8073087",
+      "source_url": "https://boards.greenhouse.io/braze/jobs/8073087?gh_jid=8073087",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 68,
+      "interview_probability": "Low",
+      "application_time_minutes": 40,
+      "recommended_resume": "Commercial Operations",
+      "cover_letter": "Recommended",
+      "freshness": "Recent",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "At Braze, we have found our people. We\u2019re a genuinely approachable, exceptionally kind, and intensely passionate crew. We seek to ignite that passion by setting high standards, championing teamwork, and creating work-life harmony as we collectively navigate rapid growth on a global scale while striving for greater equity and opportunity \u2013 inside and outside our organization. To flourish here, you must be prepared to set a high bar for yourself and those around you. There is always a way to contribute: Acting with autonomy, having accountability and being open to new perspectives are essential to our continued success. Our deep curiosity to learn and our eagerness to share diverse passions with others gives us balance and injects a one-of-a-kind vibrancy into our culture. If you are driven to solve exhilarating challenges and have a bias toward action in the face of change, you will be empowered to make a real impact here, with a sharp and passionate team at your back. If Braze sounds like a place where you can thrive, we can\u2019t wait to meet you. The Sales Operations Data &amp; Systems Lead architects the technical foundation and data strategy powering our global sales organization. Reporting to the Senior Manager of Sales Operations, you will eliminate seller friction by owning GTM tech stack management, building high-integrity workflows, leading continuous Salesforce data cleanup initiatives, and deploying AI-driven solutions. You will directly fuel top-of-funnel growth by designing data pipelines for sourcing and enriching new accounts. As the primary steward of our GTM technology, you will architect robust reporting frameworks to ensure the Salesforce ecosystem remains a scalable, well-governed system of record that drives revenue productivity. WHAT YOU'LL DO 1. Systems Engineering &amp; Tech Stack Management Architecture: Lead the technical configuration and governance of Salesforce and the broader GTM stack (Openprise, Clay, etc.) Automation &amp; AI: Architect and maintain advanced automations using AI to reduce manual work and streamline account sourcing, enrichment, and routing GTM Tools Management: Manage the end-to-end lifecycle of GTM tools, from vendor selection and integration to user provisioning and ticket-based troubleshooting 2. Data Strategy &amp; Governance Automated Data Integrity: Build scalable cleansing, deduplication, and enrichment workflows across all GTM data sources Governance Frameworks: Establish policies to improve data quality, governance, and cross-platform alignment ICP Signal Capture: Partner with Marketing and Sales to translate the Ideal Customer Profile (ICP) into technical signals to capture high-quality, actionable data for outbound teams 3. Process Optimization&nbsp; Friction Reduction: Redesign Opportunity management, approval flows, and renewal/expansion handoffs to increase seller productivity Change Management: Lead User Acceptance Testing (UAT), document SOPs, and conduct training to ensure high adoption of GTM tools and Salesforce system enhancements 4. Insights &amp; Cross-Functional Collaboration Technical Advisory: Serve as the Sales Operations team\u2019s Subject Matter Expert (SME) for data transformation, translating data into business solutions for stakeholders Performance Metrics: Develop dashboards and KPIs to track system health, data quality trends, and the ROI of automation initiatives Sales Planning Data Projects: cross-functional GTM leadership to execute data projects focused on TAM enrichment, white-space analysis, and strategic account segmentation. WHO YOU ARE 5+ years of hands-on Salesforce administration experience in a complex, fast-paced environment (certifications a plus) Highly preferred experience with Openprise, Clay, and/or Tray.io Experience managing sales data tech stack Experience administering and implementing AI-powered tools or workflows in a Go to Marketing Operations / Sales Operations context Strong proficiency in data analytics and reporting (Looker, Tableau, advanced Excel, Python, and/or other advanced tools preferred) Proven experience gathering business requirements and translating them into well-architected system solutions Strong production support mindset, with the ability to balance urgent issues against longer-term platform improvements Excellent project management and communication skills For candidates based in the United States, the pay range for this position at the start of employment is expected to be between $86,000 and $129,000/year, with an expected On Target Earnings (OTE) between $97,000 and $146,000/year (including bonus or commission). Your exact offer may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. In addition to cash compensation, this role qualifies for a comprehensive Total Rewards package that includes equity grants of restricted stock (RSUs) so that you will own a piece of our company. #LI-Hybrid WHAT WE OFFER Braze benefits vary by location, and we encourage you to review our specific benefits offerings for each country here . More details on benefits plans will be provided if you receive an offer of employment. From offering comprehensive benefits to fostering hybrid ways of working, we\u2019ve got you covered so you can prioritize work-life harmony. Braze offers benefits such as: Competitive compensation that may include equity Retirement and Employee Stock Purchase Plans Flexible paid time off Comprehensive benefit plans covering medical, dental, vision, life, and disability Family services that include fertility benefits and equal paid parental leave Professional development supported by formal career pathing, learning platforms, and a yearly learning stipend A curated in-office employee experience, designed to foster community, team connections, and innovation Opportunities to give back to your community, including an annual company-wide Volunteer Week and donation matching&nbsp; Employee Resource Groups that provide supportive communities within Braze Collaborative, transparent, and fun culture recognized as a Great Place to Work\u00ae ABOUT BRAZE Braze is the leading customer engagement platform that empowers brands to Be Absolutely Engaging\u2122. Braze helps brands deliver great customer experiences that drive value both for consumers and for their businesses. Built on a foundation of composable intelligence, BrazeAI\u2122 allows marketers to combine and activate AI agents, models, and features at every touchpoint throughout the Braze Customer Engagement Platform for smarter, faster, and more meaningful customer engagement. From cross-channel messaging and journey orchestration to Al-powered decisioning and optimization, Braze enables companies to turn action into interaction through autonomous, 1:1 personalized experiences. The company has been consistently recognized as a Leader in marketing technology by industry analysts, and was named a G2 \u201cBest of Marketing and Digital Advertising Software Product\u201d in 2026. Braze was also named a 2026 Best Places to Work by Built In, a 2025 America\u2019s Greenest Companies by Newsweek, and a 2025 Fortune Best Workplace in Technology\u2122 by Great Place To Work\u00ae. Braze is also proudly certified as a Great Place to Work\u00ae in the U.S., the UK, Australia, and Singapore.&nbsp; The company is headquartered in New York with offices in Austin, Berlin, Bucharest, Chicago, Dubai, Jakarta, London, Paris, San Francisco, S\u00e3o Paulo, Singapore, Seoul, Sydney and Tokyo. BRAZE IS AN EQUAL OPPORTUNITY EMPLOYER At Braze, we strive to create equitable growth and opportunities inside and outside the organization. Building meaningful connections is at the heart of everything we do, and that includes our recruiting practices. We're committed to offering all candidates a fair, accessible, and inclusive experience \u2013 regardless of age, color, disability, gender identity, marital status, maternity, national origin, pregnancy, race, religion, sex, sexual orientation, or status as a protected veteran. When applying and interviewing with Braze, we want you to feel comfortable showcasing what makes you you . We know that sometimes different circumstances can lead talented people to hesitate to apply for a role unless they meet 100% of the criteria. If this sounds familiar, we encourage you to apply, as we\u2019d love to meet you. OUR AI-POWERED BRAZE RECRUITMENT PROCESS At Braze, we\u2019re committed to a fair and transparent candidate experience. To help our recruitment teams focus on what matters most \u2014 the person behind each application \u2014 we use AI-assisted tools at certain stages of our recruitment process.&nbsp; This includes using AI to analyze the experience, skills and qualifications in your application materials to help with screening and prioritizing candidates. Such screening may amount to a form of solely automated decision-making. We also use AI for administrative support, like scheduling and recording interviews and summarizing interview notes. Our recruiting teams remain responsible for all hiring decisions and are involved throughout the process. Depending on where you are located, you may have the right to request further information about how AI is used in our recruitment process, to opt out of AI-assisted review, to request a manual review of any decision made or to contest a decision.&nbsp; Please contact us at talentdata.privacy@braze.com for any requests or questions. To find out more about our hiring process, check out this page . Notice Regarding Automated Employment Decision Tool (NYC Local Law 144) Our use of AI during the application review process may include the use of automated employment decision tools. Pursuant to New York City Local Law 144, for roles based in New York City, or if you reside in New York City, you have the right to request an alternative selection process or a reasonable accommodation instead of AI-assisted review. Please submit any such request to our Talent Acquisition team at talentdata.privacy@braze.com promptly after applying. A summary of the most recent bias audit results for such tool is available here . Please see our Candidate Privacy Policy for more information on how Braze processes your personal information during the recruitment process and, if applicable based on your location, how you can exercise any privacy rights.",
+      "reason": "Matches sales operations, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Sales Operations",
+        "Strong Opportunity",
+        "Recent",
+        "New Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1331,8 +1331,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1375,8 +1375,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1419,8 +1419,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-02T12:35:20.847686+00:00",
-      "last_seen_at": "2026-08-02T12:35:20.847686+00:00",
+      "first_seen_at": "2026-08-03T13:57:57.104060+00:00",
+      "last_seen_at": "2026-08-03T13:57:57.104060+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1428,9 +1428,9 @@
   ],
   "match_count": 31,
   "new_today_count": 31,
-  "qualified_before_validation": 45,
-  "qualified_after_validation": 45,
-  "discovered_before_cap": 45,
+  "qualified_before_validation": 41,
+  "qualified_after_validation": 41,
+  "discovered_before_cap": 41,
   "errors": [
     "Adzuna group 1: HTTP Error 401: Unauthorized",
     "Adzuna group 2: HTTP Error 401: Unauthorized",
