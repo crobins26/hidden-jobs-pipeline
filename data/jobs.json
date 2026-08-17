@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T11:44:59.481314+00:00",
+  "updated_at": "2026-08-17T11:50:41.690740+00:00",
   "minimum_salary": 130000,
   "daily_job_cap": 100,
   "maximum_jobs_per_company": 3,
@@ -15,7 +15,7 @@
     },
     "Greenhouse": {
       "active": true,
-      "matches": 54
+      "matches": 49
     },
     "Lever": {
       "active": false,
@@ -90,8 +90,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -135,8 +135,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -180,8 +180,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -225,8 +225,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -270,8 +270,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -315,8 +315,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -335,7 +335,7 @@
       "salary_period": "year",
       "salary_confidence": "medium",
       "posted_at": "2026-08-12",
-      "apply_url": "https://www.mongodb.com/careers/jobs/8053367",
+      "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=8053367",
       "source_url": "https://www.mongodb.com/careers/job/?gh_jid=8053367",
       "source": "Greenhouse",
       "source_quality": 5,
@@ -360,10 +360,10 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
-      "link_validation": "",
+      "link_validation": "HTTP 503 not treated as expired",
       "top_10_today": true
     },
     {
@@ -405,8 +405,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -450,18 +450,18 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
     },
     {
-      "id": "samsara-enterprise-customer-success-manager-remote-us",
-      "canonical_key": "samsara|enterprise customer success manager|remote us",
+      "id": "samsara-enterprise-customer-success-manager-remote-il",
+      "canonical_key": "samsara|enterprise customer success manager|remote il",
       "company": "Samsara",
       "title": "Enterprise Customer Success Manager",
-      "location": "Remote - US",
+      "location": "Remote - IL",
       "location_type": "remote",
       "track": "Customer Success",
       "priority_bucket": "Priority Apply",
@@ -470,8 +470,8 @@
       "salary_period": "year",
       "salary_confidence": "medium",
       "posted_at": "2026-08-14",
-      "apply_url": "https://www.samsara.com/company/careers/roles/7482459?gh_jid=7482459",
-      "source_url": "https://www.samsara.com/company/careers/roles/7482459?gh_jid=7482459",
+      "apply_url": "https://www.samsara.com/company/careers/roles/7625030?gh_jid=7625030",
+      "source_url": "https://www.samsara.com/company/careers/roles/7625030?gh_jid=7625030",
       "source": "Greenhouse",
       "source_quality": 5,
       "fit_score": 76,
@@ -495,8 +495,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -539,8 +539,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -583,8 +583,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -627,8 +627,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -671,8 +671,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -715,52 +715,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": false
-    },
-    {
-      "id": "block-head-of-square-commercial-operations-deal-excellence-bay-area-ca-united-states-of-america",
-      "canonical_key": "block|head of square commercial operations deal excellence|bay area ca united states of america",
-      "company": "Block",
-      "title": "Head of Square Commercial Operations & Deal Excellence",
-      "location": "Bay Area, CA, United States of America",
-      "location_type": "remote",
-      "track": "Commercial Operations",
-      "priority_bucket": "Strong Opportunity",
-      "salary_min": 217800,
-      "salary_max": 326800,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-08-13",
-      "apply_url": "https://block.xyz/careers/jobs/4809166008?gh_jid=4809166008",
-      "source_url": "http://block.xyz/careers/jobs/4809166008?gh_jid=4809166008",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 71,
-      "interview_probability": "Low",
-      "application_time_minutes": 40,
-      "recommended_resume": "Commercial Operations",
-      "cover_letter": "Recommended",
-      "freshness": "New <72h",
-      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn\u2019t work together. So we expanded into software and started building integrated, omnichannel solutions \u2013 to help sellers sell online, manage inventory, offer buy now, pay later functionality, book appointments, engage loyal buyers, and hire and pay staff. Across it all, we\u2019ve embedded financial services tools at the point of sale, so merchants can access a business loan and manage their cash flow in one place. Afterpay furthers our goal to provide omnichannel tools that unlock meaningful value and growth, enabling sellers to capture the next generation shopper, increase order sizes, and compete at a larger scale. Today, we are a partner to sellers of all sizes \u2013 large, enterprise-scale businesses with complex operations, sellers just starting, as well as merchants who began selling with Square and have grown larger over time. As our sellers grow, so do our solutions. There is a massive opportunity in front of us. We\u2019re building a significant, meaningful, and lasting business, and we are helping sellers worldwide do the same. About the Role: As Square continues to scale globally, our commercial engine is becoming increasingly complex. We serve sellers across multiple markets, products, customer segments, and sales channels, requiring faster and more consistent decisions around pricing, commercial investments, and deal execution. We\u2019re hiring a Head of Square Commercial Operations &amp; Deal Excellence to build and lead the commercial operating system that powers Square\u2019s global Revenue organization. This team sits within Revenue and serves as the connective tissue between Sales, Finance, Product, Engineering, Legal, Risk, and Revenue Operations. Finance owns Square\u2019s pricing principles, profitability objectives, investment frameworks, and commercial guardrails. This team operationalizes those guardrails\u2014building the processes, tools, governance, and strategic support that enable sellers to move faster while protecting long-term business value. This leader will own Square\u2019s global Deal Desk, pricing operations, strategic deal support, commercial governance, and commercial operations. Their mission is simple: enable Square to win more business by making every commercial decision faster, smarter, and more consistent. What You\u2019ll Own: Commercial Strategy &amp; Operations Partner with Finance to operationalize Square\u2019s pricing strategy, commercial policies, and investment guardrails. Translate pricing strategy into scalable seller workflows, pricing frameworks, playbooks, calculators, and decision-support tools. Continuously improve how pricing decisions are executed across products, customer segments, markets, and sales channels. Bring market insights, competitive intelligence, and field feedback back into pricing strategy and product packaging. Strategic Deal Excellence Lead commercial strategy for Square\u2019s largest and most strategic customer opportunities. Partner with enterprise sales leaders to structure creative commercial solutions within established pricing and investment guardrails. Advise executive leadership on complex commercial decisions, non-standard pricing, and strategic investments. Coordinate executive reviews and cross-functional approvals for high-value commercial opportunities. Global Deal Desk Own the end-to-end operation of Square\u2019s global Deal Desk. Build scalable intake, review, approval, and booking workflows that reduce friction for sellers. Establish SLAs and operating rhythms that ensure pricing and approvals never become bottlenecks. Design repeatable playbooks that eliminate unnecessary manual reviews through standardized commercial patterns. Own approval matrices, exception management, discount governance, and escalation processes across Square globally. Commercial Operations &amp; Automation Modernize Square\u2019s commercial operating model through AI and automation. Embed pricing recommendations, approval logic, and commercial guardrails directly into seller workflows. Simplify quote-to-cash processes and improve the overall seller experience. Increase deal velocity without sacrificing governance or profitability. Commercial Insights &amp; Governance Monitor pricing performance, approval trends, discount behavior, deal cycle time, and margin realization. Identify opportunities to improve commercial performance, seller productivity, and profitability. Build executive dashboards and reporting that provide visibility into Square\u2019s commercial health. Partner with Finance, Legal, Product, and Risk to continuously evolve Square\u2019s commercial governance framework. Leadership Build and lead a high-performing global team spanning Deal Desk, pricing operations, strategic deal support, and commercial excellence. Develop exceptional talent and foster a culture of operational excellence, customer obsession, and continuous improvement. Build trusted partnerships across Revenue, Finance, Product, Legal, Engineering, and Risk. What We\u2019re Looking For: 10+ years of experience leading Deal Desk, Commercial Operations, Revenue Operations, Sales Strategy, Pricing, Consulting, or related functions. Experience building and scaling commercial operating systems within SaaS, fintech, payments, or enterprise software. Deep expertise in enterprise sales, pricing operations, commercial governance, and complex deal structuring. Strong commercial judgment with experience supporting high-value strategic negotiations. Proven ability to build scalable operating models, approval workflows, and AI-enabled commercial processes. Strong analytical and financial acumen with the ability to evaluate complex commercial tradeoffs. Exceptional cross-functional leadership and executive influence. Success in This Role Within your first year, you will have: Built the commercial operating system that enables Square\u2019s Revenue organization to move faster while maintaining commercial discipline. Reduced deal cycle times through streamlined workflows and AI-enabled automation. Increased consistency in pricing execution and commercial decision-making across every Square market. Established a world-class Deal Desk that supports both routine and strategic commercial opportunities. Improved seller productivity through better tools, clearer guidance, and simpler commercial processes. Become a trusted commercial partner to Sales, Finance, Product, and executive leadership. We\u2019re working to build a more inclusive economy where our customers have equal access to opportunity, and we strive to live by these same values in building our workplace. Block is an equal opportunity employer evaluating all employees and job applicants without regard to identity or any legally protected class. We will consider qualified applicants with arrest or conviction records for employment in accordance with state and local laws and \u201cfair chance\u201d ordinances. We believe in being fair, and are committed to an inclusive interview experience, including providing reasonable accommodations to disabled applicants throughout the recruitment process. We encourage applicants to share any needed accommodations with their recruiter, who will treat these requests as confidentially as possible.&nbsp; Want to learn more about what we\u2019re doing to build a workplace that is fair and square? Check out our &nbsp; I+D page . &nbsp; Block takes a market-based approach to pay, and pay may vary depending on your location. U.S. locations are categorized into one of four zones based on a cost of labor index for that geographic area. The successful candidate\u2019s starting pay will be determined based on job-related skills, experience, qualifications, work location, and market conditions. These ranges may be modified in the future. To find a location\u2019s zone designation, please refer to this&nbsp; resource . If a location of interest is not listed, please speak with a recruiter for additional information.&nbsp; &nbsp; Zone A: $217,800 &mdash; $326,800 USD Zone B: $217,800 &mdash; $326,800 USD Zone C: $217,800 &mdash; $326,800 USD Zone D: $217,800 &mdash; $326,800 USD Application Guidelines Candidates may submit up to 9 active applications within a 60-day period. Reapplications to the same role are accepted 90 days after a previous application has been reviewed. Use of AI in Our Hiring Process We may use automated AI tools to evaluate job applications for efficiency and consistency. These tools comply with local regulations, including bias audits, and we handle all personal data in accordance with state and local privacy laws.&nbsp; Contact us here &nbsp;with hiring practice or data usage questions. Every benefit we offer is designed with one goal: empowering you to do the best work of your career while building the life you want. Remote work, medical insurance, flexible time off, retirement savings plans, and modern family planning are just some of our offering.&nbsp; Check out our other benefits at Block. Block, Inc. (NYSE: XYZ) builds technology to increase access to the global economy. Each of our brands unlocks different aspects of the economy for more people.&nbsp; Square &nbsp;makes commerce and financial services accessible to sellers.&nbsp; Cash App &nbsp;is the easy way to spend, send, and store money.&nbsp; Afterpay &nbsp;is transforming the way customers manage their spending over time.&nbsp; TIDAL &nbsp;is a music platform that empowers artists to thrive as entrepreneurs.&nbsp; Bitkey &nbsp;is a simple self-custody wallet built for bitcoin.&nbsp; Proto &nbsp;is a suite of bitcoin mining products and services. Together, we\u2019re helping build a financial system that is open to everyone. Privacy Policy",
-      "reason": "Matches commercial operations, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Commercial Operations",
-        "Strong Opportunity",
-        "New <72h",
-        "New Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -803,8 +759,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -847,8 +803,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -891,8 +847,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -935,8 +891,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -979,8 +935,52 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": false
+    },
+    {
+      "id": "block-head-of-square-commercial-operations-deal-excellence-bay-area-ca-united-states-of-america",
+      "canonical_key": "block|head of square commercial operations deal excellence|bay area ca united states of america",
+      "company": "Block",
+      "title": "Head of Square Commercial Operations & Deal Excellence",
+      "location": "Bay Area, CA, United States of America",
+      "location_type": "remote",
+      "track": "Commercial Operations",
+      "priority_bucket": "Strong Opportunity",
+      "salary_min": 217800,
+      "salary_max": 326800,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-08-13",
+      "apply_url": "https://block.xyz/careers/jobs/4809166008?gh_jid=4809166008",
+      "source_url": "http://block.xyz/careers/jobs/4809166008?gh_jid=4809166008",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 69,
+      "interview_probability": "Low",
+      "application_time_minutes": 40,
+      "recommended_resume": "Commercial Operations",
+      "cover_letter": "Recommended",
+      "freshness": "Recent",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn\u2019t work together. So we expanded into software and started building integrated, omnichannel solutions \u2013 to help sellers sell online, manage inventory, offer buy now, pay later functionality, book appointments, engage loyal buyers, and hire and pay staff. Across it all, we\u2019ve embedded financial services tools at the point of sale, so merchants can access a business loan and manage their cash flow in one place. Afterpay furthers our goal to provide omnichannel tools that unlock meaningful value and growth, enabling sellers to capture the next generation shopper, increase order sizes, and compete at a larger scale. Today, we are a partner to sellers of all sizes \u2013 large, enterprise-scale businesses with complex operations, sellers just starting, as well as merchants who began selling with Square and have grown larger over time. As our sellers grow, so do our solutions. There is a massive opportunity in front of us. We\u2019re building a significant, meaningful, and lasting business, and we are helping sellers worldwide do the same. About the Role: As Square continues to scale globally, our commercial engine is becoming increasingly complex. We serve sellers across multiple markets, products, customer segments, and sales channels, requiring faster and more consistent decisions around pricing, commercial investments, and deal execution. We\u2019re hiring a Head of Square Commercial Operations &amp; Deal Excellence to build and lead the commercial operating system that powers Square\u2019s global Revenue organization. This team sits within Revenue and serves as the connective tissue between Sales, Finance, Product, Engineering, Legal, Risk, and Revenue Operations. Finance owns Square\u2019s pricing principles, profitability objectives, investment frameworks, and commercial guardrails. This team operationalizes those guardrails\u2014building the processes, tools, governance, and strategic support that enable sellers to move faster while protecting long-term business value. This leader will own Square\u2019s global Deal Desk, pricing operations, strategic deal support, commercial governance, and commercial operations. Their mission is simple: enable Square to win more business by making every commercial decision faster, smarter, and more consistent. What You\u2019ll Own: Commercial Strategy &amp; Operations Partner with Finance to operationalize Square\u2019s pricing strategy, commercial policies, and investment guardrails. Translate pricing strategy into scalable seller workflows, pricing frameworks, playbooks, calculators, and decision-support tools. Continuously improve how pricing decisions are executed across products, customer segments, markets, and sales channels. Bring market insights, competitive intelligence, and field feedback back into pricing strategy and product packaging. Strategic Deal Excellence Lead commercial strategy for Square\u2019s largest and most strategic customer opportunities. Partner with enterprise sales leaders to structure creative commercial solutions within established pricing and investment guardrails. Advise executive leadership on complex commercial decisions, non-standard pricing, and strategic investments. Coordinate executive reviews and cross-functional approvals for high-value commercial opportunities. Global Deal Desk Own the end-to-end operation of Square\u2019s global Deal Desk. Build scalable intake, review, approval, and booking workflows that reduce friction for sellers. Establish SLAs and operating rhythms that ensure pricing and approvals never become bottlenecks. Design repeatable playbooks that eliminate unnecessary manual reviews through standardized commercial patterns. Own approval matrices, exception management, discount governance, and escalation processes across Square globally. Commercial Operations &amp; Automation Modernize Square\u2019s commercial operating model through AI and automation. Embed pricing recommendations, approval logic, and commercial guardrails directly into seller workflows. Simplify quote-to-cash processes and improve the overall seller experience. Increase deal velocity without sacrificing governance or profitability. Commercial Insights &amp; Governance Monitor pricing performance, approval trends, discount behavior, deal cycle time, and margin realization. Identify opportunities to improve commercial performance, seller productivity, and profitability. Build executive dashboards and reporting that provide visibility into Square\u2019s commercial health. Partner with Finance, Legal, Product, and Risk to continuously evolve Square\u2019s commercial governance framework. Leadership Build and lead a high-performing global team spanning Deal Desk, pricing operations, strategic deal support, and commercial excellence. Develop exceptional talent and foster a culture of operational excellence, customer obsession, and continuous improvement. Build trusted partnerships across Revenue, Finance, Product, Legal, Engineering, and Risk. What We\u2019re Looking For: 10+ years of experience leading Deal Desk, Commercial Operations, Revenue Operations, Sales Strategy, Pricing, Consulting, or related functions. Experience building and scaling commercial operating systems within SaaS, fintech, payments, or enterprise software. Deep expertise in enterprise sales, pricing operations, commercial governance, and complex deal structuring. Strong commercial judgment with experience supporting high-value strategic negotiations. Proven ability to build scalable operating models, approval workflows, and AI-enabled commercial processes. Strong analytical and financial acumen with the ability to evaluate complex commercial tradeoffs. Exceptional cross-functional leadership and executive influence. Success in This Role Within your first year, you will have: Built the commercial operating system that enables Square\u2019s Revenue organization to move faster while maintaining commercial discipline. Reduced deal cycle times through streamlined workflows and AI-enabled automation. Increased consistency in pricing execution and commercial decision-making across every Square market. Established a world-class Deal Desk that supports both routine and strategic commercial opportunities. Improved seller productivity through better tools, clearer guidance, and simpler commercial processes. Become a trusted commercial partner to Sales, Finance, Product, and executive leadership. We\u2019re working to build a more inclusive economy where our customers have equal access to opportunity, and we strive to live by these same values in building our workplace. Block is an equal opportunity employer evaluating all employees and job applicants without regard to identity or any legally protected class. We will consider qualified applicants with arrest or conviction records for employment in accordance with state and local laws and \u201cfair chance\u201d ordinances. We believe in being fair, and are committed to an inclusive interview experience, including providing reasonable accommodations to disabled applicants throughout the recruitment process. We encourage applicants to share any needed accommodations with their recruiter, who will treat these requests as confidentially as possible.&nbsp; Want to learn more about what we\u2019re doing to build a workplace that is fair and square? Check out our &nbsp; I+D page . &nbsp; Block takes a market-based approach to pay, and pay may vary depending on your location. U.S. locations are categorized into one of four zones based on a cost of labor index for that geographic area. The successful candidate\u2019s starting pay will be determined based on job-related skills, experience, qualifications, work location, and market conditions. These ranges may be modified in the future. To find a location\u2019s zone designation, please refer to this&nbsp; resource . If a location of interest is not listed, please speak with a recruiter for additional information.&nbsp; &nbsp; Zone A: $217,800 &mdash; $326,800 USD Zone B: $217,800 &mdash; $326,800 USD Zone C: $217,800 &mdash; $326,800 USD Zone D: $217,800 &mdash; $326,800 USD Application Guidelines Candidates may submit up to 9 active applications within a 60-day period. Reapplications to the same role are accepted 90 days after a previous application has been reviewed. Use of AI in Our Hiring Process We may use automated AI tools to evaluate job applications for efficiency and consistency. These tools comply with local regulations, including bias audits, and we handle all personal data in accordance with state and local privacy laws.&nbsp; Contact us here &nbsp;with hiring practice or data usage questions. Every benefit we offer is designed with one goal: empowering you to do the best work of your career while building the life you want. Remote work, medical insurance, flexible time off, retirement savings plans, and modern family planning are just some of our offering.&nbsp; Check out our other benefits at Block. Block, Inc. (NYSE: XYZ) builds technology to increase access to the global economy. Each of our brands unlocks different aspects of the economy for more people.&nbsp; Square &nbsp;makes commerce and financial services accessible to sellers.&nbsp; Cash App &nbsp;is the easy way to spend, send, and store money.&nbsp; Afterpay &nbsp;is transforming the way customers manage their spending over time.&nbsp; TIDAL &nbsp;is a music platform that empowers artists to thrive as entrepreneurs.&nbsp; Bitkey &nbsp;is a simple self-custody wallet built for bitcoin.&nbsp; Proto &nbsp;is a suite of bitcoin mining products and services. Together, we\u2019re helping build a financial system that is open to everyone. Privacy Policy",
+      "reason": "Matches commercial operations, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Commercial Operations",
+        "Strong Opportunity",
+        "Recent",
+        "New Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1023,8 +1023,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1067,52 +1067,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": false
-    },
-    {
-      "id": "dropbox-head-of-global-sales-enablement-and-ai-adoption-remote-us-select-locations",
-      "canonical_key": "dropbox|head of global sales enablement and ai adoption|remote us select locations",
-      "company": "Dropbox",
-      "title": "Head of Global Sales Enablement and AI Adoption",
-      "location": "Remote - US: Select locations",
-      "location_type": "remote",
-      "track": "Enablement",
-      "priority_bucket": "Strong Opportunity",
-      "salary_min": 185600,
-      "salary_max": 282600,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-08-13",
-      "apply_url": "https://www.dropbox.jobs/en/jobs/7673202/head-of-global-sales-enablement-and-ai-adoption/",
-      "source_url": "https://jobs.dropbox.com/listing/7673202?gh_jid=7673202",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 65,
-      "interview_probability": "Low",
-      "application_time_minutes": 40,
-      "recommended_resume": "Customer Success Leadership",
-      "cover_letter": "Recommended",
-      "freshness": "New <72h",
-      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Role Description Dropbox is looking for a strategic leader to build and scale the next generation of Sales Enablement. As Head of Global Sales Enablement &amp; AI Adoption , you will define how our sales organization learns, executes, and performs at scale. You\u2019ll lead the strategy, operating model, and execution for global enablement while leading how sellers and managers adopt AI capabilities to transform the way they work. &nbsp; This role sits at the intersection of Revenue Operations, Sales, Product, Marketing, and AI adoption. You\u2019ll partner closely with executive leadership to identify the highest-impact opportunities to improve seller productivity, accelerate strategic priorities , strengthen manager effectiveness, and create consistent execution across our global go-to-market organization. &nbsp; Success in this role requires balancing strategic thinking with operational excellence. You\u2019ll build scalable enablement programs, modern learning experiences, adoption of AI-enabled workflows and tooling , and measurable operating rhythms that improve business performance\u2014not simply deliver training. &nbsp; If you\u2019re excited about building organizations, influencing executive strategy, and using AI to redefine how revenue teams work, we\u2019d love to meet you. Responsibilities Define and execute the global Sales Enablement strategy and multi-year roadmap aligned to Dropbox\u2019s go-to-market priorities. Build scalable enablement programs that improve seller productivity, manager effectiveness, onboarding, launch readiness, and revenue performance. Partner with Sales, Revenue Operations, Product, Product Marketing, IT, and executive leadership to drive consistent execution across global teams. Partner with GTM Technology and enterprise AI teams to identify, validate, and drive adoption of AI-enabled workflows that improve seller productivity , while maintaining responsible AI governance and usage. Establish measurement frameworks that connect enablement investments to business outcomes, using data to continuously improve programs and prioritize future investments. Build and develop a high-performing enablement organization and create operating mechanisms that reinforce learning, coaching, and adoption. Foster a culture of continuous improvement by simplifying complex problems, driving change effectively, and ensuring enablement remains tightly connected to customer and business outcomes. Drive adoption, enablement, and change management for AI capabilities introduced into seller and manager workflows . Requirements Significant experience leading Sales Enablement or Revenue Enablement within a high-growth B2B SaaS organization. Proven success building global enablement strategies that improve seller productivity and measurable business outcomes. Experience partnering with senior executives across Sales, Revenue Operations, Product, Marketing, and Technology to influence strategy and execution. Demonstrated ability to use business performance data to diagnose sales challenges, prioritize investments, and measure program effectiveness. Ability to operate with a transformation-mindset as a builder, willing to break through barriers and challenge the status quo to increase impact. Experience identifying and driving adoption of AI-enabled capabilities within Sales or GTM organizations through enablement, training, and change management. Strong leadership experience building, developing, and coaching high-performing teams through periods of growth and change. Excellent executive communication, influence, and organizational leadership skills. Preferred Qualifications Experience leading enablement across enterprise, commercial, and product-led sales motions. Experience building AI adoption programs and enablement strategies that accelerate responsible use of AI capabilities with proven results. Deep familiarity with modern sales enablement technologies including CRM, content management, conversation intelligence, learning platforms, and emerging AI solutions. Experience leading globally distributed teams across multiple regions. Demonstrated ability to connect enablement investments to improvements in pipeline creation, conversion, ramp time, productivity, or revenue growth. Compensation US Zone 1 This role is not available in Zone 1 US Zone 2 $208,800 &mdash; $282,600 USD US Zone 3 $185,600 &mdash; $251,200 USD",
-      "reason": "Matches enablement, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Enablement",
-        "Strong Opportunity",
-        "New <72h",
-        "New Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1155,8 +1111,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1199,8 +1155,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1243,52 +1199,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": false
-    },
-    {
-      "id": "twilio-director-strategic-accounts-remote-us",
-      "canonical_key": "twilio|director strategic accounts|remote us",
-      "company": "Twilio",
-      "title": "Director, Strategic Accounts",
-      "location": "Remote - US",
-      "location_type": "remote",
-      "track": "Strategic Accounts",
-      "priority_bucket": "Strong Opportunity",
-      "salary_min": 185760,
-      "salary_max": 258000,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-08-13",
-      "apply_url": "https://job-boards.greenhouse.io/twilio/jobs/7957637",
-      "source_url": "https://job-boards.greenhouse.io/twilio/jobs/7957637",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 63,
-      "interview_probability": "Low",
-      "application_time_minutes": 40,
-      "recommended_resume": "Customer Success Leadership",
-      "cover_letter": "Recommended",
-      "freshness": "New <72h",
-      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Who we are&nbsp; At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!&nbsp; Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings.&nbsp; . &nbsp; See yourself at Twilio Join the team as Twilio\u2019s next Director, Strategic Accounts. About the job This position is needed to lead our growing Strategic Accounts team aligned to the Regulated Verticals Healthcare sector. This person will lead, mentor, and scale a high performing team of Strategic Account Executives (6-8 individual contributors) focused on revenue growth and cross selling Twilio\u2019s new products to existing named accounts across North America. Responsibilities In this role, you\u2019ll: Be customer focused, metrics driven, embrace a consultative sales philosophy, and are passionate about helping your team succeed. Our customers are often application owners, software engineering leaders, product managers, entrepreneurs, and line of business owners. You must love talking to all types of customers about building their businesses and helping them drive innovation across many different types of use cases centered around how our customers communicate with their customers. Support your team by helping them build and progress pipeline, work across functions to execute complex deals and lead strategic prospect and customer meetings. You will conduct weekly 1:1's with each team member, provide tactical and strategic deal guidance, motivation, and career development.&nbsp; Maintain accurate and up-to-date CRM data for your team and provide reliable weekly forecast information to upper management. Qualifications&nbsp; Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking for people who will bring something new to the table! Required: 8+ years of technical solutions selling experience, with 4+ years experience managing a team of account managers or strategic account executives within the Enterprise segment&nbsp; A leader who lives the Twilio Magic and has a demonstrated track record of success. You should feel comfortable with selling a platform or SaaS, but if you have experience with Contact Centers, Messaging, Call Tracking and other communication solutions even better. Customer focused, metrics driven, embraces a consultative sales philosophy, and is passionate about helping their team succeed. Experience building high performing sales teams, managing forecasting, and supporting fiscal planning and revenue tracking for all major accounts in the region&nbsp; Demonstrated ability to develop strong consultative relationships with external partners and internal cross-functional teams at all levels Bring data driven methodology and quantitative analytical skills, including pipeline management and forecasting Excellent time management/prioritization skills Strong verbal and written communication skills Share best practices and knowledge with the extended team to produce optimal results for the region. A Bachelor\u2019s degree or equivalent experience Desired: Experience with Contact Centers, Messaging, Call Tracking and other communication solutions is preferred Location This role will be remote and based in the United States. Travel&nbsp; We prioritize connection and opportunities to build relationships with our customers and each other. For this role, approximately 15% travel is anticipated to help you connect in-person in a meaningful way.&nbsp; What We Offer Working at Twilio offers many benefits, including competitive pay, generous time off, ample parental and wellness leave, healthcare, a retirement savings program, and much more. Offerings vary by location. Compensation *Please note this role is open to candidates outside of California, Colorado, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, New Jersey, New York, Vermont, Washington D.C., and Washington State. The information below is provided for candidates hired in those locations only. The estimated pay ranges for this role are as follows: Based in Colorado, Hawaii, Minnesota or Vermont : $185,760.00 - $232,200.00. Based in Washington D.C., Illinois, Maryland, Massachusetts or California (outside of the San Francisco Bay Area): $196,080.00 - $245,100.00. Based in New York, New Jersey, Washington State, or the San Francisco Bay area, California: $206,400.00 - $258,000.00. This role may be eligible to participate in Twilio\u2019s equity plan. All roles are generally eligible for the following benefits: health care insurance, 401(k) retirement account, paid sick time, paid personal time off, paid parental leave. This role is eligible to earn commissions.&nbsp; The successful candidate\u2019s starting salary will be determined based on permissible, non-discriminatory factors such as skills, experience, and geographic location.&nbsp; Applications for this role are intended to be accepted until August 15, 2026, but may change based on business needs.&nbsp; Twilio thinks big. Do you? We like to solve problems, take initiative, pitch in when needed, and are always up for trying new things. That's why we seek out colleagues who embody our values \u2014 something we call Twilio Magic . Additionally, we empower employees to build positive change in their communities by supporting their volunteering and donation efforts. So, if you're ready to unleash your full potential, do your best work, and be the best version of yourself, apply now! If this role isn't what you're looking for, please consider other open positions. . Stay alert to recruitment fraud We care about your safety. Scammers sometimes impersonate Twilio recruiters through fake job postings, emails, websites, or messages. Please ensure you are engaging with an official @ twilio.com email address. We will never ask for payment, gift cards, cryptocurrency, or banking information during the recruiting process. We do not make job offers without a formal interview process or conduct interviews exclusively through text-based messaging apps. . Twilio is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, genetic information, political views or activity, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Qualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. Additionally, Twilio participates in the E-Verify program in certain locations, as required by law.",
-      "reason": "Matches strategic accounts, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Strategic Accounts",
-        "Strong Opportunity",
-        "New <72h",
-        "New Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1331,8 +1243,52 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": false
+    },
+    {
+      "id": "dropbox-head-of-global-sales-enablement-and-ai-adoption-remote-us-select-locations",
+      "canonical_key": "dropbox|head of global sales enablement and ai adoption|remote us select locations",
+      "company": "Dropbox",
+      "title": "Head of Global Sales Enablement and AI Adoption",
+      "location": "Remote - US: Select locations",
+      "location_type": "remote",
+      "track": "Enablement",
+      "priority_bucket": "Strong Opportunity",
+      "salary_min": 185600,
+      "salary_max": 282600,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-08-13",
+      "apply_url": "https://www.dropbox.jobs/en/jobs/7673202/head-of-global-sales-enablement-and-ai-adoption/",
+      "source_url": "https://jobs.dropbox.com/listing/7673202?gh_jid=7673202",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 63,
+      "interview_probability": "Low",
+      "application_time_minutes": 40,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Recommended",
+      "freshness": "Recent",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "Role Description Dropbox is looking for a strategic leader to build and scale the next generation of Sales Enablement. As Head of Global Sales Enablement &amp; AI Adoption , you will define how our sales organization learns, executes, and performs at scale. You\u2019ll lead the strategy, operating model, and execution for global enablement while leading how sellers and managers adopt AI capabilities to transform the way they work. &nbsp; This role sits at the intersection of Revenue Operations, Sales, Product, Marketing, and AI adoption. You\u2019ll partner closely with executive leadership to identify the highest-impact opportunities to improve seller productivity, accelerate strategic priorities , strengthen manager effectiveness, and create consistent execution across our global go-to-market organization. &nbsp; Success in this role requires balancing strategic thinking with operational excellence. You\u2019ll build scalable enablement programs, modern learning experiences, adoption of AI-enabled workflows and tooling , and measurable operating rhythms that improve business performance\u2014not simply deliver training. &nbsp; If you\u2019re excited about building organizations, influencing executive strategy, and using AI to redefine how revenue teams work, we\u2019d love to meet you. Responsibilities Define and execute the global Sales Enablement strategy and multi-year roadmap aligned to Dropbox\u2019s go-to-market priorities. Build scalable enablement programs that improve seller productivity, manager effectiveness, onboarding, launch readiness, and revenue performance. Partner with Sales, Revenue Operations, Product, Product Marketing, IT, and executive leadership to drive consistent execution across global teams. Partner with GTM Technology and enterprise AI teams to identify, validate, and drive adoption of AI-enabled workflows that improve seller productivity , while maintaining responsible AI governance and usage. Establish measurement frameworks that connect enablement investments to business outcomes, using data to continuously improve programs and prioritize future investments. Build and develop a high-performing enablement organization and create operating mechanisms that reinforce learning, coaching, and adoption. Foster a culture of continuous improvement by simplifying complex problems, driving change effectively, and ensuring enablement remains tightly connected to customer and business outcomes. Drive adoption, enablement, and change management for AI capabilities introduced into seller and manager workflows . Requirements Significant experience leading Sales Enablement or Revenue Enablement within a high-growth B2B SaaS organization. Proven success building global enablement strategies that improve seller productivity and measurable business outcomes. Experience partnering with senior executives across Sales, Revenue Operations, Product, Marketing, and Technology to influence strategy and execution. Demonstrated ability to use business performance data to diagnose sales challenges, prioritize investments, and measure program effectiveness. Ability to operate with a transformation-mindset as a builder, willing to break through barriers and challenge the status quo to increase impact. Experience identifying and driving adoption of AI-enabled capabilities within Sales or GTM organizations through enablement, training, and change management. Strong leadership experience building, developing, and coaching high-performing teams through periods of growth and change. Excellent executive communication, influence, and organizational leadership skills. Preferred Qualifications Experience leading enablement across enterprise, commercial, and product-led sales motions. Experience building AI adoption programs and enablement strategies that accelerate responsible use of AI capabilities with proven results. Deep familiarity with modern sales enablement technologies including CRM, content management, conversation intelligence, learning platforms, and emerging AI solutions. Experience leading globally distributed teams across multiple regions. Demonstrated ability to connect enablement investments to improvements in pipeline creation, conversion, ramp time, productivity, or revenue growth. Compensation US Zone 1 This role is not available in Zone 1 US Zone 2 $208,800 &mdash; $282,600 USD US Zone 3 $185,600 &mdash; $251,200 USD",
+      "reason": "Matches enablement, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Enablement",
+        "Strong Opportunity",
+        "Recent",
+        "New Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1375,8 +1331,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1419,18 +1375,18 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-16T11:44:37.007638+00:00",
-      "last_seen_at": "2026-08-16T11:44:37.007638+00:00",
+      "first_seen_at": "2026-08-17T11:50:14.006415+00:00",
+      "last_seen_at": "2026-08-17T11:50:14.006415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
     }
   ],
-  "match_count": 31,
-  "new_today_count": 31,
-  "qualified_before_validation": 44,
-  "qualified_after_validation": 44,
-  "discovered_before_cap": 44,
+  "match_count": 30,
+  "new_today_count": 30,
+  "qualified_before_validation": 39,
+  "qualified_after_validation": 39,
+  "discovered_before_cap": 39,
   "errors": [
     "Adzuna group 1: HTTP Error 401: Unauthorized",
     "Adzuna group 2: HTTP Error 401: Unauthorized",
