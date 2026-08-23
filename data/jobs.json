@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T11:45:48.814764+00:00",
+  "updated_at": "2026-08-23T11:46:04.471928+00:00",
   "minimum_salary": 130000,
   "daily_job_cap": 100,
   "maximum_jobs_per_company": 3,
@@ -90,8 +90,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -135,8 +135,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -180,8 +180,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -225,8 +225,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -270,53 +270,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": true
-    },
-    {
-      "id": "okta-manager-customer-success-chicago-illinois",
-      "canonical_key": "okta|manager customer success|chicago illinois",
-      "company": "Okta",
-      "title": "Manager, Customer Success",
-      "location": "Chicago, Illinois",
-      "location_type": "midwest",
-      "track": "Customer Success",
-      "priority_bucket": "Priority Apply",
-      "salary_min": 160000,
-      "salary_max": 220000,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-08-19",
-      "apply_url": "https://www.okta.com/company/careers/customer-first/manager-customer-success-8080578/",
-      "source_url": "https://www.okta.com/company/careers/opportunity/8080578?gh_jid=8080578",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 83,
-      "interview_probability": "Medium",
-      "application_time_minutes": 25,
-      "recommended_resume": "Customer Success Leadership",
-      "cover_letter": "Optional",
-      "freshness": "New <72h",
-      "main_risk": "Global scope may be a stretch",
-      "job_description": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Get to know Okta &nbsp; Okta is The World\u2019s Identity Company. We free everyone to safely use any technology\u2014anywhere, on any device or app. Our Workforce and Customer Identity Clouds enable secure yet flexible access, authentication, and automation that transforms how people move through the digital world, putting Identity at the heart of business security and growth. Because you can't get AI security right without getting identity right, Okta secures the modern AI workforce by turning autonomous agents and AI tools into managed, verifiable identities within a single, unified control plane. &nbsp; At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we\u2019re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; &nbsp; Join our team! We\u2019re building a world where Identity belongs to you. &nbsp; Okta\u2019s Scale Customer Success Team&nbsp; Okta\u2019s Scale Customer Success team is rapidly expanding its scope, with a focus on driving outcomes to help customers achieve elevated security posture and accelerated time to value. You will be a part of leading a world-class CS team that is responsible for the adoption of Okta\u2019s critical differentiating features, supporting outcome based success planning, and focusing on risk mitigation for Okta\u2019s customers\u2026at Scale. Where possible, our teams will follow standardized playbooks that have been proven to maximize the success of achieving our customers' security outcomes, but will remain flexible to ensure we are meeting the needs of the customer where they are throughout their lifecycle. The success of this team means higher customer happiness, retention and expansion of Okta business. &nbsp; About this role As Manager, Customer Success for Okta\u2019s Scale CS Team, you will lead a team earlier in career&nbsp; talent to deliver outcomes for our customers that are supported by a Scale (pooled) CS engagement model. You will mentor and coach the team, drive Scale Customer Success plays, and ultimately will be responsible for your team\u2019s performance against customer health/adoption, and renewal and growth target goals.&nbsp;&nbsp; &nbsp; What you will be doing as a Manager, Customer Success at Okta: You'll be a coach and mentor: Help emerging CSMs ramp quickly and then continue to grow and refine their skills. You'll drive customer success: Lead your team in executing Scale CS plays focused on critical security features, Identity Maturity, and key feature adoption. You're aiming to drive efficiency and effectiveness, ultimately maximizing retention and expansion You\u2019ll optimize with AI: Constantly look for ways to deconstruct traditional workflows, leveraging automation and AI tools to save manual hours and drive team-wide efficiency You\u2019ll foster the Okta culture: Cultivate a culture of calculated risk-taking, encouraging your team to make fast, high-judgment decisions, break down slow \"one-size-fits-all\" processes to drive unique outcomes&nbsp; You'll set goals and give feedback: Define what success looks like for your team, check in with them regularly, and offer constructive feedback to help them shine. You'll be a team player: Work with other leaders across Okta (Sales, Support, Product, etc.) to make sure everyone is successful and customers get the best outcomes. You'll improve things: Look for ways to make the team's processes better and more efficient. You'll be the point person: Step in and help resolve customer issues when needed. You\u2019ll partner to continue to build: Close relationship with CS Operation and Digital Success, to grow the long-term success of the Scale CS program.&nbsp; What you\u2019ll bring to the role 8+ years of relevant experience with a Bachelor\u2019s degree, or equivalent combination of education and work experience. 6+ years in Customer Success. Experience in a pooled/scaled Customer Success team, and/or experience with Digital Customer Success, is a plus.&nbsp; 2+ years of managerial / leadership experience, or equivalent. A proven track record and motivation for onboarding, nurturing and growing an early-in-career team. Passion for leading high-performance teams, coaching to develop skills, and helping to chart career paths.&nbsp; Demonstrated success leading effectively in a dynamic, high-growth, and fast-paced environment, and working with both in-person and remote teams.&nbsp; Clear communicator, who leverages data, workflow diagrams, logic, and strong analytical skills to illustrate viewpoints verbally and in writing Excellent presentation skills, with a passion for explaining complex technical concepts in a digestible manner and for coaching your team to do the same Demonstration of operational excellence in analytical thinking, process improvement, problem-solving, communication, delegation, and planning Ability to collaborate across the organization and with external stakeholders Experience successfully engaging and working with customers including IT administrators up to executives Strong operational skills that will drive organizational efficiencies and customer satisfaction Experience with Okta is a huge plus &nbsp; Core Competencies and Values Okta\u2019s Top 5 Core Leadership Competencies are part of the deeply ingrained principles that guide all of our company\u2019s actions. They also align strongly to our cultural cornerstones, our Okta values: love our customers, empower our people, never stop innovating, act with integrity, and maintain transparency. It\u2019s our expectation that our managers and leaders embody these core competencies: Builds Effective Teams: Building strong-identity teams that apply their diverse skills and perspectives to achieve common goals.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Demonstrates Self-Awareness (EQ): Using a combination of feedback and reflection to gain productive insight into personal strengths and weaknesses. Develops Talent: Developing people to meet both their career goals and the organization\u2019s goals. Drives Results: Consistently achieving results, even under tough circumstances. Strategic Mindset: Seeing ahead to future possibilities and translating them into breakthrough strategies. #LI-TP2 P22166_3500782 Below is the annual On Target Compensation (OTE) range for candidates located in California (excluding San Francisco Bay Area), Colorado, Illinois, New York and Washington. Your actual OTE, which is inclusive of base salary and incentive compensation, will depend on factors such as your skills, qualifications, experience, and work location. In addition, Okta offers equity (where applicable) and benefits, including health, dental and vision insurance, 401(k), flexible spending account, and paid leave (including PTO and parental leave) in accordance with our applicable plans and policies. To learn more about our Total Rewards program please visit:&nbsp; https://rewards.okta.com/us .&nbsp; The annual OTE range for this position for candidates located in California (excluding San Francisco Bay Area), Colorado, Illinois, New York, and Washington is between: $160,000 &mdash; $220,000 USD The Okta Experience Supporting Your Well-Being &nbsp; Driving Social Impact&nbsp; Developing Talent and Fostering Connection + Community We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one. Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws. If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&nbsp; use this Form to request an accommodation. Notice for New York City Applicants &amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&nbsp; click here to view our full NYC AEDT Notice.",
-      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Customer Success",
-        "Priority Apply",
-        "New <72h",
-        "New Today",
-        "Top 10 Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -360,8 +315,53 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": true
+    },
+    {
+      "id": "okta-manager-customer-success-chicago-illinois",
+      "canonical_key": "okta|manager customer success|chicago illinois",
+      "company": "Okta",
+      "title": "Manager, Customer Success",
+      "location": "Chicago, Illinois",
+      "location_type": "midwest",
+      "track": "Customer Success",
+      "priority_bucket": "Priority Apply",
+      "salary_min": 160000,
+      "salary_max": 220000,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-08-19",
+      "apply_url": "https://www.okta.com/company/careers/customer-first/manager-customer-success-8080578/",
+      "source_url": "https://www.okta.com/company/careers/opportunity/8080578?gh_jid=8080578",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 81,
+      "interview_probability": "Medium",
+      "application_time_minutes": 25,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Recommended",
+      "freshness": "Recent",
+      "main_risk": "Global scope may be a stretch",
+      "job_description": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Get to know Okta &nbsp; Okta is The World\u2019s Identity Company. We free everyone to safely use any technology\u2014anywhere, on any device or app. Our Workforce and Customer Identity Clouds enable secure yet flexible access, authentication, and automation that transforms how people move through the digital world, putting Identity at the heart of business security and growth. Because you can't get AI security right without getting identity right, Okta secures the modern AI workforce by turning autonomous agents and AI tools into managed, verifiable identities within a single, unified control plane. &nbsp; At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we\u2019re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp; &nbsp; Join our team! We\u2019re building a world where Identity belongs to you. &nbsp; Okta\u2019s Scale Customer Success Team&nbsp; Okta\u2019s Scale Customer Success team is rapidly expanding its scope, with a focus on driving outcomes to help customers achieve elevated security posture and accelerated time to value. You will be a part of leading a world-class CS team that is responsible for the adoption of Okta\u2019s critical differentiating features, supporting outcome based success planning, and focusing on risk mitigation for Okta\u2019s customers\u2026at Scale. Where possible, our teams will follow standardized playbooks that have been proven to maximize the success of achieving our customers' security outcomes, but will remain flexible to ensure we are meeting the needs of the customer where they are throughout their lifecycle. The success of this team means higher customer happiness, retention and expansion of Okta business. &nbsp; About this role As Manager, Customer Success for Okta\u2019s Scale CS Team, you will lead a team earlier in career&nbsp; talent to deliver outcomes for our customers that are supported by a Scale (pooled) CS engagement model. You will mentor and coach the team, drive Scale Customer Success plays, and ultimately will be responsible for your team\u2019s performance against customer health/adoption, and renewal and growth target goals.&nbsp;&nbsp; &nbsp; What you will be doing as a Manager, Customer Success at Okta: You'll be a coach and mentor: Help emerging CSMs ramp quickly and then continue to grow and refine their skills. You'll drive customer success: Lead your team in executing Scale CS plays focused on critical security features, Identity Maturity, and key feature adoption. You're aiming to drive efficiency and effectiveness, ultimately maximizing retention and expansion You\u2019ll optimize with AI: Constantly look for ways to deconstruct traditional workflows, leveraging automation and AI tools to save manual hours and drive team-wide efficiency You\u2019ll foster the Okta culture: Cultivate a culture of calculated risk-taking, encouraging your team to make fast, high-judgment decisions, break down slow \"one-size-fits-all\" processes to drive unique outcomes&nbsp; You'll set goals and give feedback: Define what success looks like for your team, check in with them regularly, and offer constructive feedback to help them shine. You'll be a team player: Work with other leaders across Okta (Sales, Support, Product, etc.) to make sure everyone is successful and customers get the best outcomes. You'll improve things: Look for ways to make the team's processes better and more efficient. You'll be the point person: Step in and help resolve customer issues when needed. You\u2019ll partner to continue to build: Close relationship with CS Operation and Digital Success, to grow the long-term success of the Scale CS program.&nbsp; What you\u2019ll bring to the role 8+ years of relevant experience with a Bachelor\u2019s degree, or equivalent combination of education and work experience. 6+ years in Customer Success. Experience in a pooled/scaled Customer Success team, and/or experience with Digital Customer Success, is a plus.&nbsp; 2+ years of managerial / leadership experience, or equivalent. A proven track record and motivation for onboarding, nurturing and growing an early-in-career team. Passion for leading high-performance teams, coaching to develop skills, and helping to chart career paths.&nbsp; Demonstrated success leading effectively in a dynamic, high-growth, and fast-paced environment, and working with both in-person and remote teams.&nbsp; Clear communicator, who leverages data, workflow diagrams, logic, and strong analytical skills to illustrate viewpoints verbally and in writing Excellent presentation skills, with a passion for explaining complex technical concepts in a digestible manner and for coaching your team to do the same Demonstration of operational excellence in analytical thinking, process improvement, problem-solving, communication, delegation, and planning Ability to collaborate across the organization and with external stakeholders Experience successfully engaging and working with customers including IT administrators up to executives Strong operational skills that will drive organizational efficiencies and customer satisfaction Experience with Okta is a huge plus &nbsp; Core Competencies and Values Okta\u2019s Top 5 Core Leadership Competencies are part of the deeply ingrained principles that guide all of our company\u2019s actions. They also align strongly to our cultural cornerstones, our Okta values: love our customers, empower our people, never stop innovating, act with integrity, and maintain transparency. It\u2019s our expectation that our managers and leaders embody these core competencies: Builds Effective Teams: Building strong-identity teams that apply their diverse skills and perspectives to achieve common goals.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Demonstrates Self-Awareness (EQ): Using a combination of feedback and reflection to gain productive insight into personal strengths and weaknesses. Develops Talent: Developing people to meet both their career goals and the organization\u2019s goals. Drives Results: Consistently achieving results, even under tough circumstances. Strategic Mindset: Seeing ahead to future possibilities and translating them into breakthrough strategies. #LI-TP2 P22166_3500782 Below is the annual On Target Compensation (OTE) range for candidates located in California (excluding San Francisco Bay Area), Colorado, Illinois, New York and Washington. Your actual OTE, which is inclusive of base salary and incentive compensation, will depend on factors such as your skills, qualifications, experience, and work location. In addition, Okta offers equity (where applicable) and benefits, including health, dental and vision insurance, 401(k), flexible spending account, and paid leave (including PTO and parental leave) in accordance with our applicable plans and policies. To learn more about our Total Rewards program please visit:&nbsp; https://rewards.okta.com/us .&nbsp; The annual OTE range for this position for candidates located in California (excluding San Francisco Bay Area), Colorado, Illinois, New York, and Washington is between: $160,000 &mdash; $220,000 USD The Okta Experience Supporting Your Well-Being &nbsp; Driving Social Impact&nbsp; Developing Talent and Fostering Connection + Community We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one. Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws. If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&nbsp; use this Form to request an accommodation. Notice for New York City Applicants &amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&nbsp; click here to view our full NYC AEDT Notice.",
+      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Customer Success",
+        "Priority Apply",
+        "Recent",
+        "New Today",
+        "Top 10 Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -405,8 +405,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -450,8 +450,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -495,8 +495,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -539,8 +539,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -583,8 +583,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -627,8 +627,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -671,8 +671,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -715,8 +715,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -759,8 +759,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -803,8 +803,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -847,8 +847,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -891,8 +891,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -935,8 +935,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -979,8 +979,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1023,8 +1023,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1067,8 +1067,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1111,8 +1111,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1155,8 +1155,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1199,8 +1199,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1243,8 +1243,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1287,8 +1287,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1331,8 +1331,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1375,8 +1375,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1419,8 +1419,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-22T11:45:29.545643+00:00",
-      "last_seen_at": "2026-08-22T11:45:29.545643+00:00",
+      "first_seen_at": "2026-08-23T11:45:35.989507+00:00",
+      "last_seen_at": "2026-08-23T11:45:35.989507+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
