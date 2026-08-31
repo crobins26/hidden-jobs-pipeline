@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T15:25:19.085673+00:00",
+  "updated_at": "2026-08-31T18:06:14.878586+00:00",
   "minimum_salary": 130000,
   "daily_job_cap": 100,
   "maximum_jobs_per_company": 3,
@@ -15,7 +15,7 @@
     },
     "Greenhouse": {
       "active": true,
-      "matches": 53
+      "matches": 56
     },
     "Lever": {
       "active": false,
@@ -90,8 +90,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -135,8 +135,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -180,8 +180,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -225,8 +225,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -270,8 +270,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -315,8 +315,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -360,8 +360,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -379,7 +379,7 @@
       "salary_max": 176400,
       "salary_period": "year",
       "salary_confidence": "medium",
-      "posted_at": "2026-08-29",
+      "posted_at": "2026-08-31",
       "apply_url": "https://job-boards.greenhouse.io/gitlab/jobs/8604996002",
       "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8604996002",
       "source": "Greenhouse",
@@ -405,8 +405,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -424,7 +424,7 @@
       "salary_max": 174600,
       "salary_period": "year",
       "salary_confidence": "medium",
-      "posted_at": "2026-08-29",
+      "posted_at": "2026-08-31",
       "apply_url": "https://job-boards.greenhouse.io/gitlab/jobs/8616005002",
       "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8616005002",
       "source": "Greenhouse",
@@ -450,8 +450,53 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": true
+    },
+    {
+      "id": "samsara-strategic-customer-success-manager-remote-canada",
+      "canonical_key": "samsara|strategic customer success manager|remote canada",
+      "company": "Samsara",
+      "title": "Strategic Customer Success Manager",
+      "location": "Remote - Canada",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "priority_bucket": "Priority Apply",
+      "salary_min": 120755,
+      "salary_max": 156271,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-08-30",
+      "apply_url": "https://www.samsara.com/company/careers/roles/8010753?gh_jid=8010753",
+      "source_url": "https://www.samsara.com/company/careers/roles/8010753?gh_jid=8010753",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 76,
+      "interview_probability": "Medium",
+      "application_time_minutes": 25,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Recommended",
+      "freshness": "New <72h",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations\u2122 Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing \u2014 and we are excited to help digitally transform their operations at scale. Working at Samsara means you\u2019ll help define the future of physical operations and be on a team that\u2019s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you\u2019ll have the autonomy and support to make an impact as we build for the long term. About the role: Our Strategic Customer Success Managers pick up where our Services team leaves off, working closely with Samsara\u2019s largest Fleet customers to understand their unique challenges, advising on how to leverage Samsara for their needs, and becoming their long-term strategic partner.&nbsp; Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering, and Product, enabling you to experience multiple aspects of a hyper-growth company from within.&nbsp; This is a remote position open to candidates residing in Canada. Customer travel is expected up to 25-40%. &nbsp; You should apply if: You want to impact the industries that run our world: Every phone call you answer and every email you send can affect whether truck drivers deliver goods on time and without accidents, whether students get dropped off safely from school, or whether power gets restored quickly after a natural disaster. You thrive the most when solving problems: Our constantly expanding technology and the complexities faced by our customers provide an exciting range of challenges for our Customer Success teams. With a growth mindset and a desire to learn, you will strategically partner with our customers to find unique solutions to help keep their operations safe, efficient, and sustainable. You are a natural relationship builder: Whether the relationship is with our customers or with cross-functional teams in Samsara, you are in constant communication and collaboration with key stakeholders to win as a team. You are the architect of your own career: If you put in the work, this role won\u2019t be your last at Samsara. This Customer Success team is still shaping its future and you will have plenty of autonomy and opportunities to master your craft in a hyper-growth environment. You want to be with the best: At Samsara, we win together, celebrate together and support each other. You will be surrounded by the best and brightest professionals out there. In this role, you will: &nbsp; Be on the front lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform&nbsp; Compose joint success plans with customers, outlining their objectives, metrics, and timelines, and effectively removing any barriers to achieving business value&nbsp; Orchestrate executive business reviews with our customers\u2019 decision-makers and our executive leadership where we look back at past successes and align on upcoming goals&nbsp; Conduct workshops with customers to understand their current operations and recommend workflow changes to get the most out of their Samsara products Deeply understand the Samsara platform\u2019s capabilities and explain them to businesses of all types - field services, utilities, long-haul transportation, school buses, and many more. Partners with cross-functional teams like Product, Support, Finance, etc. to drive progress on customer requests. Serve as a mentor to the wider Customer Success teams&nbsp; Champion, role model, and embed Samsara\u2019s cultural principles (Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, Win as a Team) as we scale globally and across new offices&nbsp;&nbsp; Minimum requirements for the role: 6+ years of work experience with most recent experience in a senior Customer Success, account management, or strategic consulting role Experience supporting Enterprise SaaS and/or Fortune 500 companies Strong priority management and high emotional intelligence; this is a demanding position with high internal visibility Experience supporting or working with technical products Solutions-oriented with strong problem-solving skills Proven track record of building trust, communicating effectively and driving change with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software&nbsp; Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment&nbsp; Diplomacy, tact, and poise under pressure when working through customer issues Bachelor\u2019s degree from a 4-year institution An ideal candidate also has: Experience serving and supporting large-scale business solutions at Fortune 500- companies. Strong bias for action, the ability to think big, with insistence on high standards. Thrives in an unstructured, fast-paced, and change-heavy environment. Annual on-target earnings (OTE) range for full-time employees for this position is below and depends on your city of residence. Learn more about our total rewards and benefits below. Annual OTE Salary $120,755.25 &mdash; $156,271.50 CAD Total Rewards At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time. Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you\u2019re ready to build for the long term and own the outcome, your journey starts here. Flexible Working&nbsp; At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual\u2019s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable. Belonging at Samsara At Samsara, we welcome everyone regardless of their background. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, gender, gender identity, sexual orientation, protected veteran status, disability, age, and other characteristics protected by law. We depend on the unique approaches of our team members to help us solve complex problems and want to ensure that Samsara is a place where people from all backgrounds can make an impact. Accommodations&nbsp; Samsara is an inclusive work environment, and we are committed to ensuring equal opportunity in employment for qualified persons with disabilities. Please email accessibleinterviewing@samsara.com or click here if you require any reasonable accommodations throughout the recruiting process. Our Commitment to Authenticity We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara\u2019s Candidate Privacy Notice for more information. Fraudulent Employment Offers Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our&nbsp; blog post here .",
+      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Customer Success",
+        "Priority Apply",
+        "New <72h",
+        "New Today",
+        "Top 10 Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -469,7 +514,7 @@
       "salary_max": 144000,
       "salary_period": "year",
       "salary_confidence": "medium",
-      "posted_at": "2026-08-29",
+      "posted_at": "2026-08-31",
       "apply_url": "https://job-boards.greenhouse.io/gitlab/jobs/8533016002",
       "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8533016002",
       "source": "Greenhouse",
@@ -488,18 +533,17 @@
         "Customer Success",
         "Priority Apply",
         "New <72h",
-        "New Today",
-        "Top 10 Today"
+        "New Today"
       ],
       "sources": [
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
-      "top_10_today": true
+      "top_10_today": false
     },
     {
       "id": "samsara-sr-manager-business-operations-remote-us",
@@ -539,8 +583,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -583,8 +627,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -627,8 +671,52 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": false
+    },
+    {
+      "id": "hubspot-senior-customer-success-manager-mexico-accounts-remote-colombia",
+      "canonical_key": "hubspot|senior customer success manager mexico accounts|remote colombia",
+      "company": "HubSpot",
+      "title": "Senior Customer Success Manager, Mexico Accounts",
+      "location": "Remote - Colombia",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "priority_bucket": "Priority Apply",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-08-31",
+      "apply_url": "https://www.hubspot.com/careers/jobs/7966096?gh_jid=7966096",
+      "source_url": "https://www.hubspot.com/careers/jobs/7966096?gh_jid=7966096",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 74,
+      "interview_probability": "Medium",
+      "application_time_minutes": 25,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Recommended",
+      "freshness": "New <72h",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "Resume must be submitted in English If your idea of Customer Success is rooted in an intrinsic motivation to help others find solutions to their challenges, we should talk. HubSpot's mission is to help millions of organizations grow better. Our team is committed to delivering exceptional experiences and long-term value to our customers by fostering trust and offering expert guidance on the HubSpot platform. The end result: increased value, satisfaction, and continued customer loyalty (retention).&nbsp; As a Senior Customer Success Manager, you'll enjoy unparalleled autonomy, take ownership of your projects, and be devoted to helping each customer unlock the full potential of HubSpot. In this role, you'll have ample opportunities for career advancement, with a strong emphasis on skill enhancement and a clear, performance-driven pathway for progression. Experience and qualifications Relevant experience managing, nurturing, and scaling customer relationships in a quota or retention-carrying role, with a demonstrated ability to handle accounts of varying complexity, including Mid-Market and Corporate customers with layered business needs and multiple stakeholders. Skilled in forecasting retention risks and implementing effective mitigation strategies, including the ability to identify risk signals early, escalate with precision, and lead recovery conversations at the account level. Proven ability to navigate complex organizational structures, building relationships across multiple levels of a customer's business, from day-to-day champions to senior executives and C-suite stakeholders, and positioning as a trusted strategic partner at each level. Adept at preparing for and leading executive business reviews, translating platform metrics and ROI into the language of business outcomes that resonate with VP- and C-level audiences. Exceptional proficiency in verbal and written communication, adept at presenting strategies in person, over the phone, and through email, including in high-stakes or ambiguous customer situations that require clarity, composure, and executive presence. Highly organized, possessing keen attention to detail, and adept at prioritizing tasks for successful execution across a complex book of business. Confident, self-motivated, and committed to collaborative teamwork, including cross-functional coordination with Sales, Support, and leadership when accounts require escalated attention. Demonstrated desire to acquire new knowledge and skills, with an ability to transfer that learning to customers and teammates alike. Motivated by the drive to exceed expectations, particularly in environments where the bar is high and the work is ambiguous. Curious and comfortable adapting to new technologies, utilizing and staying up to date with AI. 3+ years of Customer Success Management/Book of business owner ship &nbsp; Responsibilities : Book of Business Management: Deep understanding of core metrics and role expectations and ability to execute against those metrics by developing strategic action plans on a quarterly basis. Primary ownership and accountability for complex customers who require higher-touch service. Formalize Book of Business management strategy by segmenting customers based on risk and growth. Outline tactics to mitigate churn and collaborate with cross functional teams to maximize growth Accountable for maintaining accurate forecasting notes, inclusive of future mitigation and outreach plans, for customers renewing within six months.&nbsp; Customer Engagements: Engage customers with phone calls regularly, both scheduled and ad hoc, to ensure they derive maximum value from their investment in HubSpot Demonstrate proficiency in understanding and addressing customers' advanced technical needs, resolving inquiries by connecting them with the appropriate resources internally. Collaborate with customers to define success criteria and outline plans to achieve their goals, sharing accountability for their success Proactively identify and cultivate opportunities to expand customers' utilization of HubSpot's product suite and professional services. Monitor customer health and create risk mitigation plans as necessary Cross-Collaboration: Cultivate strong relationships with key decision-makers and stakeholders across various customer teams. Collaborate closely with other HubSpot teams to drive adoption and ensure successful customer renewals. Act as a mentor to onboard and support new team members. Lead by example in developing best practices within the team to enhance our processes' quality, effectiveness, and efficiency. We know the confidence gap &nbsp;and impostor syndrome can get in the way of meeting spectacular candidates, so please don\u2019t hesitate to apply \u2014 we\u2019d love to hear from you. If you need accommodations or assistance due to a disability, please reach out to us using this form . At HubSpot, we value both flexibility and connection. Whether you\u2019re a Remote employee or work from the Office, we want you to start your journey here by building strong connections with your team and peers. If you are joining our Engineering team, you will be required to attend a regional HubSpot office for in-person onboarding. If you join our broader Product team, you\u2019ll also attend other in-person events, such as your Product Group Summit and other gatherings, to continue building on those connections. If you require an accommodation due to travel limitations or other reasons, please inform your recruiter during the hiring process. We are committed to supporting candidates who may need alternative arrangements Massachusetts Applicants: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability. Germany Applicants: (m/f/d) - link to HubSpot's Career Diversity&nbsp;page&nbsp; here . India Applicants: link to HubSpot India's equal opportunity policy here . About HubSpot HubSpot (NYSE: HUBS) is an AI-powered customer platform with all the software, integrations, and resources customers need to connect marketing, sales, and service. HubSpot's connected platform enables businesses to grow faster by focusing on what matters most: customers.&nbsp; At HubSpot, bold is our baseline. Our employees around the globe move fast, stay customer-obsessed, and win together. Our culture is grounded in four commitments: Solve for the Customer, Be Bold, Learn Fast, Align, Adapt &amp; Go!, and Deliver with HEART. These commitments shape how we work, lead, and grow. We\u2019re building a company where people can do their best work . We focus on brilliant work, not badge swipes. By combining clarity, ownership, and trust, we create space for big thinking and meaningful progress. And we know that when our employees grow, our customers do too. Recognized globally for our award-winning culture by Comparably, Glassdoor, Fortune, and more, HubSpot is headquartered in Cambridge, MA, with employees and offices around the world. Explore more: HubSpot Careers Life at HubSpot on Instagram HubSpot may use AI to help screen or assess candidates, but all hiring decisions are always human. More information can be found here . By submitting your application, you agree that HubSpot may collect your personal data for recruiting, global organization planning, and related purposes. We may use CLEAR ID Verification during the hiring process to confirm your identity and help maintain a safe, secure, and trusted experience for all candidates. Refer to HubSpot's Recruiting Privacy Notice for details on data processing and your rights.",
+      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Customer Success",
+        "Priority Apply",
+        "New <72h",
+        "New Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -671,8 +759,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -715,8 +803,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -759,8 +847,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -779,7 +867,7 @@
       "salary_period": "year",
       "salary_confidence": "medium",
       "posted_at": "2026-08-21",
-      "apply_url": "https://www.mongodb.com/careers/jobs/8053367",
+      "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=8053367",
       "source_url": "https://www.mongodb.com/careers/job/?gh_jid=8053367",
       "source": "Greenhouse",
       "source_quality": 5,
@@ -803,54 +891,10 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": false
-    },
-    {
-      "id": "block-head-of-square-commercial-operations-deal-excellence-bay-area-ca-united-states-of-america",
-      "canonical_key": "block|head of square commercial operations deal excellence|bay area ca united states of america",
-      "company": "Block",
-      "title": "Head of Square Commercial Operations & Deal Excellence",
-      "location": "Bay Area, CA, United States of America",
-      "location_type": "remote",
-      "track": "Commercial Operations",
-      "priority_bucket": "Strong Opportunity",
-      "salary_min": 217800,
-      "salary_max": 326800,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-08-27",
-      "apply_url": "https://block.xyz/careers/jobs/4809166008?gh_jid=4809166008",
-      "source_url": "http://block.xyz/careers/jobs/4809166008?gh_jid=4809166008",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 71,
-      "interview_probability": "Low",
-      "application_time_minutes": 40,
-      "recommended_resume": "Commercial Operations",
-      "cover_letter": "Recommended",
-      "freshness": "New <72h",
-      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn\u2019t work together. So we expanded into software and started building integrated, omnichannel solutions \u2013 to help sellers sell online, manage inventory, offer buy now, pay later functionality, book appointments, engage loyal buyers, and hire and pay staff. Across it all, we\u2019ve embedded financial services tools at the point of sale, so merchants can access a business loan and manage their cash flow in one place. Afterpay furthers our goal to provide omnichannel tools that unlock meaningful value and growth, enabling sellers to capture the next generation shopper, increase order sizes, and compete at a larger scale. Today, we are a partner to sellers of all sizes \u2013 large, enterprise-scale businesses with complex operations, sellers just starting, as well as merchants who began selling with Square and have grown larger over time. As our sellers grow, so do our solutions. There is a massive opportunity in front of us. We\u2019re building a significant, meaningful, and lasting business, and we are helping sellers worldwide do the same. About the Role: As Square continues to scale globally, our commercial engine is becoming increasingly complex. We serve sellers across multiple markets, products, customer segments, and sales channels, requiring faster and more consistent decisions around pricing, commercial investments, and deal execution. We\u2019re hiring a Head of Square Commercial Operations &amp; Deal Excellence to build and lead the commercial operating system that powers Square\u2019s global Revenue organization. This team sits within Revenue and serves as the connective tissue between Sales, Finance, Product, Engineering, Legal, Risk, and Revenue Operations. Finance owns Square\u2019s pricing principles, profitability objectives, investment frameworks, and commercial guardrails. This team operationalizes those guardrails\u2014building the processes, tools, governance, and strategic support that enable sellers to move faster while protecting long-term business value. This leader will own Square\u2019s global Deal Desk, pricing operations, strategic deal support, commercial governance, and commercial operations. Their mission is simple: enable Square to win more business by making every commercial decision faster, smarter, and more consistent. What You\u2019ll Own: Commercial Strategy &amp; Operations Partner with Finance to operationalize Square\u2019s pricing strategy, commercial policies, and investment guardrails. Translate pricing strategy into scalable seller workflows, pricing frameworks, playbooks, calculators, and decision-support tools. Continuously improve how pricing decisions are executed across products, customer segments, markets, and sales channels. Bring market insights, competitive intelligence, and field feedback back into pricing strategy and product packaging. Strategic Deal Excellence Lead commercial strategy for Square\u2019s largest and most strategic customer opportunities. Partner with enterprise sales leaders to structure creative commercial solutions within established pricing and investment guardrails. Advise executive leadership on complex commercial decisions, non-standard pricing, and strategic investments. Coordinate executive reviews and cross-functional approvals for high-value commercial opportunities. Global Deal Desk Own the end-to-end operation of Square\u2019s global Deal Desk. Build scalable intake, review, approval, and booking workflows that reduce friction for sellers. Establish SLAs and operating rhythms that ensure pricing and approvals never become bottlenecks. Design repeatable playbooks that eliminate unnecessary manual reviews through standardized commercial patterns. Own approval matrices, exception management, discount governance, and escalation processes across Square globally. Commercial Operations &amp; Automation Modernize Square\u2019s commercial operating model through AI and automation. Embed pricing recommendations, approval logic, and commercial guardrails directly into seller workflows. Simplify quote-to-cash processes and improve the overall seller experience. Increase deal velocity without sacrificing governance or profitability. Commercial Insights &amp; Governance Monitor pricing performance, approval trends, discount behavior, deal cycle time, and margin realization. Identify opportunities to improve commercial performance, seller productivity, and profitability. Build executive dashboards and reporting that provide visibility into Square\u2019s commercial health. Partner with Finance, Legal, Product, and Risk to continuously evolve Square\u2019s commercial governance framework. Leadership Build and lead a high-performing global team spanning Deal Desk, pricing operations, strategic deal support, and commercial excellence. Develop exceptional talent and foster a culture of operational excellence, customer obsession, and continuous improvement. Build trusted partnerships across Revenue, Finance, Product, Legal, Engineering, and Risk. What We\u2019re Looking For: 10+ years of experience leading Deal Desk, Commercial Operations, Revenue Operations, Sales Strategy, Pricing, Consulting, or related functions. Experience building and scaling commercial operating systems within SaaS, fintech, payments, or enterprise software. Deep expertise in enterprise sales, pricing operations, commercial governance, and complex deal structuring. Strong commercial judgment with experience supporting high-value strategic negotiations. Proven ability to build scalable operating models, approval workflows, and AI-enabled commercial processes. Strong analytical and financial acumen with the ability to evaluate complex commercial tradeoffs. Exceptional cross-functional leadership and executive influence. Success in This Role Within your first year, you will have: Built the commercial operating system that enables Square\u2019s Revenue organization to move faster while maintaining commercial discipline. Reduced deal cycle times through streamlined workflows and AI-enabled automation. Increased consistency in pricing execution and commercial decision-making across every Square market. Established a world-class Deal Desk that supports both routine and strategic commercial opportunities. Improved seller productivity through better tools, clearer guidance, and simpler commercial processes. Become a trusted commercial partner to Sales, Finance, Product, and executive leadership. We\u2019re working to build a more inclusive economy where our customers have equal access to opportunity, and we strive to live by these same values in building our workplace. Block is an equal opportunity employer evaluating all employees and job applicants without regard to identity or any legally protected class. We will consider qualified applicants with arrest or conviction records for employment in accordance with state and local laws and \u201cfair chance\u201d ordinances. We believe in being fair, and are committed to an inclusive interview experience, including providing reasonable accommodations to disabled applicants throughout the recruitment process. We encourage applicants to share any needed accommodations with their recruiter, who will treat these requests as confidentially as possible.&nbsp; Want to learn more about what we\u2019re doing to build a workplace that is fair and square? Check out our &nbsp; I+D page . &nbsp; Block takes a market-based approach to pay, and pay may vary depending on your location. U.S. locations are categorized into one of four zones based on a cost of labor index for that geographic area. The successful candidate\u2019s starting pay will be determined based on job-related skills, experience, qualifications, work location, and market conditions. These ranges may be modified in the future. To find a location\u2019s zone designation, please refer to this&nbsp; resource . If a location of interest is not listed, please speak with a recruiter for additional information.&nbsp; &nbsp; Zone A: $217,800 &mdash; $326,800 USD Zone B: $217,800 &mdash; $326,800 USD Zone C: $217,800 &mdash; $326,800 USD Zone D: $217,800 &mdash; $326,800 USD Application Guidelines Candidates may submit up to 9 active applications within a 60-day period. Reapplications to the same role are accepted 90 days after a previous application has been reviewed. Use of AI in Our Hiring Process We may use automated AI tools to evaluate job applications for efficiency and consistency. These tools comply with local regulations, including bias audits, and we handle all personal data in accordance with state and local privacy laws.&nbsp; Contact us here &nbsp;with hiring practice or data usage questions. Every benefit we offer is designed with one goal: empowering you to do the best work of your career while building the life you want. Remote work, medical insurance, flexible time off, retirement savings plans, and modern family planning are just some of our offering.&nbsp; Check out our other benefits at Block. Block, Inc. (NYSE: XYZ) builds technology to increase access to the global economy. Each of our brands unlocks different aspects of the economy for more people.&nbsp; Square &nbsp;makes commerce and financial services accessible to sellers.&nbsp; Cash App &nbsp;is the easy way to spend, send, and store money.&nbsp; Afterpay &nbsp;is transforming the way customers manage their spending over time.&nbsp; TIDAL &nbsp;is a music platform that empowers artists to thrive as entrepreneurs.&nbsp; Bitkey &nbsp;is a simple self-custody wallet built for bitcoin.&nbsp; Proto &nbsp;is a suite of bitcoin mining products and services. Together, we\u2019re helping build a financial system that is open to everyone. Privacy Policy",
-      "reason": "Matches commercial operations, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Commercial Operations",
-        "Strong Opportunity",
-        "New <72h",
-        "New Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
+      "link_validation": "HTTP 503 not treated as expired",
       "top_10_today": false
     },
     {
@@ -866,7 +910,7 @@
       "salary_max": 180000,
       "salary_period": "year",
       "salary_confidence": "medium",
-      "posted_at": "2026-08-28",
+      "posted_at": "2026-08-30",
       "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7686481003",
       "source_url": "https://job-boards.greenhouse.io/affirm/jobs/7686481003",
       "source": "Greenhouse",
@@ -891,8 +935,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -935,8 +979,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -979,52 +1023,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": false
-    },
-    {
-      "id": "samsara-enterprise-customer-success-manager-remote-us",
-      "canonical_key": "samsara|enterprise customer success manager|remote us",
-      "company": "Samsara",
-      "title": "Enterprise Customer Success Manager",
-      "location": "Remote - US",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "priority_bucket": "Priority Apply",
-      "salary_min": 97877,
-      "salary_max": 131600,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-08-20",
-      "apply_url": "https://www.samsara.com/company/careers/roles/7482459?gh_jid=7482459",
-      "source_url": "https://www.samsara.com/company/careers/roles/7482459?gh_jid=7482459",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 71,
-      "interview_probability": "Low",
-      "application_time_minutes": 40,
-      "recommended_resume": "Customer Success Leadership",
-      "cover_letter": "Recommended",
-      "freshness": "Active",
-      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations\u2122 Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing \u2014 and we are excited to help digitally transform their operations at scale. Working at Samsara means you\u2019ll help define the future of physical operations and be on a team that\u2019s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you\u2019ll have the autonomy and support to make an impact as we build for the long term. About the role: Our Enterprise Select Customer Success Managers pick up where our Services team leaves off, working with our largest and most complex customers to drive adoption and maximize the long-term value they receive from Samsara.&nbsp; In this role, your impact is felt across the physical operations that run our world. Your strategic guidance directly influences the safety of thousands of frontline workers and the efficiency of global supply chains. You will lead a fundamental shift in how our customers view technology, moving them from solving individual problems to positioning Samsara as the strategic platform that underpins their entire operation. By architecting joint success plans that define critical objectives and metrics, you will gameplan on new workflows to ensure our largest partners achieve their multi-year business goals. This role is highly cross-functional, as you will partner with Sales, Support, Sales Engineering, and Product to influence mission-critical initiatives and Samsara\u2019s long-term roadmap. This is a remote position open to candidates residing in the US except SF Bay Metro (CA), NYC Metro (NY), and Washington DC Metro.&nbsp; You should apply if: You want to lead high-impact, mission-critical partnerships: You are ready to manage Samsara\u2019s largest and most complex accounts where the stakes involve global supply chains and large-scale infrastructure. You want your guidance to underpin the modern operations of the world\u2019s most significant businesses. You have a talent for strategic influence: You have the diplomatic poise to guide executive stakeholders toward a proactive platform strategy. You enjoy the challenge of aligning Samsara\u2019s long-term roadmap with the multi-year goals of Fortune 500 partners. You are an internal catalyst for innovation: You have the experience to advocate for mission-critical customer initiatives by influencing internal roadmaps across Product, Finance, and Legal. You are comfortable having your voice heard by senior leadership during executive business reviews. You are committed to building for the long term: You understand that proving value in the Enterprise Select space takes resolve and strategic foresight. You want to be a role model for our cultural principles while helping to scale a world-class team globally. In this role, you will:&nbsp; Be on the front lines to ensure our largest customers increase the safety, efficiency, and sustainability of their operations by translating deep knowledge of the Samsara platform into strategic results across diverse industries like construction, transportation, and many more. Drives business transformation by leading strategic customer engagements to deeply understand current operations, proactively recommending workflow transformations and architecting joint success plans that define the metrics and timelines necessary to remove barriers and deliver business value. Orchestrates executive business reviews for our most complex partnerships, leading the narrative with our customer\u2019s decision-makers to anticipate future operational risks and align multi-year business transformations with Samsara\u2019s long-term roadmap. Influences internal roadmaps across Product, Finance, and Support to drive mission-critical customer initiatives. Champion, role model, and embed Samsara\u2019s cultural principles (Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, Win as a Team) as we scale globally and across new offices. Minimum requirements for the role: 6+ years of work experience with most recent experience in a Senior Customer Success, Account Management, or strategic consulting role. Mastery of priority management and emotional intelligence required to lead high-stakes, Fortune 500 partnerships, with a proven ability to take strategic initiative and thrive in high-visibility, change-heavy environments. Track record of anticipating strategic obstacles and resolving complex challenges through a blend of foresight, deep business insight, and diplomatic poise under multifaceted pressure. Proven ability to build trust and communicate effectively across all levels, from executive leadership to technical teams and daily end-users, both internally and externally.&nbsp; Experience supporting Enterprise SaaS and/or Fortune 500 companies and working with technical products.&nbsp; Bachelor\u2019s degree from a 4-year institution. This role requires up to 25-40% travel. An ideal candidate also has : Strong bias for action, the ability to think big, with insistence on high standards. Ability to thrive in an unstructured, dynamic, and change-heavy environment. Annual on-target earnings (OTE) range for full-time employees for this position is below and depends on your city of residence. Learn more about our total rewards and benefits below. Annual OTE Salary $97,877.50 &mdash; $131,600 USD Total Rewards At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time. Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you\u2019re ready to build for the long term and own the outcome, your journey starts here. Flexible Working&nbsp; At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual\u2019s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable. Belonging at Samsara At Samsara, we welcome everyone regardless of their background. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, gender, gender identity, sexual orientation, protected veteran status, disability, age, and other characteristics protected by law. We depend on the unique approaches of our team members to help us solve complex problems and want to ensure that Samsara is a place where people from all backgrounds can make an impact. Accommodations&nbsp; Samsara is an inclusive work environment, and we are committed to ensuring equal opportunity in employment for qualified persons with disabilities. Please email accessibleinterviewing@samsara.com or click here if you require any reasonable accommodations throughout the recruiting process. Our Commitment to Authenticity We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara\u2019s Candidate Privacy Notice for more information. Fraudulent Employment Offers Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our&nbsp; blog post here .",
-      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Customer Success",
-        "Priority Apply",
-        "Active",
-        "New Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1067,8 +1067,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1111,8 +1111,52 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": false
+    },
+    {
+      "id": "block-head-of-square-commercial-operations-deal-excellence-bay-area-ca-united-states-of-america",
+      "canonical_key": "block|head of square commercial operations deal excellence|bay area ca united states of america",
+      "company": "Block",
+      "title": "Head of Square Commercial Operations & Deal Excellence",
+      "location": "Bay Area, CA, United States of America",
+      "location_type": "remote",
+      "track": "Commercial Operations",
+      "priority_bucket": "Strong Opportunity",
+      "salary_min": 217800,
+      "salary_max": 326800,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-08-27",
+      "apply_url": "https://block.xyz/careers/jobs/4809166008?gh_jid=4809166008",
+      "source_url": "http://block.xyz/careers/jobs/4809166008?gh_jid=4809166008",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 69,
+      "interview_probability": "Low",
+      "application_time_minutes": 40,
+      "recommended_resume": "Commercial Operations",
+      "cover_letter": "Recommended",
+      "freshness": "Recent",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn\u2019t work together. So we expanded into software and started building integrated, omnichannel solutions \u2013 to help sellers sell online, manage inventory, offer buy now, pay later functionality, book appointments, engage loyal buyers, and hire and pay staff. Across it all, we\u2019ve embedded financial services tools at the point of sale, so merchants can access a business loan and manage their cash flow in one place. Afterpay furthers our goal to provide omnichannel tools that unlock meaningful value and growth, enabling sellers to capture the next generation shopper, increase order sizes, and compete at a larger scale. Today, we are a partner to sellers of all sizes \u2013 large, enterprise-scale businesses with complex operations, sellers just starting, as well as merchants who began selling with Square and have grown larger over time. As our sellers grow, so do our solutions. There is a massive opportunity in front of us. We\u2019re building a significant, meaningful, and lasting business, and we are helping sellers worldwide do the same. About the Role: As Square continues to scale globally, our commercial engine is becoming increasingly complex. We serve sellers across multiple markets, products, customer segments, and sales channels, requiring faster and more consistent decisions around pricing, commercial investments, and deal execution. We\u2019re hiring a Head of Square Commercial Operations &amp; Deal Excellence to build and lead the commercial operating system that powers Square\u2019s global Revenue organization. This team sits within Revenue and serves as the connective tissue between Sales, Finance, Product, Engineering, Legal, Risk, and Revenue Operations. Finance owns Square\u2019s pricing principles, profitability objectives, investment frameworks, and commercial guardrails. This team operationalizes those guardrails\u2014building the processes, tools, governance, and strategic support that enable sellers to move faster while protecting long-term business value. This leader will own Square\u2019s global Deal Desk, pricing operations, strategic deal support, commercial governance, and commercial operations. Their mission is simple: enable Square to win more business by making every commercial decision faster, smarter, and more consistent. What You\u2019ll Own: Commercial Strategy &amp; Operations Partner with Finance to operationalize Square\u2019s pricing strategy, commercial policies, and investment guardrails. Translate pricing strategy into scalable seller workflows, pricing frameworks, playbooks, calculators, and decision-support tools. Continuously improve how pricing decisions are executed across products, customer segments, markets, and sales channels. Bring market insights, competitive intelligence, and field feedback back into pricing strategy and product packaging. Strategic Deal Excellence Lead commercial strategy for Square\u2019s largest and most strategic customer opportunities. Partner with enterprise sales leaders to structure creative commercial solutions within established pricing and investment guardrails. Advise executive leadership on complex commercial decisions, non-standard pricing, and strategic investments. Coordinate executive reviews and cross-functional approvals for high-value commercial opportunities. Global Deal Desk Own the end-to-end operation of Square\u2019s global Deal Desk. Build scalable intake, review, approval, and booking workflows that reduce friction for sellers. Establish SLAs and operating rhythms that ensure pricing and approvals never become bottlenecks. Design repeatable playbooks that eliminate unnecessary manual reviews through standardized commercial patterns. Own approval matrices, exception management, discount governance, and escalation processes across Square globally. Commercial Operations &amp; Automation Modernize Square\u2019s commercial operating model through AI and automation. Embed pricing recommendations, approval logic, and commercial guardrails directly into seller workflows. Simplify quote-to-cash processes and improve the overall seller experience. Increase deal velocity without sacrificing governance or profitability. Commercial Insights &amp; Governance Monitor pricing performance, approval trends, discount behavior, deal cycle time, and margin realization. Identify opportunities to improve commercial performance, seller productivity, and profitability. Build executive dashboards and reporting that provide visibility into Square\u2019s commercial health. Partner with Finance, Legal, Product, and Risk to continuously evolve Square\u2019s commercial governance framework. Leadership Build and lead a high-performing global team spanning Deal Desk, pricing operations, strategic deal support, and commercial excellence. Develop exceptional talent and foster a culture of operational excellence, customer obsession, and continuous improvement. Build trusted partnerships across Revenue, Finance, Product, Legal, Engineering, and Risk. What We\u2019re Looking For: 10+ years of experience leading Deal Desk, Commercial Operations, Revenue Operations, Sales Strategy, Pricing, Consulting, or related functions. Experience building and scaling commercial operating systems within SaaS, fintech, payments, or enterprise software. Deep expertise in enterprise sales, pricing operations, commercial governance, and complex deal structuring. Strong commercial judgment with experience supporting high-value strategic negotiations. Proven ability to build scalable operating models, approval workflows, and AI-enabled commercial processes. Strong analytical and financial acumen with the ability to evaluate complex commercial tradeoffs. Exceptional cross-functional leadership and executive influence. Success in This Role Within your first year, you will have: Built the commercial operating system that enables Square\u2019s Revenue organization to move faster while maintaining commercial discipline. Reduced deal cycle times through streamlined workflows and AI-enabled automation. Increased consistency in pricing execution and commercial decision-making across every Square market. Established a world-class Deal Desk that supports both routine and strategic commercial opportunities. Improved seller productivity through better tools, clearer guidance, and simpler commercial processes. Become a trusted commercial partner to Sales, Finance, Product, and executive leadership. We\u2019re working to build a more inclusive economy where our customers have equal access to opportunity, and we strive to live by these same values in building our workplace. Block is an equal opportunity employer evaluating all employees and job applicants without regard to identity or any legally protected class. We will consider qualified applicants with arrest or conviction records for employment in accordance with state and local laws and \u201cfair chance\u201d ordinances. We believe in being fair, and are committed to an inclusive interview experience, including providing reasonable accommodations to disabled applicants throughout the recruitment process. We encourage applicants to share any needed accommodations with their recruiter, who will treat these requests as confidentially as possible.&nbsp; Want to learn more about what we\u2019re doing to build a workplace that is fair and square? Check out our &nbsp; I+D page . &nbsp; Block takes a market-based approach to pay, and pay may vary depending on your location. U.S. locations are categorized into one of four zones based on a cost of labor index for that geographic area. The successful candidate\u2019s starting pay will be determined based on job-related skills, experience, qualifications, work location, and market conditions. These ranges may be modified in the future. To find a location\u2019s zone designation, please refer to this&nbsp; resource . If a location of interest is not listed, please speak with a recruiter for additional information.&nbsp; &nbsp; Zone A: $217,800 &mdash; $326,800 USD Zone B: $217,800 &mdash; $326,800 USD Zone C: $217,800 &mdash; $326,800 USD Zone D: $217,800 &mdash; $326,800 USD Application Guidelines Candidates may submit up to 9 active applications within a 60-day period. Reapplications to the same role are accepted 90 days after a previous application has been reviewed. Use of AI in Our Hiring Process We may use automated AI tools to evaluate job applications for efficiency and consistency. These tools comply with local regulations, including bias audits, and we handle all personal data in accordance with state and local privacy laws.&nbsp; Contact us here &nbsp;with hiring practice or data usage questions. Every benefit we offer is designed with one goal: empowering you to do the best work of your career while building the life you want. Remote work, medical insurance, flexible time off, retirement savings plans, and modern family planning are just some of our offering.&nbsp; Check out our other benefits at Block. Block, Inc. (NYSE: XYZ) builds technology to increase access to the global economy. Each of our brands unlocks different aspects of the economy for more people.&nbsp; Square &nbsp;makes commerce and financial services accessible to sellers.&nbsp; Cash App &nbsp;is the easy way to spend, send, and store money.&nbsp; Afterpay &nbsp;is transforming the way customers manage their spending over time.&nbsp; TIDAL &nbsp;is a music platform that empowers artists to thrive as entrepreneurs.&nbsp; Bitkey &nbsp;is a simple self-custody wallet built for bitcoin.&nbsp; Proto &nbsp;is a suite of bitcoin mining products and services. Together, we\u2019re helping build a financial system that is open to everyone. Privacy Policy",
+      "reason": "Matches commercial operations, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Commercial Operations",
+        "Strong Opportunity",
+        "Recent",
+        "New Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1155,8 +1199,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1199,8 +1243,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1243,8 +1287,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1287,8 +1331,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1331,8 +1375,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1375,18 +1419,18 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-08-30T15:25:02.855526+00:00",
-      "last_seen_at": "2026-08-30T15:25:02.855526+00:00",
+      "first_seen_at": "2026-08-31T18:05:37.961415+00:00",
+      "last_seen_at": "2026-08-31T18:05:37.961415+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
     }
   ],
-  "match_count": 30,
-  "new_today_count": 30,
-  "qualified_before_validation": 44,
-  "qualified_after_validation": 44,
-  "discovered_before_cap": 44,
+  "match_count": 31,
+  "new_today_count": 31,
+  "qualified_before_validation": 46,
+  "qualified_after_validation": 46,
+  "discovered_before_cap": 46,
   "errors": [
     "Adzuna group 1: HTTP Error 401: Unauthorized",
     "Adzuna group 2: HTTP Error 401: Unauthorized",
