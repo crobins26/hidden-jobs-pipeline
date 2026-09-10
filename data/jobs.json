@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T15:16:21.695646+00:00",
+  "updated_at": "2026-09-10T15:07:30.032116+00:00",
   "minimum_salary": 130000,
   "daily_job_cap": 100,
   "maximum_jobs_per_company": 3,
@@ -15,7 +15,7 @@
     },
     "Greenhouse": {
       "active": true,
-      "matches": 50
+      "matches": 51
     },
     "Lever": {
       "active": false,
@@ -90,8 +90,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -135,8 +135,53 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": true
+    },
+    {
+      "id": "twilio-customer-success-manager-remote-us",
+      "canonical_key": "twilio|customer success manager|remote us",
+      "company": "Twilio",
+      "title": "Customer Success Manager",
+      "location": "Remote - US",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "priority_bucket": "Priority Apply",
+      "salary_min": 92624,
+      "salary_max": 200000,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-09-09",
+      "apply_url": "https://job-boards.greenhouse.io/twilio/jobs/8162071",
+      "source_url": "https://job-boards.greenhouse.io/twilio/jobs/8162071",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 86,
+      "interview_probability": "High",
+      "application_time_minutes": 15,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Optional",
+      "freshness": "New <72h",
+      "main_risk": "Global scope may be a stretch",
+      "job_description": "Who we are&nbsp; At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!&nbsp; Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings.&nbsp; . See yourself at Twilio Join the team as our next Customer Success Manager on Twilio\u2019s Segment team. About the job At Segment, we believe companies should be able to send their data wherever they want, whenever they want, with no fuss. We make this easy with a single platform that collects, stores, filters, transforms, and sends data to hundreds of business tools with the flip of a switch. More recently, we also developed the ability to let customers enrich their data in real time using computations they specify. Our goal is to make it easy to understand, extract value, and protect the integrity of data. We are creating a world where engineers spend their time working on their core product, letting us take care of the complexities of processing their customer data reliably at scale. We\u2019re in the running to take over the entire customer data ecosystem, and we need the best people to take the market.&nbsp; The Customer Success Management team at Segment is the central touchpoint for our customers, orchestrating the post-sales customer lifecycle in partnership with professional services, sales and support. The team manages the customer relationship, coordinates internally within Segment, drives product adoption and guides the customer to take full advantage of our ecosystem. Fundamentally, the CSM team ensures customers derive value from our platform, and ultimately renew and grow their relationships with us. As a Customer Success Manager, Strategic accounts you will be at the forefront of driving customer satisfaction by developing tailored strategies that align with both customer goals and company objectives. Your work will directly impact customer retention and growth, as you will solve complex challenges, influence strategic decisions and advocate for customer needs across executive stakeholders. We are looking for CSMs who are passionate about first party data and how it can transform organizations. As a CSM, you will have the opportunity to help some of the world\u2019s most influential companies solve their toughest data problems. So if you get excited about things like defining culture and process, you may be the Customer Success Manager we\u2019re looking for! Responsibilities In this role, you\u2019ll: Ensure customer success by driving full value realization of the Segment platform. Develop and execute strategic roadmaps for product adoption, customer satisfaction, and advocacy. Manage the customer relationship, acting as a trusted advisor to executive and senior leadership in Engineering, Product, Business Analytics, and Marketing. Cultivate strong relationships with IT, engineering, and development teams to drive engagement. Identify and expand opportunities to deepen customer engagement and account growth. Collaborate with internal teams to optimize implementations and resolve complex technical challenges. Build and nurture new stakeholder relationships to unlock expansion opportunities. Partner with Sales on account renewals and expansion strategies. Analyze your portfolio to prioritize high-impact risks and opportunities. Proactively identify risks, prioritize opportunities, and develop mitigation plans for high-impact accounts. Become a Segment platform expert while staying current with industry trends in data and analytics. Ensure execution of customer maturity and technical discussions via coordinating solutions internally across engineering, marketing, product, and support teams. Qualifications&nbsp; Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking for people who will bring something new to the table! *Required: 2+ years managing enterprise customers with portfolios of $200k+ ACV per client 3+ years in customer-facing roles (CSM, account management, or consulting) Proven experience working within or supporting Fortune 500 companies or similarly large organizations. Expert in customer strategy development, bringing data-driven insights and best practices to optimize client success. Proven ability to build and sustain relationships with stakeholders across all levels and business units within an organizations&nbsp; Intellectually curious, asks critical questions, and challenges ideas for better solutions Develops and implements strategies to maximize revenue growth and product adoption for the assigned portfolio, leveraging insights into client needs, market trends, and financial metrics. Excellent communication skills for engaging executive stakeholders through presentations and discussions. Skilled in problem-solving, able to simplify complex issues and develop actionable strategies for clients. Strong collaboration and influence skills to align internal teams and external stakeholders. Thrives in dynamic environments, adept at creating structure and processes for high-impact customers. Focus on customer satisfaction and retention, with a track record of anticipating needs and delivering tailored solutions. Passionate about leveraging data and technology (e.g., analytics, APIs, SQL) to drive business outcomes. Location &nbsp; This role will be remote but is not eligible to be hired in San Francisco, CA, Oakland, CA, San Jose, CA, or the surrounding areas. Travel&nbsp; We prioritize connection and opportunities to build relationships with our customers and each other. For this role, approximately 15% travel is anticipated to help you connect in-person in a meaningful way.&nbsp; What We Offer Working at Twilio offers many benefits, including competitive pay, generous time off, ample parental and wellness leave, healthcare, a retirement savings program, and much more. Offerings vary by location. Compensation *Please note this role is open to candidates outside of California, Colorado, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, New Jersey, New York, Vermont, Washington D.C., and Washington State. The information below is provided for candidates hired in those locations only. &nbsp; The estimated pay ranges for this role are as follows: Based in Colorado, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, Vermont or Washington D.C. : $92,624 - $115,780 Based in New York, New Jersey, Washington State, or California (outside of the San Francisco Bay area): $97,768 - $122,210 Based in the San Francisco Bay area, California: $102,912 - $128,640 This role may be eligible to participate in Twilio\u2019s equity plan and corporate bonus plan. All roles are generally eligible for the following benefits: health care insurance, 401(k) retirement account, paid sick time, paid personal time off, paid parental leave. This role is eligible to earn commissions.&nbsp; The successful candidate\u2019s starting salary will be determined based on permissible, non-discriminatory factors such as skills, experience, and geographic location.&nbsp; Applications for this role are intended to be accepted until September 7, 2026 but may change based on business needs.&nbsp; Twilio thinks big. Do you? We like to solve problems, take initiative, pitch in when needed, and are always up for trying new things. That's why we seek out colleagues who embody our values \u2014 something we call Twilio Magic . Additionally, we empower employees to build positive change in their communities by supporting their volunteering and donation efforts. So, if you're ready to unleash your full potential, do your best work, and be the best version of yourself, apply now! If this role isn't what you're looking for, please consider other open positions. . Stay alert to recruitment fraud We care about your safety. Scammers sometimes impersonate Twilio recruiters through fake job postings, emails, websites, or messages. Please ensure you are engaging with an official @ twilio.com email address. We will never ask for payment, gift cards, cryptocurrency, or banking information during the recruiting process. We do not make job offers without a formal interview process or conduct interviews exclusively through text-based messaging apps. . Twilio is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, genetic information, political views or activity, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Qualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. Additionally, Twilio participates in the E-Verify program in certain locations, as required by law.",
+      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Customer Success",
+        "Priority Apply",
+        "New <72h",
+        "New Today",
+        "Top 10 Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -180,8 +225,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -211,7 +256,7 @@
       "cover_letter": "Optional",
       "freshness": "Active",
       "main_risk": "Global scope may be a stretch",
-      "job_description": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We're looking for a senior leader to join the Affirm Global Operations team as the&nbsp; Director, Vendor Strategy &amp; Operations to lead Affirm's global BPO and vendor operations program and serve as a true partner in reinventing how we serve customers at scale across our large global vendor network. This leader owns the customer operations vendor strategy, performance, and outcomes of our global servicing network vendor program \u2014 customer experience, compliance, operational excellence, resiliency, and cost-to-serve \u2014 across a rapidly growing and complex business. The role will be taking ownership and providing programmatic oversight of the vendor program for operations. This is a senior leadership role for someone who thinks like an owner, not an administrator. The ideal candidate pairs deep expertise in fintech and financial-services customer operations and vendor programs with genuine fluency in applying AI and human call center culture to reinvent servicing across the vendor network. They are relentlessly customer-centric, dive deep into both the customer and front-line vendor agent experience, and know how to build a winning combination of culture and data-driven operations across vendors and our internal team. This role is scoped to grow: the right leader will expand into broader operational scope as our transformation matures and play a key leadership role in shaping the future of Affirm Operations and customer centric company culture. You'll lead a team of Vendor Managers and In-Country Vendor Managers, partner closely with cross-functional stakeholders, and shape the future of Affirm's global servicing network. What You'll Do Strategy, Governance &amp; Reinvention Define and execute the long-term strategy for Affirm's global customer operations vendor network, balancing customer experience, operational efficiency, resiliency, compliance, and business continuity across all global vendors. Reinvent how we resolve customer issues and deliver experience across the vendor network, treating the BPO vendor network as an innovation hub rather than a cost center. Establish governance frameworks, performance standards, and accountability mechanisms across the global vendor ecosystem. Lead executive-level vendor governance forums, including Quarterly Business Reviews, strategic planning, and escalation management. Partner with Financial Partnerships on vendor selection, expansion, remediation, and network design, evaluating capabilities, geographic footprint, and concentration risk to inform future-state decisions. AI &amp; Operational Innovation Partner deeply across product, engineering and operations teams to deploy agent and customer facing AI and automation across servicing workflows within the vendor network \u2014 agent assist, quality, forecasting, and customer resolution \u2014 to reinvent cost-to-serve and elevate vendor agent and customer experience. Bring an experimentation mindset, using AI in everyday problem-solving to reimagine the vendor operating model and program, not just optimize the current one. Performance &amp; Operational Excellence Own overall vendor network performance across servicing functions, including CSAT, SLA, compliance, QA, productivity, and efficiency outcomes. Build mechanisms for vendor performance management, escalation handling, and vendor accountability, and drive systemic improvements across vendors and functional PODs. Lead recovery efforts for high-risk or underperforming vendor relationships. Drive target cost optimization programs across all global vendors. Analytics &amp; Decision Enablement Partner with Analytics to define vendor reporting requirements, scorecards, and operational health metrics. Translate operational trends into actionable recommendations for senior leadership, ensuring decisions are grounded in data and measurable outcomes. Cross-Functional Leadership Build a global \"one team\" mentality that treats the vendor network as strategic partners rather than order-takers. Serve as the primary operational leader for vendor-supported servicing functions, partnering with Product, Engineering, Workforce Management, QA, Training, Risk, and Compliance. Lead large-scale initiatives \u2014 vendor migrations, specialization efforts, operating-model transformations, and regulatory implementations. Act as the executive escalation point for complex vendor, operational, and customer-experience issues. People Leadership Lead and develop a team of Vendor Managers and In-Country Vendor Managers, embodying a customer-centric culture and Affirm's values by example. Establish role clarity, operating rhythms, and performance expectations across the organization. Coach leaders to strengthen analytical rigor, strategic thinking, vendor-management capability, and cross-functional influence. Build a high-performing organization anchored in accountability, ownership, and continuous improvement. What we look for 15+ years in customer operations \u2014 including large-scale global vendor BPO program management, operations strategy, or consulting for fast-paced, multi-million-customer businesses using vendor networks (or demonstrated equivalent leadership trajectory). 10+ years leading managers and/or complex global operational and vendor organizations. Proven success managing large-scale outsourced operations and global vendor networks across multiple international geographies. Experience leading and optimizing supply and demand management with global work force management teams.&nbsp; Demonstrated experience deploying AI or automation to improve customer operations or BPO environments at scale. Strong analytical background, using data to drive strategic decisions and operational outcomes. Track record leading large cross-functional initiatives with measurable business impact. Deep cultural fluency across global geographies \u2014 a proven ability to lead and motivate diverse international teams and to build a customer-centric, high-performing culture across varied call-center and BPO environments. Exceptional communication, executive presence, and stakeholder management. Preferred Qualifications Industry background in fintech, technology, or financial services, or other high-growth operational environments. Knowledge of consumer facing compliance-heavy functions such as Fraud, Payments, Compliance, or Financial Operations. Experience building operating models, governance frameworks, and scalable service-delivery organizations. Experience designing vendor network strategies that balance performance, resiliency, scalability, and risk. Leading in fast paced rapid growth environments. Pay Grade - S Equity Grade - 13 USA Pacific base pay range (CA, WA, NY, NJ, CT): $255,000 - $335,000 USA Sapphire base pay range (all other U.S. states): $226,000 - $306,000&nbsp; #LI-Remote &nbsp; Affirm is proud to be a remote-first company! The majority of our roles are remote and you can work almost anywhere within the country of employment. Affirmers in proximal roles have the flexibility to work remotely, but will occasionally be required to work out of their assigned Affirm office. A limited number of roles remain office-based due to the nature of their job responsibilities. We\u2019re extremely proud to offer competitive benefits that are anchored to our core value of people come first. Some key highlights of our benefits package include:&nbsp; Health care coverage - Affirm covers all premiums for all levels of coverage for you and your dependents&nbsp; Flexible Spending Wallets - generous stipends for spending on Technology, Food, various Lifestyle needs, and family forming expenses Time off - competitive vacation and holiday schedules allowing you to take time off to rest and recharge ESPP - An employee stock purchase plan enabling you to buy shares of Affirm at a discount We believe It\u2019s On Us to provide an inclusive interview experience for all, including people with disabilities. We are happy to provide reasonable accommodations to candidates in need of individualized support during the hiring process. [For U.S. positions that could be performed in Los Angeles or San Francisco] Pursuant to the San Francisco Fair Chance Ordinance and Los Angeles Fair Chance Initiative for Hiring Ordinance, Affirm will consider for employment qualified applicants with arrest and conviction records. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's&nbsp; Global Candidate Privacy Notice &nbsp;and hereby freely and unambiguously give informed consent to the collection, processing, use, and storage of your personal information as described therein.",
+      "job_description": "At Affirm, we exist for the moments that matter\u2014giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We're looking for a senior leader to join the Affirm Global Operations team as the&nbsp; Director, Vendor Strategy &amp; Operations to lead Affirm's global BPO and vendor operations program and serve as a true partner in reinventing how we serve customers at scale across our large global vendor network. This leader owns the customer operations vendor strategy, performance, and outcomes of our global servicing network vendor program \u2014 customer experience, compliance, operational excellence, resiliency, and cost-to-serve \u2014 across a rapidly growing and complex business. The role will be taking ownership and providing programmatic oversight of the vendor program for operations. This is a senior leadership role for someone who thinks like an owner, not an administrator. The ideal candidate pairs deep expertise in fintech and financial-services customer operations and vendor programs with genuine fluency in applying AI and human call center culture to reinvent servicing across the vendor network. They are relentlessly customer-centric, dive deep into both the customer and front-line vendor agent experience, and know how to build a winning combination of culture and data-driven operations across vendors and our internal team. This role is scoped to grow: the right leader will expand into broader operational scope as our transformation matures and play a key leadership role in shaping the future of Affirm Operations and customer centric company culture. You'll lead a team of Vendor Managers and In-Country Vendor Managers, partner closely with cross-functional stakeholders, and shape the future of Affirm's global servicing network. What You'll Do Strategy, Governance &amp; Reinvention Define and execute the long-term strategy for Affirm's global customer operations vendor network, balancing customer experience, operational efficiency, resiliency, compliance, and business continuity across all global vendors. Reinvent how we resolve customer issues and deliver experience across the vendor network, treating the BPO vendor network as an innovation hub rather than a cost center. Establish governance frameworks, performance standards, and accountability mechanisms across the global vendor ecosystem. Lead executive-level vendor governance forums, including Quarterly Business Reviews, strategic planning, and escalation management. Partner with Financial Partnerships on vendor selection, expansion, remediation, and network design, evaluating capabilities, geographic footprint, and concentration risk to inform future-state decisions. AI &amp; Operational Innovation Partner deeply across product, engineering and operations teams to deploy agent and customer facing AI and automation across servicing workflows within the vendor network \u2014 agent assist, quality, forecasting, and customer resolution \u2014 to reinvent cost-to-serve and elevate vendor agent and customer experience. Bring an experimentation mindset, using AI in everyday problem-solving to reimagine the vendor operating model and program, not just optimize the current one. Performance &amp; Operational Excellence Own overall vendor network performance across servicing functions, including CSAT, SLA, compliance, QA, productivity, and efficiency outcomes. Build mechanisms for vendor performance management, escalation handling, and vendor accountability, and drive systemic improvements across vendors and functional PODs. Lead recovery efforts for high-risk or underperforming vendor relationships. Drive target cost optimization programs across all global vendors. Analytics &amp; Decision Enablement Partner with Analytics to define vendor reporting requirements, scorecards, and operational health metrics. Translate operational trends into actionable recommendations for senior leadership, ensuring decisions are grounded in data and measurable outcomes. Cross-Functional Leadership Build a global \"one team\" mentality that treats the vendor network as strategic partners rather than order-takers. Serve as the primary operational leader for vendor-supported servicing functions, partnering with Product, Engineering, Workforce Management, QA, Training, Risk, and Compliance. Lead large-scale initiatives \u2014 vendor migrations, specialization efforts, operating-model transformations, and regulatory implementations. Act as the executive escalation point for complex vendor, operational, and customer-experience issues. People Leadership Lead and develop a team of Vendor Managers and In-Country Vendor Managers, embodying a customer-centric culture and Affirm's values by example. Establish role clarity, operating rhythms, and performance expectations across the organization. Coach leaders to strengthen analytical rigor, strategic thinking, vendor-management capability, and cross-functional influence. Build a high-performing organization anchored in accountability, ownership, and continuous improvement. What we look for 15+ years in customer operations \u2014 including large-scale global vendor BPO program management, operations strategy, or consulting for fast-paced, multi-million-customer businesses using vendor networks (or demonstrated equivalent leadership trajectory). 10+ years leading managers and/or complex global operational and vendor organizations. Proven success managing large-scale outsourced operations and global vendor networks across multiple international geographies. Experience leading and optimizing supply and demand management with global work force management teams.&nbsp; Demonstrated experience deploying AI or automation to improve customer operations or BPO environments at scale. Strong analytical background, using data to drive strategic decisions and operational outcomes. Track record leading large cross-functional initiatives with measurable business impact. Deep cultural fluency across global geographies \u2014 a proven ability to lead and motivate diverse international teams and to build a customer-centric, high-performing culture across varied call-center and BPO environments. Exceptional communication, executive presence, and stakeholder management. Preferred Qualifications Industry background in fintech, technology, or financial services, or other high-growth operational environments. Knowledge of consumer facing compliance-heavy functions such as Fraud, Payments, Compliance, or Financial Operations. Experience building operating models, governance frameworks, and scalable service-delivery organizations. Experience designing vendor network strategies that balance performance, resiliency, scalability, and risk. Leading in fast paced rapid growth environments. Pay Grade - S Equity Grade - 13 USA Pacific base pay range (CA, WA, NY, NJ, CT): $255,000 - $335,000 USA Sapphire base pay range (all other U.S. states): $226,000 - $306,000&nbsp; #LI-Remote &nbsp; Remote-first with flexibility built in Affirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience. Benefits designed for you Our benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights: Health coverage at no cost: We cover 100% of premiums for employees and their dependents. Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you. Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to. Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount. We\u2019re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we\u2019re happy to help. For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's&nbsp; Global Candidate Privacy Notice and consent to the use of your personal information as described.",
       "reason": "Matches customer experience, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
       "tags": [
         "Official/direct source",
@@ -225,8 +270,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -256,7 +301,7 @@
       "cover_letter": "Recommended",
       "freshness": "Active",
       "main_risk": "Global scope may be a stretch",
-      "job_description": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We're looking for a senior leader to join the Affirm Global Operations team as the&nbsp; Director, Vendor Strategy &amp; Operations to lead Affirm's global BPO and vendor operations program and serve as a true partner in reinventing how we serve customers at scale across our large global vendor network. This leader owns the customer operations vendor strategy, performance, and outcomes of our global servicing network vendor program \u2014 customer experience, compliance, operational excellence, resiliency, and cost-to-serve \u2014 across a rapidly growing and complex business. The role will be taking ownership and providing programmatic oversight of the vendor program for operations. This is a senior leadership role for someone who thinks like an owner, not an administrator. The ideal candidate pairs deep expertise in fintech and financial-services customer operations and vendor programs with genuine fluency in applying AI and human call center culture to reinvent servicing across the vendor network. They are relentlessly customer-centric, dive deep into both the customer and front-line vendor agent experience, and know how to build a winning combination of culture and data-driven operations across vendors and our internal team. This role is scoped to grow: the right leader will expand into broader operational scope as our transformation matures and play a key leadership role in shaping the future of Affirm Operations and customer centric company culture. You'll lead a team of Vendor Managers and In-Country Vendor Managers, partner closely with cross-functional stakeholders, and shape the future of Affirm's global servicing network. What You'll Do Strategy, Governance &amp; Reinvention Define and execute the long-term strategy for Affirm's global customer operations vendor network, balancing customer experience, operational efficiency, resiliency, compliance, and business continuity across all global vendors. Reinvent how we resolve customer issues and deliver experience across the vendor network, treating the BPO vendor network as an innovation hub rather than a cost center. Establish governance frameworks, performance standards, and accountability mechanisms across the global vendor ecosystem. Lead executive-level vendor governance forums, including Quarterly Business Reviews, strategic planning, and escalation management. Partner with Financial Partnerships on vendor selection, expansion, remediation, and network design, evaluating capabilities, geographic footprint, and concentration risk to inform future-state decisions. AI &amp; Operational Innovation Partner deeply across product, engineering and operations teams to deploy agent and customer facing AI and automation across servicing workflows within the vendor network \u2014 agent assist, quality, forecasting, and customer resolution \u2014 to reinvent cost-to-serve and elevate vendor agent and customer experience. Bring an experimentation mindset, using AI in everyday problem-solving to reimagine the vendor operating model and program, not just optimize the current one. Performance &amp; Operational Excellence Own overall vendor network performance across servicing functions, including CSAT, SLA, compliance, QA, productivity, and efficiency outcomes. Build mechanisms for vendor performance management, escalation handling, and vendor accountability, and drive systemic improvements across vendors and functional PODs. Lead recovery efforts for high-risk or underperforming vendor relationships. Drive target cost optimization programs across all global vendors. Analytics &amp; Decision Enablement Partner with Analytics to define vendor reporting requirements, scorecards, and operational health metrics. Translate operational trends into actionable recommendations for senior leadership, ensuring decisions are grounded in data and measurable outcomes. Cross-Functional Leadership Build a global \"one team\" mentality that treats the vendor network as strategic partners rather than order-takers. Serve as the primary operational leader for vendor-supported servicing functions, partnering with Product, Engineering, Workforce Management, QA, Training, Risk, and Compliance. Lead large-scale initiatives \u2014 vendor migrations, specialization efforts, operating-model transformations, and regulatory implementations. Act as the executive escalation point for complex vendor, operational, and customer-experience issues. People Leadership Lead and develop a team of Vendor Managers and In-Country Vendor Managers, embodying a customer-centric culture and Affirm's values by example. Establish role clarity, operating rhythms, and performance expectations across the organization. Coach leaders to strengthen analytical rigor, strategic thinking, vendor-management capability, and cross-functional influence. Build a high-performing organization anchored in accountability, ownership, and continuous improvement. What we look for 15+ years in customer operations \u2014 including large-scale global vendor BPO program management, operations strategy, or consulting for fast-paced, multi-million-customer businesses using vendor networks (or demonstrated equivalent leadership trajectory). 10+ years leading managers and/or complex global operational and vendor organizations. Proven success managing large-scale outsourced operations and global vendor networks across multiple international geographies. Experience leading and optimizing supply and demand management with global work force management teams.&nbsp; Demonstrated experience deploying AI or automation to improve customer operations or BPO environments at scale. Strong analytical background, using data to drive strategic decisions and operational outcomes. Track record leading large cross-functional initiatives with measurable business impact. Deep cultural fluency across global geographies \u2014 a proven ability to lead and motivate diverse international teams and to build a customer-centric, high-performing culture across varied call-center and BPO environments. Exceptional communication, executive presence, and stakeholder management. Preferred Qualifications Industry background in fintech, technology, or financial services, or other high-growth operational environments. Knowledge of consumer facing compliance-heavy functions such as Fraud, Payments, Compliance, or Financial Operations. Experience building operating models, governance frameworks, and scalable service-delivery organizations. Experience designing vendor network strategies that balance performance, resiliency, scalability, and risk. Leading in fast paced rapid growth environments. Pay Grade - S Equity Grade -&nbsp; 7 Employees new to Affirm typically come in at the start of the pay range.&nbsp; Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. Base pay is part of a total compensation package that may include monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents). In addition, the employees may be eligible for equity rewards offered by Affirm Holdings, Inc. (parent company). CAN base pay range per year:&nbsp; $199,000 &nbsp;-&nbsp; $279,000 This posting is for an existing vacancy. #LI-Remote Affirm is proud to be a remote-first company! The majority of our roles are remote and you can work almost anywhere within the country of employment. Affirmers in proximal roles have the flexibility to work remotely, but will occasionally be required to work out of their assigned Affirm office. A limited number of roles remain office-based due to the nature of their job responsibilities. We\u2019re extremely proud to offer competitive benefits that are anchored to our core value of people come first. Some key highlights of our benefits package include:&nbsp; Health care coverage - Affirm covers all premiums for all levels of coverage for you and your dependents&nbsp; Flexible Spending Wallets - generous stipends for spending on Technology, Food, various Lifestyle needs, and family forming expenses Time off - competitive vacation and holiday schedules allowing you to take time off to rest and recharge ESPP - An employee stock purchase plan enabling you to buy shares of Affirm at a discount We believe It\u2019s On Us to provide an inclusive interview experience for all, including people with disabilities. We are happy to provide reasonable accommodations to candidates in need of individualized support during the hiring process. [For U.S. positions that could be performed in Los Angeles or San Francisco] Pursuant to the San Francisco Fair Chance Ordinance and Los Angeles Fair Chance Initiative for Hiring Ordinance, Affirm will consider for employment qualified applicants with arrest and conviction records. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's&nbsp; Global Candidate Privacy Notice &nbsp;and hereby freely and unambiguously give informed consent to the collection, processing, use, and storage of your personal information as described therein.",
+      "job_description": "At Affirm, we exist for the moments that matter\u2014giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We're looking for a senior leader to join the Affirm Global Operations team as the&nbsp; Director, Vendor Strategy &amp; Operations to lead Affirm's global BPO and vendor operations program and serve as a true partner in reinventing how we serve customers at scale across our large global vendor network. This leader owns the customer operations vendor strategy, performance, and outcomes of our global servicing network vendor program \u2014 customer experience, compliance, operational excellence, resiliency, and cost-to-serve \u2014 across a rapidly growing and complex business. The role will be taking ownership and providing programmatic oversight of the vendor program for operations. This is a senior leadership role for someone who thinks like an owner, not an administrator. The ideal candidate pairs deep expertise in fintech and financial-services customer operations and vendor programs with genuine fluency in applying AI and human call center culture to reinvent servicing across the vendor network. They are relentlessly customer-centric, dive deep into both the customer and front-line vendor agent experience, and know how to build a winning combination of culture and data-driven operations across vendors and our internal team. This role is scoped to grow: the right leader will expand into broader operational scope as our transformation matures and play a key leadership role in shaping the future of Affirm Operations and customer centric company culture. You'll lead a team of Vendor Managers and In-Country Vendor Managers, partner closely with cross-functional stakeholders, and shape the future of Affirm's global servicing network. What You'll Do Strategy, Governance &amp; Reinvention Define and execute the long-term strategy for Affirm's global customer operations vendor network, balancing customer experience, operational efficiency, resiliency, compliance, and business continuity across all global vendors. Reinvent how we resolve customer issues and deliver experience across the vendor network, treating the BPO vendor network as an innovation hub rather than a cost center. Establish governance frameworks, performance standards, and accountability mechanisms across the global vendor ecosystem. Lead executive-level vendor governance forums, including Quarterly Business Reviews, strategic planning, and escalation management. Partner with Financial Partnerships on vendor selection, expansion, remediation, and network design, evaluating capabilities, geographic footprint, and concentration risk to inform future-state decisions. AI &amp; Operational Innovation Partner deeply across product, engineering and operations teams to deploy agent and customer facing AI and automation across servicing workflows within the vendor network \u2014 agent assist, quality, forecasting, and customer resolution \u2014 to reinvent cost-to-serve and elevate vendor agent and customer experience. Bring an experimentation mindset, using AI in everyday problem-solving to reimagine the vendor operating model and program, not just optimize the current one. Performance &amp; Operational Excellence Own overall vendor network performance across servicing functions, including CSAT, SLA, compliance, QA, productivity, and efficiency outcomes. Build mechanisms for vendor performance management, escalation handling, and vendor accountability, and drive systemic improvements across vendors and functional PODs. Lead recovery efforts for high-risk or underperforming vendor relationships. Drive target cost optimization programs across all global vendors. Analytics &amp; Decision Enablement Partner with Analytics to define vendor reporting requirements, scorecards, and operational health metrics. Translate operational trends into actionable recommendations for senior leadership, ensuring decisions are grounded in data and measurable outcomes. Cross-Functional Leadership Build a global \"one team\" mentality that treats the vendor network as strategic partners rather than order-takers. Serve as the primary operational leader for vendor-supported servicing functions, partnering with Product, Engineering, Workforce Management, QA, Training, Risk, and Compliance. Lead large-scale initiatives \u2014 vendor migrations, specialization efforts, operating-model transformations, and regulatory implementations. Act as the executive escalation point for complex vendor, operational, and customer-experience issues. People Leadership Lead and develop a team of Vendor Managers and In-Country Vendor Managers, embodying a customer-centric culture and Affirm's values by example. Establish role clarity, operating rhythms, and performance expectations across the organization. Coach leaders to strengthen analytical rigor, strategic thinking, vendor-management capability, and cross-functional influence. Build a high-performing organization anchored in accountability, ownership, and continuous improvement. What we look for 15+ years in customer operations \u2014 including large-scale global vendor BPO program management, operations strategy, or consulting for fast-paced, multi-million-customer businesses using vendor networks (or demonstrated equivalent leadership trajectory). 10+ years leading managers and/or complex global operational and vendor organizations. Proven success managing large-scale outsourced operations and global vendor networks across multiple international geographies. Experience leading and optimizing supply and demand management with global work force management teams.&nbsp; Demonstrated experience deploying AI or automation to improve customer operations or BPO environments at scale. Strong analytical background, using data to drive strategic decisions and operational outcomes. Track record leading large cross-functional initiatives with measurable business impact. Deep cultural fluency across global geographies \u2014 a proven ability to lead and motivate diverse international teams and to build a customer-centric, high-performing culture across varied call-center and BPO environments. Exceptional communication, executive presence, and stakeholder management. Preferred Qualifications Industry background in fintech, technology, or financial services, or other high-growth operational environments. Knowledge of consumer facing compliance-heavy functions such as Fraud, Payments, Compliance, or Financial Operations. Experience building operating models, governance frameworks, and scalable service-delivery organizations. Experience designing vendor network strategies that balance performance, resiliency, scalability, and risk. Leading in fast paced rapid growth environments. Pay Grade - S Equity Grade -&nbsp; 7 Employees new to Affirm typically come in at the start of the pay range.&nbsp; Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. Base pay is part of a total compensation package that may include monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents). In addition, the employees may be eligible for equity rewards offered by Affirm Holdings, Inc. (parent company). CAN base pay range per year:&nbsp; $199,000 &nbsp;-&nbsp; $279,000 This posting is for an existing vacancy. #LI-Remote Remote-first with flexibility built in Affirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience. Benefits designed for you Our benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights: Health coverage at no cost: We cover 100% of premiums for employees and their dependents. Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you. Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to. Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount. We\u2019re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we\u2019re happy to help. For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's&nbsp; Global Candidate Privacy Notice and consent to the use of your personal information as described.",
       "reason": "Matches customer experience, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
       "tags": [
         "Official/direct source",
@@ -270,8 +315,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -315,8 +360,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -334,7 +379,7 @@
       "salary_max": 148050,
       "salary_period": "year",
       "salary_confidence": "medium",
-      "posted_at": "2026-09-08",
+      "posted_at": "2026-09-09",
       "apply_url": "https://www.samsara.com/company/careers/roles/8141688?gh_jid=8141688",
       "source_url": "https://www.samsara.com/company/careers/roles/8141688?gh_jid=8141688",
       "source": "Greenhouse",
@@ -360,8 +405,53 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": true
+    },
+    {
+      "id": "toast-director-enterprise-customer-success-remote-united-states",
+      "canonical_key": "toast|director enterprise customer success|remote united states",
+      "company": "Toast",
+      "title": "Director, Enterprise Customer Success",
+      "location": "Remote, United States",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "priority_bucket": "Strong Opportunity",
+      "salary_min": 138000,
+      "salary_max": 283000,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-09-09",
+      "apply_url": "https://careers.toasttab.com/jobs/director-enterprise-customer-success-remote-united-states?gh_jid=8145901",
+      "source_url": "https://careers.toasttab.com/jobs?gh_jid=8145901",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 76,
+      "interview_probability": "Medium",
+      "application_time_minutes": 25,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Recommended",
+      "freshness": "New <72h",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. As the Director of Enterprise Customer Success, you will lead the team responsible for Toast\u2019s largest and most complex customers. The Enterprise segment serves brands operating 500+ locations, where a single customer relationship spans corporate stakeholders, franchise networks, and multi-year rollout programs. You will own the health, retention, and growth of this book of business and lead the leaders who deliver it. This is a builder\u2019s role, and an increasingly global one. As Toast's largest brands expand internationally, you will architect the Enterprise CS model that scales across markets, not just accounts.You will shape how Toast serves upmarket customers at scale, reporting to the Sr. Director of Customer Success and operating as a key member of the CS leadership team, working in lockstep with Sales, Care, Product, and Onboarding. If you are a leader who thrives on executive-level customer relationships, operational rigor, and developing high-performing teams, this role is for you. Day in the Life* (Responsibilities) Own Enterprise segment revenue outcomes: net revenue retention, churn mitigation, and expansion across a book of Toast\u2019s largest customers Build and develop a high-performing team of managers and their CSMs, setting vision, strategy, and performance standards while coaching leaders to raise the bar Design and lead the global Enterprise CS coverage model as Toast expands into international markets, building coverage, escalation, and delivery patterns that work across regions rather than retrofitting a US-designed model Strategic leadership - bring a clear, transformative, and innovative perspective on how to scale the post-live customer success model for a rapidly growing business unit Serve as executive sponsor and senior escalation point for high-visibility accounts, building trusted relationships with corporate stakeholders at major restaurant, hotel, and sports &amp; entertainment brands Drive operational excellence, scalable systems and cadence for the segment: account planning, QBRs and strategic business reviews, renewal risk management, and escalation resolution Partner cross-functionally with Sales, Care, Onboarding, and Product to advocate for Enterprise customer needs and close experience gaps Use data to run the business: capacity and coverage models, health scoring, risk forecasting, and team performance metrics Be an ambassador for the Toast culture, building a trusting, collaborative, high-performance environment Travel as needed for customer site visits and executive engagements, including international travel as the global book grows &nbsp; What You'll Need to Thrive*? (Requirements) 10+ years of customer success, account management, or revenue leadership experience, with 5+ years leading teams in a SaaS or technology environment Experience as a second-line leader: managing managers, developing leadership bench strength, and running performance management with rigor and care Proven ownership of retention and growth targets for an enterprise or strategic customer segment Executive presence and a track record of building durable relationships with C-suite and corporate stakeholders at large, complex customers Experience building or leading customer success for a global or multi-region enterprise book, including designing coverage models for customers operating across international markets Strong operational skills: you build systems and cadences, not just relationships, and you use data to make decisions Experience navigating ambiguity and change, including org transitions, team integrations, or coverage planning Excellent communication, organizational, and influencing skills Special Sauce* (Non-essential Skills/Nice to Haves) Restaurant, hospitality, or multi-unit retail industry experience Experience integrating new teams or functions into an existing organization and leading through structural change Familiarity with AI-enabled CS workflows and tooling Experience with Salesforce CRM and modern CS platforms Experience supporting franchise or multi-brand organizations expanding into new international market &nbsp; AI at Toast At Toast, one of our company values is that we're hungry to build and learn. We believe learning new AI tools empowers us to build for our customers faster, more independently, and with higher quality. We provide these tools across all disciplines, from Engineering and Product to Sales and Support, and are inspired by how our Toasters are already driving real value with them. The people who thrive here are those who embrace changes that let us build more for our customers; it\u2019s a core part of our culture. Our Total Rewards Philosophy We strive to provide competitive compensation and benefits programs that help to attract, retain, and motivate the best and brightest people in our industry. Our total rewards package goes beyond great earnings potential and provides the means to a healthy lifestyle with the flexibility to meet Toasters\u2019 changing needs. Learn more about our benefits at https://careers.toasttab.com/toast-benefits . The base salary range for this role is listed below. The starting salary will be determined based on skills, experience, and geographic location. In addition to base salary, our total rewards components include cash compensation (overtime, bonus/commissions if eligible), equity, and benefits. You can learn more about how we align pay with local labor markets in our Geographic Pay Zone Philosophy . Zone A $177,000 &mdash; $283,000 USD Zone B $154,000 &mdash; $246,000 USD Zone C $138,000 &mdash; $221,000 USD How Toast Uses AI in its Hiring Process Throughout the hiring process, our goal is to get to know you. We use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring decisions are made by people. We ask that you complete interviews and assessments on your own, without real-time AI tools, recording, or transcription bots, unless we tell you otherwise in advance. To learn more: https://careers.toasttab.com/ai-in-hiring Our Approach to Hybrid Working We embrace a hybrid work model that fosters in-person collaboration while valuing individual needs. Our goal is to build a strong culture of connection as we work together to empower the hospitality community, regardless of location. Please visit the Locations page on our career site to learn more about our in-office expectations by region:&nbsp; https://careers.toasttab.com/locations-toast People Are the Secret Ingredient in Our Recipe for Success At Toast, our employees are our secret ingredient\u2014when they thrive, we thrive. The restaurant industry brings together people with a wide range of backgrounds, experiences, and perspectives, and we value that same breadth at Toast. We strive to build a culture grounded in authenticity, respect, and humility, where every Toaster has a real opportunity to grow, contribute, and do their best work\u2014raising the bar in delivering exceptional experiences for our customers and each other. Apply today! Toast is committed to creating an accessible and inclusive hiring process. As part of this commitment, we strive to provide reasonable accommodations for persons with disabilities to enable them to access the hiring process. If you need an accommodation to access the job application or interview process, please contact candidateaccommodations@toasttab.com . ------ For roles in the United States, it is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.",
+      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Customer Success",
+        "Strong Opportunity",
+        "New <72h",
+        "New Today",
+        "Top 10 Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -391,7 +481,7 @@
       "cover_letter": "Recommended",
       "freshness": "New <72h",
       "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Client Success Team: The Client Success team at Affirm is focused on building and growing long-term partnerships with our merchant partners, helping them maximize the value of their relationship with Affirm while driving mutual business growth. As the primary post-sale point of contact, the team works closely with merchants to optimize performance, increase product adoption, identify revenue and GMV expansion opportunities, and ensure overall account health. Client Success also serves as a strategic bridge across Analytics, Product, Marketing, Credit, and Technical teams, advocating for merchants and helping shape solutions that drive successful outcomes for both our partners and Affirm. As a Client Success (CS) Lead, you will work with our existing merchants to drive revenue and GMV expansion. The CS Lead position is a high-profile, merchant-facing role requiring outstanding relationship management and program management skills to guide merchants successfully from deployment to optimization. The CS Lead acts as the central post-sale contact for Affirm merchant partners. This person will report to the Senior Manager, Client Success.&nbsp; What You'll Do: You will manage a portfolio of accounts across a variety of industries to foster long-term, strategic business relationships with our merchant partners.&nbsp; You will be responsible for managing contract renewals, updating pricing, and expansions. You will deliver a proactive client management strategy to drive incremental gross merchandise value (\u201cGMV\u201d) along with revenue, and expand Affirm\u2019s relationship coverage.&nbsp; You will analyze merchant performance and recommend programs to increase product adoption, promote marketing best practices, and optimize program financing programs You will manage merchant relationship health to ensure that both Affirm and the merchant are gaining the maximum value from the relationship You will orchestrate cross-functional teams across our Analytics, Credit, Technical, Marketing, and Product teams to improve the Affirm offering for our merchant. What We Look For: 5+ years of B2B client-facing experience; preferably in a high-tech environment Experience negotiating and closing commercial contracts (e.g., RFPs, renewals) Excellent customer relationship management skills with the ability to manage strategic accounts&nbsp;&nbsp;&nbsp; Experience in managing cross-functional projects with a high attention to detail Strong written (e.g. proposals, memos, e-mails) and verbal communication (e.g. presenting) skills Excellent analytical abilities to review merchant performance and report on the impact of specific programs to internal and external stakeholders. Knowledge of consumer finance offerings, integrated software solutions, and e-commerce preferred Comfortable using Salesforce and BI tools&nbsp; Base Pay Grade - H Equity Grade - 5 Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.) For sales roles, the range provided is the role\u2019s On Target Earnings (\"OTE\") range, which includes the annual base pay and the sales incentive target.&nbsp; USA On Target Earnings (CA, WA, NY, NJ, CT) per year: $125,000 - $187,500 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; USA On Target Earnings (all other U.S. states) per year: $110,000 - $172,500&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; Please note that visa sponsorship is not available for this position. #LI-Remote Affirm is proud to be a remote-first company! The majority of our roles are remote and you can work almost anywhere within the country of employment. Affirmers in proximal roles have the flexibility to work remotely, but will occasionally be required to work out of their assigned Affirm office. A limited number of roles remain office-based due to the nature of their job responsibilities. We\u2019re extremely proud to offer competitive benefits that are anchored to our core value of people come first. Some key highlights of our benefits package include:&nbsp; Health care coverage - Affirm covers all premiums for all levels of coverage for you and your dependents&nbsp; Flexible Spending Wallets - generous stipends for spending on Technology, Food, various Lifestyle needs, and family forming expenses Time off - competitive vacation and holiday schedules allowing you to take time off to rest and recharge ESPP - An employee stock purchase plan enabling you to buy shares of Affirm at a discount We believe It\u2019s On Us to provide an inclusive interview experience for all, including people with disabilities. We are happy to provide reasonable accommodations to candidates in need of individualized support during the hiring process. [For U.S. positions that could be performed in Los Angeles or San Francisco] Pursuant to the San Francisco Fair Chance Ordinance and Los Angeles Fair Chance Initiative for Hiring Ordinance, Affirm will consider for employment qualified applicants with arrest and conviction records. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's&nbsp; Global Candidate Privacy Notice &nbsp;and hereby freely and unambiguously give informed consent to the collection, processing, use, and storage of your personal information as described therein.",
+      "job_description": "At Affirm, we exist for the moments that matter\u2014giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Client Success Team: The Client Success team at Affirm is focused on building and growing long-term partnerships with our merchant partners, helping them maximize the value of their relationship with Affirm while driving mutual business growth. As the primary post-sale point of contact, the team works closely with merchants to optimize performance, increase product adoption, identify revenue and GMV expansion opportunities, and ensure overall account health. Client Success also serves as a strategic bridge across Analytics, Product, Marketing, Credit, and Technical teams, advocating for merchants and helping shape solutions that drive successful outcomes for both our partners and Affirm. As a Client Success (CS) Lead, you will work with our existing merchants to drive revenue and GMV expansion. The CS Lead position is a high-profile, merchant-facing role requiring outstanding relationship management and program management skills to guide merchants successfully from deployment to optimization. The CS Lead acts as the central post-sale contact for Affirm merchant partners. This person will report to the Senior Manager, Client Success.&nbsp; What You'll Do: You will manage a portfolio of accounts across a variety of industries to foster long-term, strategic business relationships with our merchant partners.&nbsp; You will be responsible for managing contract renewals, updating pricing, and expansions. You will deliver a proactive client management strategy to drive incremental gross merchandise value (\u201cGMV\u201d) along with revenue, and expand Affirm\u2019s relationship coverage.&nbsp; You will analyze merchant performance and recommend programs to increase product adoption, promote marketing best practices, and optimize program financing programs You will manage merchant relationship health to ensure that both Affirm and the merchant are gaining the maximum value from the relationship You will orchestrate cross-functional teams across our Analytics, Credit, Technical, Marketing, and Product teams to improve the Affirm offering for our merchant. What We Look For: 5+ years of B2B client-facing experience; preferably in a high-tech environment Experience negotiating and closing commercial contracts (e.g., RFPs, renewals) Excellent customer relationship management skills with the ability to manage strategic accounts&nbsp;&nbsp;&nbsp; Experience in managing cross-functional projects with a high attention to detail Strong written (e.g. proposals, memos, e-mails) and verbal communication (e.g. presenting) skills Excellent analytical abilities to review merchant performance and report on the impact of specific programs to internal and external stakeholders. Knowledge of consumer finance offerings, integrated software solutions, and e-commerce preferred Comfortable using Salesforce and BI tools&nbsp; Base Pay Grade - H Equity Grade - 5 Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.) For sales roles, the range provided is the role\u2019s On Target Earnings (\"OTE\") range, which includes the annual base pay and the sales incentive target.&nbsp; USA On Target Earnings (CA, WA, NY, NJ, CT) per year: $125,000 - $187,500 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; USA On Target Earnings (all other U.S. states) per year: $110,000 - $172,500&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; Please note that visa sponsorship is not available for this position. #LI-Remote Remote-first with flexibility built in Affirm is proud to be a remote-first company. Most roles can be done from almost anywhere within the country of employment. Some positions may occasionally require in-person work at an Affirm office, and a few are office-based due to the nature of the work. All new hires will be invited to attend an in-person onboarding experience. Benefits designed for you Our benefits reflect our commitment to care, transparency, and flexibility. Here are a few highlights: Health coverage at no cost: We cover 100% of premiums for employees and their dependents. Spending stipends: Monthly stipends support your tech setup, and the ability to choose health and wellness options that are right for you. Time off to recharge: Flexible time off and generous holiday calendars help you rest when you need to. Own a piece of what you build: Our employee stock purchase plan (ESPP) lets you buy Affirm stock at a discount. We\u2019re committed to providing an inclusive interview process, including accommodations for candidates with disabilities. If you need support, we\u2019re happy to help. For positions based in San Francisco or Los Angeles: Affirm considers qualified applicants with arrest and conviction records, as required by law. By clicking \"Submit Application,\" you acknowledge that you have read Affirm's&nbsp; Global Candidate Privacy Notice and consent to the use of your personal information as described.",
       "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
       "tags": [
         "Official/direct source",
@@ -405,8 +495,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -424,7 +514,7 @@
       "salary_max": 168750,
       "salary_period": "year",
       "salary_confidence": "medium",
-      "posted_at": "2026-09-08",
+      "posted_at": "2026-09-09",
       "apply_url": "https://www.samsara.com/company/careers/roles/7398075?gh_jid=7398075",
       "source_url": "https://www.samsara.com/company/careers/roles/7398075?gh_jid=7398075",
       "source": "Greenhouse",
@@ -443,18 +533,17 @@
         "Customer Success",
         "Priority Apply",
         "New <72h",
-        "New Today",
-        "Top 10 Today"
+        "New Today"
       ],
       "sources": [
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
-      "top_10_today": true
+      "top_10_today": false
     },
     {
       "id": "samsara-strategic-customer-success-manager-remote-canada",
@@ -469,7 +558,7 @@
       "salary_max": 156271,
       "salary_period": "year",
       "salary_confidence": "medium",
-      "posted_at": "2026-09-08",
+      "posted_at": "2026-09-09",
       "apply_url": "https://www.samsara.com/company/careers/roles/8010753?gh_jid=8010753",
       "source_url": "https://www.samsara.com/company/careers/roles/8010753?gh_jid=8010753",
       "source": "Greenhouse",
@@ -488,18 +577,17 @@
         "Customer Success",
         "Priority Apply",
         "New <72h",
-        "New Today",
-        "Top 10 Today"
+        "New Today"
       ],
       "sources": [
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
-      "top_10_today": true
+      "top_10_today": false
     },
     {
       "id": "gitlab-senior-customer-success-operations-manager-remote-us",
@@ -539,8 +627,52 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": false
+    },
+    {
+      "id": "hubspot-senior-customer-success-manager-mexico-accounts-remote-colombia",
+      "canonical_key": "hubspot|senior customer success manager mexico accounts|remote colombia",
+      "company": "HubSpot",
+      "title": "Senior Customer Success Manager, Mexico Accounts",
+      "location": "Remote - Colombia",
+      "location_type": "remote",
+      "track": "Customer Success",
+      "priority_bucket": "Priority Apply",
+      "salary_min": null,
+      "salary_max": null,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-09-10",
+      "apply_url": "https://www.hubspot.com/careers/jobs/7966096?gh_jid=7966096",
+      "source_url": "https://www.hubspot.com/careers/jobs/7966096?gh_jid=7966096",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 74,
+      "interview_probability": "Medium",
+      "application_time_minutes": 25,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Recommended",
+      "freshness": "New <72h",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "Resume must be submitted in English If your idea of Customer Success is rooted in an intrinsic motivation to help others find solutions to their challenges, we should talk. HubSpot's mission is to help millions of organizations grow better. Our team is committed to delivering exceptional experiences and long-term value to our customers by fostering trust and offering expert guidance on the HubSpot platform. The end result: increased value, satisfaction, and continued customer loyalty (retention).&nbsp; As a Senior Customer Success Manager, you'll enjoy unparalleled autonomy, take ownership of your projects, and be devoted to helping each customer unlock the full potential of HubSpot. In this role, you'll have ample opportunities for career advancement, with a strong emphasis on skill enhancement and a clear, performance-driven pathway for progression. Experience and qualifications Relevant experience managing, nurturing, and scaling customer relationships in a quota or retention-carrying role, with a demonstrated ability to handle accounts of varying complexity, including Mid-Market and Corporate customers with layered business needs and multiple stakeholders. Skilled in forecasting retention risks and implementing effective mitigation strategies, including the ability to identify risk signals early, escalate with precision, and lead recovery conversations at the account level. Proven ability to navigate complex organizational structures, building relationships across multiple levels of a customer's business, from day-to-day champions to senior executives and C-suite stakeholders, and positioning as a trusted strategic partner at each level. Adept at preparing for and leading executive business reviews, translating platform metrics and ROI into the language of business outcomes that resonate with VP- and C-level audiences. Exceptional proficiency in verbal and written communication, adept at presenting strategies in person, over the phone, and through email, including in high-stakes or ambiguous customer situations that require clarity, composure, and executive presence. Highly organized, possessing keen attention to detail, and adept at prioritizing tasks for successful execution across a complex book of business. Confident, self-motivated, and committed to collaborative teamwork, including cross-functional coordination with Sales, Support, and leadership when accounts require escalated attention. Demonstrated desire to acquire new knowledge and skills, with an ability to transfer that learning to customers and teammates alike. Motivated by the drive to exceed expectations, particularly in environments where the bar is high and the work is ambiguous. Curious and comfortable adapting to new technologies, utilizing and staying up to date with AI. 3+ years of Customer Success Management/Book of business owner ship &nbsp; Responsibilities : Book of Business Management: Deep understanding of core metrics and role expectations and ability to execute against those metrics by developing strategic action plans on a quarterly basis. Primary ownership and accountability for complex customers who require higher-touch service. Formalize Book of Business management strategy by segmenting customers based on risk and growth. Outline tactics to mitigate churn and collaborate with cross functional teams to maximize growth Accountable for maintaining accurate forecasting notes, inclusive of future mitigation and outreach plans, for customers renewing within six months.&nbsp; Customer Engagements: Engage customers with phone calls regularly, both scheduled and ad hoc, to ensure they derive maximum value from their investment in HubSpot Demonstrate proficiency in understanding and addressing customers' advanced technical needs, resolving inquiries by connecting them with the appropriate resources internally. Collaborate with customers to define success criteria and outline plans to achieve their goals, sharing accountability for their success Proactively identify and cultivate opportunities to expand customers' utilization of HubSpot's product suite and professional services. Monitor customer health and create risk mitigation plans as necessary Cross-Collaboration: Cultivate strong relationships with key decision-makers and stakeholders across various customer teams. Collaborate closely with other HubSpot teams to drive adoption and ensure successful customer renewals. Act as a mentor to onboard and support new team members. Lead by example in developing best practices within the team to enhance our processes' quality, effectiveness, and efficiency. At HubSpot, we value both flexibility and connection. Whether you\u2019re a Remote employee or work from the Office, we want you to start your journey here by building strong connections with your team and peers. If you are joining our Engineering team, you will be required to attend a regional HubSpot office for in-person onboarding. If you join our broader Product team, you\u2019ll also attend other in-person events, such as your Product Group Summit and other gatherings, to continue building on those connections. If you require an accommodation due to travel limitations or other reasons, please inform your recruiter during the hiring process. We are committed to supporting candidates who may need alternative arrangements About HubSpot HubSpot (NYSE: HUBS) is an AI-powered customer platform with all the software, integrations, and resources customers need to connect marketing, sales, and service. HubSpot's connected platform enables businesses to grow faster by focusing on what matters most: customers.&nbsp; At HubSpot, bold is our baseline. Our employees around the globe move fast, stay customer-obsessed, and win together. Our culture is grounded in four commitments: Solve for the Customer, Be Bold, Learn Fast, Align, Adapt &amp; Go!, and Deliver with HEART. These commitments shape how we work, lead, and grow. We\u2019re building a company where people can do their best work . We focus on brilliant work, not badge swipes. By combining clarity, ownership, and trust, we create space for big thinking and meaningful progress. And we know that when our employees grow, our customers do too. Recognized globally for our award-winning culture by Comparably, Glassdoor, Fortune, and more, HubSpot is headquartered in Cambridge, MA, with employees and offices around the world. Explore more: HubSpot Careers Life at HubSpot on Instagram If you need accommodations or assistance due to a disability, please reach out to us&nbsp; using this form . Massachusetts Applicants:&nbsp; It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability. Germany Applicants: (m/f/d) - link to HubSpot's Career Diversity&nbsp;page&nbsp; here . India Applicants: link to HubSpot India's equal opportunity policy here . HubSpot may use AI to help screen or assess candidates, but all hiring decisions are always human. More information can be found&nbsp; here . By submitting your application, you agree that HubSpot may collect your personal data for recruiting, global organization planning, and related purposes. We may use CLEAR ID Verification during the hiring process to confirm your identity and help maintain a safe, secure, and trusted experience for all candidates. Refer to HubSpot's Recruiting Privacy Notice for details on data processing and your rights.",
+      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Customer Success",
+        "Priority Apply",
+        "New <72h",
+        "New Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -583,52 +715,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": false
-    },
-    {
-      "id": "brex-director-revenue-operations-new-york-new-york-united-states",
-      "canonical_key": "brex|director revenue operations|new york new york united states",
-      "company": "Brex",
-      "title": "Director, Revenue Operations",
-      "location": "New York, New York, United States",
-      "location_type": "remote",
-      "track": "Revenue Operations",
-      "priority_bucket": "Priority Apply",
-      "salary_min": 258000,
-      "salary_max": 322000,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-08-14",
-      "apply_url": "https://www.brex.com/careers/8716945002?gh_jid=8716945002",
-      "source_url": "https://www.brex.com/careers/8716945002?gh_jid=8716945002",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 74,
-      "interview_probability": "Medium",
-      "application_time_minutes": 25,
-      "recommended_resume": "Revenue Operations",
-      "cover_letter": "Recommended",
-      "freshness": "Aging",
-      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex\u2019s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We\u2019re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream. We make this a reality by empowering you with the tools, resources, and support you need to grow your career. Sales at Brex The Sales team is the driving factor behind revenue for Brex and every member of our team directly affects our bottom line. We focus on generating new opportunities, acquiring new customers, and building even stronger relationships with our current customers. Our winning culture recognizes big team wins and celebrates individual accomplishments. We ensure that top performers are recognized and have built a competitive environment to motivate and unify the team. What you\u2019ll do Brex is hiring a Director of Revenue Operations to own the operating model for our AE, SDR, and Partnerships motions. You will report into the Head of Revenue Operations as a strategic leader. This role sets the coverage model, incentive architecture, and operating cadence for the teams you support, and is accountable for their overall performance. You'll manage a team of RevOps managers and individual contributors, and be the decision maker on tradeoffs between speed, rigor, and scale across your domain. This role requires someone who can move fluidly between executive-level narratives and the underlying mechanics that drive performance and coach their team to do the same. Where You'll Work&nbsp; This role will be based in our New York office. We are a hybrid environment that combines the energy and connections of being in the office with the benefits and flexibility of working from home. We currently require a minimum of three coordinated days in the office per week, Monday, Wednesday and Thursday. As a perk, we also have up to four weeks per year of fully remote work! Responsibilities Be a trusted business partner to the SVP Sales in owning and improving the strategies, coverage models, operating rhythms, efficiency, and incentive compensation structure to drive revenue growth Lead initiatives with enablement, data, finance, systems, marketing, operations, and other revenue operations team members to support your business partners and implement improvements Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design Lead and develop a team of 6+ supporting New Business Account Executives, Sales Development Representatives, and the Partnerships Organization Present to senior leaders on business strategy, segment performance, and analytical deep dives Drive the annual planning process for the GTM teams you support, working closely with business partners, finance, and other teams to set the strategy, align incentives, and ensure operational excellence Identify and prioritize efficiency improvements within the Rev Ops org, including processes, reporting, and automation leveraging AI or other tools. Requirements 8+ years of experience in revenue operations, sales strategy, or sales operations with at least 2+ years managing managers; preferably at a Fintech or SaaS company A passion for coaching and developing a team with varying levels of experience Comprehensive understanding of sales funnels, processes, and methodologies in a scaled revenue organization, including with partners Demonstrated success operating in a complex cross functional environment to deliver impactful outcomes Direct experience owning incentive compensation design and coverage models for AE and SDR organizations at scale Strong problem solving skills and collaborative approach to solutioning within and outside of Rev Ops Ability to influence with or without authority, strong stakeholder management and executive communication skills Extensive experience with Salesforce and other GTM systems, including examples of AI-driven efficiency improvements Analytical mindset with the ability to quickly interpret data and quickly understand complex models Strong attention to detail including modeling, communication, and documentation Compensation The expected salary range for this role is $258,000 - $322,000. However, the starting base pay will depend on a number of factors including the candidate\u2019s location, skills, experience, market demands, and internal pay parity. Depending on the position offered, equity and other forms of compensation may be provided as part of a total compensation package. Please be aware, job-seekers may be at risk of targeting by malicious actors looking for personal data. Brex recruiters will only reach out via LinkedIn or email with a&nbsp; brex.com &nbsp;domain. Any outreach claiming to be from Brex via other sources should be ignored.",
-      "reason": "Matches revenue operations, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Revenue Operations",
-        "Priority Apply",
-        "Aging",
-        "New Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -671,8 +759,52 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": false
+    },
+    {
+      "id": "brex-director-revenue-operations-new-york-new-york-united-states",
+      "canonical_key": "brex|director revenue operations|new york new york united states",
+      "company": "Brex",
+      "title": "Director, Revenue Operations",
+      "location": "New York, New York, United States",
+      "location_type": "remote",
+      "track": "Revenue Operations",
+      "priority_bucket": "Priority Apply",
+      "salary_min": 258000,
+      "salary_max": 322000,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-08-14",
+      "apply_url": "https://www.brex.com/careers/8716945002?gh_jid=8716945002",
+      "source_url": "https://www.brex.com/careers/8716945002?gh_jid=8716945002",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 74,
+      "interview_probability": "Medium",
+      "application_time_minutes": 25,
+      "recommended_resume": "Revenue Operations",
+      "cover_letter": "Recommended",
+      "freshness": "Aging",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex\u2019s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We\u2019re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream. We make this a reality by empowering you with the tools, resources, and support you need to grow your career. Sales at Brex The Sales team is the driving factor behind revenue for Brex and every member of our team directly affects our bottom line. We focus on generating new opportunities, acquiring new customers, and building even stronger relationships with our current customers. Our winning culture recognizes big team wins and celebrates individual accomplishments. We ensure that top performers are recognized and have built a competitive environment to motivate and unify the team. What you\u2019ll do Brex is hiring a Director of Revenue Operations to own the operating model for our AE, SDR, and Partnerships motions. You will report into the Head of Revenue Operations as a strategic leader. This role sets the coverage model, incentive architecture, and operating cadence for the teams you support, and is accountable for their overall performance. You'll manage a team of RevOps managers and individual contributors, and be the decision maker on tradeoffs between speed, rigor, and scale across your domain. This role requires someone who can move fluidly between executive-level narratives and the underlying mechanics that drive performance and coach their team to do the same. Where You'll Work&nbsp; This role will be based in our New York office. We are a hybrid environment that combines the energy and connections of being in the office with the benefits and flexibility of working from home. We currently require a minimum of three coordinated days in the office per week, Monday, Wednesday and Thursday. As a perk, we also have up to four weeks per year of fully remote work! Responsibilities Be a trusted business partner to the SVP Sales in owning and improving the strategies, coverage models, operating rhythms, efficiency, and incentive compensation structure to drive revenue growth Lead initiatives with enablement, data, finance, systems, marketing, operations, and other revenue operations team members to support your business partners and implement improvements Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design Lead and develop a team of 6+ supporting New Business Account Executives, Sales Development Representatives, and the Partnerships Organization Present to senior leaders on business strategy, segment performance, and analytical deep dives Drive the annual planning process for the GTM teams you support, working closely with business partners, finance, and other teams to set the strategy, align incentives, and ensure operational excellence Identify and prioritize efficiency improvements within the Rev Ops org, including processes, reporting, and automation leveraging AI or other tools. Requirements 8+ years of experience in revenue operations, sales strategy, or sales operations with at least 2+ years managing managers; preferably at a Fintech or SaaS company A passion for coaching and developing a team with varying levels of experience Comprehensive understanding of sales funnels, processes, and methodologies in a scaled revenue organization, including with partners Demonstrated success operating in a complex cross functional environment to deliver impactful outcomes Direct experience owning incentive compensation design and coverage models for AE and SDR organizations at scale Strong problem solving skills and collaborative approach to solutioning within and outside of Rev Ops Ability to influence with or without authority, strong stakeholder management and executive communication skills Extensive experience with Salesforce and other GTM systems, including examples of AI-driven efficiency improvements Analytical mindset with the ability to quickly interpret data and quickly understand complex models Strong attention to detail including modeling, communication, and documentation Compensation The expected salary range for this role is $258,000 - $322,000. However, the starting base pay will depend on a number of factors including the candidate\u2019s location, skills, experience, market demands, and internal pay parity. Depending on the position offered, equity and other forms of compensation may be provided as part of a total compensation package. Please be aware, job-seekers may be at risk of targeting by malicious actors looking for personal data. Brex recruiters will only reach out via LinkedIn or email with a&nbsp; brex.com &nbsp;domain. Any outreach claiming to be from Brex via other sources should be ignored.",
+      "reason": "Matches revenue operations, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Revenue Operations",
+        "Priority Apply",
+        "Aging",
+        "New Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -715,8 +847,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -759,8 +891,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -803,8 +935,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -847,8 +979,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -891,52 +1023,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": false
-    },
-    {
-      "id": "brex-enterprise-customer-success-manager-seattle-washington-united-states",
-      "canonical_key": "brex|enterprise customer success manager|seattle washington united states",
-      "company": "Brex",
-      "title": "Enterprise Customer Success Manager",
-      "location": "Seattle, Washington, United States",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "priority_bucket": "Priority Apply",
-      "salary_min": 132888,
-      "salary_max": 166110,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-06-22",
-      "apply_url": "https://www.brex.com/careers/8335440002?gh_jid=8335440002",
-      "source_url": "https://www.brex.com/careers/8335440002?gh_jid=8335440002",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 71,
-      "interview_probability": "Low",
-      "application_time_minutes": 40,
-      "recommended_resume": "Customer Success Leadership",
-      "cover_letter": "Recommended",
-      "freshness": "Aging",
-      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex\u2019s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push your limits, challenge the status quo, and collaborate with some of the brightest minds in the industry. We\u2019re committed to building a diverse team and inclusive culture and believe your potential should only be limited by how big you can dream. We make this a reality by empowering you with the tools, resources, and support you need to grow your career. Sales at Brex Sales is the growth engine at Brex. We bring in new customers, expand existing relationships, and drive the company\u2019s bottom line. With unlimited territories and uncapped opportunity, your ambition sets the ceiling. We win together, celebrate often, and reward performance. If you want to sell a category-defining product with real ownership, this is your team. What you\u2019ll do As an Enterprise Customer Success Manager, you will serve as a financial technology advisor to Brex\u2019s largest customers by partnering with CFOs, Controllers, and finance ops teams to ensure they unlock the full value of Brex\u2019s solutions. You\u2019ll create and execute on account strategies tailored to each customer\u2019s business goals, delivering high-impact outcomes across their financial stack. You will own the full lifecycle of success, from onboarding to renewal by leveraging product usage insights, stakeholder engagement, and cross-functional collaboration to drive product adoption, minimize churn, and grow account value. Where you\u2019ll work This role will be based in our Seattle office. We are a hybrid environment that combines the energy and connections of being in the office with the benefits and flexibility of working from home. We currently require a minimum of three coordinated days in the office per week, Monday, Wednesday and Thursday. As a perk, we also have up to four weeks per year of fully remote work! Responsibilities Develop and own strategic account plans to drive retention, expansion, and adoption across your portfolio of enterprise customers. Act as a trusted advisor to finance stakeholders by providing guidance on best practices across spend management, credit policy, reconciliation workflows, and financial reporting automation. Build multi-threaded relationships across functional areas (Finance, Procurement, AP, IT, and Security) to increase platform stickiness and customer engagement. Lead business reviews and financial health checks that drive executive alignment and showcase ROI. Proactively identify and mitigate churn risks through data analysis, usage insights, and issue resolution. Partner cross-functionally with Sales, Product, Credit, Risk, and Operations teams to deliver a seamless customer experience and advocate for product improvements. Own key metrics for your accounts: GMV growth, &nbsp;product adoption, credit utilization, and customer health scores. Requirements 4+ years in a customer-facing role owning account health, executive relationships, or expansion strategy. Direct experience with core accounting workflows, such as invoice processing, T&amp;E tracking, budgeting, accounts payable, ERP systems (e.g., NetSuite, QuickBooks), or spend management tools. Experience managing complex, global enterprise accounts (10,000+ employees), with the ability to navigate nuanced org structures and build durable partnerships. Strong business acumen with a finance-first mindset and comfortable speaking the language of CFOs, Controllers, and FP&amp;A teams. Ability to synthesize product usage data into strategic recommendations that drive tangible customer outcomes. Demonstrated success in cross-functional collaboration and influencing internal roadmaps based on customer needs. Bachelor's degree required; finance, business, or related fields preferred. Bonus Points You love solving complex business problems with innovative financial solutions. You think in systems, not silos and understand the bigger picture of customer value. You are energized by being proactive, not reactive, in helping customers succeed. You want to be a thought leader and internal resource for enterprise strategy across the CS org. Compensation The expected OTE range for this role is $132,888 - $166,110 USD. The starting wage will depend on a number of factors including the candidate\u2019s location, skills, experience, market demands, and internal pay parity. The OTE figure listed here includes base salary and commissions, which may or may not be earned depending on performance.&nbsp; Depending on the position offered, equity and other forms of compensation may be provided as part of a total compensation package. Please be aware, job-seekers may be at risk of targeting by malicious actors looking for personal data. Brex recruiters will only reach out via LinkedIn or email with a&nbsp; brex.com &nbsp;domain. Any outreach claiming to be from Brex via other sources should be ignored.",
-      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Customer Success",
-        "Priority Apply",
-        "Aging",
-        "New Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -979,8 +1067,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1023,8 +1111,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1067,8 +1155,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1111,8 +1199,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1155,8 +1243,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1199,8 +1287,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1243,18 +1331,18 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-09T15:15:05.780075+00:00",
-      "last_seen_at": "2026-09-09T15:15:05.780075+00:00",
+      "first_seen_at": "2026-09-10T15:06:38.077627+00:00",
+      "last_seen_at": "2026-09-10T15:06:38.077627+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
     }
   ],
-  "match_count": 27,
-  "new_today_count": 27,
-  "qualified_before_validation": 40,
-  "qualified_after_validation": 40,
-  "discovered_before_cap": 40,
+  "match_count": 29,
+  "new_today_count": 29,
+  "qualified_before_validation": 41,
+  "qualified_after_validation": 41,
+  "discovered_before_cap": 41,
   "errors": [
     "Adzuna group 1: HTTP Error 401: Unauthorized",
     "Adzuna group 2: HTTP Error 401: Unauthorized",
