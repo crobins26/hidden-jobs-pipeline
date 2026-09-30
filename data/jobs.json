@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T16:58:41.726891+00:00",
+  "updated_at": "2026-09-30T16:57:52.543612+00:00",
   "minimum_salary": 130000,
   "daily_job_cap": 100,
   "maximum_jobs_per_company": 3,
@@ -15,7 +15,7 @@
     },
     "Greenhouse": {
       "active": true,
-      "matches": 51
+      "matches": 53
     },
     "Lever": {
       "active": false,
@@ -90,8 +90,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -135,8 +135,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -180,8 +180,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -225,8 +225,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -270,8 +270,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -315,8 +315,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -360,8 +360,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -405,8 +405,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -450,8 +450,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
@@ -495,28 +495,28 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": true
     },
     {
-      "id": "gitlab-senior-customer-success-manager-public-sector-remote-us",
-      "canonical_key": "gitlab|senior customer success manager public sector|remote us",
-      "company": "GitLab",
-      "title": "Senior Customer Success Manager- Public Sector ",
-      "location": "Remote, US",
+      "id": "samsara-strategic-customer-success-manager-remote-canada",
+      "canonical_key": "samsara|strategic customer success manager|remote canada",
+      "company": "Samsara",
+      "title": "Strategic Customer Success Manager",
+      "location": "Remote - Canada",
       "location_type": "remote",
       "track": "Customer Success",
       "priority_bucket": "Priority Apply",
-      "salary_min": 103200,
-      "salary_max": 174600,
+      "salary_min": 120755,
+      "salary_max": 156271,
       "salary_period": "year",
       "salary_confidence": "medium",
       "posted_at": "2026-09-29",
-      "apply_url": "https://job-boards.greenhouse.io/gitlab/jobs/8616005002",
-      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8616005002",
+      "apply_url": "https://www.samsara.com/company/careers/roles/8010753?gh_jid=8010753",
+      "source_url": "https://www.samsara.com/company/careers/roles/8010753?gh_jid=8010753",
       "source": "Greenhouse",
       "source_quality": 5,
       "fit_score": 76,
@@ -525,8 +525,8 @@
       "recommended_resume": "Customer Success Leadership",
       "cover_letter": "Recommended",
       "freshness": "New <72h",
-      "main_risk": "May require deeper direct SaaS experience",
-      "job_description": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software. * Fortune 500\u00ae is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. An overview of this role As a Senior Customer Success Manager on our Public Sector team, you\u2019ll help U.S. government and public sector organizations realize meaningful business outcomes with the GitLab DevSecOps platform. You\u2019ll turn pre-sales command plans into clear, actionable objectives, guide customers through their adoption journey, and enable them on common Git, CI/CD, and DevSecOps best practices so they can deliver secure software more efficiently. Acting as a trusted liaison between your customers and GitLab Support, Product Management, Engineering, Sales, and Professional Services, you\u2019ll own a portfolio of accounts and focus on increasing adoption, retention, growth, and overall satisfaction while staying current on GitLab product releases. This role is based in the United States public sector space and is best suited for a United States Person who is comfortable working cross-functionally, managing complex projects, and representing the voice of the customer across GitLab. What You\u2019ll Do &nbsp;&nbsp; Partner with Public Sector customers to translate pre-sales command plans and desired business outcomes into clear, actionable objectives. Guide customers on how to use the GitLab platform effectively, drawing on common best practices, DevSecOps principles, and typical Git workflows and branching strategies. Map and manage the customer journey, and coach customers on how to adopt new GitLab use cases over time. Act as the primary GitLab liaison for your customers, coordinating responses to questions, issues, and escalations by working closely with Support, Product Management, Sales, Professional Services, and other teams. Own a defined book of business with responsibility for driving adoption, retention, expansion, and overall customer satisfaction. Stay current on GitLab releases and help customers understand and apply new features to their environments and use cases. Use project management skills to plan, track, and deliver customer enablement and success initiatives across multiple stakeholders. What You\u2019ll Bring&nbsp; Eligibility as a United States Person (U.S. citizen, lawful permanent resident, refugee, or asylee), in line with government requirements for this role. Background in Customer Success or a similar customer-facing role with a track record of driving satisfaction, adoption, and retention. Experience partnering with customers to connect technical capabilities to business outcomes and define measurable objectives. Understanding of Git and common branching strategies, along with familiarity with the software development lifecycle and development pipelines. Knowledge of continuous integration, continuous deployment, and DevSecOps concepts and how customers apply them. Ability to manage a portfolio of customers of varying sizes in the public sector, balancing priorities across multiple stakeholders. Strong verbal, written, presentation, and organizational skills, with the ability to explain technical topics in clear, simple language. Demonstrated project management, analytical, and problem-solving skills, with openness to learning and applying transferable skills in new situations. About the team The Senior Customer Success Manager role sits within our Public Sector Customer Success team, which partners with United States government and public sector organizations to help them realize ongoing value from the GitLab platform. We own the post-sales relationship, driving adoption, retention, and growth by aligning GitLab capabilities to each customer\u2019s mission, enabling them on DevSecOps best practices, and coordinating cross-functionally with Sales, Support, Product Management, Engineering, and Professional Services. Our team members work in an all-remote, distributed environment and collaborate asynchronously across time zones, using GitLab\u2019s tools and processes to stay aligned while we tackle opportunities such as expanding use cases, improving customer return on investment, and simplifying engagement with the broader GitLab ecosystem. How GitLab will support you Benefits to support your health, finances, and well-being Flexible Paid Time Off &nbsp; Team Member Resource Groups Equity Compensation &amp; Employee Stock Purchase Plan Growth and Development Fund Parental leave &nbsp; Home office support Please note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from underrepresented groups are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application. The base salary range for this role\u2019s listed level is currently for residents of the&nbsp;United States only. This range is intended to reflect the role's base salary rate in locations throughout the US.&nbsp;Grade level and salary ranges are determined through interviews and a review of education, experience, knowledge, skills, abilities of the applicant, equity with other team members, alignment with market data,&nbsp;and geographic location.&nbsp;The base salary range does not include any bonuses, equity, or benefits. See more information on our benefits and equity . Sales roles are also eligible for incentive pay targeted at up to 100% of the offered base salary. United States Salary Range $103,200 &mdash; $174,600 USD How GitLab Supports Full-Time Employees Benefits to support your health, finances, and well-being Flexible Paid Time Off&nbsp; Team Member Resource Groups Equity Compensation &amp; Employee Stock Purchase Plan Growth and Development Fund Parental Leave &nbsp; Please note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from underrepresented groups are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application. Country Hiring Guidelines: GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process.&nbsp;&nbsp; Privacy Policy: Please review our Recruitment Privacy Policy. Your privacy is important to us. GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab\u2019s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also&nbsp; GitLab\u2019s EEO Policy &nbsp;and&nbsp; EEO is the Law . If you have a disability or special need that requires&nbsp; accommodation , please let us know during the&nbsp; recruiting process .",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations\u2122 Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing \u2014 and we are excited to help digitally transform their operations at scale. Working at Samsara means you\u2019ll help define the future of physical operations and be on a team that\u2019s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you\u2019ll have the autonomy and support to make an impact as we build for the long term. About the role: Our Strategic Customer Success Managers pick up where our Services team leaves off, working closely with Samsara\u2019s largest Fleet customers to understand their unique challenges, advising on how to leverage Samsara for their needs, and becoming their long-term strategic partner.&nbsp; Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering, and Product, enabling you to experience multiple aspects of a hyper-growth company from within.&nbsp; This is a remote position open to candidates residing in Canada. Customer travel is expected up to 25-40%. &nbsp; You should apply if: You want to impact the industries that run our world: Every phone call you answer and every email you send can affect whether truck drivers deliver goods on time and without accidents, whether students get dropped off safely from school, or whether power gets restored quickly after a natural disaster. You thrive the most when solving problems: Our constantly expanding technology and the complexities faced by our customers provide an exciting range of challenges for our Customer Success teams. With a growth mindset and a desire to learn, you will strategically partner with our customers to find unique solutions to help keep their operations safe, efficient, and sustainable. You are a natural relationship builder: Whether the relationship is with our customers or with cross-functional teams in Samsara, you are in constant communication and collaboration with key stakeholders to win as a team. You are the architect of your own career: If you put in the work, this role won\u2019t be your last at Samsara. This Customer Success team is still shaping its future and you will have plenty of autonomy and opportunities to master your craft in a hyper-growth environment. You want to be with the best: At Samsara, we win together, celebrate together and support each other. You will be surrounded by the best and brightest professionals out there. In this role, you will: &nbsp; Be on the front lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform&nbsp; Compose joint success plans with customers, outlining their objectives, metrics, and timelines, and effectively removing any barriers to achieving business value&nbsp; Orchestrate executive business reviews with our customers\u2019 decision-makers and our executive leadership where we look back at past successes and align on upcoming goals&nbsp; Conduct workshops with customers to understand their current operations and recommend workflow changes to get the most out of their Samsara products Deeply understand the Samsara platform\u2019s capabilities and explain them to businesses of all types - field services, utilities, long-haul transportation, school buses, and many more. Partners with cross-functional teams like Product, Support, Finance, etc. to drive progress on customer requests. Serve as a mentor to the wider Customer Success teams&nbsp; Champion, role model, and embed Samsara\u2019s cultural principles (Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, Win as a Team) as we scale globally and across new offices&nbsp;&nbsp; Minimum requirements for the role: 6+ years of work experience with most recent experience in a senior Customer Success, account management, or strategic consulting role Experience supporting Enterprise SaaS and/or Fortune 500 companies Strong priority management and high emotional intelligence; this is a demanding position with high internal visibility Experience supporting or working with technical products Solutions-oriented with strong problem-solving skills Proven track record of building trust, communicating effectively and driving change with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software&nbsp; Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment&nbsp; Diplomacy, tact, and poise under pressure when working through customer issues Bachelor\u2019s degree from a 4-year institution An ideal candidate also has: Experience serving and supporting large-scale business solutions at Fortune 500- companies. Strong bias for action, the ability to think big, with insistence on high standards. Thrives in an unstructured, fast-paced, and change-heavy environment. Annual on-target earnings (OTE) range for full-time employees for this position is below and depends on your city of residence. Learn more about our total rewards and benefits below. Annual OTE Salary $120,755.25 &mdash; $156,271.50 CAD Total Rewards At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time. Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you\u2019re ready to build for the long term and own the outcome, your journey starts here. Flexible Working&nbsp; At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual\u2019s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable. Belonging at Samsara At Samsara, we welcome everyone regardless of their background. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, gender, gender identity, sexual orientation, protected veteran status, disability, age, and other characteristics protected by law. We depend on the unique approaches of our team members to help us solve complex problems and want to ensure that Samsara is a place where people from all backgrounds can make an impact. Accommodations&nbsp; Samsara is an inclusive work environment, and we are committed to ensuring equal opportunity in employment for qualified persons with disabilities. Please email accessibleinterviewing@samsara.com or click here if you require any reasonable accommodations throughout the recruiting process. Our Commitment to Authenticity We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara\u2019s Candidate Privacy Notice for more information. Fraudulent Employment Offers Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our&nbsp; blog post here .",
       "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
       "tags": [
         "Official/direct source",
@@ -539,8 +539,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -583,8 +583,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -627,8 +627,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -671,8 +671,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -715,10 +715,10 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
-      "link_validation": "",
+      "link_validation": "validation unavailable",
       "top_10_today": false
     },
     {
@@ -759,8 +759,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -803,8 +803,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -847,52 +847,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "days_in_feed": 0,
-      "link_validation": "",
-      "top_10_today": false
-    },
-    {
-      "id": "samsara-strategic-customer-success-manager-us-public-sector-remote-us",
-      "canonical_key": "samsara|strategic customer success manager us public sector|remote us",
-      "company": "Samsara",
-      "title": "Strategic Customer Success Manager - US Public Sector",
-      "location": "Remote - US",
-      "location_type": "remote",
-      "track": "Customer Success",
-      "priority_bucket": "Priority Apply",
-      "salary_min": 111562,
-      "salary_max": 150000,
-      "salary_period": "year",
-      "salary_confidence": "medium",
-      "posted_at": "2026-09-25",
-      "apply_url": "https://www.samsara.com/company/careers/roles/8220469?gh_jid=8220469",
-      "source_url": "https://www.samsara.com/company/careers/roles/8220469?gh_jid=8220469",
-      "source": "Greenhouse",
-      "source_quality": 5,
-      "fit_score": 74,
-      "interview_probability": "Medium",
-      "application_time_minutes": 25,
-      "recommended_resume": "Customer Success Leadership",
-      "cover_letter": "Recommended",
-      "freshness": "Recent",
-      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
-      "job_description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations\u2122 Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing \u2014 and we are excited to help digitally transform their operations at scale. Working at Samsara means you\u2019ll help define the future of physical operations and be on a team that\u2019s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you\u2019ll have the autonomy and support to make an impact as we build for the long term. About the role: Our Enterprise Customer Success Managers pick up where our Implementation team leaves off, working closely with our top customers to understand their fleet and unique challenges, advising on how to customize Samsara for their needs, and becoming their long-term partner.&nbsp; Your role will be cross-functional in nature, working alongside and connecting Sales, Support, Sales Engineering, and Product, enabling you to experience multiple aspects of a hyper-growth company from within. This is a remote position open to candidates residing in the US except&nbsp; Alaska, Austin Metro, Boulder Metro, California, Chicago Metro, Connecticut, Dallas Metro, Denver Metro, Houston Metro, Maryland, Massachusetts, New Jersey, New York, Rhode Island, Seattle Metro, and Washington, D.C.&nbsp; You should apply if: You want to impact the Public Sector:&nbsp; You\u2019ll be working with cities, states, school districts, and universities that help run our world. You'll work with them to help them operate more efficiently, safely, and drive citizen value through their services. You thrive the most when solving problems:&nbsp; Our constantly expanding technology and the complexities faced by our customers provide an exciting range of challenges for our Customer Success teams. With a growth mindset and a desire to learn, you will strategically partner with our customers to find unique solutions to help keep their operations safe, efficient, and sustainable. You are a natural relationship builder: &nbsp;Whether the relationship is with our customers or with cross-functional teams in Samsara, you are in constant communication and collaboration with key stakeholders to win as a team. You are the architect of your own career:&nbsp; If you put in the work, this role won\u2019t be your last at Samsara. This Customer Success team is still shaping its future and you will have plenty of autonomy and opportunities to master your craft in a hyper growth environment. You want to be with the best:&nbsp; At Samsara, we win together, celebrate together and support each other. You will be surrounded by the best and brightest professionals out there. In this role, you will: &nbsp; Be on the front-lines and ensure our customers increase the safety, efficiency, and sustainability of their operations with our IoT platform&nbsp; Compose joint success plans with customers, outlining their objectives, metrics, timelines, and effectively removing any barriers to achieving business value&nbsp; Orchestrate executive business reviews with our customers\u2019 decision makers and our executive leadership where we look back at past successes and align on upcoming goals&nbsp; Conduct workshops with customers to understand their current operations and recommend workflow changes to get the most out of their Samsara products Deeply understand the Samsara platform\u2019s capabilities and explain them to businesses of all types - field services, utilities, long-haul transportation, school buses, and many more Serve as a mentor to the wider Customer Success and Support teams&nbsp; Champion, role model, and embed Samsara\u2019s cultural principles (Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, Win as a Team) as we scale globally and across new offices&nbsp; Minimum requirements for the role: 5+ years of experience in a senior Customer Success, account management, or strategic consulting role. Enterprise SaaS experience preferred This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence&nbsp; Experience supporting or working with technical products Solutions-oriented with strong problem solving skills Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software Passion for going above and beyond the call of duty, taking initiative, and thriving in a fast-paced, change-heavy environment&nbsp; Diplomacy, tact, and poise under pressure when working through customer issues Bachelor\u2019s degree from a 4-year institution An ideal candidate also has: Strong bias for action, the ability to think big, with insistence on high standards Experience serving and supporting large-scale solutions for Public Sector organizations Thrives in an unstructured, fast-paced, and change-heavy environment Annual on-target earnings (OTE) range for full-time employees for this position is below and depends on your city of residence. Learn more about our total rewards and benefits below. Annual OTE Salary $111,562.50 &mdash; $150,000 USD Total Rewards At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why our rewards are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time. Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you\u2019re ready to build for the long term and own the outcome, your journey starts here. Flexible Working&nbsp; At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual\u2019s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable. Belonging at Samsara At Samsara, we welcome everyone regardless of their background. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, gender, gender identity, sexual orientation, protected veteran status, disability, age, and other characteristics protected by law. We depend on the unique approaches of our team members to help us solve complex problems and want to ensure that Samsara is a place where people from all backgrounds can make an impact. Accommodations&nbsp; Samsara is an inclusive work environment, and we are committed to ensuring equal opportunity in employment for qualified persons with disabilities. Please email accessibleinterviewing@samsara.com or click here if you require any reasonable accommodations throughout the recruiting process. Our Commitment to Authenticity We use Tofu , a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara\u2019s Candidate Privacy Notice for more information. Fraudulent Employment Offers Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our&nbsp; blog post here .",
-      "reason": "Matches customer success, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
-      "tags": [
-        "Official/direct source",
-        "Customer Success",
-        "Priority Apply",
-        "Recent",
-        "New Today"
-      ],
-      "sources": [
-        "Greenhouse"
-      ],
-      "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -935,8 +891,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -979,8 +935,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1023,8 +979,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1067,8 +1023,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1111,8 +1067,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1155,8 +1111,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1199,8 +1155,96 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": false
+    },
+    {
+      "id": "okta-associate-customer-success-enablement-manager-chicago-illinois",
+      "canonical_key": "okta|associate customer success enablement manager|chicago illinois",
+      "company": "Okta",
+      "title": "Associate Customer Success Enablement Manager",
+      "location": "Chicago, Illinois",
+      "location_type": "midwest",
+      "track": "Enablement",
+      "priority_bucket": "Priority Apply",
+      "salary_min": 99000,
+      "salary_max": 136400,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-09-30",
+      "apply_url": "https://www.okta.com/company/careers/subscription-cogs/associate-customer-success-enablement-manager-8240035/",
+      "source_url": "https://www.okta.com/company/careers/opportunity/8240035?gh_jid=8240035",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 68,
+      "interview_probability": "Low",
+      "application_time_minutes": 40,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Recommended",
+      "freshness": "New <72h",
+      "main_risk": "May require deeper direct SaaS experience; Global scope may be a stretch",
+      "job_description": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Position Description: We are looking for a self-motivated Associate Customer Success Enablement Manager to join Okta\u2019s Customer First Enablement team. In this role, you will become the enablement advocate for our Scaled CS (Customer Success) organization - a fast growing function within customer success that drives value for a significant portion of our customer base. The Associate Enablement Manager will interact and collaborate across cross-functional teams including other enablement managers, product teams, and content development. This role will participate in other day-to-day Customer First Enablement activities including prioritization of enablement programs and solutioning field requests from our scaled CS internal customer. As an Associate Enablement Manager you will be responsible for identifying, creating and delivering enablement and training programs and optimization to our Scaled CS organization from onboarding and cross-skilling to everboarding.&nbsp; Responsibilities:&nbsp; Successfully identify and communicate scaled CS organizational perspective and technical and role readiness. Understand the day-to-day of a scaled CS professional to suggest and execute new and innovative ideas/programs to your leadership team and primary stakeholder - scaled CS leadership. Communicate effectively and often to ensure all stakeholders are aligned and view the CS scaled enablement program as a force multiplier.&nbsp; Equip Okta customer success scale teams with the necessary product knowledge, skills, and processes to effectively drive customer conversations and increase adoption within our customer accounts. Take a data-driven and analytical approach to deciding on future initiatives, as well as performance management to quantify the impact of existing programs. Partner with other enablement staff in designing, creating and delivering enablement programs. Continuously engage with scaled CS team members to validate and collaborate on requirements and program results. Proactively seeks input and content from scaled CS teams to aid in the curation of enablement programs. Identify and communicate potential efficiencies and enhancements. Lead discovery sessions with business leaders to build and refine requirements. Requirements:&nbsp; The single most important characteristic we are looking for is showing initiative. Be prepared to share previous examples or articulate suggestions for what you might bring to this role. Charismatic, great presence, and ability to prioritize and manage multiple programs. Ability to understand the needs of your unique audience and deliver engaging experiences. Ability to deliver results in a fast-moving, highly matrixed environment. Deep understanding of customer success and enablement strategies. Demonstrable communication skills, specifically presentation skills and strong executive presence.&nbsp; Desired Skills and Experience:&nbsp; 5+ years of Customer Success experience or similar role in a post sales organization.&nbsp; 5+ years of enablement experience in the software industry.&nbsp; Technical proficiency provides added credibility such as holding a current Okta certification. Experience using Gainisight, or similar tools, is a plus. Ability to learn and grasp technical concepts, Industry and product knowledge is a plus. 1-2 years of xDR experience or experience in a similar role is a plus. Strong problem solving, priority setting, facilitation, multi-tasking, analytical, and collaboration skills. Ability to work independently, multi-task optimally and thrive in a fast-paced, dynamic environment with general direction and guidance. Strong interpersonal skills and capable of building positive relationships across multiple teams and time zones. Occasional domestic travel required. MUST be located within 50 miles of Chicago. Okta is an Equal Opportunity Employer. #LI-Remote P22825 Below is the annual base salary range for candidates located in California (excluding San Francisco Bay Area), Colorado, Illinois, New York and Washington. Your actual base salary will depend on factors such as your skills, qualifications, experience, and work location. In addition, Okta offers equity (where applicable), bonus, and benefits, including health, dental and vision insurance, 401(k), flexible spending account, and paid leave (including PTO and parental leave) in accordance with our applicable plans and policies. To learn more about our Total Rewards program please visit: https://rewards.okta.com/us .&nbsp;&nbsp;&nbsp; The annual base salary range for this position for candidates located in California (excluding San Francisco Bay Area), Colorado, Illinois, New York, and Washington is between: $99,000 &mdash; $136,400 USD The Okta Experience Supporting Your Well-Being &nbsp; Driving Social Impact&nbsp; Developing Talent and Fostering Connection + Community We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one. Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws. If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&nbsp; use this Form to request an accommodation. Notice for New York City Applicants &amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&nbsp; click here to view our full NYC AEDT Notice.",
+      "reason": "Matches enablement, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Enablement",
+        "Priority Apply",
+        "New <72h",
+        "New Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "days_in_feed": 0,
+      "link_validation": "",
+      "top_10_today": false
+    },
+    {
+      "id": "gitlab-public-sector-enablement-lead-remote-united-states",
+      "canonical_key": "gitlab|public sector enablement lead|remote united states",
+      "company": "GitLab",
+      "title": "Public Sector Enablement Lead",
+      "location": "Remote, United States",
+      "location_type": "remote",
+      "track": "Enablement",
+      "priority_bucket": "Strong Opportunity",
+      "salary_min": 139000,
+      "salary_max": 220000,
+      "salary_period": "year",
+      "salary_confidence": "medium",
+      "posted_at": "2026-09-29",
+      "apply_url": "https://job-boards.greenhouse.io/gitlab/jobs/8814596002",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8814596002",
+      "source": "Greenhouse",
+      "source_quality": 5,
+      "fit_score": 65,
+      "interview_probability": "Low",
+      "application_time_minutes": 40,
+      "recommended_resume": "Customer Success Leadership",
+      "cover_letter": "Recommended",
+      "freshness": "New <72h",
+      "main_risk": "May require deeper direct SaaS experience",
+      "job_description": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software. * Fortune 500\u00ae is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. An overview of this role GitLab\u2019s Enablement &amp; AI organization helps revenue teams build the knowledge, skills, tools, and confidence they need to sell GitLab effectively and deliver better customer outcomes. The team partners across Sales, Customer Success, Solutions Architecture, Partnerships, Product, Marketing, and Operations to turn business priorities\u2014including product launches, new GTM motions, and AI adoption\u2014into scalable programs, practical content, training, onboarding, and accreditations. It\u2019s a high-impact, cross-functional team focused on improving field productivity, strengthening customer-facing capabilities, and measuring enablement\u2019s contribution to business growth. This role supports GitLabs Public Sector team and reports to the Vice President, Enablement &amp; AI. Candidates located in the DC Metro preferred but not required. What You'll Do Develop and lead the successful execution of sales enablement programs to ensure internal and external Public Sector (PubSec) customers and partners are equipped with content, resources, tools and training to effectively differentiate and sell the GitLab solution across Federal, State, Local, and Education (SLED) markets. Partner with Public Sector field leadership to identify needs, build out plans, and tailor/deliver content, customized to the nuances of federal, state, local, and education buying environments and procurement cycles. Scope and build new enablement content, including programs focused on product knowledge, skill development, onboarding, leadership development, and many other areas, specifically for the Public Sector business. Collaborate with the enablement content and operations teams, along with other SMEs, to identify and develop core sales training and enablement curriculum customized for Public Sector, including compliance-specific content, for various internal and external audiences. Ensure alignment of sales enablement activities with key internal and external events, such as new product releases, campaigns, and essential industry trade shows and conferences relevant to the Public Sector community. Leverage Salesforce, Clari, Claude and other tools to deliver training to the Public Sector team and educate them on how to use specific tools in support of federal contracting and deal processes. Develop sales training job aids, supporting materials, and assessments to enhance field effectiveness across the Public Sector, including Deal Desk and compliance-related guidance. Measure and report on the effectiveness of sales enablement investments and the programs conducted, with attention to leading and lagging indicators tied to Public Sector business outcomes. Determine opportunities for improving the sales learning experience and identify innovative techniques for delivery within a Public Sector context. What You'll Bring Demonstrated progressive experience in a SaaS or software sales enablement role, preferably with expertise in DevOps and/or Open Source, with required experience supporting Public Sector, Federal, or SLED go-to-market teams in a government or regulated industry context. Working knowledge of Public Sector procurement, compliance, and contracting requirements (e.g., FedRAMP, DAP, air-gapped/on-prem deployment considerations, federal account routing). Ability to continuously meet due dates and execute on projects with positive impact from stakeholders. Experience building relationships with sales leaders and their teams within Public Sector or Federal organizations. Working knowledge of sales training technology and methodologies; demonstrable experience with sales enablement concepts, practices, and procedures. Relevant experience preparing, developing, and executing sales effectiveness strategies, tactics and action plans tailored to Public Sector buying cycles. Ability to quickly understand technical concepts and explain them to audiences of varying technical expertise (sales team, customers, channel partners, and internal support partners). Strong ability to interact and influence effectively with field sales professionals and management. Exceptional written/verbal communication and presentation skills. Team player with strong interpersonal skills, skilled at project and change management and cross-functional collaboration. Ability to thrive in a fast-paced, unpredictable environment. Ability to travel if needed for events such as team offsites or training. How GitLab will support you Benefits to support your health, finances, and well-being Flexible Paid Time Off &nbsp; Team Member Resource Groups Equity Compensation &amp; Employee Stock Purchase Plan Growth and Development Fund Parental leave &nbsp; Home office support Please note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from underrepresented groups are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application. The base salary range for this role\u2019s listed level is currently for residents of the&nbsp;United States only. This range is intended to reflect the role's base salary rate in locations throughout the US.&nbsp;Grade level and salary ranges are determined through interviews and a review of education, experience, knowledge, skills, abilities of the applicant, equity with other team members, alignment with market data,&nbsp;and geographic location.&nbsp;The base salary range does not include any bonuses, equity, or benefits. See more information on our benefits and equity . Sales roles are also eligible for incentive pay targeted at up to 100% of the offered base salary. United States Salary Range $139,000 &mdash; $220,000 USD How GitLab Supports Full-Time Employees Benefits to support your health, finances, and well-being Flexible Paid Time Off&nbsp; Team Member Resource Groups Equity Compensation &amp; Employee Stock Purchase Plan Growth and Development Fund Parental Leave &nbsp; Please note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from underrepresented groups are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application. Country Hiring Guidelines: GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process.&nbsp;&nbsp; Privacy Policy: Please review our Recruitment Privacy Policy. Your privacy is important to us. GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab\u2019s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also&nbsp; GitLab\u2019s EEO Policy &nbsp;and&nbsp; EEO is the Law . If you have a disability or special need that requires&nbsp; accommodation , please let us know during the&nbsp; recruiting process .",
+      "reason": "Matches enablement, analytics, process improvement, enterprise stakeholder management, and leadership scope.",
+      "tags": [
+        "Official/direct source",
+        "Enablement",
+        "Strong Opportunity",
+        "New <72h",
+        "New Today"
+      ],
+      "sources": [
+        "Greenhouse"
+      ],
+      "discovery_status": "New Today",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1243,8 +1287,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1287,8 +1331,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1331,8 +1375,8 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
@@ -1375,18 +1419,18 @@
         "Greenhouse"
       ],
       "discovery_status": "New Today",
-      "first_seen_at": "2026-09-29T16:57:39.746765+00:00",
-      "last_seen_at": "2026-09-29T16:57:39.746765+00:00",
+      "first_seen_at": "2026-09-30T16:57:13.257815+00:00",
+      "last_seen_at": "2026-09-30T16:57:13.257815+00:00",
       "days_in_feed": 0,
       "link_validation": "",
       "top_10_today": false
     }
   ],
-  "match_count": 30,
-  "new_today_count": 30,
-  "qualified_before_validation": 40,
-  "qualified_after_validation": 40,
-  "discovered_before_cap": 40,
+  "match_count": 31,
+  "new_today_count": 31,
+  "qualified_before_validation": 41,
+  "qualified_after_validation": 41,
+  "discovered_before_cap": 41,
   "errors": [
     "Adzuna group 1: HTTP Error 401: Unauthorized",
     "Adzuna group 2: HTTP Error 401: Unauthorized",
